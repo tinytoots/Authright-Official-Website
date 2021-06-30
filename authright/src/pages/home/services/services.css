@@ -1,0 +1,17 @@
+.services-bg {
+    background-color: black;
+    margin-bottom: 10px;
+
+}
+
+.service-digital-title {
+    font-size: 50px;
+    font-family: 'NunitoSans-bold';
+    margin: auto;
+    margin-top: 10px;
+    color: #EFF2F7;
+}
+
+.angled-gradient {
+    background: linear-gradient(70deg, blue, pink);
+}
