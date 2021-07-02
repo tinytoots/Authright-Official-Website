@@ -1,5 +1,98 @@
-.clients-bg {
-    background-color: bisque;
-    height: 250px;
+.clients-bg2 {
+    width: 100%;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: clip;
+    position: relative;
+    font-size: 28rpx;
+    height: 160px;
+    background-color:black;
     margin-bottom: 10px;
 }
+
+.clients-bg {
+    display: inline-block;
+    position: relative;
+    padding-right: 0px;
+    animation: logo 120s linear infinite;
+    white-space: nowrap;
+    margin-top: -74px;
+}
+
+.hsbc-logo {
+    margin-top: -20px;
+    width: 120px;
+    height: 160px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.blue-cross-logo {
+    margin-top: -20px;
+    width: 80px;
+    height: 160px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.deloitte-logo {
+    margin-top: -20px;
+    width: 120px;
+    height: 250px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.toyota-logo {
+    margin-top: -20px;
+    width: 140px;
+    height: 250px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.homeDepot-logo {
+    margin-top: -20px;
+    width: 65px;
+    height: 160px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.equifax-logo {
+    margin-top: -20px;
+    width: 120px;
+    height: 250px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.mohawk-logo {
+    margin-top: -20px;
+    width: 120px;
+    height: 250px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.lowes-logo {
+    margin-top: -20px;
+    width: 120px;
+    height: 250px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.pearson-logo {
+    margin-top: -20px;
+    width: 120px;
+    height: 250px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+@-webkit-keyframes logo { 0% { transform: translateX(0); } 100% { transform: translateX(-33.3%); } }
+        @keyframes logo { 0% { transform: translateX(0); } 100% { transform: translateX(-33.3%); } }

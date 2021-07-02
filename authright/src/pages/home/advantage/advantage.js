@@ -6,7 +6,7 @@ export default class advantage extends Component {
         return (
             <div className='adv-bg'>
                 <div className='tilte'>High Quality, Rapid Development, Customization</div>
-                <div className='advan'>Whether you want to integrate IAM for your own system or need a high-quality development team to help you turn your ideas into reality, we can provide you with the coolest technical services</div>
+                <div className='advan'>Whether you want to integrate IAM for your own system or need a high-quality development team to help you turn your ideas into reality, we can provide you with the reliable technical services</div>
                 <div>
                         
                         <a

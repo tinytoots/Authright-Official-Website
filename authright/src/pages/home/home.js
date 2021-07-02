@@ -9,17 +9,16 @@ import History from './history/history'
 import Client from './clients/clients'
 import CaseStudy from './case-study/caseStudy'
 
-
 export default class home extends Component {
     render() {
         return (
-            <div className='inner'>
+            <div className='home-bg'>
                 <Intro />
+                <Client />
                 <Advantage />
                 <Services />
-                <Solutions />
+                {/* <Solutions /> */}
                 <History />
-                <Client />
                 <CaseStudy />
             </div>
         )

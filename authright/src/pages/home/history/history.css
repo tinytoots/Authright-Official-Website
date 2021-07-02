@@ -1,5 +1,35 @@
 .history-bg {
-    background-color: grey;
-    height: 180px;
+    background-color: #fcffe6;
+    height: 372px;
     margin-bottom: 10px;
+    /* background-image: linear-gradient(to bottom , #d7d2cc, #304352); */
+}
+
+.history-year {
+    font-size: 50px;
+    font-family: 'NunitoSans-bold';
+    margin: auto;
+    color: #141414;
+}
+
+/* 34c759 */
+
+.history-content {
+    font-size: 18px;
+    font-family: 'NunitoSans-bold';
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #141414;
+}
+
+.history-content2 {
+    font-size: 20px;
+    font-family: 'NunitoSans-bold';
+    color: #141414;
+}
+
+.underline-img {
+    margin-top: -40px;
+
+
 }

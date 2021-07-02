@@ -1,4 +1,80 @@
 .caseStudy-bg {
-    background-color: blueviolet;
-    height: 300px;
+    background-color: #000;
+    height: 1050px;
+}
+
+.case-title {
+    font-size: 50px;
+    font-family: 'NunitoSans-bold';
+    margin: auto;
+    color: #EFF2F7;
+}
+
+
+.hsbc-logo2 {
+    margin-top: -20px;
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 20px;
+    /* box-shadow: 0 0 20px 12px #1f1f1f; */
+}
+
+.hsbc-logo2::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    right: 5%;
+    bottom: 0;
+    border-radius: 10px;
+    background: hsl(48, 100%, 20%);
+    transform: translate(0, -15%) rotate(-4deg);
+    transform-origin: center center;
+    box-shadow: 0 0 20px 15px hsl(48, 100%, 20%);
+}
+
+.caseStudy-content {
+    font-family: 'NunitoSans-bold';
+    font-size:18px;
+    line-height: 150%;
+    margin-bottom: 30px;
+    color: #EFF2F7;
+    width: 700px;
+    margin: auto;
+}
+
+.caseStudy-img {
+    margin-top: 20px;
+}
+
+.deloitte-logo2 {
+    margin-top: -20px;
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.toyota-logo2 {
+    margin-top: -20px;
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.homeDepot-logo2 {
+    margin-top: -20px;
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.Case-title {
+    height: 240px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to bottom, #29323c, #141414);
 }
