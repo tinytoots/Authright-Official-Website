@@ -9,6 +9,7 @@ import Service from './pages/service/service';
 import Solution from './pages/solution/solution';
 import About from './pages/about/about';
 import Career from './pages/career/career';
+import ServiceIAM from './pages/service/ServiceIAM/ServiceIAM'
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
           <Route path="/solutions" component={Solution} /> 
           <Route path="/about-us" component={About} /> 
           <Route path="/careers" component={Career} /> 
-          <Redirect to="/" />
+          <Route path="/services_iam" component={ServiceIAM} /> 
+          <Redirect to="/home" />
         </Switch>
         <Footer />
     </div>

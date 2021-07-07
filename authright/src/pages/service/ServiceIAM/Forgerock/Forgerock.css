@@ -1,0 +1,49 @@
+.IAM-bg {
+    background-color: black;
+}
+
+.forgerock-logo {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.forgerock-content1 {
+    font-family: 'NunitoSans-regular';
+    font-size:18px;
+    line-height: 150%;
+    color: #EFF2F7;
+}
+
+.forgerock-content2 {
+    font-family: 'NunitoSans-regular';
+    font-size:18px;
+    line-height: 150%;
+    color: #EFF2F7;
+}
+
+.forgerock-content3 {
+    font-family: 'NunitoSans-regular';
+    font-size:18px;
+    line-height: 150%;
+    color: #EFF2F7;
+}
+
+.service-iam-title {
+    font-size: 40px;
+    font-family: 'NunitoSans-bold';
+    margin: auto;
+    margin-top: 10px;
+    color: #EFF2F7;
+}
+
+.serivce-iam-link {
+    font-size: 20px;
+    font-family: 'NunitoSans-regular';
+    margin: auto;
+    margin-top: 10px;
+    color: #1890ff;
+}
+
+.gutter-row01 {
+    background-color: red;
+}

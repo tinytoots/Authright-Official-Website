@@ -34,14 +34,8 @@ export default class Header extends Component {
                         <NavLink to="/business" style={{color: '#8e8e93', textDecoration: 'none'}} activeStyle={{color: '#d1d1d6', textDecoration: 'none'}}>Business Outcomes</NavLink> 
                         </Menu.Item>
                         <SubMenu key="service" title="Services" style={{color: '#8e8e93', textDecoration: 'none'}} activeStyle={{color: '#d1d1d6', textDecoration: 'none'}}>
-                        <Menu.ItemGroup title="Item 1">
-                            <Menu.Item key="setting:1"><NavLink to="/services" style={{color: '#8e8e93', textDecoration: 'none'}} activeStyle={{color: '#d1d1d6', textDecoration: 'none'}}>Service1</NavLink></Menu.Item>
-                            <Menu.Item key="setting:2">Option 2</Menu.Item>
-                        </Menu.ItemGroup>
-                        <Menu.ItemGroup title="Item 2">
-                            <Menu.Item key="setting:3">Option 3</Menu.Item>
-                            <Menu.Item key="setting:4">Option 4</Menu.Item>
-                        </Menu.ItemGroup>
+                            <Menu.Item key="setting:1"><NavLink to="/services_iam">IAM</NavLink></Menu.Item>
+                            <Menu.Item key="setting:2"><NavLink to="/services">Digital Service</NavLink></Menu.Item>
                         </SubMenu>
                         <Menu.Item key="solution">
                             <NavLink to="/solutions" style={{color: '#8e8e93', textDecoration: 'none'}} activeStyle={{color: '#d1d1d6', textDecoration: 'none'}}>Solutions</NavLink>   
