@@ -46,13 +46,6 @@ export default class Header extends Component {
                         <Menu.Item key="career">
                             <NavLink to="/Careers" style={{color: '#8e8e93', textDecoration: 'none'}} activeStyle={{color: '#d1d1d6', textDecoration: 'none'}}>Careers</NavLink>   
                         </Menu.Item>
-
-
-                        {/* <Menu.Item key="alipay">
-                        <a href="https://ant.design" target="_blank" rel="noopener noreferrer">
-                            Navigation Four - Link
-                        </a>
-                        </Menu.Item> */}
                     </Menu>
                 </div>
             </div>
