@@ -1,7 +1,3 @@
-.career-bg {
-	height: 1000px;
-}
-
 .slider {
 	/* position: absolute; */
 	top: 0;
@@ -100,8 +96,8 @@
 
 
 		.container {
-			-webkit-animation: rotate 25s infinite cubic-bezier(1, -0.75, 0.5, 1.2);
-			animation: rotate 25s infinite cubic-bezier(1, -0.75, 0.5, 1.2);
+			-webkit-animation: rotate 15s infinite cubic-bezier(1, -0.75, 0.5, 1.2);
+			animation: rotate 15s infinite cubic-bezier(1, -0.75, 0.5, 1.2);
 		}
 
 		@-webkit-keyframes rotate {
