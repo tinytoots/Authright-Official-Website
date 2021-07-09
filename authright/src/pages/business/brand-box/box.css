@@ -1,7 +1,7 @@
 
 
 .slider {
-	position: absolute;
+	/* position: absolute; */
 	top: 0;
 	bottom: 0;
 	right: 0;
@@ -65,14 +65,14 @@
 
 			.slide.y:after {
 				content: '';
-				background-image: url('../../../img/hsbc-2.svg');
+				background-image: url('../../../img/lowe-s-5.svg');
 				-webkit-transform: translateZ(100px) scale(-1);
 				        transform: translateZ(100px) scale(-1);
 			}
 
 			.slide.y:before {
 				content: '';
-				background-image: url('../../../img/hsbc-2.svg');
+				background-image: url('../../../img/deloitte-3.svg');
 				-webkit-transform: translateZ(-100px);
 				        transform: translateZ(-100px);
 			}
