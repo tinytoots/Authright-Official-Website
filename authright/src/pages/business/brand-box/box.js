@@ -1,17 +1,15 @@
 import React, { Component } from 'react'
+import './box.css'
 
 export default class box extends Component {
     render() {
         return (
-            <div>
+            <div className='box-bg'>
                 <div className="slider">
                     <div className="container">
-                        <div className="slide x">
-                        </div>
-                        <div className="slide y">
-                        </div>
-                        <div className="slide z">
-                        </div>
+                        <div className="slide x" />
+                        <div className="slide y" />
+                        <div className="slide z" />
                     </div>
                     <div className="shadow"></div>
                 </div>

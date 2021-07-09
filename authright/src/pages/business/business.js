@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './business.css'
+// import './business.css'
 import BrandBox from './brand-box/box'
 
 
