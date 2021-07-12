@@ -1,9 +1,10 @@
-.IAM-bg {
-    background-color: black;
-    margin-top: 40px;
+.ping-logo {
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 80px;
 }
 
-.forgerock-content1 {
+/* .forgerock-content1 {
     font-family: 'NunitoSans-regular';
     font-size:18px;
     line-height: 150%;
@@ -48,11 +49,11 @@
     color: #1890ff;
 }
 
-/* .ant-col ant-col-12 gutter-row1 {
+.ant-col ant-col-12 gutter-row1 {
     background-color: red !important;
-} */
+}
 
 
 .forgerock-title {
     height: 400px;
-}
+} */
