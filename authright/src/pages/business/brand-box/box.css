@@ -1,4 +1,6 @@
-
+.box-bg {
+	margin-top: 70px;
+}
 
 .slider {
 	/* position: absolute; */
@@ -31,7 +33,7 @@
 			display: block;
 			width: inherit;
 			height: inherit;
-			background: url('../../../img/hsbc-2.svg');
+			/* background: url('../../../img/hsbc-2.svg'); */
 			position: absolute;
 			-webkit-transform-style: preserve-3d;
 			        transform-style: preserve-3d;
@@ -46,14 +48,14 @@
 
 			.slide.x:after {
 				content: '';
-				background-image: url('../../../img/equifax.svg');
+				background-image: url('../../../img/box-equifax2.svg');
 				-webkit-transform: translateZ(100px) rotateZ(-90deg);
 				        transform: translateZ(100px) rotateZ(-90deg);
 			}
 
 			.slide.x:before {
 				content: '';
-				background-image: url('../../../img/the-home-depot.svg');
+				background-image: url('../../../img/box-toyota-2.svg');
 				-webkit-transform: translateZ(-100px) rotateZ(-90deg);
 				        transform: translateZ(-100px) rotateZ(-90deg);
 			}
@@ -65,14 +67,14 @@
 
 			.slide.y:after {
 				content: '';
-				background-image: url('../../../img/lowe-s-5.svg');
+				background-image: url('../../../img/box-hsbc.svg');
 				-webkit-transform: translateZ(100px) scale(-1);
 				        transform: translateZ(100px) scale(-1);
 			}
 
 			.slide.y:before {
 				content: '';
-				background-image: url('../../../img/deloitte-3.svg');
+				background-image: url('../../../img/box-blue-cross-blue-shield.svg');
 				-webkit-transform: translateZ(-100px);
 				        transform: translateZ(-100px);
 			}
@@ -84,14 +86,14 @@
 
 			.slide.z:after {
 				content: '';
-				background-image: url('../../../img/hsbc-2.svg');
+				background-image: url('../../../img/box-deloitte.svg');
 				-webkit-transform: translateZ(100px);
 				        transform: translateZ(100px);
 			}
-
+			
 			.slide.z:before {
 				content: '';
-				background-image: url('../../../img/hsbc-2.svg');
+				background-image: url('../../../img/box-home-depot.svg');
 				-webkit-transform: translateZ(-100px);
 				        transform: translateZ(-100px);
 			}

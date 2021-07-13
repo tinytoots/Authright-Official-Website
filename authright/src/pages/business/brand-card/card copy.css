@@ -12,7 +12,7 @@
 
 .card-bg {
     margin-top: 100px;
-    /* display: grid; */
+    display: grid;
     min-height: 100vh;
     place-items: center;
     line-height: 1.6;
