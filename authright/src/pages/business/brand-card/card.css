@@ -19,16 +19,19 @@
     background: var(--clr-neutral-900);
     /* font-family: sans-serif; */
     text-align: left;
-    padding-right: 15em;
+    /* padding-right: 15em; */
+    /* padding-left: 10%; */
+    padding-top: 0px;
 }
 
 .card {
     color: var(--clr-neutral-100);
-    background-image: url(../../../img/boston.jpg);
+    /* background-image: url(../../../img/boston.jpg); */
     background-size: cover;
     padding: 10rem 0 0;
-    max-width: 35ch;
-    border-radius: 0.5rem;
+    /* max-width: 35ch; */
+    /* width: 380px; */
+    /* border-radius: 0.5rem; */
     overflow: hidden;
     transition: transform 500ms ease;
 }
@@ -129,3 +132,18 @@
 
 }
 
+.card-grid-title {
+    padding-top: 40px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'NunitoSans-bold';
+}
+
+.card-grid-title2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'NunitoSans-bold';
+    padding-bottom: 40px;
+}
