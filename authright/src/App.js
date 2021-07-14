@@ -23,6 +23,7 @@ function App() {
           <Route path="/about-us" component={About} /> 
           <Route path="/careers" component={Career} /> 
           <Route path="/services_iam" component={ServiceIAM} /> 
+          <Route path="/services_digital" component={ServiceIAM} /> 
           <Redirect to="/home" />
         </Switch>
         <Footer />

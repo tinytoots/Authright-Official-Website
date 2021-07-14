@@ -17,7 +17,7 @@ export default class business extends Component {
                     <img className='businessOutcome-underline-img' src={UnderLine} width={245} />
                     <BrandBox />
                     <BrandCard />
-                    <ExpandCard />
+                    {/* <ExpandCard /> */}
                 </div>
             </div>
         )

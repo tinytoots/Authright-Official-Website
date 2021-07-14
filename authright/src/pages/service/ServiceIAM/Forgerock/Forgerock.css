@@ -3,18 +3,28 @@
     margin-top: 40px;
 }
 
+.IAM-Intro-bg {
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+.IAM-grid-bg {
+    margin-top: 10px;
+}
+
 .forgerock-content1 {
     font-family: 'NunitoSans-regular';
     font-size:18px;
     line-height: 150%;
-    color: #EFF2F7;
+    margin-top: -35px;
+    color: black;
 }
 
 .forgerock-content2 {
     font-family: 'NunitoSans-regular';
     font-size:18px;
     line-height: 150%;
-    color: #EFF2F7;
+    color: black;
 }
 
 .forgerock-content3 {
@@ -22,22 +32,31 @@
     font-family: 'NunitoSans-regular';
     font-size:18px;
     line-height: 150%;
-    color: #EFF2F7;
+    color: black;
+    margin-bottom: 0px;
 }
 
 .forgerock-content4 {
     font-family: 'NunitoSans-regular';
     font-size:18px;
     line-height: 150%;
-    color: #EFF2F7;
+    color: #d9d9d9;
 }
 
 .service-iam-title {
-    font-size: 40px;
+    font-size: 40px !important;
     font-family: 'NunitoSans-bold';
     margin: auto;
     margin-top: 10px;
-    color: #EFF2F7;
+    color: #fff !;
+}
+
+.service-iam-title2 {
+    font-size: 40px;
+    font-family: 'NunitoSans-bold';
+    margin: auto;
+    margin-top: -5px;
+    color: #fff;
 }
 
 .serivce-iam-link {
@@ -55,4 +74,8 @@
 
 .forgerock-title {
     height: 400px;
+}
+
+.service-img {
+    /* background: linear-gradient(to bottom right , #30cfd0, #330867); */
 }
