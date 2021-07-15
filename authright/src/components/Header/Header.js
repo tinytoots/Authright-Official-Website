@@ -35,7 +35,7 @@ export default class Header extends Component {
                         </Menu.Item>
                         <SubMenu key="service" title="Services" style={{color: '#8e8e93', textDecoration: 'none'}} activeStyle={{color: '#d1d1d6', textDecoration: 'none'}}>
                             <Menu.Item key="setting:1"><NavLink to="/services_iam">IAM</NavLink></Menu.Item>
-                            <Menu.Item key="setting:2"><NavLink to="/services">Digital Service</NavLink></Menu.Item>
+                            <Menu.Item key="setting:2"><NavLink to="/services_digital">Digital Service</NavLink></Menu.Item>
                         </SubMenu>
                         <Menu.Item key="solution">
                             <NavLink to="/solutions" style={{color: '#8e8e93', textDecoration: 'none'}} activeStyle={{color: '#d1d1d6', textDecoration: 'none'}}>Solutions</NavLink>   
