@@ -6,7 +6,9 @@
 
 .ping-intro-bg {
     background-color: white;
-    margin-top: -30px;
+    padding-top: 40px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 .ping-grid-bg {

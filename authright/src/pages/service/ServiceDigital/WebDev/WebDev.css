@@ -3,6 +3,13 @@
     margin-top: 0px;
 }
 
+.IAM-Intro-webiste-bg {
+    padding-top: 100px;
+    background-color: white;
+    padding-bottom: 30px;
+    height: 500px;
+}
+
 .IAM-Intro-bg {
     padding-top: 100px;
     background-color: white;
@@ -10,10 +17,27 @@
     height: 500px;
 }
 
+.IAM-Intro-bg2 {
+    padding-top: 100px;
+    background-color: #fafafa;
+    padding-bottom: 30px;
+    height: 500px;
+}
+
 .webDev-logo {
     float: left;
-    margin-left: 70px;
+    margin-left: 5%;
 }
+
+.know-training-logo {
+    float: right;
+    margin-right: 5%;
+}
+
+/* .webDev2-logo {
+    float: left;
+    margin-left: 5%;
+} */
 
 .IAM-grid-bg {
     margin-top: 10px;
@@ -21,9 +45,24 @@
 
 .webDev-design-dev-title {
     font-family: 'NunitoSans-extrabold';
-    font-size: 38px;
+    font-size: 40px;
     line-height: 150%;
-    margin-top: 35px;
+    margin-top: 50px;
+    color: black;
+}
+
+.webDev-design-dev-titleline2 {
+    font-family: 'NunitoSans-extrabold';
+    font-size: 40px;
+    line-height: 150%;
+    color: black;
+}
+
+.webDev-design-dev-title2 {
+    font-family: 'NunitoSans-extrabold';
+    font-size: 50px;
+    line-height: 150%;
+    margin-top: 10px;
     color: black;
 }
 
