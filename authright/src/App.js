@@ -5,7 +5,7 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Home from './pages/home/home';
 import Business from './pages/business/business';
-import Service from './pages/service/service';
+// import Service from './pages/service/service';
 import Solution from './pages/solution/solution';
 import About from './pages/about/about';
 import Career from './pages/career/career';
@@ -19,7 +19,7 @@ function App() {
         <Switch>
           <Route path="/home" component={Home} /> 
           <Route path="/business" component={Business} /> 
-          <Route path="/services" component={Service} /> 
+          {/* <Route path="/services" component={Service} />  */}
           <Route path="/solutions" component={Solution} /> 
           <Route path="/about-us" component={About} /> 
           <Route path="/careers" component={Career} /> 
