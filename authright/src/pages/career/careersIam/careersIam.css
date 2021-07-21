@@ -1,0 +1,25 @@
+.careers-iam-logo {
+    margin: auto;
+}
+
+.careers-title {
+    font-family: 'NunitoSans-extraBold';
+    font-size:38px;
+    line-height: 150%;
+    color: black;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+.careers-position-title {
+    font-family: 'NunitoSans-regular';
+    font-size: 18px;
+    line-height: 150%;
+    color: #595959;
+}
+
+.unifiedcontrol-card-title2 {
+    font-family: 'NunitoSans-bold';
+    font-size: 18px;
+    line-height: 150%;
+}

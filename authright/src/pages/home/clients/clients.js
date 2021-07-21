@@ -99,6 +99,10 @@ export default class clients extends Component {
                     <NavLink to="/home">
                             <img className='logo' src={Pearson} width={160} alt = 'logo' className='pearson-logo'/>
                     </NavLink>
+                    
+
+
+                    
 
                     {/* <NavLink to="/home">
                             <img className='logo' src={Homesite} width={160} alt = 'logo' className='customer-logo'/>

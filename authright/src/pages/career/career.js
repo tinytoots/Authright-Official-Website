@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
 import './career.css'
+import IAM from './careersIam/careersIam'
+import FullStack from './careersFullStack/careersFullStack'
 
 export default class career extends Component {
     render() {
         return (
             <div>
                  <div className='career-bg'>
-                    <h1>This is career page</h1>
+                    <IAM />
                 </div>
             </div>
         )

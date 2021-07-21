@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import ExpandCard from './expandCard/expandCard'
+import './about.css'
+import Leadership from './leadership/leadership'
 
 export default class about extends Component {
     render() {
@@ -7,7 +8,9 @@ export default class about extends Component {
             <div>
                 <div className='career-bg'>
                     <h1>This is about us page</h1>
-                    <ExpandCard />
+                    <h1>This is about us page</h1>
+                    <Leadership />
+
                 </div>
             </div>
         )
