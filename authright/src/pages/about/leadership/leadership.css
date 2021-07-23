@@ -1,5 +1,13 @@
 .leadership-bg {
-    background-color: grey;
+    padding-top: 90px;
+    background-color: #262626;
+    background-image: url("../../../img/football-bg.svg");
+    background-size: 100%;
+    background-position: 100% 120%;
+    background-repeat: no-repeat;
+    min-width: 1200px;
+    height: 1450px;
+    width: 1200px;
 }
 
 .expandcard1 {

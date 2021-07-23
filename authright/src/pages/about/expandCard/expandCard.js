@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import BostonImg from '../../../img/boston.jpg'
+import BostonImg from '../../../img/cr7.png'
 import './expandCard.scss'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -19,42 +19,36 @@ export default class expandCard extends Component {
         return (
                 <div className="game">
 
-                    <div class="rank">3</div>
+                    <div class="rank">7</div>
                     {/* <FontAwesomeIcon icon="user" /> */}
                     <div className="front">
                         <img className="thumbnail" src={BostonImg} height={170} alt=""/>
-                        <h3 className="name">Team name</h3>
+                        <h3 className="name">Cristiano Ronaldo</h3>
                         <div className="stats">
-                            <p className="viewers">539.9k</p>
-                            <div className="streamers">
+                            <p className="viewers">Software Developer</p>
+                            {/* <div className="streamers">
                                 <img src={Blue_Cross} height={100} alt="" />
                                 <img src={HSBC} height={100} alt="" />
                                 <img src={Deloitte} height={100} alt="" />
-                            </div>
+                            </div> */}
                         </div>
                     </div>
 
                     <div className="back">
                     <div className="streaming-info">
-                         <p className="game-stat">559k<span>Watching</span></p>
-                         <p className="game-stat">25.8k<span>Streams</span></p>
+                         <p className="game-stat">IAM<span>SDE</span></p>
+                         <p className="game-stat">15<span>YOE</span></p>
                     </div>
-                    <button className="btn">See more streams</button>
+                    <button className="btn">See more info</button>
                     <div className="streamers">
                         <div className="streamer">
                             <div className="icon"><img src={Blue_Cross} /></div>
-                            <p className="name">Gamer1</p>
-                            <p className="number">36.1k</p>
                         </div>
                         <div className="streamer">
                             <div className="icon"><img src={HSBC} /></div>
-                            <p className="name">Gamer2</p>
-                            <p className="number">35.1k</p>
                         </div>
                         <div className="streamer">
                             <div className="icon"><img src={Deloitte} /></div>
-                            <p className="name">Gamer3</p>
-                            <p className="number">34.1k</p>
                         </div>
                     </div>
                 </div>

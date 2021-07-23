@@ -1,0 +1,18 @@
+
+<svg width="1098px" height="1471px" viewBox="0 0 1098 1471" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M1096.5,1.5 L1096.5,1469.5 L1.5,1469.5 L1.5,1.5 L1096.5,1.5 Z" id="Rectangle" stroke="#000000" stroke-width="3" fill="#000000"></path>
+        <rect id="Rectangle" stroke="#262626" stroke-width="3" fill="#000000" x="16.5" y="197.5" width="1064" height="1250"></rect>
+        <g id="Oval">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <circle stroke="#262626" stroke-width="3" stroke-linejoin="square" fill-opacity="0" fill="#000000" fill-rule="evenodd" cx="548.866928" cy="174" r="148.5"></circle>
+        </g>
+        <g id="Oval">
+            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+            <ellipse stroke="#262626" stroke-width="3" stroke-linejoin="square" fill="#000000" fill-rule="evenodd" cx="548.542074" cy="1246" rx="79.1751468" ry="83.5"></ellipse>
+        </g>
+        <rect id="Rectangle" stroke="#262626" stroke-width="3" fill="#000000" x="238.73092" y="1214.5" width="619.622309" height="233"></rect>
+        <rect id="Rectangle" stroke="#262626" stroke-width="3" fill="#000000" x="368.760274" y="1318.5" width="359.563601" height="129"></rect>
+        <rect id="Rectangle" stroke="#000000" fill="#000000" x="0.5" y="0.5" width="1097" height="195"></rect>
+    </g>
+</svg>
