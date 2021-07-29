@@ -10,20 +10,85 @@
     color: #000;
 }
 
+.career-company-title {
+    padding-top: 70px;
+    font-size: 40px;
+    font-family: 'NunitoSans-bold';
+    margin: auto;
+    color: #000;
+} 
+
+.about-leadership-title {
+    padding-top: 70px;
+    font-size: 40px;
+    font-family: 'NunitoSans-bold';
+    margin: auto;
+    color: white;
+}
+
+.career-company-title2 {
+    font-size: 40px;
+    font-family: 'NunitoSans-bold';
+    margin: auto;
+    color: white;
+}
+
+.about-company-title2 {
+    padding-top: 70px;
+    font-size: 40px;
+    font-family: 'NunitoSans-bold';
+    margin: auto;
+    color: white;
+}
+
+.career-values-title {
+    padding-top: 70px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-family: 'NunitoSans-bold';
+    margin: auto;
+    color: #000;
+}
+
+.about-intro-block {
+    height: 400px;
+    background-color: white;
+}
+
+.about-intro-block2 {
+    height: 400px;
+    background-color: #141414;
+}
+
+.about-intro-block3 {
+    height: 400px;
+    background-color: #000;
+}
+
 .career-company-intro {
     padding-top: 20px;
     font-size: 20px;
-    width: 920px;
+    width: 700px;
     font-family: 'NunitoSans-regular';
     margin: auto;
     color: #000;
+}
+
+.about-leadership-content {
+    font-family: 'SFProDisplay-bold';
+    font-size:18px;
+    line-height: 150%;
+    background: -webkit-linear-gradient(380deg, #ed2939 15%, #330867 95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .career-company-content1 {
     font-family: 'NunitoSans-bold';
     font-size:18px;
     line-height: 150%;
-    margin-bottom: 10px;
+    padding-top: 50px;
+    /* margin-bottom: 10px; */
     color: #000;
 }
 
@@ -40,4 +105,81 @@
     width: 68%;
     margin: auto;
     margin-bottom: 20px;
+}
+
+.about-img1 {
+    padding-bottom: 100px;
+}
+
+.about-color-block {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 20px;
+    margin-left: 120px;
+    border-radius: 5%;
+    height: 360px;
+    width: 260px;
+    background: linear-gradient(130deg,#ff7a18,#af002d 41.07%,#319197 76.05%)
+}
+
+.about-black-block {
+    margin: auto;
+    background-color: #000;
+    height: 350px;
+    width: 250px;
+    border-radius: 5%;
+}
+
+.about-color-block-title {
+    text-align: left;
+    padding-top: 130px;
+    margin-left: 20px;
+    margin-bottom: -10px;
+    font-family: 'SFProDisplay-bold';
+    padding-bottom: -5px;
+    font-style: normal;
+    font-size: clamp(1.8rem,calc(1.8rem + .2vw),3rem);
+    font-weight: 800;
+}
+
+.about-color-block-title2 {
+    margin-bottom: -12px;
+    text-align: left;
+    margin-left: 17px;
+    font-family: 'SFProDisplay-bold';
+    font-style: normal;
+    font-size: clamp(1.8rem,calc(1.8rem + .2vw),3rem);
+    font-weight: 800;
+}
+
+.about-color-block-title3 {
+    text-align: left;
+    margin-left: 20px;
+    font-family: 'SFProDisplay-bold';
+    font-style: normal;
+    font-size: clamp(1.8rem,calc(1.8rem + .2vw),3rem);
+    font-weight: 800;
+}
+
+
+.about-color-block-served {
+    padding-top: 20px;
+    text-align: left;
+    margin-left: 20px;
+    font-family: 'SFProDisplay-semibold';
+    font-size: clamp(12px,calc(.8rem + .25vw),20px);
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+.about-color-block-served2 {
+    text-align: left;
+    margin-left: 20px;
+    font-family: 'SFProDisplay-semibold';
+    font-size: clamp(12px,calc(.8rem + .25vw),20px);
+    font-weight: 300;
+    line-height: 1.7;
+    color: #1890ff;
 }

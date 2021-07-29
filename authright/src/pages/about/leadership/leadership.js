@@ -51,7 +51,6 @@ export default class leadership extends Component {
                         <ExpandCard />
                     </Col>
                 </Row>
-                    
             </div>
         )
     }

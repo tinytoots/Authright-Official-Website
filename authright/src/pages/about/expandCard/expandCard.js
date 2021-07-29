@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+// import BostonImg from '../../../img/cr7.png'
 import BostonImg from '../../../img/cr7.png'
 import './expandCard.scss'
 

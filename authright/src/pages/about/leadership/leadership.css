@@ -1,6 +1,6 @@
 .leadership-bg {
     padding-top: 90px;
-    background-color: #262626;
+    background-color: #000;
     background-image: url("../../../img/football-bg.svg");
     background-size: 100%;
     background-position: 100% 120%;
@@ -10,7 +10,3 @@
     width: 1200px;
 }
 
-.expandcard1 {
-    background-color: aqua;
-    margin: auto;
-}
