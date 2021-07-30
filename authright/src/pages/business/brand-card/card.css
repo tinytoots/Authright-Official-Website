@@ -1,5 +1,6 @@
 :root {
-    --clr-neutral-900: hsl(207, 19%, 9%);
+    /* --clr-neutral-900: hsl(207, 19%, 9%); */
+    --clr-neutral-900: #141414;
     --clr-neutral-100: hsl(0, 0%, 100%);
     --clr-accent-400: hsl(142, 90%, 61%);
 }
@@ -13,7 +14,8 @@
 .card-bg {
     margin-top: 100px;
     /* display: grid; */
-    min-height: 100vh;
+    /* min-height: 100vh; */
+    min-height: 80vh;
     place-items: center;
     line-height: 1.6;
     background: var(--clr-neutral-900);
@@ -21,9 +23,7 @@
     text-align: left;
     /* padding-right: 15em; */
     /* padding-left: 10%; */
-    padding-top: 0px;
 }
-
 .card {
     color: var(--clr-neutral-100);
     /* background-image: url(../../../img/boston.jpg); */
@@ -132,18 +132,27 @@
 
 }
 
+.card-grid-case-study-title {
+    margin-top: 110px;
+    padding-top: 50px;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'SFProDisplay-semibold';
+}
+
 .card-grid-title {
-    padding-top: 40px;
-    color: white;
+    padding-top: 20px;
+    color: #f0f0f0;
     text-align: center;
     font-size: 30px;
-    font-family: 'NunitoSans-bold';
+    font-family: 'SFProDisplay-regular';
 }
 
 .card-grid-title2 {
-    color: white;
+    color: #f0f0f0;
     text-align: center;
     font-size: 30px;
-    font-family: 'NunitoSans-bold';
-    padding-bottom: 40px;
+    font-family: 'SFProDisplay-regular';
+    padding-bottom: 50px;
 }

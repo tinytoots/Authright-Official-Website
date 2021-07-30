@@ -35,8 +35,9 @@ export default class card extends Component {
     render() {
         return (
             <div className='card-bg'>
-                <div className="card-grid-title">We are committed to providing reliable and efficient IAM and</div>
-                <div className="card-grid-title2">Full Stack services in different industrial fields </div>
+                <div className="card-grid-case-study-title">Our Case Studies</div>
+                <div className="card-grid-title">We are committed to providing reliable and efficient IAM</div>
+                <div className="card-grid-title2">and Full Stack services in different industrial fields </div>
                 {/* <h1>This is card</h1> */}
                 <Row gutter={[25, 25]}>
                     <Col className="gutter-row" span={6}>

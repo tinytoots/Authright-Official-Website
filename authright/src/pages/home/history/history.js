@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './history.css'
 import { Row, Col, Divider } from 'antd';
-import UnderLine from '../../../img/Underline.svg';
+import UnderLine from '../../../img/brush.svg';
 
 const style = {padding: '80px 0' };
 
