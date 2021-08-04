@@ -7,7 +7,7 @@ export default class about extends Component {
     render() {
         return (
             <div>
-                <div className='career-bg'>
+                <div className=''>
                     <Intro />
                     <div className="about-leadership">
                         <div className="inner">

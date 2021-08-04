@@ -22,6 +22,7 @@ export default class intro extends Component {
     render() {
         return (
             <div className='about-intro-bg'>
+
                 <div className='about-intro-block'>
                     <div className="inner">
                         {/* <img src={IAMImg} width={1200} alt = 'logo' /> */}
