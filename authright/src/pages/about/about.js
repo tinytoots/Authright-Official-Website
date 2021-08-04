@@ -10,10 +10,15 @@ export default class about extends Component {
                 <div className='career-bg'>
                     <Intro />
                     <div className="about-leadership">
-                    <Leadership />
+                        <div className="inner">
+                            <div className="about-leadership-position">
+                                <Leadership />   
+                            </div>
+                        </div>
+                    </div>
+                    
                     </div>
                 </div>
-            </div>
         )
     }
 }

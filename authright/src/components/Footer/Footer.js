@@ -9,6 +9,7 @@ export default class Footer extends Component {
     render() {
         return (
             <div className='footer-bg'>
+                <div className="inner-footer">
                 <div className='gray-lane-footer' />
                 <Row gutter={[10, 10]}>
                     <Col className="gutter-row" span={12}>
@@ -54,6 +55,7 @@ export default class Footer extends Component {
                         </div>
                     </Col>
                 </Row>
+            </div>
             </div>
         )
     }

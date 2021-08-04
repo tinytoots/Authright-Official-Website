@@ -26,13 +26,17 @@
     color: #8c8c8c;
     text-align: left;
     margin-top: 5px;
-    margin-left: 145px;
+    margin-left: 14px;
 }
 
 
 .footer-divi-img {
     float: left;
-    margin-left: 20%;
     margin-right: 10px;
     margin-top: 4px;
+}
+
+.inner-footer {
+    width: 1200px;
+    margin: auto;
 }

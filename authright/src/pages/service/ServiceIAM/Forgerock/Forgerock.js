@@ -57,7 +57,7 @@ export default class Forgerock extends Component {
                             <div style={style}>
                                 <div className='forgerock-title'>
                                     <img className='service-img' src={Design} width={80} />
-                                    <div className='service-iam-title'>ForgeRock Design</div>
+                                    <div className='service-iam-title3'>ForgeRock Design</div>
                                     <div className='service-iam-title2'>Development</div>
                                     <div className='forgerock-content4'>Our ForgeRock developers assist you to develop IAM solution</div>
                                     <div className='forgerock-content4'>for your business to securely manage identity</div>
@@ -83,7 +83,7 @@ export default class Forgerock extends Component {
                         <Col className="gutter-row" span={12}>
                             <div style={style}>
                                 <div className='forgerock-title'>
-                                    <img className='service-img' src={Integration} width={135} />
+                                    <img className='service-forgerock-integration-img' src={Integration} width={135} />
                                     <div className='service-iam-title'>ForgeRock Integration</div>
                                     <div className='forgerock-content4'>Our Open Source integration experts can connect ForgeRock</div>
                                     <div className='forgerock-content4'>based Open IAM solution to your corporate website,</div>
@@ -108,8 +108,8 @@ export default class Forgerock extends Component {
                         <Col className="gutter-row" span={12}>
                             <div style={style}>
                                 <div className='forgerock-title'>
-                                    <img className='service-img' src={Support} width={78} />
-                                    <div className='service-iam-title'>ForgeRock Support</div>
+                                    <img className='service-forgerock-support-img' src={Support} width={78} />
+                                    <div className='service-iam-title3'>ForgeRock Support</div>
                                     <div className='service-iam-title2'>& Maintenance</div>
                                     <div className='forgerock-content4'>Our ForgeRock team offers onsite and offsite support to ensure</div>
                                     <div className='forgerock-content4'>your ForgeRock applications are up-to-date and</div>

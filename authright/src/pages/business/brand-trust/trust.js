@@ -16,11 +16,22 @@ export default class trust extends Component {
                             <Col className="gutter-row" span={8}>
                                 <div className="trust-color-block">
                                     <div className="trust-black-block">
-                                        <div className="trust-color-block-title">More than</div>
-                                        <div className="trust-color-block-title2">1000000</div>
-                                        <div className="trust-color-block-title3">users</div>
-                                        <div className="trust-color-block-served">served by</div>
-                                        <div className="trust-color-block-served2">Authright</div>
+                                        <div className="trust-color-block-title">2018</div>
+                                        <div className="trust-color-block-title2">Established</div>
+                                        <div className="trust-color-block-title3">Partnership</div>
+                                        <div className="trust-color-block-served">with</div>
+                                        <div className="trust-color-block-served2">ForgeRock</div>
+                                    </div>
+                                </div>
+                            </Col>
+                            <Col className="gutter-row" span={8}>
+                                <div className="trust-color-block">
+                                    <div className="trust-black-block">
+                                        <div className="trust-color-block-title">2021</div>
+                                        <div className="trust-color-block-title2">Established</div>
+                                        <div className="trust-color-block-title3">Partnership</div>
+                                        <div className="trust-color-block-served">with</div>
+                                        <div className="trust-color-block-served2">Ping Identity</div>
                                     </div>
                                 </div>
                             </Col>
@@ -34,17 +45,7 @@ export default class trust extends Component {
                                         <div className="trust-color-block-served2">Authright</div>
                                     </div>
                                 </div>
-                            </Col>
-                            <Col className="gutter-row" span={8}>
-                                <div className="trust-color-block">
-                                    <div className="trust-black-block">
-                                        <div className="trust-color-block-title">More than</div>
-                                        <div className="trust-color-block-title2">1000000</div>
-                                        <div className="trust-color-block-title3">users</div>
-                                        <div className="trust-color-block-served">served by</div>
-                                        <div className="trust-color-block-served2">Authright</div>
-                                    </div>
-                                </div>
+                                {/* AuthRight and ForgeRock announced a Delivery and Strategic Partnership to provide top information security solutions globall */}
                             </Col>
                         </Row>
                     </div>

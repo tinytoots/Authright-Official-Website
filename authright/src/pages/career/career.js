@@ -8,7 +8,9 @@ export default class career extends Component {
         return (
             <div>
                  <div className='career-bg'>
-                    <IAM />
+                     <div className='inner'>
+                        <IAM />
+                     </div>
                 </div>
             </div>
         )

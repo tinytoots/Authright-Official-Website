@@ -26,12 +26,22 @@
 
 .webDev-logo {
     float: left;
-    margin-left: 5%;
+    margin-top: -55px;
+}
+
+.webDev-responsive-logo2{
+    float: left;
+    margin-top: -20px;
+}
+
+.webDev2-logo {
+    margin-top: 40px;
 }
 
 .know-training-logo {
     float: right;
-    margin-right: 5%;
+    margin-top: -55px;
+    margin-right: -5px;
 }
 
 /* .webDev2-logo {
@@ -48,6 +58,14 @@
     font-size: 40px;
     line-height: 150%;
     margin-top: 50px;
+    color: black;
+}
+
+.webDev-design-dev-title3 {
+    font-family: 'NunitoSans-extrabold';
+    font-size: 40px;
+    line-height: 150%;
+    margin-top: 20px;
     color: black;
 }
 
@@ -132,4 +150,12 @@
 
 .service-img {
     /* background: linear-gradient(to bottom right , #30cfd0, #330867); */
+}
+
+.responsive-content-position {
+    margin-left: 650px;
+}
+
+.responsive-content-position2 {
+    margin-left: -120px;
 }

@@ -4,7 +4,10 @@
 
 .about-leadership {
     margin-top: -200px;
-    padding-left: 100px;
     /* background-color: #434343; */
     background-color: #000;
+}
+
+.about-leadership-position {
+    margin-left: 90px;
 }

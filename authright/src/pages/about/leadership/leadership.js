@@ -47,7 +47,7 @@ export default class leadership extends Component {
                     </Col>
                 </Row>
                 <Row gutter={16}>
-                    <Col className="gutter-row" span={24} style={{paddingLeft: '43%', paddingBottom: 100}}>
+                    <Col className="gutter-row" span={24} style={{paddingLeft: 518, paddingBottom: 100}}>
                         <ExpandCard />
                     </Col>
                 </Row>

@@ -64,7 +64,7 @@ export default class Ping extends Component {
                             <div style={style}>
                                 <div className='ping-title'>
                                     <img className='service-img' src={Design} width={80} />
-                                    <div className='service-iam-title'>Ping Identity Design</div>
+                                    <div className='service-iam-title3'>Ping Identity Design</div>
                                     <div className='service-iam-title2'>Development</div>
                                     <div className='ping-content4'>Our Ping Identity developers assist you to develop IAM solution</div>
                                     <div className='ping-content4'>for your business to securely manage identity</div>
@@ -90,7 +90,7 @@ export default class Ping extends Component {
                         <Col className="gutter-row" span={12}>
                             <div style={style}>
                                 <div className='ping-title'>
-                                    <img className='service-img' src={Integration} width={135} />
+                                    <img className='service-forgerock-integration-img' src={Integration} width={135} />
                                     <div className='service-iam-title'>Ping Identity Integration</div>
                                     <div className='ping-content4'>Our Open Source integration experts can connect Ping Identity based</div>
                                     <div className='ping-content4'>Open IAM solution to your corporate website, intranet/extranet</div>
@@ -115,8 +115,8 @@ export default class Ping extends Component {
                         <Col className="gutter-row" span={12}>
                             <div style={style}>
                                 <div className='ping-title'>
-                                    <img className='service-img' src={Support} width={78} />
-                                    <div className='service-iam-title'>Ping Identity Support</div>
+                                    <img className='service-forgerock-support-img' src={Support} width={78} />
+                                    <div className='service-iam-title3'>Ping Identity Support</div>
                                     <div className='service-iam-title2'>& Maintenance</div>
                                     <div className='ping-content4'>Our Ping Identity team offers onsite and offsite support to ensure</div>
                                     <div className='ping-content4'>your Ping Identity applications are up-to-date and</div>

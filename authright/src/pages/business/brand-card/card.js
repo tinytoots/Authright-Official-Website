@@ -4,7 +4,7 @@ import 'antd/dist/antd.css';
 import './card.css'
 // import bostonImg from '../../../img/boston.jpg'
 import hsbcImg from '../../../img/bank.png'
-import homedepotImg from '../../../img/homeDepot.jpg'
+import homedepotImg from '../../../img/homedepot2.jpg'
 import deloitteImg from '../../../img/deloitte.jpg'
 import toyotaImg from '../../../img/toyota.jpg'
 import equifaxImg from '../../../img/equifax.jpg'
