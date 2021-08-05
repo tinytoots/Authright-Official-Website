@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Row, Col} from 'antd';
-import IAMImg from '../../../img/careers-img2.jpg'
+// import IAMImg from '../../../img/careers-img2.jpg'
+import IAMImg from '../../../img/hiring.jpg'
 import './careersIam.css'
 
 const style = { background: '#0092ff', padding: '8px 0' };

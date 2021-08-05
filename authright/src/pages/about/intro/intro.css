@@ -183,3 +183,16 @@
     line-height: 1.7;
     color: #1890ff;
 }
+
+.about-whoWeAre-title1 {
+    padding-top: 70px;
+    font-family: 'SFProDisplay-semibold';
+    color: #000;
+    font-size: 40px;
+}
+
+.about-whoWeAre-title2 {
+    font-family: 'SFProDisplay-semibold';
+    color: #000;
+    font-size: 40px;
+}

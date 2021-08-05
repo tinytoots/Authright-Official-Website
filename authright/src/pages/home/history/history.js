@@ -22,14 +22,19 @@ export default class history extends Component {
                         <div style={style}>
                             <div className='history-year'>2018</div>
                             <img className='underline-img' src={UnderLine} width={135} />
-                            <div className='history-content'> AuthRight and ForgeRock announced a Delivery and Strategic Partnership to provide top information security solutions globally</div>
+                            <div className='history-content'>AuthRight and ForgeRock announced</div>
+                            <div className='history-content'>a Delivery and Strategic Partnership</div>
+                            <div className='history-content'>to provide top information security</div>
+                            <div className='history-content'>solutions globally</div>
                         </div>
                     </Col>
                     <Col className="gutter-row" span={8}>
                         <div style={style}>
                             <div className='history-year'>2020</div>
                             <img className='underline-img' src={UnderLine} width={135} />
-                            <div className='history-content'> Provide efficient and reliable technical services for dozens of companies including the world's top 500</div>
+                            <div className='history-content'>Provide efficient and reliable technical</div>
+                            <div className='history-content'>services for dozens of companies</div>
+                            <div className='history-content'>including the world's top 500</div>
                         </div>
                     </Col>
                 </Row>

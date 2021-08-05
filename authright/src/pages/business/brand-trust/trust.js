@@ -39,7 +39,7 @@ export default class trust extends Component {
                                 <div className="trust-color-block">
                                     <div className="trust-black-block">
                                         <div className="trust-color-block-title">More than</div>
-                                        <div className="trust-color-block-title2">1000000</div>
+                                        <div className="trust-color-block-title4">1000000</div>
                                         <div className="trust-color-block-title3">users</div>
                                         <div className="trust-color-block-served">served by</div>
                                         <div className="trust-color-block-served2">Authright</div>

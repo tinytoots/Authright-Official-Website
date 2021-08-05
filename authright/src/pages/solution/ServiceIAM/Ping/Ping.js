@@ -15,17 +15,17 @@ export default class Ping extends Component {
         return (
             <div className='solution-IAM-bg'>
                 <div className='solution-IAM-Intro-bg'>
-                    <img src={PingImg} width={220} alt = 'logo' className='solution-ping-logo'/>
+                    <img src={PingImg} width={200} alt = 'logo' className='solution-ping-logo'/>
                     <div className='solution-iam-title2'>
                         IAM
                     </div>
                     <div className='solution-forgerock-title'>
-                        Forgerock Solutions
+                        Ping Identity Solutions
                     </div>
                     <div className='solution-forgerock-intro2'>
-                        Make it easy for users to log into apps and services.
+                        Identity Security for the Global Enterprise.
                     </div>
-                    <div className='solution-gray-lane2' />
+                    <div className='solution-ping-gray-lane2' />
                     <div className="forgerock-conent-bg">
                         <div className='solution-topics-title'>
                             Topics
@@ -34,12 +34,14 @@ export default class Ping extends Component {
                         <Row gutter={16}>
                         <Col className="gutter-row" span={6}>
                             <div className='solution-forgerock-intro1'>
-                                Federation & Single Sign-On
+                                PingAccess
                             </div>
                         </Col>
                         <Col className="gutter-row" span={18}>
                             <div className='solution-forgerock-intro'>
-                                Policy agents, SAML, OAuth, OpenID Connect, UMA – there are numerous methods for protecting precious resources. But selecting the right method for the right circumstance is not always obvious.
+                                PingAccess is the Advanced Access Security service within the PingOne Cloud Platform that ensures that only authorized users access the resources they need.
+                                <br /><br />
+                                PingAccess is a centralized access security solution for apps and APIs down to the URL and HTTP method level. It includes a comprehensive policy engine, risk-aware authorization to resources and application-scoped session tokens.
                             </div>
                         </Col>
                         </Row>
@@ -47,12 +49,14 @@ export default class Ping extends Component {
                         <Row gutter={16}>
                         <Col className="gutter-row" span={6}>
                             <div className='solution-forgerock-intro1'>
-                                User Provisioning
+                                PingAuthorize
                             </div>
                         </Col>
                         <Col className="gutter-row" span={18}>
                             <div className='solution-forgerock-intro'>
-                                There are numerous pockets of identity data strewn across any enterprise. Synchronizing that data, ensuring that it is up to date, and providing your users with methods of managing their own data is critical.
+                                PingAuthorize (previously known as PingDataGovernance) is the Advanced Dynamic Authorization service within the PingOne Cloud Platform that helps you comply with privacy regulations by enforcing user consent across all applications.
+                                <br /><br />
+                                PingAuthorize provides centralized authorization policies that protect sensitive data and actions. They can be updated by anyone on the fly with a drag-and-drop UI, without requiring app teams to change their code.
                             </div>
                         </Col>
                         </Row>
@@ -60,12 +64,14 @@ export default class Ping extends Component {
                         <Row gutter={16}>
                         <Col className="gutter-row" span={6}>
                             <div className='solution-forgerock-intro1'>
-                                Enterprise Directory
+                                PingCentral
                             </div>
                         </Col>
                         <Col className="gutter-row" span={18}>
                             <div className='solution-forgerock-intro'>
-                                A strong directory infrastructure is at the core of most identity implementations.  Knowing how to properly architect and build an enterprise directory can be as much of an art as it is a science.
+                                PingCentral is the Advanced Central Administration service within the PingOne Cloud Platform. It empowers application teams with a self-service application integration portal to consume IAM services.
+                                <br /><br />
+                                PingCentral helps IAM teams to do more with less by providing workflows, templates, orchestration automation, lifecycle management and central monitoring.
                             </div>
                         </Col>
                         </Row>
@@ -73,12 +79,14 @@ export default class Ping extends Component {
                         <Row gutter={16}>
                         <Col className="gutter-row" span={6}>
                             <div className='solution-forgerock-intro1'>
-                                Workshops
+                                PingDirectory
                             </div>
                         </Col>
                         <Col className="gutter-row" span={18}>
                             <div className='solution-forgerock-intro'>
-                                Seeking to architect an identity solution? Are you looking for a review of your current implementation to determine if it is configured properly? Need someone to watch your back as you move your project into production? AuthRight works with ForgeRock Professional Services to offer a broad range of 3 to 5 day workshops – for those times when you need just a little bit of extra assistance.
+                                PingDirectory is the Advanced Directory service within the PingOne Cloud Platform that securely stores and manages identity and profile data at scale.
+                                <br /><br />
+                                This high-performance data store supports unstructured data, scales to 100’s of millions of identities with ease and exposes them via APIs.
                             </div>
                         </Col>
                         </Row>
@@ -86,12 +94,14 @@ export default class Ping extends Component {
                         <Row gutter={16}>
                         <Col className="gutter-row" span={6}>
                             <div className='solution-forgerock-intro1'>
-                                Upgrades & Migrations
+                                PingFederate
                             </div>
                         </Col>
                         <Col className="gutter-row" span={18}>
                             <div className='solution-forgerock-intro'>
                                 Is your current identity solution reaching its end of life and the vendor is no longer in business? Do you have an old version of the product and are looking to upgrade to the latest release? Is your current vendor forcing you to migrate to a solution that you really don’t want and are now looking for a more cost effective and palatable alternative? Identity Fusion has extensive experience with upgrades and migrations.
+                                <br /><br />
+                                PingFederate is built on open standards and provides customers, employees and partners with secure authentication and single sign-on to any application from any device and any location.
                             </div>
                         </Col>
                         </Row>
@@ -99,16 +109,88 @@ export default class Ping extends Component {
                         <Row gutter={16}>
                         <Col className="gutter-row" span={6}>
                             <div className='solution-forgerock-intro1'>
-                                Cloud Identity
+                                PingFederate
                             </div>
                         </Col>
                         <Col className="gutter-row" span={18}>
                             <div className='solution-forgerock-intro'>
-                                Cloud-based identity services are becoming more and more common as companies seek to cut costs. But knowing how to properly architect, implement, and secure cloud-based identity solutions is essential as they hold the keys to your most critical assets. AuthRight has experience building identity solutions in the cloud and understands the challenges associated with IDaaS solutions.
+                                PingFederate is the Advanced Single Sign-on service within the PingOne Cloud Platform.
+                                <br /><br />
+                                PingFederate is built on open standards and provides customers, employees and partners with secure authentication and single sign-on to any application from any device and any location.
                             </div>
                         </Col>
                         </Row>
                         <div className='solution-gray-lane' />
+                        <Row gutter={16}>
+                        <Col className="gutter-row" span={6}>
+                            <div className='solution-forgerock-intro1'>
+                                PingID
+                            </div>
+                        </Col>
+                        <Col className="gutter-row" span={18}>
+                            <div className='solution-forgerock-intro'>
+                                PingID is a cloud-delivered, risk-aware multi-factor authentication service for the workforce with adaptive policies, diverse authentication factors and employee self-service capabilities. PingID can help you balance enterprise security and workforce productivity.
+                            </div>
+                        </Col>
+                        </Row>
+                        <div className='solution-gray-lane' />
+                        <Row gutter={16}>
+                        <Col className="gutter-row" span={6}>
+                            <div className='solution-forgerock-intro1'>
+                                PingIntelligence for APIs
+                            </div>
+                        </Col>
+                        <Col className="gutter-row" span={18}>
+                            <div className='solution-forgerock-intro'>
+                                PingIntelligence for APIs is the Advanced API Security service within the PingOne Cloud Platform that protects all your APIs from cyberattacks missed by existing solutions.
+                                <br /><br />
+                                PingIntelligence for APIs leverages AI for automated API discovery, deep traffic visibility, reporting, threat detection and cyberattack blocking.
+                            </div>
+                        </Col>
+                        </Row>
+                        <div className='solution-gray-lane' />
+                        <Row gutter={16}>
+                        <Col className="gutter-row" span={6}>
+                            <div className='solution-forgerock-intro1'>
+                                PingOne MFA
+                            </div>
+                        </Col>
+                        <Col className="gutter-row" span={18}>
+                            <div className='solution-forgerock-intro'>
+                                PingOne MFA is a cloud-delivered, risk-aware multi-factor authentication service for customers with simple and convenient authentication methods, trusted device management and adaptive policies that can be embedded into your own mobile app.
+                            </div>
+                        </Col>
+                        </Row>
+                        <div className='solution-gray-lane' />
+                        <Row gutter={16}>
+                        <Col className="gutter-row" span={6}>
+                            <div className='solution-forgerock-intro1'>
+                                PingOne Risk
+                            </div>
+                        </Col>
+                        <Col className="gutter-row" span={18}>
+                            <div className='solution-forgerock-intro'>
+                                PingOne Risk is a cloud-based risk management service that leverages machine learning and intelligent, configurable policies. It secures authentication by considering past user behavior, IP reputation, anonymous network detection and other risk predictors.
+                            </div>
+                        </Col>
+                        </Row>
+                        <div className='solution-gray-lane' />
+                        <Row gutter={16}>
+                        <Col className="gutter-row" span={6}>
+                            <div className='solution-forgerock-intro1'>
+                                PingOne Verify
+                            </div>
+                        </Col>
+                        <Col className="gutter-row" span={18}>
+                            <div className='solution-forgerock-intro'>
+                                PingOne Verify is a cloud-based service that enables your customers to securely and conveniently verify their identity during enrollment and registration.
+                                <br /><br />
+                                Embed PingOne Verify into your applications using a mobile SDK to enhance security and reduce fraudulent account creation. It works by taking a live-face capture, scanning and verifying a government ID and matching the ID to the live-face capture.
+                            </div>
+                        </Col>
+                        </Row>
+                        <div className='solution-gray-lane' />
+
                     </div>
                 </div>
             </div>

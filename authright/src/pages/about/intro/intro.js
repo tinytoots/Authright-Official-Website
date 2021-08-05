@@ -26,12 +26,12 @@ export default class intro extends Component {
                 <div className='about-intro-block'>
                     <div className="inner">
                         {/* <img src={IAMImg} width={1200} alt = 'logo' /> */}
-                        <div className='career-company-title'>
-                            We Are Experts In Identity & Access
+                        <div className='about-whoWeAre-title1'>
+                            We are A top-level Professional Team
                             {/* <div className='gray-lane' /> */}
                         </div>
-                        <div className='career-company-title2' style={{color: 'black'}}>
-                            Management Systems
+                        <div className='about-whoWeAre-title2'>
+                            in IAM and Digital Services
                         </div>
                         <div className='career-company-intro'>
                             AuthRight Technology provide you with high quality IT consulting services, we have deep experience in cloud storage, identity management, systems integration, you can bring fast, efficient and safe solution.
@@ -55,13 +55,13 @@ export default class intro extends Component {
                         </Col>
                         <Col className="gutter-row" span={16}>
                             <div className='about-company-title2'>
-                                We are Committed to Helping our Global
+                                We are Committed to Saving Money and 
                             </div>
                             <div className='career-company-title2'>
-                                Customers Succeed
+                                Improving Efficiency for Our Customers
                             </div>
                             <div className='career-company-intro' style={{color: "white"}}>
-                                our support teams are available 24/7, worldwide. Our global presence enables us to provide peerless support and availability, assisting customers all over the world.
+                                Our experienced professional team will escort your business all the time and provide 24/7 technical support. The IAM certificate holding rate of our employees exceeds <span style={{fontFamily: "SFProDisplay-bold"}}>90%</span>
                             </div>
                         </Col>
                     </Row>
