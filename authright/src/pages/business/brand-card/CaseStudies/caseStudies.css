@@ -1,0 +1,71 @@
+.hsbc-bg {
+    background-color: white;
+    padding-top: 150px;
+    color: black;
+    width: 1200px;
+    margin: auto;
+}
+
+.case-hsbc-img {
+    float: left;
+    margin-left: 50px;
+}
+
+.case-hsbc-logo-img {
+    margin-top: 50px;
+}
+
+.caseStudies-title {
+    margin-top: 15px;
+    font-size: 35px;
+    /* font-family: 'NunitoSans-regular'; */
+    font-family: 'SFProDisplay-semiBold';
+    color: #000;
+}
+
+.caseStudies-title2 {
+    font-size: 35px;
+    /* font-family: 'NunitoSans-regular'; */
+    font-family: 'SFProDisplay-semiBold';
+    margin-bottom: 30px;
+    color: #000;
+}
+
+.caseStudies-content {
+    font-size: 20px;
+    font-family: 'NunitoSans-regular';
+    color: #434343;
+}
+
+.caseStudies-about-title {
+    margin-top: 25px;
+    text-align: left;
+    margin-left: 50px;
+    font-size: 30px;
+    /* font-family: 'NunitoSans-regular'; */
+    font-family: 'SFProDisplay-semiBold';
+    color: #000;
+}
+
+.caseStudies-about-content {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 15px;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'NunitoSans-regular';
+    color: #434343;
+}
+
+.gray-lane-case {
+    height: 30px;
+    width: 2px;
+    background-color: #595959;
+    /* width: 1200px; */
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+    
+
+
+}

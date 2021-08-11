@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Row, Col, Divider } from 'antd';
 import 'antd/dist/antd.css';
 import './card.css'
+import { Link, Route, useRouteMatch, Switch } from "react-router-dom"
 // import bostonImg from '../../../img/boston.jpg'
 import hsbcImg from '../../../img/bank.png'
 import homedepotImg from '../../../img/homedepot2.jpg'
@@ -30,9 +31,11 @@ var cardPearson = {
     backgroundImage: `url(${pearsonImg})`
 }
 
-export default class card extends Component {
+
+export default function Card() {
+
+        const { url, path } = useRouteMatch();
     
-    render() {
         return (
             <div className='card-bg'>
                 <div className="card-grid-case-study-title">Our Case Studies</div>
@@ -45,7 +48,7 @@ export default class card extends Component {
                         <div className="card-content">
                             <h2 className="card-title">HSBC</h2>
                             <p className="card-body">This is a great compnay that everyone want be a employee</p>
-                            <a href="/home" className="button">Learn More</a>
+                            <Link to="/hsbc" className="button">Learn More</Link>
                         </div>
                     </div>
                     </Col>
@@ -54,7 +57,7 @@ export default class card extends Component {
                         <div className="card-content">
                             <h2 className="card-title">The Home Depot</h2>
                             <p className="card-body">This is a great compnay that everyone want be a employee</p>
-                            <a href="/home" className="button">Learn More</a>
+                            <Link to="/home-depot" className="button">Learn More</Link>
                         </div>
                     </div>
                     </Col>
@@ -63,7 +66,7 @@ export default class card extends Component {
                         <div className="card-content">
                             <h2 className="card-title">Mohawk Industries</h2>
                             <p className="card-body">This is a great compnay that everyone want be a employee</p>
-                            <a href="/home" className="button">Learn More</a>
+                            <Link to="/mohawk-industries" className="button">Learn More</Link>
                         </div>
                     </div>
                     </Col>
@@ -72,7 +75,7 @@ export default class card extends Component {
                         <div className="card-content">
                             <h2 className="card-title">Toyota</h2>
                             <p className="card-body">This is a great compnay that everyone want be a employee</p>
-                            <a href="/home" className="button">Learn More</a>
+                            <Link to="/toyota" className="button">Learn More</Link>
                         </div>
                     </div>
                     </Col>
@@ -81,7 +84,7 @@ export default class card extends Component {
                         <div className="card-content">
                             <h2 className="card-title">Blue Cross Blue Shield</h2>
                             <p className="card-body">This is a great compnay that everyone want be a employee</p>
-                            <a href="/home" className="button">Learn More</a>
+                            <Link to="/blue-cross-blue-shield" className="button">Learn More</Link>
                         </div>
                     </div>
                     </Col>
@@ -90,7 +93,7 @@ export default class card extends Component {
                         <div className="card-content">
                             <h2 className="card-title">Equifax</h2>
                             <p className="card-body">This is a great compnay that everyone want be a employee</p>
-                            <a href="/home" className="button">Learn More</a>
+                            <Link to="/equifax" className="button">Learn More</Link>
                         </div>
                     </div>
                     </Col>
@@ -99,7 +102,7 @@ export default class card extends Component {
                         <div className="card-content">
                             <h2 className="card-title">Pearson</h2>
                             <p className="card-body">This is a great compnay that everyone want be a employee</p>
-                            <a href="/home" className="button">Learn More</a>
+                            <Link to="/pearson" className="button">Learn More</Link>
                         </div>
                     </div>
                     </Col>
@@ -108,7 +111,7 @@ export default class card extends Component {
                         <div className="card-content">
                             <h2 className="card-title">Deloitte</h2>
                             <p className="card-body">This is a great compnay that everyone want be a employee</p>
-                            <a href="/home" className="button">Learn More</a>
+                            <Link to="/deloitte" className="button">Learn More</Link>
                         </div>
                     </div>
                     </Col>
@@ -158,8 +161,8 @@ export default class card extends Component {
                     </div>
                     </Col> */}
                 </Row>
-                
+        
+
             </div>
         )
     }
-}

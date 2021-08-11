@@ -21,40 +21,40 @@ export default class caseStudy extends Component {
                 </div>
                 <Row gutter={[10, 10]}>
                     <Col className="gutter-row" span={12}>
+                        <NavLink to="/hsbc">
                         <div style={style}>
                             <div className='company-title'>
-                            <NavLink to="/home">
                                 <img className='logo' src={HSBC} width={160} alt = 'logo' className='hsbc-logo2'/>
-                            </NavLink>
                             </div>
                         </div>
+                        </NavLink>
                     </Col>
                     <Col className="gutter-row" span={12}>
+                        <NavLink to="/home-depot">
                         <div style={style}>
                             <div className='company-title'>
-                            <NavLink to="/home">
                                 <img className='logo' src={HomeDepot} width={160} alt = 'logo' className='homeDepot-logo2'/>
-                            </NavLink>
                             </div>
                         </div>
+                        </NavLink>
                     </Col>
                     <Col className="gutter-row" span={12}>
+                        <NavLink to="/deloitte">
                         <div style={style}>
                             <div className='company-title'>
-                            <NavLink to="/home">
                                 <img className='logo' src={Deloitte} width={160} alt = 'logo' className='deloitte-logo2'/>
-                            </NavLink>
                             </div>
                         </div>
+                        </NavLink>
                     </Col>
                     <Col className="gutter-row" span={12}>
+                        <NavLink to="/toyota">
                         <div style={style}>
                             <div className='company-title'>
-                            <NavLink to="/home">
                                 <img className='logo' src={Toyota} width={160} alt = 'logo' className='toyota-logo2'/>
-                            </NavLink>
                             </div>
                         </div>
+                        </NavLink>
                     </Col>
                 </Row>
             </div>

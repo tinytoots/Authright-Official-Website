@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Header.css';
 import { Menu } from 'antd';
 import { NavLink } from 'react-router-dom'
+import { BrowserRouter as Router } from 'react-router-dom';
 import 'antd/dist/antd.css'; 
 import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
 import Logo from '../../img/Logo.png'
