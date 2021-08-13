@@ -75,7 +75,7 @@
 }
 
 .about-leadership-content {
-    font-family: 'SFProDisplay-bold';
+    font-family: 'SFProDisplay-Bold';
     font-size:18px;
     line-height: 150%;
     background: -webkit-linear-gradient(380deg, #ed2939 15%, #330867 95%);
@@ -137,7 +137,7 @@
     padding-top: 130px;
     margin-left: 20px;
     margin-bottom: -10px;
-    font-family: 'SFProDisplay-bold';
+    font-family: 'SFProDisplay-Bold';
     padding-bottom: -5px;
     font-style: normal;
     font-size: clamp(1.8rem,calc(1.8rem + .2vw),3rem);
@@ -148,7 +148,7 @@
     margin-bottom: -12px;
     text-align: left;
     margin-left: 17px;
-    font-family: 'SFProDisplay-bold';
+    font-family: 'SFProDisplay-Bold';
     font-style: normal;
     font-size: clamp(1.8rem,calc(1.8rem + .2vw),3rem);
     font-weight: 800;
@@ -157,7 +157,7 @@
 .about-color-block-title3 {
     text-align: left;
     margin-left: 20px;
-    font-family: 'SFProDisplay-bold';
+    font-family: 'SFProDisplay-Bold';
     font-style: normal;
     font-size: clamp(1.8rem,calc(1.8rem + .2vw),3rem);
     font-weight: 800;
@@ -168,7 +168,7 @@
     padding-top: 20px;
     text-align: left;
     margin-left: 20px;
-    font-family: 'SFProDisplay-semibold';
+    font-family: 'SFProDisplay-Semibold';
     font-size: clamp(12px,calc(.8rem + .25vw),20px);
     font-weight: 300;
     line-height: 1.7;
@@ -177,7 +177,7 @@
 .about-color-block-served2 {
     text-align: left;
     margin-left: 20px;
-    font-family: 'SFProDisplay-semibold';
+    font-family: 'SFProDisplay-Semibold';
     font-size: clamp(12px,calc(.8rem + .25vw),20px);
     font-weight: 300;
     line-height: 1.7;
@@ -186,13 +186,13 @@
 
 .about-whoWeAre-title1 {
     padding-top: 70px;
-    font-family: 'SFProDisplay-semibold';
+    font-family: 'SFProDisplay-Semibold';
     color: #000;
     font-size: 40px;
 }
 
 .about-whoWeAre-title2 {
-    font-family: 'SFProDisplay-semibold';
+    font-family: 'SFProDisplay-Semibold';
     color: #000;
     font-size: 40px;
 }

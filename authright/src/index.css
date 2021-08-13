@@ -15,3 +15,75 @@ code {
 .App-bg {
   background-color: red;
 }
+
+
+@font-face {
+  font-family: 'NunitoSans-regular';
+  src: url('./Nunito\ Sans/NunitoSans-Regular.ttf')
+}
+
+@font-face {
+  font-family: 'NunitoSans-bold';
+  src: url('./Nunito\ Sans/NunitoSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'NunitoSans-SemiBold';
+  src: url('./Nunito\ Sans/NunitoSans-SemiBold.ttf')
+}
+
+@font-face {
+  font-family: "normal-italic";
+  src: url('./Nunito\ Sans/NunitoSans-Italic.ttf')
+}
+
+@font-face {
+  font-family: "NunitoSans-Light";
+  src: url("./Nunito\ Sans/NunitoSans-Light.ttf")
+}
+
+@font-face {
+  font-family: "SFProDisplay-Semibold";
+  src: url("./Nunito\ Sans/FontsFree-Net-SFProDisplay-Semibold.ttf")
+}
+
+@font-face {
+  font-family: "SFProDisplay-Bold";
+  src: url("./Nunito\ Sans/FontsFree-Net-SFProDisplay-Bold.ttf")
+}
+
+@font-face {
+  font-family: "SFProDisplay-MediumItalic";
+  src: url("./Nunito\ Sans/FontsFree-Net-SFProDisplay-MediumItalic.ttf")
+}
+
+@font-face {
+  font-family: "SFProDisplay-Regular";
+  src: url("./Nunito\ Sans/FontsFree-Net-SFProDisplay-Regular.ttf")
+}
+
+@font-face {
+  font-family: "SFProDisplay-SemiboldItalic";
+  src: url("./Nunito\ Sans/FontsFree-Net-SFProDisplay-SemiboldItalic.ttf")
+}
+
+
+.light {
+  font-family: "NunitoSans-Light";
+}
+
+.italic {
+  font-family: "normal-italic";
+}
+
+.semibold {
+  font-family: 'NunitoSans-SemiBold' !important;
+}
+
+.bold {
+  font-family: "NunitoSans-bold" !important;
+}
+
+.regular {
+  font-family: "NunitoSans-regular" !important;
+}

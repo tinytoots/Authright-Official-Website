@@ -19,14 +19,14 @@
     margin-top: 15px;
     font-size: 35px;
     /* font-family: 'NunitoSans-regular'; */
-    font-family: 'SFProDisplay-semiBold';
+    font-family: 'SFProDisplay-Semibold';
     color: #000;
 }
 
 .caseStudies-title2 {
     font-size: 35px;
     /* font-family: 'NunitoSans-regular'; */
-    font-family: 'SFProDisplay-semiBold';
+    font-family: 'SFProDisplay-Semibold';
     margin-bottom: 30px;
     color: #000;
 }
@@ -44,7 +44,7 @@
     margin-left: 50px;
     font-size: 30px;
     /* font-family: 'NunitoSans-regular'; */
-    font-family: 'SFProDisplay-semiBold';
+    font-family: 'SFProDisplay-Semibold';
     color: #000;
 }
 
@@ -55,7 +55,7 @@
     padding-bottom: 30px;
     text-align: left;
     font-size: 20px;
-    font-family: 'SFProDisplay-regular';
+    font-family: 'SFProDisplay-Regular';
     color: #434343;
     width: 500px;
 }
@@ -77,12 +77,12 @@
 .caseStudies-data {
     margin-top: 80px;
     margin-left: 130px;
-    font-family: 'SFProDisplay-semiBold';
+    font-family: 'SFProDisplay-Semibold';
     font-size: 20px;
 }
 
 .caseStudies-data2 {
-    font-family: 'SFProDisplay-regular';
+    font-family: 'SFProDisplay-Regular';
     margin-left: 130px;
     font-size: 20px;
 }
@@ -90,12 +90,12 @@
 .caseStudies-data3 {
     margin-top: 80px;
     margin-left: 180px;
-    font-family: 'SFProDisplay-semiBold';
+    font-family: 'SFProDisplay-Semibold';
     font-size: 20px;
 }
 
 .caseStudies-data4 {
-    font-family: 'SFProDisplay-regular';
+    font-family: 'SFProDisplay-Regular';
     margin-left: 180px;
     font-size: 20px;
 }
