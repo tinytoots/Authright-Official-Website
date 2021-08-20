@@ -2,6 +2,10 @@ import React, { Component } from 'react'
 import PingImg from '../../../../img/ping-identity.svg'
 import './Ping.css'
 import { Row, Col, Divider } from 'antd';
+import Ping1 from '../../../../img/ping-cert1.png'
+import Ping2 from '../../../../img/ping-cert2.png'
+import Ping3 from '../../../../img/ping-cert3.png'
+import Ping4 from '../../../../img/ping-cert4.png'
 import { NavLink } from 'react-router-dom'
 import Consulting from '../../../../img/consulting.svg';
 import Design from '../../../../img/design.svg';
@@ -190,7 +194,23 @@ export default class Ping extends Component {
                         </Col>
                         </Row>
                         <div className='solution-gray-lane' />
-
+                        <Row gutter={16}>
+                            <Col className="gutter-row" span={4}>
+                                    <img src={Ping1} width={150} alt = 'logo' className='ping-cert-logo'/>
+                            </Col>
+                            <Col className="gutter-row" span={4}>
+                                    <img src={Ping2} width={150} alt = 'logo' className='ping-cert-logo2'/>    
+                            </Col>
+                            <Col className="gutter-row" span={4}>
+                                    <img src={Ping3} width={150} alt = 'logo' className='ping-cert-logo3'/>
+                            </Col>
+                            <Col className="gutter-row" span={4}>
+                                    <img src={Ping4} width={150} alt = 'logo' className='ping-cert-logo4'/>
+                            </Col>
+                            <Col className="gutter-row" span={4}>
+                                    <img src={Ping4} width={150} alt = 'logo' className='ping-cert-logo5'/>
+                            </Col>
+                        </Row>
                     </div>
                 </div>
             </div>

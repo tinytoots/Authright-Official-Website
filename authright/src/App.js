@@ -20,6 +20,14 @@ import CaseBlue from './pages/business/brand-card/CaseStudies/caseBlue'
 import CaseEquifax from './pages/business/brand-card/CaseStudies/caseEquifax'
 import CasePearson from './pages/business/brand-card/CaseStudies/casePearson'
 import CaseDeloitte from './pages/business/brand-card/CaseStudies/caseDeloitte'
+import ProfessionalService from './pages/service/ServiceIAM/Forgerock/ProfessionalService/ProfessionalService'
+import ManagedService from './pages/service/ServiceIAM/Forgerock/ManagedService/ManagedService'
+import EducationService from './pages/service/ServiceIAM/Forgerock/EducationService/EducationService'
+import StrategicTalentService from './pages/service/ServiceIAM/Forgerock/StrategicTalentService/StrategicTalentService'
+import ForgerockConsulting from './pages/service/ServiceIAM/Forgerock/ProfessionalService/ForgerockConsulting/ForgerockConsulting'
+import ForgerockIntegration from './pages/service/ServiceIAM/Forgerock/ProfessionalService/ForgerockIntegration/ForgerockIntegration'
+import ForgerockSupport from './pages/service/ServiceIAM/Forgerock/ProfessionalService/ForgerockSupport/ForgerockSupport'
+import ForgeRockDesignDevelopment from './pages/service/ServiceIAM/Forgerock/ProfessionalService/ForgeRockDesignDevelopment/ForgeRockDesignDevelopment'
 
 
 function App() {
@@ -44,6 +52,14 @@ function App() {
           <Route path="/about-us" component={About} /> 
           <Route path="/careers" component={Career} /> 
           <Route path="/services_iam" component={ServiceIAM} /> 
+          <Route path="/services_iam_professional_services" component={ProfessionalService} />
+          <Route path="/services_iam_managed_services" component={ManagedService} />
+          <Route path="/services_iam_education_services" component={EducationService} />
+          <Route path="/services_iam_strategic_talent_services" component={StrategicTalentService} />
+          <Route path="/services_iam_forgerock-consulting" component={ForgerockConsulting} />
+          <Route path="/services_iam_forgerock-design-development" component={ForgeRockDesignDevelopment} />
+          <Route path="/services_iam_forgerock-integration" component={ForgerockIntegration} />
+          <Route path="/services_iam_forgerock-support-and-maintenance" component={ForgerockSupport} />
           <Route path="/services_digital" component={ServiceDigital} />
           <Redirect to="/home" />
         </Switch>

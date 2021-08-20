@@ -8,6 +8,8 @@ import Solutions from './solutions/solutions'
 import History from './history/history'
 import Client from './clients/clients'
 import CaseStudy from './case-study/caseStudy'
+import CostomerComments from './costomerComments/costomerComments'
+import BrandTrust from '../business/brand-trust/trust'
 
 export default class home extends Component {
     render() {
@@ -18,8 +20,11 @@ export default class home extends Component {
                 <Advantage />
                 <Services />
                 {/* <Solutions /> */}
-                <History />
-                <CaseStudy />
+                {/* <History /> */}
+                <CostomerComments />
+                {/* <CaseStudy /> */}
+                <BrandTrust />
+                {/* <CaseStudy /> */}
             </div>
         )
     }

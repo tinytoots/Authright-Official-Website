@@ -1,0 +1,81 @@
+.customerComments-bg {
+    background-color: black;
+}
+
+.customerComments-title {
+    margin: auto;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    /* font-family: 'NunitoSans-regular'; */
+    font-size: 40px;
+    font-family: 'SFProDisplay-Bold';
+    color: #f5f5f5;
+}
+
+.customerComments-title2 {
+    margin: auto;
+    padding-bottom: 70px;
+    font-size: 18px;
+    font-family: 'NunitoSans-regular';
+    color: #f5f5f5;
+    width: 700px;
+}
+
+.customerComments-forgerockCeo-img {
+    border-radius: 50%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.customerComments-customer-title {
+    margin-top: -40px;
+    text-align: left;
+    margin-left: 250px;
+    font-size: 20px;
+    /* font-family: 'NunitoSans-regular'; */
+    font-family: 'SFProDisplay-Semibold';
+    color: #f5f5f5;
+}
+
+.customerComments-customer-title2 {
+    text-align: left;
+    margin-left: 250px;
+    font-size: 16px;
+    /* font-family: 'NunitoSans-regular'; */
+    font-family: 'SFProDisplay-regular';
+    color: #bfbfbf;
+}
+
+.customer-comments-content {
+    width: 500px;
+    padding-top: 20px;
+    text-align: left;
+    font-size: 25px;
+    /* font-family: 'NunitoSans-regular'; */
+    font-family: 'SFProDisplay-MediumItalic';
+    color: black;
+}
+
+.comments-bg {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    height: 200px;
+    width: 550px;
+    margin-top: 80px;
+    padding-left: -120px;
+    backdrop-filter: blur(30px);
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
+    line-height: 1.5; 
+}
+
+.comments-bg2 {
+    /* background: url(../../../img/deloitte.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 20%;
+    height: 200px;
+    width: 550px;
+    border-radius: 20px;
+}
