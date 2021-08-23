@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { NavLink } from 'react-router-dom'
 import './trust.css'
 import { Row, Col, Divider } from 'antd';
 
@@ -20,7 +21,18 @@ export default class trust extends Component {
                                         <div className="trust-color-block-title2">Established</div>
                                         <div className="trust-color-block-title3">Partnership</div>
                                         <div className="trust-color-block-served">with</div>
-                                        <div className="trust-color-block-served2">ForgeRock</div>
+                                        <a
+                                            className='unifiedcontrol-card-default'
+                                            href='https://www.forgerock.com/'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                        
+                                            <div className='unifiedcontrol-card-title'>
+                                                <div className="trust-color-block-served2">ForgeRock</div>
+                                                <i className='approw-arrow-down-line arrow'></i>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </Col>
@@ -31,7 +43,17 @@ export default class trust extends Component {
                                         <div className="trust-color-block-title2">Established</div>
                                         <div className="trust-color-block-title3">Partnership</div>
                                         <div className="trust-color-block-served">with</div>
-                                        <div className="trust-color-block-served2">Ping Identity</div>
+                                        <a
+                                            className='unifiedcontrol-card-default'
+                                            href='https://www.pingidentity.com/'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            <div className='unifiedcontrol-card-title'>
+                                                <div className="trust-color-block-served2">Ping Identity</div>
+                                                <i className='approw-arrow-down-line arrow'></i>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </Col>
@@ -42,7 +64,12 @@ export default class trust extends Component {
                                         <div className="trust-color-block-title4">1000000</div>
                                         <div className="trust-color-block-title3">users</div>
                                         <div className="trust-color-block-served">served by</div>
-                                        <div className="trust-color-block-served2">Authright</div>
+                                        <NavLink to="/home">
+                                            <div className='unifiedcontrol-card-title'>
+                                                <div className="trust-color-block-served2">Authright</div>
+                                                <i className='approw-arrow-down-line arrow'></i>
+                                            </div>
+                                        </NavLink>
                                     </div>
                                 </div>
                                 {/* AuthRight and ForgeRock announced a Delivery and Strategic Partnership to provide top information security solutions globall */}

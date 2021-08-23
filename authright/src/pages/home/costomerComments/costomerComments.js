@@ -25,7 +25,7 @@ export default class costomerComments extends Component {
                 {/* <div className="caseStudies-about-title">
                     <div>Industry <div className='gray-lane-case'></div> &nbsp;&nbsp; Finance</div>
                 </div> */}
-                <div className="case-about-bg" style={{backgroundColor: '#141414'}}>
+                <div className="case-about-bg" style={{backgroundColor: '#f5f5f5'}}>
                     <div className="inner">
                         <Row>
                             <Col span={12}>

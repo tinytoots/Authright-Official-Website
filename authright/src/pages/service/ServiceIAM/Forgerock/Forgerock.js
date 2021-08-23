@@ -74,7 +74,7 @@ export default class Forgerock extends Component {
                                     <div className='forgerock-content4'>Our Open Source integration experts can connect ForgeRock</div>
                                     <div className='forgerock-content4'>based Open IAM solution to your corporate website,</div>
                                     <div className='forgerock-content4'>intranet/extranet portals, e-Commerce and legacy solution.</div>
-                                    <NavLink to="/services_iam_managed_services">
+                                    <NavLink to="/services_iam_forgerock-integration">
                                         <div>
                                             <div className='company-title' style={{fontSize: 18, marginTop: 30}}>
                                                 Learn More >

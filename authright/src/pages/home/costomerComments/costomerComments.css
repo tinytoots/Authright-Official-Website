@@ -34,7 +34,7 @@
     font-size: 20px;
     /* font-family: 'NunitoSans-regular'; */
     font-family: 'SFProDisplay-Semibold';
-    color: #f5f5f5;
+    color: #262626;
 }
 
 .customerComments-customer-title2 {
@@ -43,7 +43,7 @@
     font-size: 16px;
     /* font-family: 'NunitoSans-regular'; */
     font-family: 'SFProDisplay-regular';
-    color: #bfbfbf;
+    color: #595959;
 }
 
 .customer-comments-content {
@@ -71,7 +71,7 @@
 }
 
 .comments-bg2 {
-    /* background: url(../../../img/deloitte.jpg); */
+    background: url(../../../img/deloitte.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100% 20%;

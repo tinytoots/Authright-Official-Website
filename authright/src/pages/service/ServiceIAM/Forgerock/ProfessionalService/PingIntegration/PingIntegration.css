@@ -1,0 +1,88 @@
+.solution-IAM-bg {
+    text-align: left;
+}
+
+/* .solution-IAM-Intro-bg {
+    margin-left: 10%;
+    margin-right: 10%;
+} */
+
+.forgerock-conent-bg {
+    /* background-color: #fafafa; */
+}
+
+.solution-iam-title {
+    margin-top: 60px;
+    padding-top: 50px;
+    font-family: 'NunitoSans-extraBold';
+    font-size: 20px;
+    line-height: 150%;
+    color: #595959;
+    margin-bottom: 15px;
+}
+
+.solution-forgerock-title {
+    font-family: 'NunitoSans-extraBold';
+    font-size:38px;
+    line-height: 150%;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.solution-topics-title {
+    font-family: 'NunitoSans-extraBold';
+    font-size:30px;
+    line-height: 150%;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.solution-forgerock-intro {
+    font-family: 'NunitoSans-regular';
+    font-size: 18px;
+    line-height: 150%;
+    color: #1f1f1f;
+}
+
+.solution-forgerock-intro1 {
+    font-family: 'NunitoSans-bold';
+    font-size: 20px;
+    line-height: 150%;
+    color: #1f1f1f;
+}
+
+.managedService-intro2 {
+    width: 850px;
+    font-family: 'NunitoSans-regular';
+    font-size: 20px;
+    line-height: 150%;
+    color: #1f1f1f;
+    margin-bottom: 30px;
+}
+
+.solution-forgerock-logo {
+    /* margin-top: -28px; */
+    float: right;
+}
+
+.solution-gray-lane {
+    height: 1px;
+    background-color: #d9d9d9;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+} 
+
+.managedService-gray-lane2 {
+    height: 1px;
+    background-color: #d9d9d9;
+    width: 850px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+} 
+
+.forgerock-cert-logo {
+    margin-top: 30px;
+    margin-bottom: 120px;
+    margin-left: 60px;
+}
