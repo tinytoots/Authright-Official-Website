@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import ForgerockImg from '../../../../img/forgerock.svg'
-import './Forgerock.css'
+import ForgerockImg from '../../../../img/authright-logo.jpg'
+import './ServicesCate.css'
 import { Row, Col, Divider } from 'antd';
 import { NavLink } from 'react-router-dom'
 import Consulting from '../../../../img/consulting.svg';
@@ -15,15 +15,9 @@ export default class Forgerock extends Component {
         return (
             <div className='IAM-bg'>
                 <div className='IAM-Intro-bg'>
-                    <img src={ForgerockImg} width={220} alt = 'logo' className='forgerock-logo'/>
-                    <div className='forgerock-content1'>
-                        ForgeRock provides digital identity management through its primary product, the 
-                    </div>
-                    <div className='forgerock-content2'>
-                        ForgeRock Identity Platform. The ForgeRock Identity Platform includes Access
-                    </div>
-                    <div className='forgerock-content3'>
-                        Management, Identity Management, Directory Services, and Identity Gateway.
+                    <img src={ForgerockImg} width={380} alt = 'logo' className='servicesCate-authright-logo'/>
+                    <div className='servicesCate-content1'>
+                        Authright's IAM team is dedicated to creating a variety of customized services that you need. Whether it's Forgerock or PingIdentity, our IAM experts have a wealth of experience. Over the past few years, Authright has provided reliable and efficient IAM services to dozens of organizations, including several Fortune 500 companies. If you want a team of professionals to provide you with IAM solutions, Authright is the right choice for you.
                     </div>
                 </div>
                 <div className="IAM-grid-bg">
@@ -32,11 +26,9 @@ export default class Forgerock extends Component {
                             <div style={style}>
                                 <div className='forgerock-title'>
                                     <img className='service-img' src={Consulting} width={85} />
-                                    <div className='service-iam-title'>ForgeRock Consulting</div>
-                                    <div className='forgerock-content4'>Our ForgeRock consultants integrate your enterprise</div>
-                                    <div className='forgerock-content4'>applications with simple, secured, centralized</div>
-                                    <div className='forgerock-content4'>& immediate identity access management.</div>
-                                    <NavLink to="/services_iam_forgerock-consulting">
+                                    <div className='service-iam-title'>Professional Services</div>
+                                    <div className='servicesCate-content4'>Authright has extensive IAM experience in a wide range of industries, including healthcare, finance, manufacturing and retail. Our services are recognized by our clients, but our consultants are never satisfied with that. We always seek to put our clients first and deliver results that exceed their expectations.</div>
+                                    <NavLink to="/services_iam_professional_services">
                                         <div>
                                             <div className='company-title' style={{fontSize: 18, marginTop: 30}}>
                                                 Learn More >
@@ -50,13 +42,9 @@ export default class Forgerock extends Component {
                             <div style={style}>
                                 <div className='forgerock-title'>
                                     <img className='service-img' src={Design} width={80} />
-                                    <div className='service-iam-title3'>ForgeRock Design</div>
-                                    <div className='service-iam-title2'>Development</div>
-                                    <div className='forgerock-content4'>Our ForgeRock developers assist you to develop IAM solution</div>
-                                    <div className='forgerock-content4'>for your business to securely manage identity</div>
-                                    <div className='forgerock-content4'>based access to applications anytime on</div>
-                                    <div className='forgerock-content4'>any medium through any device.</div>
-                                    <NavLink to="/services_iam_forgerock-design-development">
+                                    <div className='service-iam-title3'>Managed Services</div>
+                                    <div className='servicesCate-content4' style={{marginTop: 14}}>With the development of the Internet and the growth of users and employees, IAM is gradually playing an increasingly important role in the development of enterprises. However, some companies lack the skills to develop and maintain an IAM or the cost to build an IAM team is too expensive, which is a huge concern for their business. We specialize in providing and maintaining customized IAM solutions that allow enterprises to focus on their core business, helping them save costs and ensure the security and good operation of their identity infrastructure..</div>
+                                    <NavLink to="/services_iam_managed_services">
                                         <div>
                                             <div className='company-title' style={{fontSize: 18, marginTop: 30}}>
                                                 Learn More >
@@ -70,11 +58,9 @@ export default class Forgerock extends Component {
                             <div style={style}>
                                 <div className='forgerock-title'>
                                     <img className='service-forgerock-integration-img' src={Integration} width={135} />
-                                    <div className='service-iam-title'>ForgeRock Integration</div>
-                                    <div className='forgerock-content4'>Our Open Source integration experts can connect ForgeRock</div>
-                                    <div className='forgerock-content4'>based Open IAM solution to your corporate website,</div>
-                                    <div className='forgerock-content4'>intranet/extranet portals, e-Commerce and legacy solution.</div>
-                                    <NavLink to="/services_iam_forgerock-integration">
+                                    <div className='service-iam-title'>Education Services</div>
+                                    <div className='servicesCate-content4'>Authright has rich experience in IAM training, and our consultants and internal resources can effectively help customers improve their IAM skills. The IAM certificate rate of our employees is over 90%(including Forgerock and PingIdentity)</div>
+                                    <NavLink to="/services_iam_education_services">
                                         <div>
                                             <div className='company-title' style={{fontSize: 18, marginTop: 30}}>
                                                 Learn More >
@@ -88,12 +74,12 @@ export default class Forgerock extends Component {
                             <div style={style}>
                                 <div className='forgerock-title'>
                                     <img className='service-forgerock-support-img' src={Support} width={78} />
-                                    <div className='service-iam-title3'>ForgeRock Support</div>
-                                    <div className='service-iam-title2'>& Maintenance</div>
+                                    <div className='service-iam-title3'>Strategic Talent</div>
+                                    <div className='service-iam-title2'>Services</div>
                                     <div className='forgerock-content4'>Our ForgeRock team offers onsite and offsite support to ensure</div>
                                     <div className='forgerock-content4'>your ForgeRock applications are up-to-date and</div>
                                     <div className='forgerock-content4'>running with nearly zero downtime.</div>
-                                    <NavLink to="/services_iam_forgerock-support-and-maintenance">
+                                    <NavLink to="/services_iam_strategic_talent_services">
                                         <div>
                                             <div className='company-title' style={{fontSize: 18, marginTop: 30}}>
                                                 Learn More >

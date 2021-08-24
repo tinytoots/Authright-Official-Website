@@ -43,20 +43,13 @@ export default class Ping extends Component {
                                     <div className='ping-content4'>Our Ping Identity consultants integrate your enterprise</div>
                                     <div className='ping-content4'>applications with simple, secured, centralized</div>
                                     <div className='ping-content4'>& immediate identity access management.</div>
-                                    <div>
-                                        <a
-                                            className='unifiedcontrol-card-default'
-                                            href='https://docs.approw.com/'
-                                            target='_blank'
-                                            rel='noopener noreferrer'
-                                        >
-                                            
-                                            <div className='serivce-iam-link'>
-                                                Learn more >
-                                                <i className='approw-arrow-down-line arrow'></i>
+                                    <NavLink to="/services_iam_pingidentity-consulting">
+                                        <div>
+                                            <div className='company-title' style={{fontSize: 18, marginTop: 30}}>
+                                                Learn More >
                                             </div>
-                                        </a>
-                                    </div>
+                                        </div>
+                                    </NavLink>
                                 </div>
                             </div>
                         </Col>
@@ -70,20 +63,13 @@ export default class Ping extends Component {
                                     <div className='ping-content4'>for your business to securely manage identity</div>
                                     <div className='ping-content4'>based access to applications anytime on</div>
                                     <div className='ping-content4'>any medium through any device.</div>
-                                    <div>
-                                        <a
-                                            className='unifiedcontrol-card-default'
-                                            href='https://docs.approw.com/'
-                                            target='_blank'
-                                            rel='noopener noreferrer'
-                                        >
-                                            
-                                            <div className='serivce-iam-link'>
-                                                Learn more >
-                                                <i className='approw-arrow-down-line arrow'></i>
+                                    <NavLink to="/services_iam_pingidentity-design-development">
+                                        <div>
+                                            <div className='company-title' style={{fontSize: 18, marginTop: 30}}>
+                                                Learn More >
                                             </div>
-                                        </a>
-                                    </div>
+                                        </div>
+                                    </NavLink>
                                 </div>
                             </div>
                         </Col>
@@ -95,20 +81,13 @@ export default class Ping extends Component {
                                     <div className='ping-content4'>Our Open Source integration experts can connect Ping Identity based</div>
                                     <div className='ping-content4'>Open IAM solution to your corporate website, intranet/extranet</div>
                                     <div className='ping-content4'>portals, e-Commerce and legacy solution.</div>
-                                    <div>
-                                        <a
-                                            className='unifiedcontrol-card-default'
-                                            href='https://docs.approw.com/'
-                                            target='_blank'
-                                            rel='noopener noreferrer'
-                                        >
-                                            
-                                            <div className='serivce-iam-link'>
-                                                Learn more >
-                                                <i className='approw-arrow-down-line arrow'></i>
+                                    <NavLink to="/services_iam_pingidentity-integration">
+                                        <div>
+                                            <div className='company-title' style={{fontSize: 18, marginTop: 30}}>
+                                                Learn More >
                                             </div>
-                                        </a>
-                                    </div>
+                                        </div>
+                                    </NavLink>
                                 </div>
                             </div>
                         </Col>
@@ -121,20 +100,13 @@ export default class Ping extends Component {
                                     <div className='ping-content4'>Our Ping Identity team offers onsite and offsite support to ensure</div>
                                     <div className='ping-content4'>your Ping Identity applications are up-to-date and</div>
                                     <div className='ping-content4'>running with nearly zero downtime.</div>
-                                    <div>
-                                        <a
-                                            className='unifiedcontrol-card-default'
-                                            href='https://docs.approw.com/'
-                                            target='_blank'
-                                            rel='noopener noreferrer'
-                                        >
-                                            
-                                            <div className='serivce-iam-link'>
-                                                Learn more >
-                                                <i className='approw-arrow-down-line arrow'></i>
+                                    <NavLink to="/services_iam_pingidentity-support-and-maintenance">
+                                        <div>
+                                            <div className='company-title' style={{fontSize: 18, marginTop: 30}}>
+                                                Learn More >
                                             </div>
-                                        </a>
-                                    </div>
+                                        </div>
+                                    </NavLink>
                                 </div>
                             </div>
                         </Col>

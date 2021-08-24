@@ -1,5 +1,10 @@
 import React, { Component } from 'react'
 import ForgerockImg from '../../../../img/forgerock.svg'
+import ForgerockCert1 from '../../../../img/forgerock-cert1.png'
+import ForgerockCert2 from '../../../../img/forgerock-cert2.png'
+import ForgerockCert3 from '../../../../img/forgerock-cert3.png'
+import ForgerockCert4 from '../../../../img/forgerock-cert4.png'
+import ForgerockCert5 from '../../../../img/forgerock-cert5.png'
 import './Forgerock.css'
 import { Row, Col, Divider } from 'antd';
 
@@ -104,6 +109,23 @@ export default class Forgerock extends Component {
                         </Col>
                         </Row>
                         <div className='solution-gray-lane' />
+                        <Row gutter={16}>
+                            <Col className="gutter-row" span={4}>
+                                    <img src={ForgerockCert4} width={150} alt = 'logo' className='ping-cert-logo'/>
+                            </Col>
+                            <Col className="gutter-row" span={4}>
+                                    <img src={ForgerockCert3} width={150} alt = 'logo' className='ping-cert-logo2'/>    
+                            </Col>
+                            <Col className="gutter-row" span={4}>
+                                    <img src={ForgerockCert1} width={150} alt = 'logo' className='ping-cert-logo3'/>
+                            </Col>
+                            <Col className="gutter-row" span={4}>
+                                    <img src={ForgerockCert2} width={150} alt = 'logo' className='ping-cert-logo4'/>
+                            </Col>
+                            <Col className="gutter-row" span={4}>
+                                    <img src={ForgerockCert5} width={150} alt = 'logo' className='ping-cert-logo5'/>
+                            </Col>
+                        </Row>
                     </div>
                 </div>
             </div>

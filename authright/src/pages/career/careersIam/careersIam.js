@@ -209,7 +209,6 @@ export default class careersIam extends Component {
                     {/* <div className='solution-forgerock-intro2'>
                         Make it easy for users to log into apps and services.
                     </div> */}
-                    {/* <div className='solution-gray-lane2' /> */} */}
                     {/* <div className="forgerock-conent-bg">
                         <Row gutter={16}>
                         <Col className="gutter-row" span={16}>
