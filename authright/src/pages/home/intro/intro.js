@@ -17,8 +17,7 @@ export default class intro extends Component {
                 <div className='company-name-title'>
                     AUTHRIGHT
                 </div>
-                <div className='gray-lane-intro'>
-                </div>
+                {/* <div className='gray-lane-intro'></div> */}
                 <div className='company-name-content1'>
                     An Innovative Service Company 
                 </div>
