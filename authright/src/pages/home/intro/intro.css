@@ -1,14 +1,15 @@
 .intro-bg {
     margin-top: 80px;
     background-color: black;
-    height: 300px;
+    height: 700px;
     margin-bottom: 10px;
     background-image: url("https://images.unsplash.com/photo-1577488402388-d3a5a945f9a3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=4567&q=80");
-    padding: 25em;
-    background-size: 100%;
-    background-position: 100% 120%;
+    /* padding: 25em; */
+    background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
-    min-width: 1200px;
+    /* min-width: 1200px; */
+    text-align: center;
 
 }
 
@@ -17,8 +18,9 @@
     font-family: 'NunitoSans-bold';
     margin: auto;
     color: #EFF2F7;
+    padding-top: 100px
     
-
+/* 
     position: absolute;
     top: calc(-17vw - 30px);
     left: 0;
@@ -28,7 +30,7 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    min-width: 1200px;
+    min-width: 1200px; */
 
 }
 
@@ -38,7 +40,7 @@
     line-height: 150%;
     color: #EFF2F7;
 
-    position: absolute;
+    /* position: absolute;
     top: calc(-14vw - 0px);
     left: 0;
     display: flex;
@@ -47,7 +49,7 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    min-width: 1200px;
+    min-width: 1200px; */
 
 }
 
@@ -58,7 +60,7 @@
     margin-bottom: 10px;
     color: #EFF2F7;
 
-    position: absolute;
+    /* position: absolute;
     top: calc(-11vw - 0px);
     left: 0;
     display: flex;
@@ -67,7 +69,7 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    min-width: 1200px;
+    min-width: 1200px; */
 }
 
 .gray-lane {
