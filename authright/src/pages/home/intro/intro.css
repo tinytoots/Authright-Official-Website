@@ -1,7 +1,7 @@
 .intro-bg {
-    margin-top: 80px;
+    margin-top: -180px;
     background-color: black;
-    height: 700px;
+    height: 900px;
     margin-bottom: 10px;
     background-image: url("https://images.unsplash.com/photo-1577488402388-d3a5a945f9a3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=4567&q=80");
     /* padding: 25em; */
@@ -18,7 +18,7 @@
     font-family: 'NunitoSans-bold';
     margin: auto;
     color: #EFF2F7;
-    padding-top: 100px
+    padding-top: 650px
     
 /* 
     position: absolute;
@@ -83,10 +83,8 @@
 .gray-lane-intro {
     height: 1px;
     background-color: #EFF2F7;
-    width: 68%;
+    width: 330px;
     margin: auto;
     margin-bottom: 20px;
-
-  
 }
 
