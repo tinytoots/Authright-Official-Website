@@ -27,56 +27,11 @@ export default class costomerComments extends Component {
                         "Since Authright was founded in 2014, we have provided customized IAM services to dozens of medium and large enterprises, and our IAM experts have been recognized and supported by our customers"
                     </div>
                 </div>
-
-                
-                {/* <div className="caseStudies-about-title">
-                    <div>Industry <div className='gray-lane-case'></div> &nbsp;&nbsp; Finance</div>
-                </div> */}
-                <div className="case-about-bg" style={{backgroundColor: '#d9d9d9'}}>
-                    <div className="inner">
-                        {/* <Row>
-                            <Col span={12}>
-                                <img src={ForgerockCEOImag} width={150} alt = 'logo' className='customerComments-forgerockCeo-img' />    
-                                <div className="customerComments-customer-title">
-                                    Fran Rosch
-                                </div>
-                                <div className="customerComments-customer-title2">
-                                    CEO of Forgerock
-                                </div>
-                            </Col>
-                            <Col span={12}>
-                                <div className="comments-bg2">
-                                    <div className="comments-bg">
-                                        <div className="customer-comments-content" style={{marginLeft: 50}}>
-                                            "As one of our premier ‘go to’ partners, Identity Fusion has proven themselves time and time again to handle the really tough projects."
-                                        </div>
-                                    </div>
-                                </div>
-                            </Col>
-                            <Col span={12}>
-                                <div className="comments-bg2">
-                                    <div className="comments-bg">
-                                        <div className="customer-comments-content" style={{marginLeft: 40}}>
-                                            "Authright thrives in solving real world security and identity problems with a calming seasoned leadership approach that few can match."
-                                        </div>
-                                    </div>
-                                </div>
-                            </Col>
-                            <Col span={12}>
-                                <img src={PingCEOImag} width={150} alt = 'logo' className='customerComments-forgerockCeo-img' />    
-                                <div className="customerComments-customer-title">
-                                    Kris Nagel
-                                </div>
-                                <div className="customerComments-customer-title2" style={{paddingBottom: 90}}>
-                                    COO of PingIdentity
-                                </div>
-                            </Col>
-                        </Row> */}
-                    </div>
-            <div className="container-youtube" style={{height: 300, color: 'white'}}>
+                   
+                <div className="container-customersComments" style={{height: 300, color: 'white', minWidth: 1200}}>
                     {/* <Tilt className="tiltTest" options={{ max: 25, speed: 400}} data-tilt="false"> */}
-                    <div className="card-youtube" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
-                        <div className="content-youtube">
+                    <div className="card-customersComments" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
+                        <div className="content-customersComments">
                             <img className='comments-logo' src={HSBC} alt = 'logo' /> 
                             <br />
                             <img src={ForgerockCEOImag} width={60} alt = 'logo' className='customerComments-forgerockCeo-img' />    
@@ -89,8 +44,8 @@ export default class costomerComments extends Component {
                     </div>
                     {/* </Tilt> */}
                     {/* <Tilt options={{ scale: 1, max: 52 }}> */}
-                    <div className="card-youtube">
-                        <div className="content-youtube">
+                    <div className="card-customersComments">
+                        <div className="content-customersComments">
                             <img className='comments-logo' src={HomeDepot} alt = 'logo' /> 
                             <br />
                             <h2>02</h2>
@@ -103,8 +58,8 @@ export default class costomerComments extends Component {
                     </div>
                     {/* </Tilt> */}
                     {/* <Tilt options={{ scale: 1, max: 52 }}> */}
-                    <div className="card-youtube">
-                        <div className="content-youtube">
+                    <div className="card-customersComments">
+                        <div className="content-customersComments">
                             <img className='comments-logo' src={Mohawk} alt = 'logo' /> 
                             <br />
                             <h2>03</h2>
@@ -120,8 +75,7 @@ export default class costomerComments extends Component {
                     </div>
                     {/* </Tilt> */}
                 </div>
-                </div>
-                </div>
+            </div>
         )
     }
 }

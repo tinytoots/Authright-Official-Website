@@ -60,7 +60,7 @@ function App() {
           <Route path="/services_iam_education_services" component={EducationService} />
           <Route path="/services_iam_strategic_talent_services" component={StrategicTalentService} />
           <Route path="/services_iam_forgerock-consulting" component={ForgerockConsulting} />
-          <Route path="/services_iam_forgerock-design-development" component={ForgeRockDesignDevelopment} />
+          <Route path="/services_iam_forgerock-design-development   `                   " component={ForgeRockDesignDevelopment} />
           <Route path="/services_iam_forgerock-integration" component={ForgerockIntegration} />
           <Route path="/services_iam_forgerock-support-and-maintenance" component={ForgerockSupport} />
           <Route path="/services_iam_pingidentity-consulting" component={PingConsulting} />
