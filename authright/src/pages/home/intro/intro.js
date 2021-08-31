@@ -12,7 +12,7 @@ import BostonBg from '../../../img/boston.jpg';
 export default class intro extends Component {
     render() {
         return (
-            <div className='intro-bg'>
+            <div className='intro-bg' style={{minWidth: 1200}}>
                 <h1 />
                 <div className='company-name-title'>
                     AUTHRIGHT
