@@ -66,7 +66,7 @@ export default class costomerComments extends Component {
                             <img src={ForgerockCEOImag} width={60} alt = 'logo' className='customerComments-forgerockCeo-img' />    
                             <h3>Tim Cook</h3>
                             <h4>CEO of Apple</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do test tempor incididunt, ut labore et dolore magna aliqua.</p>
+                            <p>"As one of our premier ‘go to’ partners, Identity Fusion has proven themselves time and time again to handle the really tough projects."</p>
                             {/* <NavLink to="/mohawk-industries">
                                 <a href="#">Read More</a>
                             </NavLink> */}
