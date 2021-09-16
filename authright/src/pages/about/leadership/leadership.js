@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ExpandCard from '../expandCard/expandCard'
 import './leadership.css'
-import { Row, Col, Divider } from 'antd';
+import { Row, Col} from 'antd';
 import 'antd/dist/antd.css';
 
 const style = { background: '#0092ff', padding: '8px 0' };

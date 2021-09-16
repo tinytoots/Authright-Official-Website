@@ -19,12 +19,8 @@ export default class home extends Component {
                 <Client />
                 <Advantage />
                 <Services />
-                {/* <Solutions /> */}
-                {/* <History /> */}
                 <CostomerComments />
-                {/* <CaseStudy /> */}
                 <BrandTrust />
-                {/* <CaseStudy /> */}
             </div>
         )
     }

@@ -14,15 +14,9 @@ export default class careersIam extends Component {
                     <div>
                         <img src={IAMImg} width={1200} alt = 'logo' className='careers-iam-logo'/>
                     </div>
-                    {/* <div className='solution-iam-title'>
-                        IAM
-                    </div> */}
                     <div className='careers-title'>
                         Security Engineer
                     </div>
-                    {/* <div className='solution-forgerock-intro2'>
-                        Make it easy for users to log into apps and services.
-                    </div> */}
                     <div className='solution-gray-lane2' />
                     <div className="forgerock-conent-bg">
                         <Row gutter={16}>
@@ -123,9 +117,6 @@ export default class careersIam extends Component {
                     <div className='careers-title'>
                         Full Stack Developer
                     </div>
-                    {/* <div className='solution-forgerock-intro2'>
-                        Make it easy for users to log into apps and services.
-                    </div> */}
                     <div className='solution-gray-lane2' />
                     <div className="forgerock-conent-bg">
                         <Row gutter={16}>
@@ -202,49 +193,6 @@ export default class careersIam extends Component {
                         <div className='solution-gray-lane' />
                         </Row>
                     </div>
-
-                    {/* <div className='careers-title'>
-                        Cloud Engineer
-                    </div>
-                    {/* <div className='solution-forgerock-intro2'>
-                        Make it easy for users to log into apps and services.
-                    </div> */}
-                    {/* <div className="forgerock-conent-bg">
-                        <Row gutter={16}>
-                        <Col className="gutter-row" span={16}>
-                            <div className='careers-position-title'>
-                                Position
-                            </div>
-                        </Col>
-                        <Col className="gutter-row" span={8}>
-                            <div className='careers-position-title'>
-                                Team
-                            </div>
-                        </Col>
-                        <div className='solution-gray-lane' />
-                        <Col className="gutter-row" span={16}>
-                            <a
-                                className='unifiedcontrol-card-default'
-                                href='https://docs.approw.com/'
-                                target='_blank'
-                                rel='noopener noreferrer'
-                            >
-                            
-                                <div className='unifiedcontrol-card-title2'>
-                                    Cloud Engineer
-                                    <i className='approw-arrow-down-line arrow'></i>
-                                </div>
-                            </a>
-                        </Col>
-                        <Col className="gutter-row" span={8}>
-                            <div className='solution-forgerock-intro'>
-                                IAM <span style={{color: "#8c8c8c", fontSize: 25}}>|</span> Full Stack
-                            </div>
-                        </Col>
-                        <div className='solution-gray-lane' />
-                        </Row>
-                    </div> */}
-
                     <div className='careers-title'>
                         Mentorship
                     </div>

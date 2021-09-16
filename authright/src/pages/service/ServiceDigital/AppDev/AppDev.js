@@ -22,10 +22,10 @@ export default class AppDev extends Component {
                             Looking for a custom software solution for your business? Our nimble software engineering
                         </div>
                         <div className='appDev-content2'>
-                            team can provide a solution in a cost-effective and timely manner. Custom programming 
+                            team can provide a solution in a cost-effective and timely manner. Custom programming
                         </div>
                         <div className='appDev-content3'>
-                            can bring to life a solution that works for your particular problem.
+                            cand bring to life a solution that works for your particular problem.
                         </div>
                     </div>
                 </div>

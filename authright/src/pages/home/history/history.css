@@ -2,7 +2,6 @@
     background-color: #fcffe6;
     height: 372px;
     margin-bottom: 10px;
-    /* background-image: linear-gradient(to bottom , #d7d2cc, #304352); */
 }
 
 .history-year {
@@ -12,7 +11,6 @@
     color: #141414;
 }
 
-/* 34c759 */
 
 .history-content {
     font-size: 18px;

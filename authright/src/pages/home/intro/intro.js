@@ -1,13 +1,6 @@
 import React, { Component } from 'react';
 import './intro.css';
-import { Divider } from 'antd';
 import 'antd/dist/antd.css';
-import BostonBg from '../../../img/boston.jpg';
-
-// var bgImg = {
-//     width: '100%',
-//     backgroundImage: `url(${BostonBg})` 
-// }
 
 export default class intro extends Component {
     render() {

@@ -1,10 +1,4 @@
 import React, { Component } from 'react'
-import MacImg from '../../../../img/digital-mac.png'
-import { Row, Col} from 'antd';
-import Consulting from '../../../../img/consulting.svg';
-import Design from '../../../../img/design.svg';
-import Integration from '../../../../img/Integration.svg'
-import Support from '../../../../img/support.svg'
 import ResponsiveImg from '../../../../img/resonsive-design-img.svg'
 import BudgetImg from '../../../../img/definition-budget-img.svg'
 import TrainingImg from '../../../../img/training.svg'

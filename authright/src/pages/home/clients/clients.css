@@ -19,7 +19,6 @@
     position: relative;
     padding-right: 0px;
     animation: logo 20s linear infinite;
-    /* animation: logo 120s linear infinite; */
     white-space: nowrap;
     margin-top: -74px;
 }

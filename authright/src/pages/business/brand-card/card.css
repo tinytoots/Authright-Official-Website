@@ -1,5 +1,4 @@
 :root {
-    /* --clr-neutral-900: hsl(207, 19%, 9%); */
     --clr-neutral-900: #141414;
     --clr-neutral-100: hsl(0, 0%, 100%);
     --clr-accent-400: hsl(142, 90%, 61%);
@@ -13,24 +12,16 @@
 
 .card-bg {
     margin-top: 100px;
-    /* display: grid; */
-    /* min-height: 100vh; */
     min-height: 80vh;
     place-items: center;
     line-height: 1.6;
     background: var(--clr-neutral-900);
-    /* font-family: sans-serif; */
     text-align: left;
-    /* padding-right: 15em; */
-    /* padding-left: 10%; */
 }
 .card {
     color: var(--clr-neutral-100);
-    /* background-image: url(../../../img/boston.jpg); */
     background-size: cover;
     padding: 10rem 0 0;
-    /* max-width: 35ch; */
-    /* width: 380px; */
     border-radius: 0.5rem;
     overflow: hidden;
     transition: transform 500ms ease;
@@ -44,23 +35,17 @@
 .card-content {
     --padding: 1.5rem;
     padding: var(--padding);
-    /* background: rgba(0, 0, 0, 0.2); */
-    /* background: hsl(0 0% 0% / 0.5); */
     background: linear-gradient(
         hsl(0 0% 0% / 0),
         hsl(20 0% 0% / 0.30) 20%,
         hsl(0 0% 0% / 1) 
     );
-    /* transform: translateY(65%);
-    transition: transform 500ms ease; */
-    /* transition-delay: 500ms; */
 } 
 
 .card-title {
     position: relative;
     width: max-content;
     color: var(--clr-neutral-100);
-    /* outline: 1px solid red; */
 } 
 
 .card-title::after {

@@ -6,7 +6,6 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Home from './pages/home/home';
 import Business from './pages/business/business';
-// import Service from './pages/service/service';
 import Solution from './pages/solution/solution';
 import About from './pages/about/about';
 import Career from './pages/career/career';
@@ -54,20 +53,23 @@ function App() {
           <Route path="/solutions" component={Solution} /> 
           <Route path="/about-us" component={About} /> 
           <Route path="/careers" component={Career} /> 
-          <Route path="/services_iam" component={ServiceIAM} /> 
-          <Route path="/services_iam_professional_services" component={ProfessionalService} />
-          <Route path="/services_iam_managed_services" component={ManagedService} />
-          <Route path="/services_iam_education_services" component={EducationService} />
-          <Route path="/services_iam_strategic_talent_services" component={StrategicTalentService} />
-          <Route path="/services_iam_forgerock-consulting" component={ForgerockConsulting} />
-          <Route path="/services_iam_forgerock-design-development   `                   " component={ForgeRockDesignDevelopment} />
-          <Route path="/services_iam_forgerock-integration" component={ForgerockIntegration} />
-          <Route path="/services_iam_forgerock-support-and-maintenance" component={ForgerockSupport} />
-          <Route path="/services_iam_pingidentity-consulting" component={PingConsulting} />
-          <Route path="/services_iam_pingidentity-design-development" component={PingDesignDevelopment} />
-          <Route path="/services_iam_pingidentity-integration" component={PingIntegration} />
-          <Route path="/services_iam_pingidentity-support-and-maintenance" component={PingSupport} />
-          <Route path="/services_digital" component={ServiceDigital} />
+          
+          <Route path="/services/iam/managed-services" component={ManagedService} />
+          <Route path="/services/iam/education-services" component={EducationService} />
+          <Route path="/services/iam/strategic-talent-services" component={StrategicTalentService} />
+
+          <Route path="/services/iam/professional-services/forgerock-consulting" component={ForgerockConsulting} />
+          <Route path="/services/iam/professional-services/forgerock-design-development" component={ForgeRockDesignDevelopment} />
+          <Route path="/services/iam/professional-services/forgerock-integration" component={ForgerockIntegration} />
+          <Route path="/services/iam/professional-services/forgerock-support-and-maintenance" component={ForgerockSupport} />
+          <Route path="/services/iam/professional-services/pingidentity-consulting" component={PingConsulting} />
+          <Route path="/services/iam/professional-services/pingidentity-design-development" component={PingDesignDevelopment} />
+          <Route path="/services/iam/professional-services/pingidentity-integration" component={PingIntegration} />
+          <Route path="/services/iam/professional-services/pingidentity-support-and-maintenance" component={PingSupport} />
+          <Route path="/services/iam/professional-services" component={ProfessionalService} />
+
+          <Route path="/services/iam" component={ServiceIAM} /> 
+          <Route path="/services/digital" component={ServiceDigital} />
           <Redirect to="/home" />
         </Switch>
         <Footer />
