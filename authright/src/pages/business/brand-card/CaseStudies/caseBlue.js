@@ -29,10 +29,6 @@ export default class caseBlue extends Component {
                     </div>
             </div>
 
-                
-                {/* <div className="caseStudies-about-title">
-                    <div>Industry <div className='gray-lane-case'></div> &nbsp;&nbsp; Finance</div>
-                </div> */}
                 <div className="case-about-bg">
                     <div className="inner">
                         <Row>

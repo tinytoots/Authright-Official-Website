@@ -36,7 +36,7 @@ export default class Forgerock extends Component {
                                     <div className='forgerock-content4'>Our ForgeRock consultants integrate your enterprise</div>
                                     <div className='forgerock-content4'>applications with simple, secured, centralized</div>
                                     <div className='forgerock-content4'>& immediate identity access management.</div>
-                                    <NavLink to="/services_iam_forgerock-consulting">
+                                    <NavLink to="/services/iam/professional-services/forgerock-consulting">
                                         <div>
                                             <div className='company-title' style={{fontSize: 18, marginTop: 30}}>
                                                 Learn More >
@@ -56,7 +56,7 @@ export default class Forgerock extends Component {
                                     <div className='forgerock-content4'>for your business to securely manage identity</div>
                                     <div className='forgerock-content4'>based access to applications anytime on</div>
                                     <div className='forgerock-content4'>any medium through any device.</div>
-                                    <NavLink to="/services_iam_forgerock-design-development">
+                                    <NavLink to="/services/iam/professional-services/forgerock-design-development">
                                         <div>
                                             <div className='company-title' style={{fontSize: 18, marginTop: 30}}>
                                                 Learn More >
@@ -74,7 +74,7 @@ export default class Forgerock extends Component {
                                     <div className='forgerock-content4'>Our Open Source integration experts can connect ForgeRock</div>
                                     <div className='forgerock-content4'>based Open IAM solution to your corporate website,</div>
                                     <div className='forgerock-content4'>intranet/extranet portals, e-Commerce and legacy solution.</div>
-                                    <NavLink to="/services_iam_forgerock-integration">
+                                    <NavLink to="/services/iam/professional-services/forgerock-integration">
                                         <div>
                                             <div className='company-title' style={{fontSize: 18, marginTop: 30}}>
                                                 Learn More >
@@ -93,7 +93,7 @@ export default class Forgerock extends Component {
                                     <div className='forgerock-content4'>Our ForgeRock team offers onsite and offsite support to ensure</div>
                                     <div className='forgerock-content4'>your ForgeRock applications are up-to-date and</div>
                                     <div className='forgerock-content4'>running with nearly zero downtime.</div>
-                                    <NavLink to="/services_iam_forgerock-support-and-maintenance">
+                                    <NavLink to="/services/iam/professional-services/forgerock-support-and-maintenance">
                                         <div>
                                             <div className='company-title' style={{fontSize: 18, marginTop: 30}}>
                                                 Learn More >

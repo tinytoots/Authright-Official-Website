@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import './expandCard'
-import BosImg from '../../../img/boston.jpg'
 
 export default class expandCard extends Component {
     render() {
@@ -14,7 +13,6 @@ export default class expandCard extends Component {
                     </div>
 
                     <div className="back"></div>
-                    {/* <img className='logo' src={Equifax} width={160} alt = 'logo' className='equifax-logo'/> */}
                 </div>
             </div>
         )

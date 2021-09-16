@@ -6,9 +6,6 @@ import Heart from '../../../img/heart.svg';
 import Important from '../../../img/center.svg';
 import Growth from '../../../img/arrow-growth.svg';
 import Bulb from '../../../img/bulb-outline.svg';
-// import IAMImg from '../../../img/careers-img2.jpg'
-import Leadership from '../leadership/leadership'
-
 
 const style = { background: '#fff', padding: '18px 18px' };
 

@@ -8,8 +8,6 @@ export default class ServiceIAM extends Component {
         return (
             <div>
                 <ServicesCate />
-                {/* <Forgerock />
-                <Ping/> */}
                 <h1>This is IAM page</h1>
             </div>
         )

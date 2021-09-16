@@ -11,7 +11,6 @@ import Equifax from '../../../img/equifax.svg'
 import Mohawk from '../../../img/mohawk-industries-logo.svg'
 import Lowes from '../../../img/lowe-s-5.svg'
 import Pearson from '../../../img/pearson-logo.svg'
-import Homesite from '../../../img/homesite-insurance-vector-logo.svg'
 
 export default class clients extends Component {
     render() {
@@ -99,15 +98,6 @@ export default class clients extends Component {
                     <NavLink to="/home">
                             <img className='logo' src={Pearson} width={160} alt = 'logo' className='pearson-logo'/>
                     </NavLink>
-                    
-
-
-                    
-
-                    {/* <NavLink to="/home">
-                            <img className='logo' src={Homesite} width={160} alt = 'logo' className='customer-logo'/>
-                    </NavLink> */}
-                    {/* <h1>This is clients part</h1> */}
                 </div>
             </div>
         )
