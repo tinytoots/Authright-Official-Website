@@ -25,7 +25,7 @@ export default class AppDev extends Component {
                             team can provide a solution in a cost-effective and timely manner. Custom programming
                         </div>
                         <div className='appDev-content3'>
-                            cand bring to life a solution that works for your particular problem.
+                            can bring to life a solution that works for your particular problem.
                         </div>
                     </div>
                 </div>
