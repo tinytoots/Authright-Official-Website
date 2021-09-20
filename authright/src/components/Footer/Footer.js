@@ -27,9 +27,6 @@ export default class Footer extends Component {
                 <div className="footer-content">
                   <a href="/careers">Careers</a>
                 </div>
-                <div className="footer-content">
-                  <a href="/privacypolicy">Privacy Policy</a>
-                </div>
               </div>
             </Col>
             <Col className="gutter-row" span={12}>

@@ -9,7 +9,6 @@ import Business from './pages/business/business';
 import Solution from './pages/solution/solution';
 import About from './pages/about/about';
 import Career from './pages/career/career';
-import Privacypolicy from './pages/privacypolicy/privacypolicy';
 import ServiceIAM from './pages/service/ServiceIAM/ServiceIAM'
 import ServiceDigital from './pages/service/ServiceDigital/ServiceDigital'
 import CaseHsbc from './pages/business/brand-card/CaseStudies/caseHsbc'
@@ -53,8 +52,7 @@ function App() {
           <Route path="/deloitte" component={CaseDeloitte} /> 
           <Route path="/solutions" component={Solution} /> 
           <Route path="/about-us" component={About} /> 
-          <Route path="/careers" component={Career} /> 
-          <Route path="/privacypolicy" component={Privacypolicy} /> 
+          <Route path="/careers" component={Career} />  
           
           <Route path="/services/iam/managed-services" component={ManagedService} />
           <Route path="/services/iam/education-services" component={EducationService} />
