@@ -5,8 +5,13 @@ import { NavLink } from "react-router-dom";
 import "antd/dist/antd.css";
 import Logo from "../../img/Logo.png";
 
-const { SubMenu } = Menu;
-
+const menuStyle = {
+  color: "#a7a7ab",
+  textDecoration: "none",
+  fontSize: 17,
+  fontFamily: "'NunitoSans-bold',sans-serif",
+};
+const activeMenuStyle = { color: "white", textDecoration: "none" };
 export default class Header extends Component {
   state = {
     current: "mail",
@@ -33,8 +38,8 @@ export default class Header extends Component {
             <Menu.Item key="home">
               <NavLink
                 to="/home"
-                style={{ color: "#8e8e93", textDecoration: "none" }}
-                activeStyle={{ color: "#d1d1d6", textDecoration: "none" }}
+                style={menuStyle}
+                activeStyle={activeMenuStyle}
               >
                 Home
               </NavLink>
@@ -42,8 +47,8 @@ export default class Header extends Component {
             <Menu.Item key="service">
               <NavLink
                 to="/services/iam"
-                style={{ color: "#8e8e93", textDecoration: "none" }}
-                activeStyle={{ color: "#d1d1d6", textDecoration: "none" }}
+                style={menuStyle}
+                activeStyle={activeMenuStyle}
               >
                 Service
               </NavLink>
@@ -55,8 +60,8 @@ export default class Header extends Component {
             <Menu.Item key="customer">
               <NavLink
                 to="/customer"
-                style={{ color: "#8e8e93", textDecoration: "none" }}
-                activeStyle={{ color: "#d1d1d6", textDecoration: "none" }}
+                style={menuStyle}
+                activeStyle={activeMenuStyle}
               >
                 Customers
               </NavLink>
@@ -65,8 +70,8 @@ export default class Header extends Component {
             <Menu.Item key="partners">
               <NavLink
                 to="/partners"
-                style={{ color: "#8e8e93", textDecoration: "none" }}
-                activeStyle={{ color: "#d1d1d6", textDecoration: "none" }}
+                style={menuStyle}
+                activeStyle={activeMenuStyle}
               >
                 Partners
               </NavLink>
@@ -74,8 +79,8 @@ export default class Header extends Component {
             <Menu.Item key="about">
               <NavLink
                 to="/about-us"
-                style={{ color: "#8e8e93", textDecoration: "none" }}
-                activeStyle={{ color: "#d1d1d6", textDecoration: "none" }}
+                style={menuStyle}
+                activeStyle={activeMenuStyle}
               >
                 About Us
               </NavLink>
