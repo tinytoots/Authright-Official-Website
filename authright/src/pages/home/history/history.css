@@ -6,7 +6,7 @@
 
 .history-year {
     font-size: 50px;
-    font-family: 'NunitoSans-bold';
+    font-family: 'NunitoSans-bold',sans-serif;
     margin: auto;
     color: #141414;
 }
@@ -14,7 +14,7 @@
 
 .history-content {
     font-size: 18px;
-    font-family: 'NunitoSans-bold';
+    font-family: 'NunitoSans-bold',sans-serif;
     margin-left: 20px;
     margin-right: 20px;
     color: #141414;
@@ -22,7 +22,7 @@
 
 .history-content2 {
     font-size: 20px;
-    font-family: 'NunitoSans-bold';
+    font-family: 'NunitoSans-bold',sans-serif;
     color: #141414;
 }
 

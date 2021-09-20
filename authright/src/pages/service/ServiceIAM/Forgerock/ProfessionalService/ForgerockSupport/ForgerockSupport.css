@@ -14,7 +14,7 @@
 .solution-iam-title {
     margin-top: 60px;
     padding-top: 50px;
-    font-family: 'NunitoSans-extraBold';
+    font-family: 'NunitoSans-extraBold',sans-serif;
     font-size: 20px;
     line-height: 150%;
     color: #595959;
@@ -22,7 +22,7 @@
 }
 
 .solution-forgerock-title {
-    font-family: 'NunitoSans-extraBold';
+    font-family: 'NunitoSans-extraBold',sans-serif;
     font-size:38px;
     line-height: 150%;
     color: black;
@@ -30,7 +30,7 @@
 }
 
 .solution-topics-title {
-    font-family: 'NunitoSans-extraBold';
+    font-family: 'NunitoSans-extraBold',sans-serif;
     font-size:30px;
     line-height: 150%;
     color: black;
@@ -38,14 +38,14 @@
 }
 
 .solution-forgerock-intro {
-    font-family: 'NunitoSans-regular';
+    font-family: 'NunitoSans-regular',sans-serif;
     font-size: 18px;
     line-height: 150%;
     color: #1f1f1f;
 }
 
 .solution-forgerock-intro1 {
-    font-family: 'NunitoSans-bold';
+    font-family: 'NunitoSans-bold',sans-serif;
     font-size: 20px;
     line-height: 150%;
     color: #1f1f1f;
@@ -53,7 +53,7 @@
 
 .managedService-intro2 {
     width: 850px;
-    font-family: 'NunitoSans-regular';
+    font-family: 'NunitoSans-regular',sans-serif;
     font-size: 20px;
     line-height: 150%;
     color: #1f1f1f;
