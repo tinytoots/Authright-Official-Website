@@ -22,7 +22,7 @@ export default class business extends Component {
               src={UnderLine}
               width={260}
             />
-            <BrandBox />
+            {/* <BrandBox /> */}
           </div>
         </div>
         <div className="businessOutcome-card-bg">
