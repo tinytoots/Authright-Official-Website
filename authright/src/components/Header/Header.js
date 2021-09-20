@@ -62,9 +62,9 @@ export default class Header extends Component {
               </NavLink>
             </Menu.Item>
 
-            <Menu.Item key="solution">
+            <Menu.Item key="partners">
               <NavLink
-                to="/solutions"
+                to="/partners"
                 style={{ color: "#8e8e93", textDecoration: "none" }}
                 activeStyle={{ color: "#d1d1d6", textDecoration: "none" }}
               >
