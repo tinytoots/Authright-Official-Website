@@ -73,16 +73,16 @@ export default class intro extends Component {
                         <div className='career-company-intro'>
                             <Row gutter={16}>
                                 <Col className="gutter-row" span={6}>
-                                    <img className='service-img' src={Heart} width={50} />
+                                    <img className='values-img' src={Heart} width={50} />
                                 </Col>
                                 <Col className="gutter-row" span={6}>
-                                    <img className='service-img' src={Important} width={50} />
+                                    <img className='values-img' src={Important} width={50} />
                                 </Col>
                                 <Col className="gutter-row" span={6}>
-                                    <img className='service-img' src={Growth} width={50} />
+                                    <img className='values-img' src={Growth} width={50} />
                                 </Col>
                                 <Col className="gutter-row" span={6}>
-                                    <img className='service-img' src={Bulb} width={50} />
+                                    <img className='values-img' src={Bulb} width={50} />
                                 </Col>
                             </Row>
                             <Row gutter={16}>

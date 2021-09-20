@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom'
 import './services.css';
 import { Row, Col, Divider } from 'antd';
-import {ReactComponent as IAM} from '../../../img/IAM.svg';
-import {ReactComponent as SDE} from '../../../img/SDE.svg';
+import IAM from '../../../img/IAM.svg';
+import SDE from '../../../img/SDE.svg';
 
 export default class services extends Component {
     render() {
@@ -18,8 +18,7 @@ export default class services extends Component {
                                     <div className='service-content2'>AuthRight Technology offers a full range of professional</div>
                                     <div className='service-content2'>services focused solely on identity management solutions.</div> 
                                     <div className='service-content2'>Our services has been tested across multiple industries.</div>
-                                    <IAM className='service-img'/>
-                                </div>
+                                    <img className='home-service-img' style={{marginTop: 18 }} src={IAM} width={135} />                               </div>
                             </NavLink>
                         </div>
                     </Col>
@@ -31,7 +30,7 @@ export default class services extends Component {
                                     <div className='service-content2'>AuthRight can offer our clients technology solutions that</div>
                                     <div className='service-content2'>add real value to their business. We understand that our</div>
                                     <div className='service-content2'>success is measured by success of our clients.</div>
-                                    <SDE className='service-img'/>
+                                    <img className='home-service-img' style={{marginTop: 18 }} src={SDE} width={135} />  
                                 </div>
                             </NavLink>
                         </div>

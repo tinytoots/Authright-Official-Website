@@ -42,7 +42,7 @@ function App() {
         <Header />
         <Switch>
           <Route path="/home" component={Home} /> 
-          <Route path="/business" component={Business} /> 
+          <Route path="/customer" component={Business} /> 
           <Route path="/hsbc" component={CaseHsbc} /> 
           <Route path="/home-depot" component={CaseHomeDepot} /> 
           <Route path="/mohawk-industries" component={CaseMohawk} /> 
@@ -51,7 +51,7 @@ function App() {
           <Route path="/equifax" component={CaseEquifax} /> 
           <Route path="/pearson" component={CasePearson} /> 
           <Route path="/deloitte" component={CaseDeloitte} /> 
-          <Route path="/solutions" component={Solution} /> 
+          <Route path="/partners" component={Solution} /> 
           <Route path="/about-us" component={About} /> 
           
           <Route path="/careers/detail/:job" component = {JobDescription} />  
@@ -71,7 +71,7 @@ function App() {
           <Route path="/services/iam/professional-services" component={ProfessionalService} />
 
           <Route path="/services/iam" component={ServiceIAM} /> 
-          <Route path="/services/digital" component={ServiceDigital} />
+          {/* <Route path="/services/digital" component={ServiceDigital} /> */}
           <Redirect to="/home" />
         </Switch>
         <Footer />

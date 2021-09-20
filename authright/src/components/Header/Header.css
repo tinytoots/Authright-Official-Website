@@ -1,54 +1,61 @@
 .inner1 {
-    background: #141414;
-    position:fixed;
-    width:100%;
-    z-index: 1000;
-    left:0;
-    top:0;
-    right: 0;
+  background: #141414;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  right: 0;
 }
 
 .inner2 {
-    width: 1200px;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin: auto;
-    z-index: 1000;
+  width: 1200px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin: auto;
+  z-index: 1000;
 }
 
 .logo {
-    float: left;
-    margin-top: 5px;
-    margin-right: 20px;
+  float: left;
+  margin-top: 5px;
+  margin-right: 20px;
 }
 
 .header-nav {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .ant-menu-horizontal {
-    line-height: 46px;
-    border: 0;
-    background-color: #141414 !important;
-    box-shadow: none;
+  line-height: 46px;
+  border: 0;
+  background-color: #141414 !important;
+  box-shadow: none;
 }
 
 .ant-menu-horizontal {
-    padding-top: 8px !important;
-    padding-bottom: 10px !important;
-    line-height: 46px;
-    border: 0;
-    border-bottom: 0px solid #f0f0f0 !important;
-    box-shadow: none;
+  padding-top: 8px !important;
+  padding-bottom: 10px !important;
+  line-height: 46px;
+  border: 0;
+  border-bottom: 0px solid #f0f0f0 !important;
+  box-shadow: none;
 }
 
-.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item-active:after, .ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item-open:after, .ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item-selected:after, .ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item:hover:after, .ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu-active:after, .ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu-open:after, .ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu-selected:after, .ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu:hover:after {
-    border-bottom: 0px solid #141414 !important;
-    border-bottom-width: 0px !important;
-    border-bottom-style: solid !important;
-    border-bottom-color: #141414 !important;
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active:after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open:after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected:after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover:after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active:after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open:after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected:after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover:after {
+  border-bottom: 0px solid #141414 !important;
+  border-bottom-width: 0px !important;
+  border-bottom-style: solid !important;
+  border-bottom-color: #141414 !important;
 }
 
 .headerSubMenu :hover {
-    /* color: red; */
+  /* color: red; */
 }
