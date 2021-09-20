@@ -19,10 +19,16 @@ export default class Footer extends Component {
                   <div className="footer-title">GET TO KNOW US</div>
                 </div>
                 <div className="footer-content">
-                  <a href="/about-us">About Us</a>
+                  <a href="/services/iam">Services</a>
                 </div>
                 <div className="footer-content">
-                  <a href="/solutions">Solution</a>
+                  <a href="/customer">Customers</a>
+                </div>
+                <div className="footer-content">
+                  <a href="/partners">Partners</a>
+                </div>
+                <div className="footer-content">
+                  <a href="/about-us">About Us</a>
                 </div>
                 <div className="footer-content">
                   <a href="/careers">Careers</a>
