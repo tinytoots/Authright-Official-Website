@@ -5,7 +5,7 @@
 
 .service-digital-title {
     font-size: 50px;
-    font-family: 'NunitoSans-bold';
+    font-family: 'NunitoSans-bold',sans-serif;
     margin: auto;
     margin-top: 10px;
     color: #EFF2F7;
@@ -19,13 +19,18 @@
     background-image: linear-gradient(to bottom right , #30cfd0, #330867);
 }
 
+.service-img {
+    margin-top: 12px;
+    width: 135px;
+}
+
 .service-IAM-bg {
     background-image: linear-gradient(to top left , #f43b47, #453a94);
 }
 
 .service-content2 {
     width: 100%;
-    font-family: 'NunitoSans-bold';
+    font-family: 'NunitoSans-bold',sans-serif;
     font-size:18px;
     line-height: 150%;
     margin-bottom: 10px;

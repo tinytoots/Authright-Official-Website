@@ -17,7 +17,7 @@
 }
 
 .ping-content1 {
-    font-family: 'NunitoSans-regular';
+    font-family: 'NunitoSans-regular',sans-serif;
     font-size:18px;
     line-height: 150%;
     color: black;
@@ -25,7 +25,7 @@
 }
 
 .ping-content2 {
-    font-family: 'NunitoSans-regular';
+    font-family: 'NunitoSans-regular',sans-serif;
     font-size:18px;
     line-height: 150%;
     color: black;
@@ -33,7 +33,7 @@
 
 .ping-content3 {
     margin-bottom: 40px;    
-    font-family: 'NunitoSans-regular';
+    font-family: 'NunitoSans-regular',sans-serif;
     font-size:18px;
     line-height: 150%;
     color: black;
@@ -41,7 +41,7 @@
 }
 
 .ping-content4 {
-    font-family: 'NunitoSans-regular';
+    font-family: 'NunitoSans-regular',sans-serif;
     font-size:18px;
     line-height: 150%;
     color: #d9d9d9;
@@ -49,7 +49,7 @@
 
 .service-iam-title {
     font-size: 40px;
-    font-family: 'NunitoSans-bold';
+    font-family: 'NunitoSans-bold',sans-serif;
     margin: auto;
     margin-top: 10px;
     color: #fff;
@@ -57,7 +57,7 @@
 
 .serivce-iam-link {
     font-size: 20px;
-    font-family: 'NunitoSans-regular';
+    font-family: 'NunitoSans-regular',sans-serif;
     margin: auto;
     margin-top: 10px;
     color: #1890ff;

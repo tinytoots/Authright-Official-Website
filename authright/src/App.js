@@ -52,7 +52,7 @@ function App() {
           <Route path="/deloitte" component={CaseDeloitte} /> 
           <Route path="/solutions" component={Solution} /> 
           <Route path="/about-us" component={About} /> 
-          <Route path="/careers" component={Career} /> 
+          <Route path="/careers" component={Career} />  
           
           <Route path="/services/iam/managed-services" component={ManagedService} />
           <Route path="/services/iam/education-services" component={EducationService} />

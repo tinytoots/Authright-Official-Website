@@ -14,14 +14,14 @@
 
 .footer-title {
     font-size: 18px;
-    font-family: 'NunitoSans-bold';
+    font-family: 'NunitoSans-bold',sans-serif;
     color: #EFF2F7;
     text-align: left;
 }
 
 .footer-content {
     font-size: 18px;
-    font-family: 'NunitoSans-regular';
+    font-family: 'NunitoSans-regular',sans-serif;
     margin-bottom: 5px;
     color: #8c8c8c;
     text-align: left;
@@ -34,6 +34,7 @@
     float: left;
     margin-right: 10px;
     margin-top: 4px;
+    height: 20px;
 }
 
 .inner-footer {
