@@ -18,7 +18,7 @@ export default class services extends Component {
                                     <div className='service-content2'>AuthRight Technology offers a full range of professional</div>
                                     <div className='service-content2'>services focused solely on identity management solutions.</div> 
                                     <div className='service-content2'>Our services has been tested across multiple industries.</div>
-                                    <img className='service-img' style={{marginTop: 18 }} src={IAM} width={135} />                               </div>
+                                    <img className='home-service-img' style={{marginTop: 18 }} src={IAM} width={135} />                               </div>
                             </NavLink>
                         </div>
                     </Col>
@@ -30,7 +30,7 @@ export default class services extends Component {
                                     <div className='service-content2'>AuthRight can offer our clients technology solutions that</div>
                                     <div className='service-content2'>add real value to their business. We understand that our</div>
                                     <div className='service-content2'>success is measured by success of our clients.</div>
-                                    <img className='service-img' style={{marginTop: 18 }} src={SDE} width={135} />  
+                                    <img className='home-service-img' style={{marginTop: 18 }} src={SDE} width={135} />  
                                 </div>
                             </NavLink>
                         </div>
