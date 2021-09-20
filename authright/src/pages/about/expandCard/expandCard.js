@@ -17,7 +17,7 @@ export default class expandCard extends Component {
         return (
                 <div className="game">
 
-                    <div class="rank">7</div>
+                    {/* <div class="rank">7</div> */}
                     <div className="front">
                         <img className="thumbnail" src={BostonImg} height={170} alt=""/>
                         <h3 className="name">Cristiano Ronaldo</h3>
@@ -32,17 +32,6 @@ export default class expandCard extends Component {
                          <p className="game-stat">15<span>YOE</span></p>
                     </div>
                     <button className="btn">See more info</button>
-                    <div className="streamers">
-                        <div className="streamer">
-                            <div className="icon"><img src={Blue_Cross} /></div>
-                        </div>
-                        <div className="streamer">
-                            <div className="icon"><img src={HSBC} /></div>
-                        </div>
-                        <div className="streamer">
-                            <div className="icon"><img src={Deloitte} /></div>
-                        </div>
-                    </div>
                 </div>
 
                 <div className="background">
