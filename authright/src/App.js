@@ -31,6 +31,7 @@ import PingDesignDevelopment from './pages/service/ServiceIAM/Forgerock/Professi
 import PingConsulting from './pages/service/ServiceIAM/Forgerock/ProfessionalService/PingConsulting/PingConsulting'
 import PingIntegration from './pages/service/ServiceIAM/Forgerock/ProfessionalService/PingIntegration/PingIntegration'
 import PingSupport from './pages/service/ServiceIAM/Forgerock/ProfessionalService/PingSupport/PingSupport'
+import JobDescription from './pages/career/jobDesc/JobDescription';
 
 function App() {
   
@@ -52,8 +53,9 @@ function App() {
           <Route path="/deloitte" component={CaseDeloitte} /> 
           <Route path="/partners" component={Solution} /> 
           <Route path="/about-us" component={About} /> 
-          <Route path="/careers" component={Career} />  
           
+          <Route path="/careers/detail/:job" component = {JobDescription} />  
+          <Route path="/careers" component={Career} />
           <Route path="/services/iam/managed-services" component={ManagedService} />
           <Route path="/services/iam/education-services" component={EducationService} />
           <Route path="/services/iam/strategic-talent-services" component={StrategicTalentService} />
