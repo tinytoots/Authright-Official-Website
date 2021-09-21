@@ -1,49 +1,69 @@
 .business-bg2 {
-	margin-top: 60px;
-	background-color: #fafafa;
-	margin: auto;
+  margin-top: 60px;
+  background-color: #fafafa;
+  margin: auto;
 }
 
 .businessOutcome-intro {
-	height: 850px;
-	width: 1200px;
-	margin: auto;
+  height: 800px;
+  width: 1200px;
+  margin: auto;
 }
 
 .businessOutcome-title1 {
-	padding-top: 100px;
-	font-size: 80px;
-    font-family: 'SFProDisplay-Bold',sans-serif;
-	text-align: center;
-	margin: 0 10%;
-	color: black;
+  padding-top: 100px;
+  font-size: 80px;
+  font-family: "SFProDisplay-Bold", sans-serif;
+  text-align: center;
+  margin: 0 10%;
+  color: black;
 }
 
 .businessOutcome-title2 {
-	margin-top: -10px !important;
-	font-size: 60px;
-    font-family: 'SFProDisplay-Bold',sans-serif;
-	text-align: center;
-	margin: 0 10%;
-	color: black;
+  margin-top: -10px !important;
+  font-size: 60px;
+  font-family: "SFProDisplay-Bold", sans-serif;
+  text-align: center;
+  margin: 0 10%;
+  color: black;
 }
 
 .businessOutcome-underline-img {
-	margin-top: -110px;
-	margin-left: -320px;
+  margin-top: -110px;
+  margin-left: -320px;
 }
 
 .businessOutcome-card {
-	width: 1200px;
-	margin: auto;
-	margin-top: -100px;
+  width: 1200px;
+  margin: auto;
+  margin-top: -100px;
 }
 
 .business-bg {
-	background-color: black;
+  background-color: black;
 }
 
 .businessOutcome-card-bg {
-	background-color: #141414;
-	width: 100%;
+  background-color: #141414;
+  width: 100%;
+}
+
+.customer-logo-list {
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: repeat(auto-fill, 200px);
+  grid-gap: 16px;
+  margin-top: 50px;
+}
+
+.customer-logo {
+  max-width: 180px;
+  max-height: 120px;
+  margin-bottom: 30px;
+}
+
+svg,
+#customer-logo {
+  height: 100%;
+  width: 100%;
 }
