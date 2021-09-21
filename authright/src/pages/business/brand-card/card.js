@@ -44,7 +44,7 @@ export default function Card() {
                     <div className="card" style={cardHsbc}>
                         <div className="card-content">
                             <h2 className="card-title"><p>Financial Services</p><p>with CIAM</p></h2>
-                            <p className="card-body">This is a great compnay that everyone want be a employee</p>
+                            <p className="card-body">Digital Security Platform enabling millions of customer services</p>
                             <Link to="/hsbc" className="button">Learn More</Link>
                         </div>
                     </div>
@@ -52,8 +52,8 @@ export default function Card() {
                     <Col className="gutter-row" span={6}>
                     <div className="card" style={{backgroundImage: `url(${homedepotImg})`}}>
                         <div className="card-content">
-                            <h2 className="card-title">The Home Depot</h2>
-                            <p className="card-body">This is a great compnay that everyone want be a employee</p>
+                            <h2 className="card-title"><p>Retailer Services with</p><p>CIAM</p></h2>
+                            <p className="card-body">E-commerce Store for daily customer authentication and authorization</p>
                             <Link to="/home-depot" className="button">Learn More</Link>
                         </div>
                     </div>
@@ -61,8 +61,8 @@ export default function Card() {
                     <Col className="gutter-row" span={6}>
                     <div className="card" style={{backgroundImage: `url(${mohawkImg})`}}>
                         <div className="card-content">
-                            <h2 className="card-title">Mohawk Industries</h2>
-                            <p className="card-body">This is a great compnay that everyone want be a employee</p>
+                            <h2 className="card-title"><p>Global Commercial</p><p> SSO Soilution</p></h2>
+                            <p className="card-body">Customized system integration and SSO implementation</p>
                             <Link to="/mohawk-industries" className="button">Learn More</Link>
                         </div>
                     </div>
@@ -70,8 +70,8 @@ export default function Card() {
                     <Col className="gutter-row" span={6}>
                     <div className="card" style={{backgroundImage: `url(${toyotaImg})`}}>
                         <div className="card-content">
-                            <h2 className="card-title">Toyota</h2>
-                            <p className="card-body">This is a great compnay that everyone want be a employee</p>
+                            <h2 className="card-title"><p>Consumer Vehicle</p><p>Industry IAM Platform</p></h2>
+                            <p className="card-body">Unified application platform with IAM capability for end users</p>
                             <Link to="/toyota" className="button">Learn More</Link>
                         </div>
                     </div>
@@ -79,8 +79,8 @@ export default function Card() {
                     <Col className="gutter-row" span={6}>
                     <div className="card" style={cardBcbs}>
                         <div className="card-content">
-                            <h2 className="card-title">Blue Cross Blue Shield</h2>
-                            <p className="card-body">This is a great compnay that everyone want be a employee</p>
+                            <h2 className="card-title"><p>Helthcare Industry</p><p>IAM Services</p></h2>
+                            <p className="card-body">Compliance driven multi-region system migration and upgrade</p>
                             <Link to="/blue-cross-blue-shield" className="button">Learn More</Link>
                         </div>
                     </div>
@@ -88,8 +88,8 @@ export default function Card() {
                     <Col className="gutter-row" span={6}>
                     <div className="card" style={{backgroundImage: `url(${equifaxImg})`}}>
                         <div className="card-content">
-                            <h2 className="card-title">Equifax</h2>
-                            <p className="card-body">This is a great compnay that everyone want be a employee</p>
+                            <h2 className="card-title"><p>Workforce IAM</p><p>Solution</p></h2>
+                            <p className="card-body">Enforce employee security with MFA while smoothing SSO process</p>
                             <Link to="/equifax" className="button">Learn More</Link>
                         </div>
                     </div>
@@ -97,8 +97,8 @@ export default function Card() {
                     <Col className="gutter-row" span={6}>
                     <div className="card" style={cardPearson}>
                         <div className="card-content">
-                            <h2 className="card-title">Pearson</h2>
-                            <p className="card-body">This is a great compnay that everyone want be a employee</p>
+                            <h2 className="card-title"><p>IAM Platform for </p><p>Educational Sercive</p></h2>
+                            <p className="card-body">End user access handling with reliability and security</p>
                             <Link to="/pearson" className="button">Learn More</Link>
                         </div>
                     </div>
@@ -106,8 +106,8 @@ export default function Card() {
                     <Col className="gutter-row" span={6}>
                     <div className="card" style={{backgroundImage: `url(${deloitteImg})`}}>
                         <div className="card-content">
-                            <h2 className="card-title">Deloitte</h2>
-                            <p className="card-body">This is a great compnay that everyone want be a employee</p>
+                            <h2 className="card-title"><p>Governmental</p><p>Medicaid Program</p></h2>
+                            <p className="card-body">User lifecycle management and cross domain SSO</p>
                             <Link to="/deloitte" className="button">Learn More</Link>
                         </div>
                     </div>

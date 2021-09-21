@@ -10,7 +10,7 @@ export default class services extends Component {
         return (
             <div className='services-bg' style={{minWidth: 1200}}>
                 <div className='service-IAM-bg'>
-                    <div className='service-digital-title'>IAM</div>
+                    <div className='service-digital-title'></div>
                 <Row gutter={{ xs: 10, sm: 10, md: 10, lg: 10 }} >
                     <Col className="gutter-row" span={12}>
                         <div className='' style={{ opacity: '0.9', minWidth: 500}}>
@@ -28,8 +28,8 @@ export default class services extends Component {
                             <NavLink to="/services_iam">
                                 <div className='company-title' style={{minWidth: 500}}>
                                     
-                                    <div className='service-content2'>AuthRight Technology has a reiable techinal team, and</div>
-                                    <div className='service-content2'> most of stuff own more than two professional certifications.</div> 
+                                    <div className='service-content2'>AuthRight Technology has a reliable techinal team, and</div>
+                                    <div className='service-content2'> some of stuffs own more than eight professional certifications.</div> 
                                     <div className='service-content2'>So far, AuthRight has been widely acclaimed by customers.</div>
                                     <img className='home-service-img' style={{marginTop: 18 }} src={SDE} width={135} alt=""/>                             </div>
                             </NavLink>
