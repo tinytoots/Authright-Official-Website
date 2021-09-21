@@ -43,7 +43,7 @@ export default function Card() {
                     <Col className="gutter-row" span={6}>
                     <div className="card" style={cardHsbc}>
                         <div className="card-content">
-                            <h2 className="card-title">HSBC</h2>
+                            <h2 className="card-title"><p>Financial Services</p><p>with CIAM</p></h2>
                             <p className="card-body">This is a great compnay that everyone want be a employee</p>
                             <Link to="/hsbc" className="button">Learn More</Link>
                         </div>

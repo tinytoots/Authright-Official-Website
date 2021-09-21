@@ -43,6 +43,7 @@
 } 
 
 .card-title {
+    margin-top : -50px;
     position: relative;
     width: max-content;
     color: var(--clr-neutral-100);

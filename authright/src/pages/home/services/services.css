@@ -7,7 +7,7 @@
     font-size: 50px;
     font-family: 'NunitoSans-bold',sans-serif;
     margin: auto;
-    margin-top: 10px;
+    margin-bottom: 100px;
     color: #EFF2F7;
 }
 
@@ -26,6 +26,8 @@
 
 .service-IAM-bg {
     background-image: linear-gradient(to top left , #f43b47, #453a94);
+    padding-top: 70px;
+    padding-bottom: 100px;
 }
 
 .service-content2 {
