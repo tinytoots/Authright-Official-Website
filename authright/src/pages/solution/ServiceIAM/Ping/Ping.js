@@ -19,17 +19,6 @@ export default class Ping extends Component {
         return (
             <div className='solution-IAM-bg'>
                 <div className='solution-IAM-Intro-bg'>
-                    <img src={PingImg} width={200} alt = 'logo' className='solution-ping-logo'/>
-                    <div className='solution-iam-title2'>
-                        IAM
-                    </div>
-                    <div className='solution-forgerock-title'>
-                        Ping Identity Solutions
-                    </div>
-                    <div className='solution-forgerock-intro2'>
-                        Identity Security for the Global Enterprise.
-                    </div>
-                    <div className='solution-ping-gray-lane2' />
                     <div className="forgerock-conent-bg">
                         <div className='solution-topics-title'>
                             Topics

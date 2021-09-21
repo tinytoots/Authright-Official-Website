@@ -2,3 +2,18 @@
     width: 1200px;
     margin: auto;
 }
+
+.odd-row {
+    text-align: left;
+}
+
+.even-row {
+    text-align: right;
+}
+
+.solution-row {
+    cursor: pointer;
+}
+
+.solution-row:hover {
+}
