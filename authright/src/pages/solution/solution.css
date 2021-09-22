@@ -17,3 +17,22 @@
 
 .solution-row:hover {
 }
+
+.forgerock-cert-logo {
+    margin-top: 30px;
+    margin-bottom: 120px;
+    margin-left: 60px;
+}
+
+.fr-cert {
+    margin-top: 70px;
+    text-align: left;
+}
+.ping-cert-row {
+    margin-top: 50px;
+}
+
+.cert-unit {
+    width: 550px !important;
+    text-align: left;;
+}
