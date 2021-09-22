@@ -15,17 +15,7 @@ export default class Forgerock extends Component {
         return (
             <div className='solution-IAM-bg'>
                 <div className='solution-IAM-Intro-bg'>
-                    <img src={ForgerockImg} width={220} alt = 'logo' className='solution-forgerock-logo'/>
-                    <div className='solution-iam-title'>
-                        IAM
-                    </div>
-                    <div className='solution-forgerock-title'>
-                        Forgerock Solutions
-                    </div>
-                    <div className='solution-forgerock-intro2'>
-                        Make it easy for users to log into apps and services.
-                    </div>
-                    <div className='solution-gray-lane2' />
+                    
                     <div className="forgerock-conent-bg">
                         <div className='solution-topics-title'>
                             Topics

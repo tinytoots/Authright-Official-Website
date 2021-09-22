@@ -14,12 +14,12 @@ export default class caseMohawk extends Component {
         return (
             <div className="hsbc-bg">
                 <div className="inner">
-                    <img src={HsbcLogo} width={180} alt = 'logo' className='case-hsbc-logo-img'/>
+                    {/* <img src={HsbcLogo} width={180} alt = 'logo' className='case-hsbc-logo-img'/> */}
                     <div className="caseStudies-title">
                         Authright provides modern IAM customized
                     </div>
                     <div className="caseStudies-title2">
-                        solutions for Mohawk Industries
+                        solutions for Commercial Industries
                     </div>
                     <div className="caseStudies-content">
                         We provide the global support for all servers, monitor
@@ -40,25 +40,32 @@ export default class caseMohawk extends Component {
                                 <img src={HsbcImg} width={550} alt = 'logo' className='case-hsbc-img' style={{paddingTop: 50, paddingBottom: 70}}/>
                             </Col>
                             <Col span={12}>
-                                <div className="caseStudies-about-title" style={{paddingTop: 35}}>
-                                    About Mohawk Industries
+                                <div className="caseStudies-about-title" style={{paddingTop: 70}}>
+                                    Description
                                 </div>
                                 <div className="caseStudies-about-content">
-                                    Mohawk Industries is an American flooring manufacturer based in Calhoun, Georgia, United States. Mohawk produces floor covering products for residential and commercial applications in North America and residential applications in Europe. The company manufacturing portfolio consists of soft flooring products (carpet and rugs), hard flooring products (ceramic and porcelain tile, natural stone and hardwood flooring), laminate flooring, sheet vinyl and luxury vinyl tile. The company employs 37,800 in operations in Australia, Brazil, Canada, Europe, India, Malaysia, Mexico, New Zealand, Russia and the United States.
+                                    This is an American flooring manufacturer which produces floor covering
+                                    products for residential and commercial applications in North America and residential 
+                                    applications in Europe. 
                                 </div>    
+                                <div className="caseStudies-about-content">
+                                    ForgeRock IAM is used to integrate Azure Active Directory and their commercial 
+                                    applications to achieve Single-Sing On.
+                                </div>  
                             </Col>
                         </Row>
                     </div>
                 </div>
                 
-                <div className="inner">
+                <div className="inner" style={{marginBottom: 50}}>
                     <Row>
                         <Col span={12}>
                             <div className="caseStudies-about-title" style={{paddingTop: 40}}>
-                                The Challenge
+                                Scenario
                             </div>
                             <div className="caseStudies-about-content" style={{paddingBottom: 70}}>
-                                As one of the world's largest banks and financial services organisations, HSBC has 40 million customers and 194,000 shareholders from 130 countries. How to effectively manage these accounts and keep them safe. At the same time, it is also a huge challenge to solve the problems that may emerge at any time in 24 hours.
+                                Customer account login. <br />
+                                A non-typical SSO flow through SAML.
                             </div>
                         </Col>
                         <Col span={12}>
@@ -102,18 +109,18 @@ export default class caseMohawk extends Component {
                     </Row>
                 </div>
 
-                <div className="case-about-bg">
+                <div className="case-about-bg" style={{marginBottom: 150}}>
                     <div className="inner">
                         <Row>
                             <Col span={12}>
                                 <Row>
                                     <Col span={6}>
-                                        <div className="caseStudies-data" style={{marginTop: 140}}>
+                                        <div className="caseStudies-data" style={{marginTop: 70}}>
                                             OpenAM
                                         </div>
                                     </Col>
                                     <Col span={6}>
-                                        <div className="caseStudies-data3" style={{marginTop: 140}}>
+                                        <div className="caseStudies-data3" style={{marginTop: 70}}>
                                             OpenDJ
                                         </div>
                                     </Col>
@@ -136,30 +143,18 @@ export default class caseMohawk extends Component {
                                     The Solution
                                 </div>
                                 <div className="caseStudies-about-content" style={{paddingBottom: 50}}>
-                                    Our IAM experts will ensure the real-time updates of OpenAM and OpenDJ, and ensure the security of all authentication and authorization flows through password, dob, opt authentication, SAML2 and OAuth. At the same time, through the build and deploy pipeline of OpenAM and customized the OpenAM endpoint and authentication node, the efficiency of maintenance and deployment is greatly improved
+                                    SSO through SAML with a non-typical workflow.<br/>
+                                    Hybrid Cloud and On-prem system structure.<br/>
+                                    Component customization and development.<br/>
+                                    System upgrade.<br/>
+                                    Production supporting and issue solving.
+
                                 </div>    
                             </Col>
                         </Row>
                     </div>
                 </div>
 
-                <div className="case-result-bg">
-                    <div className="inner">
-                        <Row>
-                            <Col span={12}>
-                                <div className="caseStudies-about-title" style={{paddingTop: 50}}>
-                                    The Results
-                                </div>
-                                <div className="caseStudies-about-content">
-                                    IAM has greatly improved the production efficiency of HSBC. Through customized solutions, we have saved a lot of manpower and material resources for HSBC to provide management and security services for millions of accounts. Authright is committed to serving more users and helping enterprises achieve business goals faster.
-                                </div>
-                            </Col>
-                            <Col span={12}>
-                                <img src={AuthrightLogo} width={400} alt = 'logo' className='case-authright-img' style={{paddingTop: 50}} />
-                            </Col>
-                        </Row>
-                    </div>
-                </div>
                 
 
 

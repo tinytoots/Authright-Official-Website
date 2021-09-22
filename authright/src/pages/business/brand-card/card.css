@@ -15,7 +15,7 @@
     min-height: 80vh;
     place-items: center;
     line-height: 1.6;
-    background: var(--clr-neutral-900);
+    /* background: black; */
     text-align: left;
 }
 .card {
@@ -43,6 +43,7 @@
 } 
 
 .card-title {
+    margin-top : -50px;
     position: relative;
     width: max-content;
     color: var(--clr-neutral-100);
@@ -67,6 +68,8 @@
 
 .card-body {
     color: rgb(255 255 255 / 0.85);
+    margin-top: 7px;
+    margin-bottom: 7px;
 }
 
 @media (hover) {

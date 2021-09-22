@@ -14,12 +14,12 @@ export default class casePearson extends Component {
         return (
             <div className="hsbc-bg">
                 <div className="inner">
-                    <img src={HsbcLogo} width={200} alt = 'logo' className='case-hsbc-logo-img'/>
+                    {/* <img src={HsbcLogo} width={200} alt = 'logo' className='case-hsbc-logo-img'/> */}
                     <div className="caseStudies-title">
                         Authright provides modern IAM customized
                     </div>
                     <div className="caseStudies-title2">
-                        solutions for Mohawk Industries
+                        solutions for educational field
                     </div>
                     <div className="caseStudies-content">
                         We provide the global support for all servers, monitor
@@ -40,11 +40,11 @@ export default class casePearson extends Component {
                                 <img src={HsbcImg} width={550} alt = 'logo' className='case-hsbc-img' style={{paddingTop: 50, paddingBottom: 70}}/>
                             </Col>
                             <Col span={12}>
-                                <div className="caseStudies-about-title" style={{paddingTop: 35}}>
-                                    About Mohawk Industries
+                                <div className="caseStudies-about-title" style={{paddingTop: 55}}>
+                                    Description
                                 </div>
                                 <div className="caseStudies-about-content">
-                                    Mohawk Industries is an American flooring manufacturer based in Calhoun, Georgia, United States. Mohawk produces floor covering products for residential and commercial applications in North America and residential applications in Europe. The company manufacturing portfolio consists of soft flooring products (carpet and rugs), hard flooring products (ceramic and porcelain tile, natural stone and hardwood flooring), laminate flooring, sheet vinyl and luxury vinyl tile. The company employs 37,800 in operations in Australia, Brazil, Canada, Europe, India, Malaysia, Mexico, New Zealand, Russia and the United States.
+                                    The customer needed to upgrade Sun OpenSSO 8.0 to ForgeRock OpenAM 13.
                                 </div>    
                             </Col>
                         </Row>
@@ -55,10 +55,13 @@ export default class casePearson extends Component {
                     <Row>
                         <Col span={12}>
                             <div className="caseStudies-about-title" style={{paddingTop: 40}}>
-                                The Challenge
+                                Scenario
                             </div>
                             <div className="caseStudies-about-content" style={{paddingBottom: 70}}>
-                                As one of the world's largest banks and financial services organisations, HSBC has 40 million customers and 194,000 shareholders from 130 countries. How to effectively manage these accounts and keep them safe. At the same time, it is also a huge challenge to solve the problems that may emerge at any time in 24 hours.
+                                A lost OpenSSO dev/testing environment needs to be rebuilt. <br/>
+                                Upgrades OpenSSO 8 to ForgeRock OpenAM 13.<br/>
+                                Migrates hundreds legacy applications integrated with OpenSSO to ForgeRock OpenAM.<br/>
+
                             </div>
                         </Col>
                         <Col span={12}>
@@ -102,18 +105,18 @@ export default class casePearson extends Component {
                     </Row>
                 </div>
 
-                <div className="case-about-bg">
+                <div className="case-about-bg" style={{marginBottom: 100}}>
                     <div className="inner">
                         <Row>
                             <Col span={12}>
                                 <Row>
                                     <Col span={6}>
-                                        <div className="caseStudies-data" style={{marginTop: 140}}>
+                                        <div className="caseStudies-data" style={{marginTop: 70}}>
                                             OpenAM
                                         </div>
                                     </Col>
                                     <Col span={6}>
-                                        <div className="caseStudies-data3" style={{marginTop: 140}}>
+                                        <div className="caseStudies-data3" style={{marginTop: 70}}>
                                             OpenDJ
                                         </div>
                                     </Col>
@@ -136,33 +139,15 @@ export default class casePearson extends Component {
                                     The Solution
                                 </div>
                                 <div className="caseStudies-about-content" style={{paddingBottom: 50}}>
-                                    Our IAM experts will ensure the real-time updates of OpenAM and OpenDJ, and ensure the security of all authentication and authorization flows through password, dob, opt authentication, SAML2 and OAuth. At the same time, through the build and deploy pipeline of OpenAM and customized the OpenAM endpoint and authentication node, the efficiency of maintenance and deployment is greatly improved
+                                    Exported OpenSSO configuration from production env, manually massaged the configuration,  and rebuilt OpenSSO dev/testing environment.<br/>
+                                    Upgraded OpenSSO 8.0 to ForgeRock OpenAM 13.<br/>
+                                    Smoothly migrated OpenSSO 8.0 Agent based applications to be integrated with ForgeRock OpenAM 13.<br/>
+
                                 </div>    
                             </Col>
                         </Row>
                     </div>
-                </div>
-
-                <div className="case-result-bg">
-                    <div className="inner">
-                        <Row>
-                            <Col span={12}>
-                                <div className="caseStudies-about-title" style={{paddingTop: 50}}>
-                                    The Results
-                                </div>
-                                <div className="caseStudies-about-content">
-                                    IAM has greatly improved the production efficiency of HSBC. Through customized solutions, we have saved a lot of manpower and material resources for HSBC to provide management and security services for millions of accounts. Authright is committed to serving more users and helping enterprises achieve business goals faster.
-                                </div>
-                            </Col>
-                            <Col span={12}>
-                                <img src={AuthrightLogo} width={400} alt = 'logo' className='case-authright-img' style={{paddingTop: 50}} />
-                            </Col>
-                        </Row>
-                    </div>
-                </div>
-                
-
-
+                </div>                
                 {/* <div className="case-about-bg">
                     <div className="caseStudies-about-title">
                         About AuthRight

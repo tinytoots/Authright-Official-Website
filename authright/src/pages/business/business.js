@@ -32,6 +32,7 @@ export default class business extends Component {
               className="businessOutcome-underline-img"
               src={UnderLine}
               width={260}
+              alt = ""
             />
             {/* <BrandBox /> */}
             <div className="customer-logo-list">
@@ -41,11 +42,11 @@ export default class business extends Component {
             </div>
           </div>
         </div>
-        <div className="businessOutcome-card-bg">
+        {/* <div className="businessOutcome-card-bg">
           <div className="businessOutcome-card">
             <BrandCard />
           </div>
-        </div>
+        </div> */}
         <BrandTrust />
       </div>
     );

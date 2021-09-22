@@ -9,20 +9,33 @@ export default class services extends Component {
     render() {
         return (
             <div className='services-bg' style={{minWidth: 1200}}>
-                <Row gutter={{ xs: 10, sm: 10, md: 10, lg: 10 }}>
+                <div className='service-IAM-bg'>
+                    <div className='service-digital-title'></div>
+                <Row gutter={{ xs: 10, sm: 10, md: 10, lg: 10 }} >
                     <Col className="gutter-row" span={12}>
-                        <div className='service-IAM-bg' style={{padding: '100px 0', opacity: '0.9', height: 503, minWidth: 500}}>
+                        <div className='' style={{ opacity: '0.9', minWidth: 500}}>
                             <NavLink to="/services_iam">
                                 <div className='company-title' style={{minWidth: 500}}>
-                                    <div className='service-digital-title'>IAM</div>
                                     <div className='service-content2'>AuthRight Technology offers a full range of professional</div>
                                     <div className='service-content2'>services focused solely on identity management solutions.</div> 
                                     <div className='service-content2'>Our services has been tested across multiple industries.</div>
-                                    <img className='home-service-img' style={{marginTop: 18 }} src={IAM} width={135} />                               </div>
+                                    <img className='home-service-img' style={{marginTop: 18 }} src={IAM} width={135} alt = "" />                               </div>
                             </NavLink>
                         </div>
                     </Col>
                     <Col className="gutter-row" span={12}>
+                        <div className='' style={{ opacity: '0.9', minWidth: 500}}>
+                            <NavLink to="/services_iam">
+                                <div className='company-title' style={{minWidth: 500}}>
+                                    
+                                    <div className='service-content2'>AuthRight Technology has a reliable techinal team, and</div>
+                                    <div className='service-content2'> some of staffs own more than eight professional certifications.</div> 
+                                    <div className='service-content2'>So far, AuthRight has been widely acclaimed by customers.</div>
+                                    <img className='home-service-img' style={{marginTop: 18 }} src={SDE} width={135} alt=""/>                             </div>
+                            </NavLink>
+                        </div>
+                    </Col>
+                    {/* <Col className="gutter-row" span={12}>
                         <div className='service-Digital-bg' style={{padding: '100px 0', opacity: '0.9', height: 503, minWidth: 500}}>
                             <NavLink to="/services_digital">
                                 <div className='company-title' style={{minWidth: 500}}>
@@ -34,8 +47,9 @@ export default class services extends Component {
                                 </div>
                             </NavLink>
                         </div>
-                    </Col>
+                    </Col> */}
                 </Row>
+                </div>
             </div>
         )
     }

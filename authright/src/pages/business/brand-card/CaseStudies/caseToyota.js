@@ -14,12 +14,12 @@ export default class caseToyota extends Component {
         return (
             <div className="hsbc-bg">
                 <div className="inner">
-                    <img src={HsbcLogo} width={220} alt = 'logo' className='case-hsbc-logo-img'/>
-                    <div className="caseStudies-title" style={{marginTop: -70}}>
+                    {/* <img src={HsbcLogo} width={220} alt = 'logo' className='case-hsbc-logo-img'/> */}
+                    <div className="caseStudies-title" style={{marginTop: 70}}>
                         Authright provides modern IAM customized
                     </div>
                     <div className="caseStudies-title2">
-                        solutions for Mohawk Industries
+                        solutions for Consumer Vehicle
                     </div>
                     <div className="caseStudies-content">
                         We provide the global support for all servers, monitor
@@ -40,25 +40,29 @@ export default class caseToyota extends Component {
                                 <img src={HsbcImg} width={550} alt = 'logo' className='case-hsbc-img' style={{paddingTop: 50, paddingBottom: 70}}/>
                             </Col>
                             <Col span={12}>
-                                <div className="caseStudies-about-title" style={{paddingTop: 35}}>
-                                    About Toyota
+                                <div className="caseStudies-about-title" style={{paddingTop: 60}}>
+                                    Description
                                 </div>
                                 <div className="caseStudies-about-content">
-                                    The Toyota Motor Corporation is a multinational automotive manufacturer headquartered in the city of Toyota in Japan's Aichi Prefecture. It was founded by Kiichiro Toyoda and incorporated on August 28, 1937. Toyota is one of the largest automobile manufacturers in the world, producing about 10 million vehicles per year.
+                                    This project enables mobile OneApp to provide identity and access management services for 
+                                    its customers.
                                 </div>    
                             </Col>
                         </Row>
                     </div>
                 </div>
                 
-                <div className="inner">
+                <div className="inner" style={{marginBottom: 50}}>
                     <Row>
                         <Col span={12}>
                             <div className="caseStudies-about-title" style={{paddingTop: 40}}>
-                                The Challenge
+                                Scenario
                             </div>
                             <div className="caseStudies-about-content" style={{paddingBottom: 70}}>
-                                As one of the world's largest banks and financial services organisations, HSBC has 40 million customers and 194,000 shareholders from 130 countries. How to effectively manage these accounts and keep them safe. At the same time, it is also a huge challenge to solve the problems that may emerge at any time in 24 hours.
+                                Using IDM to finish user self-service registration flow.<br/>
+                                Using AM to finish OAuth authentication flow.<br/>
+                                Custimaize End-user self-service UI.
+
                             </div>
                         </Col>
                         <Col span={12}>
@@ -102,18 +106,18 @@ export default class caseToyota extends Component {
                     </Row>
                 </div>
 
-                <div className="case-about-bg">
-                    <div className="inner">
+                <div className="case-about-bg" style={{marginBottom: 150}}>
+                    <div className="inner" >
                         <Row>
                             <Col span={12}>
                                 <Row>
                                     <Col span={6}>
-                                        <div className="caseStudies-data" style={{marginTop: 140}}>
+                                        <div className="caseStudies-data" style={{marginTop: 70}}>
                                             OpenAM
                                         </div>
                                     </Col>
                                     <Col span={6}>
-                                        <div className="caseStudies-data3" style={{marginTop: 140}}>
+                                        <div className="caseStudies-data3" style={{marginTop: 70}}>
                                             OpenDJ
                                         </div>
                                     </Col>
@@ -136,31 +140,16 @@ export default class caseToyota extends Component {
                                     The Solution
                                 </div>
                                 <div className="caseStudies-about-content" style={{paddingBottom: 50}}>
-                                    Our IAM experts will ensure the real-time updates of OpenAM and OpenDJ, and ensure the security of all authentication and authorization flows through password, dob, opt authentication, SAML2 and OAuth. At the same time, through the build and deploy pipeline of OpenAM and customized the OpenAM endpoint and authentication node, the efficiency of maintenance and deployment is greatly improved
+                                    IDM API endpoints customization.<br/>
+                                    User self-service workflow customization and development.<br/>
+                                    AM session and token management customization
+
                                 </div>    
                             </Col>
                         </Row>
                     </div>
                 </div>
 
-                <div className="case-result-bg">
-                    <div className="inner">
-                        <Row>
-                            <Col span={12}>
-                                <div className="caseStudies-about-title" style={{paddingTop: 50}}>
-                                    The Results
-                                </div>
-                                <div className="caseStudies-about-content">
-                                    IAM has greatly improved the production efficiency of HSBC. Through customized solutions, we have saved a lot of manpower and material resources for HSBC to provide management and security services for millions of accounts. Authright is committed to serving more users and helping enterprises achieve business goals faster.
-                                </div>
-                            </Col>
-                            <Col span={12}>
-                                <img src={AuthrightLogo} width={400} alt = 'logo' className='case-authright-img' style={{paddingTop: 50}} />
-                            </Col>
-                        </Row>
-                    </div>
-                </div>
-                
 
 
                 {/* <div className="case-about-bg">
