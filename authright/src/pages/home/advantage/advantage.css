@@ -1,22 +1,28 @@
 .tilte {
-    font-size: 28px;
-    font-family: 'SFProDisplay-Bold',sans-serif;
-    margin-bottom: 15px;
-    color: #EFF2F7;
+  font-size: 28px;
+  font-family: "SFProDisplay-Bold", sans-serif;
+  margin-bottom: 15px;
+  color: #eff2f7;
 }
 
 .advan {
-    width: 700px;
-    font-size: 18px;
-    font-family: 'NunitoSans-regular',sans-serif;
-    margin-bottom: 30px;
-    margin: auto;
-    color: #EFF2F7;
+  width: 700px;
+  font-size: 18px;
+  font-family: "NunitoSans-regular", sans-serif;
+  margin-bottom: 30px;
+  margin: auto;
+  color: #eff2f7;
 }
 
 .adv-bg {
-    background-color: black;
-    margin-top: -20px;
-    margin-bottom: 90px;
-    height: 150px;
+  background-color: black;
+  margin-top: -20px;
+  margin-bottom: 90px;
+  height: 150px;
+}
+
+.adv-divider {
+  background-color: white;
+  margin-top: 40px;
+  height: 2px;
 }

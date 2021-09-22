@@ -8,7 +8,7 @@ import Solutions from './solutions/solutions'
 import History from './history/history'
 import Client from './clients/clients'
 import CaseStudy from './case-study/caseStudy'
-import CostomerComments from './costomerComments/costomerComments'
+import CustomerComments from './costomerComments/costomerComments'
 import BrandTrust from '../business/brand-trust/trust'
 
 export default class home extends Component {
@@ -18,8 +18,8 @@ export default class home extends Component {
                 <Intro />
                 <Client />
                 <Advantage />
-                <Services />
-                <CostomerComments />
+                {/* <Services /> */}
+                <CustomerComments />
                 <BrandTrust />
             </div>
         )

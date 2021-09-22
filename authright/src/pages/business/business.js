@@ -23,16 +23,14 @@ export default class business extends Component {
       <div className="business-bg">
         <div className="business-bg2">
           <div className="businessOutcome-intro">
-            <div className="businessOutcome-title1">We save a lot of money</div>
-            <div className="businessOutcome-title2">
-              for many of the world's
-            </div>
-            <div className="businessOutcome-title2">top 500 companies</div>
+            <div className="businessOutcome-title1">We are trusted by</div>
+            <div className="businessOutcome-title2">Fortune 500</div>
+            <div className="businessOutcome-title2">companies</div>
             <img
               className="businessOutcome-underline-img"
               src={UnderLine}
-              width={260}
-              alt = ""
+              width={180}
+              alt=""
             />
             {/* <BrandBox /> */}
             <div className="customer-logo-list">
