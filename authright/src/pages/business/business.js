@@ -47,7 +47,7 @@ export default class business extends Component {
             <BrandCard />
           </div>
         </div> */}
-        <BrandTrust />
+        {/* <BrandTrust /> */}
       </div>
     );
   }

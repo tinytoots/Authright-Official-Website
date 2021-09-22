@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import ForgerockImg from '../../../../img/authright-logo.jpg'
+
 import './ServicesCate.css'
 import { Row, Col, Divider } from 'antd';
 import { NavLink } from 'react-router-dom'
@@ -14,12 +14,7 @@ export default class Forgerock extends Component {
     render() {
         return (
             <div className='IAM-bg'>
-                <div className='IAM-Intro-bg'>
-                    <img src={ForgerockImg} width={380} alt = 'logo' className='servicesCate-authright-logo'/>
-                    <div className='servicesCate-content1'>
-                        Authright's IAM team is dedicated to creating a variety of customized services that you need. Whether it's Forgerock or PingIdentity, our IAM experts have a wealth of experience. Over the past few years, Authright has provided reliable and efficient IAM services to dozens of organizations, including several Fortune 500 companies. If you want a team of professionals to provide you with IAM solutions, Authright is the right choice for you.
-                    </div>
-                </div>
+                
                 <div className="IAM-grid-bg">
                     <Row gutter={[10, 10]}>
                         <Col className="gutter-row" span={12}>
