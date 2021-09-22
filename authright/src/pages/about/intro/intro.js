@@ -24,11 +24,11 @@ export default class intro extends Component {
                     <div className="inner">
                         {/* <img src={IAMImg} width={1200} alt = 'logo' /> */}
                         <div className='about-whoWeAre-title1'>
-                            We are A top-level Professional Team
+                            We are A top-level Professional Team in
                             {/* <div className='gray-lane' /> */}
                         </div>
                         <div className='about-whoWeAre-title2'>
-                            in IAM and Digital Services
+                            IAM
                         </div>
                         <div className='career-company-intro'>
                             AuthRight Technology provide you with high quality IT consulting services, we have deep experience in cloud storage, identity management, systems integration, you can bring fast, efficient and safe solution.
@@ -73,16 +73,16 @@ export default class intro extends Component {
                         <div className='career-company-intro'>
                             <Row gutter={16}>
                                 <Col className="gutter-row" span={6}>
-                                    <img className='values-img' src={Heart} width={50} />
+                                    <img className='values-img' alt='' src={Heart} width={50} />
                                 </Col>
                                 <Col className="gutter-row" span={6}>
-                                    <img className='values-img' src={Important} width={50} />
+                                    <img className='values-img' alt='' src={Important} width={50} />
                                 </Col>
                                 <Col className="gutter-row" span={6}>
-                                    <img className='values-img' src={Growth} width={50} />
+                                    <img className='values-img' alt='' src={Growth} width={50} />
                                 </Col>
                                 <Col className="gutter-row" span={6}>
-                                    <img className='values-img' src={Bulb} width={50} />
+                                    <img className='values-img' alt='' src={Bulb} width={50} />
                                 </Col>
                             </Row>
                             <Row gutter={16}>
