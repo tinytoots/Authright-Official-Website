@@ -15,29 +15,29 @@ export default class Footer extends Component {
             <Col className="gutter-row" span={12}>
               <div style={style}>
                 <div>
-                  <FooterDivider className="footer-divi-img" />
+                  {/* <FooterDivider className="footer-divi-img" /> */}
                   <div className="footer-title">GET TO KNOW US</div>
                 </div>
-                <div className="footer-content">
+                <div className="footer-link">
                   <a href="/services/iam">Services</a>
                 </div>
-                <div className="footer-content">
+                <div className="footer-link">
                   <a href="/customer">Customers</a>
                 </div>
-                <div className="footer-content">
+                <div className="footer-link">
                   <a href="/partners">Partners</a>
                 </div>
-                <div className="footer-content">
+                <div className="footer-link">
                   <a href="/about-us">About Us</a>
                 </div>
-                <div className="footer-content">
+                <div className="footer-link">
                   <a href="/careers">Careers</a>
                 </div>
               </div>
             </Col>
             <Col className="gutter-row" span={12}>
               <div style={style}>
-                <FooterDivider className="footer-divi-img" />
+                {/* <FooterDivider className="footer-divi-img" /> */}
                 <div className="footer-title">CONTACT INFO</div>
                 <div className="footer-content">
                   Address: 888 Washington Street, Suite 301 Dedham MA, 02026

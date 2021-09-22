@@ -1,43 +1,62 @@
 .footer-bg {
-    height: 300px;
-    background-color: black;
+  height: 300px;
+  background-color: black;
 }
 
-
 .gray-lane-footer {
-    height: 1px;
-    background-color: #595959;
-    /* width: 1200px; */
-    margin: auto;
-    margin-bottom: 20px;
+  height: 1px;
+  background-color: #595959;
+  /* width: 1200px; */
+  margin: auto;
+  margin-bottom: 20px;
 }
 
 .footer-title {
-    font-size: 18px;
-    font-family: 'NunitoSans-bold',sans-serif;
-    color: #EFF2F7;
-    text-align: left;
+  font-size: 18px;
+  font-family: "NunitoSans-bold", sans-serif;
+  color: #eff2f7;
+  text-align: left;
+  margin-bottom: 5px;
 }
+
+.footer-link {
+  margin-bottom: 5px;
+  color: #8c8c8c;
+  margin-top: 5px;
+  margin-left: 14px;
+  font-size: 18px;
+  font-family: "NunitoSans-regular", sans-serif;
+  text-align: left;
+  color: #8c8c8c;
+}
+
+.footer-link a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+.footer-link a:hover {
+    color: #1890ff;
+  }
 
 .footer-content {
-    font-size: 18px;
-    font-family: 'NunitoSans-regular',sans-serif;
-    margin-bottom: 5px;
-    color: #8c8c8c;
-    text-align: left;
-    margin-top: 5px;
-    margin-left: 14px;
+  font-size: 18px;
+  font-family: "NunitoSans-regular", sans-serif;
+  margin-bottom: 5px;
+  color: #8c8c8c;
+  text-align: left;
+  margin-top: 5px;
+  margin-left: 14px;
 }
 
-
 .footer-divi-img {
-    float: left;
-    margin-right: 10px;
-    margin-top: 4px;
-    height: 20px;
+  float: left;
+  margin-right: 10px; 
+  margin-top: 4px; 
+  height: 20px;
 }
 
 .inner-footer {
-    width: 1200px;
-    margin: auto;
+  width: 1200px;
+  margin: auto;
 }
