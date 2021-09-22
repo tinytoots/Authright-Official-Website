@@ -4,6 +4,7 @@
     height: 900px;
     margin-bottom: 10px;
     background-image: url("https://images.unsplash.com/photo-1577488402388-d3a5a945f9a3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=4567&q=80");
+    /* background-image: url(../); */
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
