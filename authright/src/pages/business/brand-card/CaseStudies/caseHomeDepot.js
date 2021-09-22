@@ -14,12 +14,12 @@ export default class caseHomeDepot extends Component {
         return (
             <div className="hsbc-bg">
                 <div className="inner">
-                    <img src={HsbcLogo} width={180} alt = 'logo' className='case-hsbc-logo-img'/>
+                    {/* <img src={HsbcLogo} width={180} alt = 'logo' className='case-hsbc-logo-img'/> */}
                     <div className="caseStudies-title">
                         Authright provides modern IAM customized
                     </div>
                     <div className="caseStudies-title2">
-                        solutions for Mohawk Industries
+                        solutions for Retailer Industries
                     </div>
                     <div className="caseStudies-content">
                         We provide the global support for all servers, monitor
@@ -40,15 +40,14 @@ export default class caseHomeDepot extends Component {
                                 <img src={HsbcImg} width={550} alt = 'logo' className='case-hsbc-img' style={{paddingTop: 50, paddingBottom: 70}}/>
                             </Col>
                             <Col span={12}>
-                                <div className="caseStudies-about-title" style={{paddingTop: 35}}>
-                                    About The Home Depot
+                                <div className="caseStudies-about-title" style={{paddingTop: 70}}>
+                                    Description
                                 </div>
                                 <div className="caseStudies-about-content">
-                                    The Home Depot, Inc., commonly known as Home Depot, is the largest home improvement retailer in the United States, supplying tools, construction products, and services. The company is headquartered in incorporated Cobb County, Georgia, with an Atlanta mailing address.
+                                    This IAM system supports their online e-commerce store for daily customer login. 
+                                    The IAM system deals with 0.3 billion registered accounts and more than 30 million active accounts. 
                                 </div>    
-                                <div className="caseStudies-about-content">
-                                    It operates many big-box format stores across the United States (including the District of Columbia, Guam, Puerto Rico and the U.S. Virgin Islands); all 10 provinces of Canada; and all 32 Mexican states and Mexico City. MRO company Interline Brands (now The Home Depot Pro) is also owned by The Home Depot, with 70 distribution centers across the United States.
-                                </div> 
+                                
                             </Col>
                         </Row>
                     </div>
@@ -58,10 +57,14 @@ export default class caseHomeDepot extends Component {
                     <Row>
                         <Col span={12}>
                             <div className="caseStudies-about-title" style={{paddingTop: 40}}>
-                                The Challenge
+                                Scenario
                             </div>
                             <div className="caseStudies-about-content" style={{paddingBottom: 70}}>
-                                As one of the world's largest banks and financial services organisations, HSBC has 40 million customers and 194,000 shareholders from 130 countries. How to effectively manage these accounts and keep them safe. At the same time, it is also a huge challenge to solve the problems that may emerge at any time in 24 hours.
+                                CIAM with 30,000,000+ active users<br />
+                                Monitoring and customer behavior data extraction<br />
+                                Self-service enhancement<br />
+                                User accounts migration
+
                             </div>
                         </Col>
                         <Col span={12}>
@@ -111,12 +114,12 @@ export default class caseHomeDepot extends Component {
                             <Col span={12}>
                                 <Row>
                                     <Col span={6}>
-                                        <div className="caseStudies-data" style={{marginTop: 140}}>
+                                        <div className="caseStudies-data" style={{marginTop: 70}}>
                                             OpenAM
                                         </div>
                                     </Col>
                                     <Col span={6}>
-                                        <div className="caseStudies-data3" style={{marginTop: 140}}>
+                                        <div className="caseStudies-data3" style={{marginTop: 70}}>
                                             OpenDJ
                                         </div>
                                     </Col>
@@ -139,7 +142,12 @@ export default class caseHomeDepot extends Component {
                                     The Solution
                                 </div>
                                 <div className="caseStudies-about-content" style={{paddingBottom: 50}}>
-                                    Our IAM experts will ensure the real-time updates of OpenAM and OpenDJ, and ensure the security of all authentication and authorization flows through password, dob, opt authentication, SAML2 and OAuth. At the same time, through the build and deploy pipeline of OpenAM and customized the OpenAM endpoint and authentication node, the efficiency of maintenance and deployment is greatly improved
+                                    Authentication module customization <br />
+                                    DS user accounts migration <br />
+                                    Disaster Recover setup<br />
+                                    System upgrades<br />
+                                    Troubleshooting and support
+
                                 </div>    
                             </Col>
                         </Row>

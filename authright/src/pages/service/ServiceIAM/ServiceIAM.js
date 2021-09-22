@@ -10,7 +10,6 @@ export default class ServiceIAM extends Component {
         return (
             <div>
                 <ServicesCate />
-                <h1>This is IAM page</h1>
                 <div className="businessOutcome-card-bg">
                     <div className="businessOutcome-card">
                         <BrandCard />

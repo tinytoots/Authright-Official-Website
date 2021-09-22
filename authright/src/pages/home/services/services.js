@@ -29,7 +29,7 @@ export default class services extends Component {
                                 <div className='company-title' style={{minWidth: 500}}>
                                     
                                     <div className='service-content2'>AuthRight Technology has a reliable techinal team, and</div>
-                                    <div className='service-content2'> some of stuffs own more than eight professional certifications.</div> 
+                                    <div className='service-content2'> some of staffs own more than eight professional certifications.</div> 
                                     <div className='service-content2'>So far, AuthRight has been widely acclaimed by customers.</div>
                                     <img className='home-service-img' style={{marginTop: 18 }} src={SDE} width={135} alt=""/>                             </div>
                             </NavLink>

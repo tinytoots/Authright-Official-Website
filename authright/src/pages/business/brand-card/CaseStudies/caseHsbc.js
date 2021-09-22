@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Row, Col, Divider } from 'antd';
 import HsbcImg from '../../../../img/case-hsbc.png'
-import HsbcLogo from '../../../../img/case-hsbc-logo.svg'
 import AuthrightLogo from '../../../../img/authright-logo.jpg'
 import './caseStudies.css';
 
@@ -14,12 +13,11 @@ export default class caseHsbc extends Component {
         return (
             <div className="hsbc-bg">
                 <div className="inner">
-                    <img src={HsbcLogo} width={150} alt = 'logo' className='case-hsbc-logo-img'/>
                     <div className="caseStudies-title">
                         Authright provides 24/7 global
                     </div>
                     <div className="caseStudies-title2">
-                        IAM technical support for HSBC
+                        IAM technical support
                     </div>
                     <div className="caseStudies-content">
                         We provide the global support for all servers, monitor
@@ -41,10 +39,10 @@ export default class caseHsbc extends Component {
                             </Col>
                             <Col span={12}>
                                 <div className="caseStudies-about-title" style={{paddingTop: 70}}>
-                                    About HSBC
+                                    Description
                                 </div>
                                 <div className="caseStudies-about-content">
-                                    HSBC is one of the world’s largest banking and financial services organisations. We serve more than 40 million customers through our global businesses: Wealth and Personal Banking, Commercial Banking, and Global Banking & Markets. Our network covers 64 countries and territories in Europe, Asia, the Middle East and Africa, North America and Latin America.
+                                    This project build a digital security platform with Forgerock products, which enable millions of customers use web browser or mobile to operate on their accounts.
                                 </div>    
                             </Col>
                         </Row>
@@ -55,10 +53,15 @@ export default class caseHsbc extends Component {
                     <Row>
                         <Col span={12}>
                             <div className="caseStudies-about-title" style={{paddingTop: 40}}>
-                                The Challenge
+                                Scenario
                             </div>
                             <div className="caseStudies-about-content" style={{paddingBottom: 70}}>
-                                As one of the world's largest banks and financial services organisations, HSBC has 40 million customers and 194,000 shareholders from 130 countries. How to effectively manage these accounts and keep them safe. At the same time, it is also a huge challenge to solve the problems that may emerge at any time in 24 hours.
+                                Integrate with legacy app and database <br/>
+                                Secure authentication and authorization with MFA<br/>
+                                SSO through SAML, Oauth across web and mobile<br/>
+                                End user self-service through a customized UI<br/>
+                                Now migrating the platform to AWS cloud.
+
                             </div>
                         </Col>
                         <Col span={12}>
@@ -85,7 +88,7 @@ export default class caseHsbc extends Component {
                                     <div className="caseStudies-data" style={{marginLeft:110, marginTop:50, color:"#cf1322", fontSize: 28}}>
                                         40,000,000
                                     </div>
-                                    <div className="caseStudies-data2" style={{marginLeft:110}}>
+                                    <div className="caseStudies-data2" style={{marginLeft:110 , marginBottom: 50}}>
                                         Customers
                                     </div>
                                 </Col>
@@ -108,12 +111,12 @@ export default class caseHsbc extends Component {
                             <Col span={12}>
                                 <Row>
                                     <Col span={6}>
-                                        <div className="caseStudies-data" style={{marginTop: 140}}>
+                                        <div className="caseStudies-data" style={{marginTop: 90}}>
                                             OpenAM
                                         </div>
                                     </Col>
                                     <Col span={6}>
-                                        <div className="caseStudies-data3" style={{marginTop: 140}}>
+                                        <div className="caseStudies-data3" style={{marginTop: 90}}>
                                             OpenDJ
                                         </div>
                                     </Col>
@@ -136,7 +139,11 @@ export default class caseHsbc extends Component {
                                     The Solution
                                 </div>
                                 <div className="caseStudies-about-content" style={{paddingBottom: 50}}>
-                                    Our IAM experts will ensure the real-time updates of OpenAM and OpenDJ, and ensure the security of all authentication and authorization flows through password, dob, opt authentication, SAML2 and OAuth. At the same time, through the build and deploy pipeline of OpenAM and customized the OpenAM endpoint and authentication node, the efficiency of maintenance and deployment is greatly improved
+                                    UI dashboard development <br />
+                                    AM endpoint and authentication node customization.<br />
+                                    AM session and token management customization<br />
+                                    Troubleshooting and support<br />
+
                                 </div>    
                             </Col>
                         </Row>
@@ -151,7 +158,7 @@ export default class caseHsbc extends Component {
                                     The Results
                                 </div>
                                 <div className="caseStudies-about-content">
-                                    IAM has greatly improved the production efficiency of HSBC. Through customized solutions, we have saved a lot of manpower and material resources for HSBC to provide management and security services for millions of accounts. Authright is committed to serving more users and helping enterprises achieve business goals faster.
+                                    IAM has greatly improved the production efficiency of the company. Through customized solutions, we have saved a lot of manpower and material resources for that to provide management and security services for millions of accounts. Authright is committed to serving more users and helping enterprises achieve business goals faster.
                                 </div>
                             </Col>
                             <Col span={12}>
