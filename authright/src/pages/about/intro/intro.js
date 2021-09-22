@@ -36,34 +36,6 @@ export default class intro extends Component {
                     </div>
                 </div>
                 
-                <div className='about-intro-block2'>
-                    <div className="inner">
-                    <Row gutter={16}>
-                        <Col className="gutter-row" span={8}>
-                            <div className="about-color-block">
-                                <div className="about-black-block">
-                                   <div className="about-color-block-title">More than</div>
-                                   <div className="about-color-block-title2">1000000</div>
-                                   <div className="about-color-block-title3">users</div>
-                                   <div className="about-color-block-served">served by</div>
-                                   <div className="about-color-block-served2">Authright</div>
-                                </div>
-                            </div>
-                        </Col>
-                        <Col className="gutter-row" span={16}>
-                            <div className='about-company-title2'>
-                                We are Committed to Saving Money and 
-                            </div>
-                            <div className='career-company-title2'>
-                                Improving Efficiency for Our Customers
-                            </div>
-                            <div className='career-company-intro' style={{color: "white"}}>
-                                Our experienced professional team will escort your business all the time and provide 24/7 technical support. The IAM certificate holding rate of our employees exceeds <span style={{fontFamily: "SFProDisplay-bold"}}>90%</span>
-                            </div>
-                        </Col>
-                    </Row>
-                    </div>
-                </div>
 
                 <div className='about-intro-block'>
                     <div className="inner">

@@ -57,7 +57,9 @@
 
 .about-intro-block2 {
     height: 400px;
-    background-color: #141414;
+    margin-top: 100px;
+    margin-bottom: 200px
+    /* background-color: #141414; */
 }
 
 .about-intro-block3 {

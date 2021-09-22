@@ -46,7 +46,7 @@ export default class Ping extends Component {
                                     <NavLink to="/services/iam/professional-services/pingidentity-consulting">
                                         <div>
                                             <div className='company-title' style={{fontSize: 18, marginTop: 30}}>
-                                                Learn More >
+                                                Learn More {">"}
                                             </div>
                                         </div>
                                     </NavLink>
@@ -66,7 +66,7 @@ export default class Ping extends Component {
                                     <NavLink to="/services/iam/professional-services/pingidentity-design-development">
                                         <div>
                                             <div className='company-title' style={{fontSize: 18, marginTop: 30}}>
-                                                Learn More >
+                                                Learn More {">"}
                                             </div>
                                         </div>
                                     </NavLink>
@@ -84,7 +84,7 @@ export default class Ping extends Component {
                                     <NavLink to="/services/iam/professional-services/pingidentity-integration">
                                         <div>
                                             <div className='company-title' style={{fontSize: 18, marginTop: 30}}>
-                                                Learn More >
+                                                Learn More {">"}
                                             </div>
                                         </div>
                                     </NavLink>
@@ -103,7 +103,7 @@ export default class Ping extends Component {
                                     <NavLink to="/services/iam/professional-services/pingidentity-support-and-maintenance">
                                         <div>
                                             <div className='company-title' style={{fontSize: 18, marginTop: 30}}>
-                                                Learn More >
+                                                Learn More {">"}
                                             </div>
                                         </div>
                                     </NavLink>

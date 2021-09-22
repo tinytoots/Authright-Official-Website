@@ -106,7 +106,7 @@ export default function Card() {
                     <Col className="gutter-row" span={6}>
                     <div className="card" style={{backgroundImage: `url(${deloitteImg})`}}>
                         <div className="card-content">
-                            <h2 className="card-title"><p>Governmental</p><p>Medicaid Program</p></h2>
+                            <h2 className="card-title"><p>Governmental</p><p>IAM Program</p></h2>
                             <p className="card-body">User lifecycle management and cross domain SSO</p>
                             <Link to="/deloitte" className="button">Learn More</Link>
                         </div>
