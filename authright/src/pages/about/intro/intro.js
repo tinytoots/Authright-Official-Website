@@ -106,7 +106,7 @@ export default class intro extends Component {
                 <div className='about-intro-block3'>
                     <div className='inner'>
                         <div className='about-leadership-title'>
-                            Our Leadership
+                            Our Team
                         </div>
                         <div className='about-leadership-content'>
                             We are a team. A great journey begins here.
