@@ -17,114 +17,45 @@ export default class clients extends Component {
         return (
             <div className='clients-bg2'>
                 <div className='clients-bg'>
-                    <NavLink to="/home">
                             <img className='logo' src={HSBC} width={160} alt = 'logo' className='hsbc-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
                             <img className='logo' src={BBB} width={160} alt = 'logo' className='blue-cross-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
                             <img className='logo' src={Deloitte} width={160} alt = 'logo' className='deloitte-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
                             <img className='logo' src={Toyota} width={160} alt = 'logo' className='toyota-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
                             <img className='logo' src={HomeDepot} width={160} alt = 'logo' className='homeDepot-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
                             <img className='logo' src={Equifax} width={160} alt = 'logo' className='equifax-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
                             <img className='logo' src={Mohawk} width={160} alt = 'logo' className='mohawk-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
                             <img className='logo' src={Lowes} width={160} alt = 'logo' className='lowes-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
                             <img className='logo' src={Pearson} width={160} alt = 'logo' className='pearson-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
+
                             <img className='logo' src={HSBC} width={160} alt = 'logo' className='hsbc-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
                             <img className='logo' src={BBB} width={160} alt = 'logo' className='blue-cross-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
                             <img className='logo' src={Deloitte} width={160} alt = 'logo' className='deloitte-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
                             <img className='logo' src={Toyota} width={160} alt = 'logo' className='toyota-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
                             <img className='logo' src={HomeDepot} width={160} alt = 'logo' className='homeDepot-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
                             <img className='logo' src={Equifax} width={160} alt = 'logo' className='equifax-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
                             <img className='logo' src={Mohawk} width={160} alt = 'logo' className='mohawk-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
                             <img className='logo' src={Lowes} width={160} alt = 'logo' className='lowes-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
                             <img className='logo' src={Pearson} width={160} alt = 'logo' className='pearson-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
+
                             <img className='logo' src={HSBC} width={160} alt = 'logo' className='hsbc-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
                             <img className='logo' src={BBB} width={160} alt = 'logo' className='blue-cross-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
                             <img className='logo' src={Deloitte} width={160} alt = 'logo' className='deloitte-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
                             <img className='logo' src={Toyota} width={160} alt = 'logo' className='toyota-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
                             <img className='logo' src={HomeDepot} width={160} alt = 'logo' className='homeDepot-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
                             <img className='logo' src={Equifax} width={160} alt = 'logo' className='equifax-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
                             <img className='logo' src={Mohawk} width={160} alt = 'logo' className='mohawk-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
                             <img className='logo' src={Lowes} width={160} alt = 'logo' className='lowes-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
                             <img className='logo' src={Pearson} width={160} alt = 'logo' className='pearson-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
+                            
                             <img className='logo' src={HSBC} width={160} alt = 'logo' className='hsbc-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
                             <img className='logo' src={BBB} width={160} alt = 'logo' className='blue-cross-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
                             <img className='logo' src={Deloitte} width={160} alt = 'logo' className='deloitte-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
                             <img className='logo' src={Toyota} width={160} alt = 'logo' className='toyota-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
                             <img className='logo' src={HomeDepot} width={160} alt = 'logo' className='homeDepot-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
                             <img className='logo' src={Equifax} width={160} alt = 'logo' className='equifax-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
                             <img className='logo' src={Mohawk} width={160} alt = 'logo' className='mohawk-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
                             <img className='logo' src={Lowes} width={160} alt = 'logo' className='lowes-logo'/>
-                    </NavLink>
-                    <NavLink to="/home">
                             <img className='logo' src={Pearson} width={160} alt = 'logo' className='pearson-logo'/>
-                    </NavLink>
                 </div>
             </div>
         )
