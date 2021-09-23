@@ -8,11 +8,11 @@
 }
 
 .even-row {
-    text-align: right;
+    text-align: left;
 }
 
 .solution-row {
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .solution-row:hover {
@@ -25,7 +25,7 @@
 }
 
 .fr-cert {
-    margin-top: 70px;
+    margin-top: 40px;
     text-align: left;
 }
 .ping-cert-row {
@@ -35,4 +35,38 @@
 .cert-unit {
     width: 550px !important;
     text-align: left;;
+}
+
+.solution-row-title {
+    font-family: 'NunitoSans-extraBold',sans-serif;
+    font-size: 42px;
+    line-height: 150%;
+    color: black;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+.solution-content-text {
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.learn-more-extend {
+    margin-top: 15px;
+    color: rgb(18, 141, 218);
+}
+
+.solution-logo-gray-lane {
+    height: 1px;
+    width: 350px;
+    background-color: rgb(206, 206, 206);
+    margin-bottom: 20px;
+}
+
+.solution-ping-logo-gray-lane {
+    height: 1px;
+    width: 350px;
+    background-color: rgb(206, 206, 206);
+    margin-bottom: 20px;
+    margin-top: 65px
 }

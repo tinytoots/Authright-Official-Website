@@ -57,8 +57,8 @@
 }
 
 .solution-ping-logo {
-    float: left;
-    margin-top: 35px;
+    /* float: left; */
+    margin-top: 70px;
 }
 
 .service-iam-title {

@@ -47,7 +47,7 @@
 
 .solution-forgerock-intro2 {
     font-family: 'NunitoSans-regular',sans-serif;
-    font-size: 20px;
+    font-size: 25px !important;
     line-height: 150%;
     color: #1f1f1f;
     margin-bottom: 30px;

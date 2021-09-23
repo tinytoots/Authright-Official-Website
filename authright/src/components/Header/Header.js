@@ -3,7 +3,7 @@ import "./Header.css";
 import { Menu } from "antd";
 import { NavLink } from "react-router-dom";
 import "antd/dist/antd.css";
-import Logo from "../../img/Logo.png";
+import Logo from "../../img/Authright_logo_white_text.png";
 
 const menuStyle = {
   color: "#a7a7ab",
