@@ -24,8 +24,8 @@ export default class business extends Component {
         <div className="business-bg2">
           <div className="businessOutcome-intro">
             <div className="businessOutcome-title1">We are trusted by</div>
-            <div className="businessOutcome-title2">Fortune 500</div>
-            <div className="businessOutcome-title2">companies</div>
+            <div className="businessOutcome-title2">the Fortune 500</div>
+            {/* <div className="businessOutcome-title2">companies</div> */}
             <img
               className="businessOutcome-underline-img"
               src={UnderLine}
