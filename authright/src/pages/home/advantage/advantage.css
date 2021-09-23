@@ -1,22 +1,30 @@
 .tilte {
-    font-size: 28px;
-    font-family: 'SFProDisplay-Bold',sans-serif;
-    margin-bottom: 15px;
-    color: #EFF2F7;
+  font-size: 28px;
+  font-family: "SFProDisplay-Bold", sans-serif;
+  margin-bottom: 15px;
+  color: black;
 }
 
 .advan {
-    width: 700px;
-    font-size: 18px;
-    font-family: 'NunitoSans-regular',sans-serif;
-    margin-bottom: 30px;
-    margin: auto;
-    color: #EFF2F7;
+  width: 700px;
+  font-size: 18px;
+  font-family: "NunitoSans-regular", sans-serif;
+  margin-bottom: 30px;
+  margin: auto;
+  color: black;
 }
 
 .adv-bg {
-    background-color: black;
-    margin-top: -20px;
-    margin-bottom: 90px;
-    height: 150px;
+  background-color: #eff2f7;
+  margin-top: -30px;
+  padding-top: 80px;
+  height: 300px;
 }
+
+.unifiedcontrol-card-title {
+  margin-top:20px;
+  font-family: 'NunitoSans-regular',sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+}
+

@@ -1,119 +1,129 @@
 .trust-bg {
-    background-color: black;
-    margin: auto;
-    padding-top: 25px;
-    padding-bottom: 100px;
+  background-color: black;
+  margin: auto;
+  padding-top: 25px;
+  padding-bottom: 100px;
 }
 
 .trust-bg2 {
-    width: 1200px;
-    margin: auto;
+  width: 1200px;
+  margin: auto;
 }
 
 .turst-title {
-    padding-top: 50px;
-    color: #fff;
-    text-align: center;
-    font-size: 50px;
-    font-family: 'SFProDisplay-Semibold',sans-serif;
+  padding-top: 50px;
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-family: "SFProDisplay-Semibold", sans-serif;
 }
 
 .turst-title2 {
-    color: #fff;
-    text-align: center;
-    font-size: 50px;
-    font-family: 'SFProDisplay-Semibold',sans-serif;
-    margin-bottom: 50px;
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-family: "SFProDisplay-Semibold", sans-serif;
+  margin-bottom: 50px;
 }
 
 .trust-grid-bg {
-    margin: auto;
+  margin: auto;
 }
 
 .trust-color-block {
-    margin: auto;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-top: 20px;
-    border-radius: 5%;
-    height: 360px;
-    width: 260px;
-    background: linear-gradient(130deg,#ff7a18,#af002d 41.07%,#319197 76.05%)
+  margin: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 20px;
+  border-radius: 5%;
+  height: 360px;
+  width: 260px;
+  background: linear-gradient(130deg, #ff7a18, #af002d 41.07%, #319197 76.05%);
 }
 
 .trust-black-block {
-    margin: auto;
-    background-color: #000;
-    height: 350px;
-    width: 250px;
-    border-radius: 5%;
+  margin: auto;
+  background-color: #000;
+  height: 350px;
+  width: 250px;
+  border-radius: 5%;
 }
 
 .trust-color-block-title {
-    text-align: left;
-    padding-top: 130px;
-    margin-left: 20px;
-    margin-bottom: -10px;
-    font-family: 'SFProDisplay-Bold',sans-serif;
-    padding-bottom: -5px;
-    font-style: normal;
-    font-size: clamp(1.8rem,calc(1.8rem + .2vw),3rem);
-    font-weight: 800;
-    color:white;
+  text-align: left;
+  padding-top: 30px;
+  margin-left: 20px;
+  margin-bottom: -10px;
+  font-family: "SFProDisplay-Bold", sans-serif;
+  padding-bottom: -5px;
+  font-style: normal;
+  font-size: clamp(1.8rem, calc(1.8rem + 0.2vw), 3rem);
+  font-weight: 800;
+  color: white;
 }
 
 .trust-color-block-title2 {
-    margin-bottom: -12px;
-    text-align: left;
-    margin-left: 20px;
-    font-family: 'SFProDisplay-Bold',sans-serif;
-    font-style: normal;
-    font-size: clamp(1.8rem,calc(1.8rem + .2vw),3rem);
-    font-weight: 800;
-    color:white;
+  margin-bottom: -12px;
+  text-align: left;
+  margin-left: 20px;
+  font-family: "SFProDisplay-Bold", sans-serif;
+  font-style: normal;
+  font-size: clamp(1.8rem, calc(1.8rem + 0.2vw), 3rem);
+  font-weight: 800;
+  color: white;
 }
 
 .trust-color-block-title3 {
-    text-align: left;
-    margin-left: 20px;
-    font-family: 'SFProDisplay-Bold',sans-serif;
-    font-style: normal;
-    font-size: clamp(1.8rem,calc(1.8rem + .2vw),3rem);
-    font-weight: 800;
-    color:white;
+  text-align: left;
+  margin-left: 20px;
+  font-family: "SFProDisplay-Bold", sans-serif;
+  font-style: normal;
+  font-size: clamp(1.8rem, calc(1.8rem + 0.2vw), 3rem);
+  font-weight: 800;
+  color: white;
 }
 
 .trust-color-block-title4 {
-    margin-bottom: -12px;
-    text-align: left;
-    margin-left: 17px;
-    font-family: 'SFProDisplay-Bold',sans-serif;
-    font-style: normal;
-    font-size: clamp(1.8rem,calc(1.8rem + .2vw),3rem);
-    font-weight: 800;
-    color:white;
+  margin-bottom: -12px;
+  text-align: left;
+  margin-left: 17px;
+  font-family: "SFProDisplay-Bold", sans-serif;
+  font-style: normal;
+  font-size: clamp(1.8rem, calc(1.8rem + 0.2vw), 3rem);
+  font-weight: 800;
+  color: white;
 }
 
-
 .trust-color-block-served {
-    padding-top: 20px;
-    text-align: left;
-    margin-left: 20px;
-    font-family: 'SFProDisplay-Semibold',sans-serif;
-    font-size: clamp(12px,calc(.8rem + .25vw),20px);
-    font-weight: 300;
-    line-height: 1.7;
-    color:white;
+  padding-top: 20px;
+  text-align: left;
+  margin-left: 20px;
+  font-family: "SFProDisplay-Semibold", sans-serif;
+  font-size: clamp(12px, calc(0.8rem + 0.25vw), 20px);
+  font-weight: 300;
+  line-height: 1.7;
+  color: white;
 }
 
 .trust-color-block-served2 {
-    text-align: left;
-    margin-left: 20px;
-    font-family: 'SFProDisplay-Semibold',sans-serif;
-    font-size: clamp(12px,calc(.8rem + .25vw),20px);
-    font-weight: 300;
-    line-height: 1.7;
-    color: #1890ff;
+  text-align: left;
+  margin-left: 20px;
+  font-family: "SFProDisplay-Semibold", sans-serif;
+  font-size: clamp(12px, calc(0.8rem + 0.25vw), 20px);
+  font-weight: 300;
+  line-height: 1; 
+  color: #1890ff;
+}
+
+.trust-forgerock {
+  max-width: 95px;
+  max-height: 95px;
+}
+
+.trust-ping {
+  max-width: 80px;
+  max-height: 80px;
+  margin-bottom: 15px;
 }

@@ -24,6 +24,12 @@ export const employeeInfo = [
     pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gupt6s9vzjj60e80e8jsa02.jpg",
   },
   {
+    name: "Lei Zhang",
+    title: "Senior IAM Consultant",
+    linkedin: "https://www.linkedin.com/in/lei-zhang-a5245a43/",
+    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guq1770rx5j60b40b4mxx02.jpg",
+  },
+  {
     name: "Lingchao Jiang",
     title: "IAM Consultant",
     linkedin: "https://www.linkedin.com/in/lingchao-jiang-90a181128/",
@@ -59,12 +65,14 @@ export const employeeInfo = [
     linkedin: "https://www.linkedin.com/in/yishusun-it/",
     pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guptc9cnu3j60u0140q7j02.jpg",
   },
+  /*
   {
     name: "Yongzheng Sun",
     title: "IAM Consultant",
     linkedin: "https://www.linkedin.com/in/yongzheng-sun-34b15814b/",
     pic: "",
   },
+  */
   {
     name: "Jie Dai",
     title: "Software Engineer",
@@ -93,7 +101,7 @@ export const employeeInfo = [
     name: "Chen Wang",
     title: "IAM Consultant",
     linkedin: "https://www.linkedin.com/in/chen-wang7/",
-    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gupxkood9xj60ib0ibmy302.jpg",
+    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gupyck2mx6j60ia0iaaaz02.jpg",
   },
   {
     name: "Shujian Chen",
@@ -103,7 +111,7 @@ export const employeeInfo = [
   },
   {
     name: "Tao Xu",
-    title: "IAM Engineer",
+    title: "IAM Consultant",
     linkedin: "https://www.linkedin.com/in/xu-tao/",
     pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gupt9tvoa3j60gq0gqt9p02.jpg",
   },

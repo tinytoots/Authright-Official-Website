@@ -18,7 +18,7 @@
     display: inline-block;
     position: relative;
     padding-right: 0px;
-    animation: logo 20s linear infinite;
+    animation: logo 25s linear infinite;
     white-space: nowrap;
     margin-top: -74px;
 }
@@ -95,5 +95,5 @@
     margin-right: 25px;
 }
 
-@-webkit-keyframes logo { 0% { transform: translateX(0); } 100% { transform: translateX(-33.3%); } }
-        @keyframes logo { 0% { transform: translateX(0); } 100% { transform: translateX(-33.3%); } }
+@-webkit-keyframes logo { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+        @keyframes logo { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
