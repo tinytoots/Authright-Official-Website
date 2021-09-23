@@ -45,11 +45,11 @@ export default class customerComments extends Component {
               <h3>Jay Butler</h3>
               <h4>Major Account Manager</h4>
               <h4> @ ForgeRock</h4>
-              <p>
+              <div className="comment-paragraph"><p>
                 "I would bring the Authright team to any ForgeRock customers for
                 their exceptional ForgeRock services."
-              </p>
-              <a href="https://www.forgerock.com/partner/authright">Read More</a>
+              </p></div>
+              {/* <a href="https://www.forgerock.com/partner/authright">Read More</a> */}
             </div>
           </div>
           <div className="card-customersComments">
@@ -63,9 +63,11 @@ export default class customerComments extends Component {
               <h3>Linda Sroufe</h3>
               <h4>Senior Manager of CIAM</h4>
               <h4>@ The Home Depot</h4>
-              <p>"Top notch, we can count on the authright team."</p>
-              <br height="30" />
-              <a href="/home-depot">Read More</a>
+              <div className="comment-paragraph">
+                <p>"Top notch, we can count on the authright team."</p>
+              </div>
+              {/* <br height="30" /> */}
+              {/* <a href="/home-depot">Read More</a> */}
             </div>
           </div>
           <div className="card-customersComments">
@@ -75,25 +77,30 @@ export default class customerComments extends Component {
               <h3>Todd Oxford</h3>
               <h4>Senior Director of IAM</h4>
               <h4>@ Equifax</h4>
-              <p>
-                “Great team! Authright is helping us build a more trustable and
-                stable IAM platform.”
-              </p>
-              <a href="/equifax">Read More</a>
+              <div className="comment-paragraph">
+                <p>
+                  “Great team! Authright is helping us build a more trustable
+                  and stable IAM platform.”
+                </p>
+              </div>
+              {/* <a href="/equifax">Read More</a> */}
             </div>
           </div>
           <div className="card-customersComments">
             <div className="content-customersComments">
-              <img className="comments-logo" src={Mohawk} alt="logo" />
+              <img className="comments-logo-mohawk" src={Mohawk} alt="logo" />
               <br />
               <h3>Sathish Tirumalasetty</h3>
               <h4>Lead - Architecture & Development </h4>
               <h4>@ Mohawk Industries</h4>
-              <p>
-                “Working with authright team was an outstanding experience, they
-                provided us excellent support.”
-              </p>
-              <a href="/mohawk-industries">Read More</a>
+              <div className="comment-paragraph">
+                <p>
+                  “Working with authright team was an outstanding experience,
+                  they provided us excellent support.”
+                </p>
+              </div>
+
+              {/* <a href="/mohawk-industries">Read More</a> */}
             </div>
           </div>
         </div>

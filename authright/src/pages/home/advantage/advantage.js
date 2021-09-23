@@ -20,7 +20,6 @@ export default class advantage extends Component {
             <i className="approw-arrow-down-line arrow"></i>
           </div>
         </NavLink>
-        <div className="adv-divider"></div>
       </div>
     );
   }
