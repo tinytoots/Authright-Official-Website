@@ -45,10 +45,12 @@ export default class customerComments extends Component {
               <h3>Jay Butler</h3>
               <h4>Major Account Manager</h4>
               <h4> @ ForgeRock</h4>
-              <div className="comment-paragraph"><p>
-                "I would bring the Authright team to any ForgeRock customers for
-                their exceptional ForgeRock services."
-              </p></div>
+              <div className="comment-paragraph">
+                <p>
+                  "I would bring the Authright team to any ForgeRock customers
+                  for their exceptional ForgeRock services."
+                </p>
+              </div>
               {/* <a href="https://www.forgerock.com/partner/authright">Read More</a> */}
             </div>
           </div>
