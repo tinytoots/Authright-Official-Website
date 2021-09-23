@@ -1,11 +1,5 @@
 export const employeeInfo = [
   {
-    name: "Yaodong Hu",
-    title: "CEO, Founder",
-    linkedin: "https://www.linkedin.com/in/yaodonghu/",
-    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gupu0bcg7hj60ty0tzwk302.jpg",
-  },
-  {
     name: "Yanchou Han",
     title: "IAM Architect",
     linkedin: "https://www.linkedin.com/in/yanchou-han-b87ba5/",

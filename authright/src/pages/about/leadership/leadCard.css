@@ -1,0 +1,45 @@
+.leadCard-container {
+    width: 1160px;
+    height: 260px;
+    /* border:1px solid black; */
+    box-shadow: 0px 2px 2.9px rgba(143, 145, 144, 0.05),
+      0px 0px 5px rgba(143, 145, 144, 0.1);
+    border-radius: 5px;
+    display: flex;
+    margin: 50px auto;
+  }
+  
+  .leadCard-container:hover {
+    box-shadow: 0px -0.8px 6px rgba(143, 145, 144, 0.1),
+      0px 6.4px 20px rgba(143, 145, 144, 0.2);
+  }
+  .leadCard-img {
+    width: 260px;
+    margin-right: 20px;
+    border-radius: 5px 0px 0px 5px;
+  }
+  .leadCard-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+  }
+  .leadCard-title {
+    text-align: left;
+    font-size: 24px;
+    font-family: "NunitoSans-bold", sans-serif;
+  }
+  .leadCard-linkedin {
+    cursor: pointer;
+    height: 30px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 5px
+  }
+  .leadCard-description {
+    text-align: left;
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: "NunitoSans-regular", sans-serif;
+  }
+  
