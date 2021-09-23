@@ -1,11 +1,11 @@
 .intro-bg {
-    margin-top: 80px;
-    background-color: rgb(222, 222, 222);
-    /* height: 900px; */
+    margin-top: 30px;
+    background-color: black;
+    height: 800px;
     margin-bottom: 10px;
     background-image: url("../../../img/global-connection.jpeg");
     /* background-image: url(../); */
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
     text-align: center;

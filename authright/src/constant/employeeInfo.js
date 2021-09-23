@@ -1,11 +1,5 @@
 export const employeeInfo = [
   {
-    name: "Yaodong Hu",
-    title: "CEO, Founder",
-    linkedin: "https://www.linkedin.com/in/yaodonghu/",
-    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gupu0bcg7hj60ty0tzwk302.jpg",
-  },
-  {
     name: "Yanchou Han",
     title: "IAM Architect",
     linkedin: "https://www.linkedin.com/in/yanchou-han-b87ba5/",
@@ -30,16 +24,28 @@ export const employeeInfo = [
     pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guq1770rx5j60b40b4mxx02.jpg",
   },
   {
-    name: "Lingchao Jiang",
-    title: "IAM Consultant",
-    linkedin: "https://www.linkedin.com/in/lingchao-jiang-90a181128/",
-    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gupuhoa89jj60b40b4mxe02.jpg",
+    name: "Jiayi Cai",
+    title: "Software Engineer",
+    linkedin: "https://www.linkedin.com/in/jiayi-cai-8b7093136/",
+    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guqaxic3m3j60b40b4jro02.jpg",
   },
   {
     name: "Steve Mu",
     title: "Software Engineer",
     linkedin: "https://www.linkedin.com/in/qistevemu/",
     pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gupt7w706zj60dw0dw3zz02.jpg",
+  },
+  {
+    name: "Lingchao Jiang",
+    title: "IAM Consultant",
+    linkedin: "https://www.linkedin.com/in/lingchao-jiang-90a181128/",
+    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gupuhoa89jj60b40b4mxe02.jpg",
+  },
+  {
+    name: "Zixiao Zheng",
+    title: "Software Engineer",
+    linkedin: "https://www.linkedin.com/in/zixiao-zheng-b40a03163/",
+    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guqax7bo3hj60e50e5wfm02.jpg",
   },
   {
     name: "Yunfei Xu",
@@ -64,6 +70,12 @@ export const employeeInfo = [
     title: "IAM Consultant",
     linkedin: "https://www.linkedin.com/in/yishusun-it/",
     pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guptc9cnu3j60u0140q7j02.jpg",
+  },
+  {
+    name: "Chance Liu",
+    title: "Software Engineer",
+    linkedin: "https://www.linkedin.com/in/chanceliu/",
+    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guqardqcppj6070071gls02.jpg",
   },
   /*
   {
