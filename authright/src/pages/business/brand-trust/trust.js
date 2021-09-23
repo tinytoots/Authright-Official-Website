@@ -27,7 +27,7 @@ export default class trust extends Component {
                     <div className="trust-color-block-served">with</div>
                     <a
                       className="unifiedcontrol-card-default"
-                      href="https://www.forgerock.com/"
+                      href="https://www.forgerock.com"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
