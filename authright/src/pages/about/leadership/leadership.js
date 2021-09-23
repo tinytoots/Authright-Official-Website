@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ExpandCard from "../expandCard/expandCard";
-import { employeeInfo as employees } from "../../../constant/constant";
+import { employeeInfo as employees } from "../../../constant/employeeInfo";
 import "./leadership.css";
 import { Row, Col } from "antd";
 import "antd/dist/antd.css";
