@@ -147,17 +147,17 @@ body::after {
   .content-customersComments {
   padding: 20px;
   text-align: center;
-  transform: translateY(100px);
+  /* transform: translateY(100px); */
   opacity: 1;
-  transition: 0.5s;
+  /* transition: 0.5s; */
 }
 
-.container-customersComments
+/* .container-customersComments
   .card-customersComments:hover
   .content-customersComments {
   transform: translateY(0px);
   opacity: 1;
-}
+} */
 
 .container-customersComments
   .card-customersComments
@@ -214,20 +214,30 @@ body::after {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+.comment-paragraph{
+  margin-top: 30px;
+}
+
 .comments-logo {
-  width: 150px;
-  margin-top: -50px;
+  width: 300px;
+  margin-top: 10px;
 }
 
 .comments-logo-homedepot {
   width: 180px;
-  margin-top: -40px;
+  margin-top: -10px;
   margin-bottom: 20px;
 }
 
 .comments-logo-equifax {
-  width: 200px;
-  margin-top: -30px;
+  width: 260px;
+  margin-bottom: -10px;
+}
+
+.comments-logo-mohawk{
+  width: 160px;
+  margin-top:-10px;
+  margin-bottom: 20px;
 }
 
 /* element.style {

@@ -45,16 +45,16 @@
 
 .trust-black-block {
   margin: auto;
-  background-color: #000;
+  background-color: black;
   height: 350px;
   width: 250px;
   border-radius: 5%;
 }
 
 .trust-color-block-title {
-  text-align: left;
+  text-align: center;
   padding-top: 30px;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   margin-bottom: -10px;
   font-family: "SFProDisplay-Bold", sans-serif;
   padding-bottom: -5px;
@@ -66,8 +66,8 @@
 
 .trust-color-block-title2 {
   margin-bottom: -12px;
-  text-align: left;
-  margin-left: 20px;
+  text-align: center;
+  /* margin-left: 20px; */
   font-family: "SFProDisplay-Bold", sans-serif;
   font-style: normal;
   font-size: clamp(1.8rem, calc(1.8rem + 0.2vw), 3rem);
@@ -76,8 +76,8 @@
 }
 
 .trust-color-block-title3 {
-  text-align: left;
-  margin-left: 20px;
+  text-align: center;
+  /* margin-left: 20px; */
   font-family: "SFProDisplay-Bold", sans-serif;
   font-style: normal;
   font-size: clamp(1.8rem, calc(1.8rem + 0.2vw), 3rem);
@@ -87,8 +87,8 @@
 
 .trust-color-block-title4 {
   margin-bottom: -12px;
-  text-align: left;
-  margin-left: 17px;
+  text-align: center;
+  /* margin-left: 17px; */
   font-family: "SFProDisplay-Bold", sans-serif;
   font-style: normal;
   font-size: clamp(1.8rem, calc(1.8rem + 0.2vw), 3rem);
@@ -97,9 +97,9 @@
 }
 
 .trust-color-block-served {
-  padding-top: 20px;
-  text-align: left;
-  margin-left: 20px;
+  padding-top: 70px;
+  text-align: right;
+  margin-right: 20px;
   font-family: "SFProDisplay-Semibold", sans-serif;
   font-size: clamp(12px, calc(0.8rem + 0.25vw), 20px);
   font-weight: 300;
@@ -118,12 +118,13 @@
 }
 
 .trust-forgerock {
-  max-width: 95px;
-  max-height: 95px;
+  max-width: 140px;
+  max-height: 140px;
 }
 
 .trust-ping {
   max-width: 80px;
   max-height: 80px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
+  margin-top: 30px;
 }
