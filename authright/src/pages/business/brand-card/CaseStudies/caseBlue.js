@@ -33,7 +33,7 @@ export default class caseBlue extends Component {
                     <div className="inner">
                         <Row>
                             <Col span={12}>
-                                <img src={HsbcImg} width={550} alt = 'logo' className='case-hsbc-img' style={{paddingTop: 50, paddingBottom: 70}}/>
+                                <img src="https://tva1.sinaimg.cn/large/008i3skNgy1guq2e1v466j60d008omxl02.jpg" width={550} alt = 'logo' className='case-hsbc-img' style={{paddingTop: 50, paddingBottom: 70}}/>
                             </Col>
                             <Col span={12}>
                                 <div className="caseStudies-about-title" style={{paddingTop: 55}}>

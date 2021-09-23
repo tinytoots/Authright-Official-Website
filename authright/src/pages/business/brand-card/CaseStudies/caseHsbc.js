@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Row, Col, Divider } from 'antd';
 import HsbcImg from '../../../../img/case-hsbc.png'
-import AuthrightLogo from '../../../../img/authright-logo.jpg'
 import './caseStudies.css';
 
 
@@ -35,7 +34,7 @@ export default class caseHsbc extends Component {
                     <div className="inner">
                         <Row>
                             <Col span={12}>
-                                <img src={HsbcImg} width={550} alt = 'logo' className='case-hsbc-img' style={{paddingTop: 50, paddingBottom: 70}}/>
+                                <img src="https://tva1.sinaimg.cn/large/008i3skNgy1guq261j4a0j60d008ojs002.jpg" width={550} alt = 'logo' className='case-hsbc-img' style={{paddingTop: 50, paddingBottom: 70}}/>
                             </Col>
                             <Col span={12}>
                                 <div className="caseStudies-about-title" style={{paddingTop: 70}}>
@@ -149,28 +148,7 @@ export default class caseHsbc extends Component {
                         </Row>
                     </div>
                 </div>
-
-                <div className="case-result-bg">
-                    <div className="inner">
-                        <Row>
-                            <Col span={12}>
-                                <div className="caseStudies-about-title" style={{paddingTop: 50}}>
-                                    The Results
-                                </div>
-                                <div className="caseStudies-about-content">
-                                    IAM has greatly improved the production efficiency of the company. Through customized solutions, we have saved a lot of manpower and material resources for that to provide management and security services for millions of accounts. Authright is committed to serving more users and helping enterprises achieve business goals faster.
-                                </div>
-                            </Col>
-                            <Col span={12}>
-                                <img src={AuthrightLogo} width={400} alt = 'logo' className='case-authright-img' style={{paddingTop: 50}} />
-                            </Col>
-                        </Row>
-                    </div>
-                </div>
-                
-
-
-                {/* <div className="case-about-bg">
+          {/* <div className="case-about-bg">
                     <div className="caseStudies-about-title">
                         About AuthRight
                     </div>

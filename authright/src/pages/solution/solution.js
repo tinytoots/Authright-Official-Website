@@ -46,9 +46,6 @@ export default function Solution()  {
                                                 <img src={ForgerockCert4} width={150} alt = 'logo' className=''/>
                                         </Col>
                                         <Col className=" " span={4}>
-                                                <img src={ForgerockCert3} width={150} alt = 'logo' className=''/>    
-                                        </Col>
-                                        <Col className=" " span={4}>
                                                 <img src={ForgerockCert1} width={150} alt = 'logo' className=''/>
                                         </Col>
                                         <Col className=" " span={4}>
@@ -85,9 +82,6 @@ export default function Solution()  {
                                         </Col>
                                         <Col className="cert-unit" span={4}>
                                                 <img src={Ping3} width={150} alt = 'logo' className=''/>
-                                        </Col>
-                                        <Col className="cert-unit " span={4}>
-                                                <img src={Ping4} width={150} alt = 'logo' className=''/>
                                         </Col>
                                         <Col className="cert-unit " span={4}>
                                                 <img src={Ping4} width={150} alt = 'logo' className=''/>
