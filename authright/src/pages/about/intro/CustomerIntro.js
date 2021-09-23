@@ -25,7 +25,7 @@ export default function CustomerIntro() {
                             <div className='career-company-title2'>
                                 Improving Efficiency for Our Customers
                             </div>
-                            <div className='career-company-intro' style={{color: "white"}}>
+                            <div className='career-company-intro'>
                                 Our experienced professional team will escort your business all the time and provide 24/7 technical support. The IAM certificate holding rate of our employees exceeds <span style={{fontFamily: "SFProDisplay-bold"}}>90%</span>
                             </div>
                         </Col>

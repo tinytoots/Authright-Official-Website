@@ -30,7 +30,7 @@
     font-size: 40px;
     font-family: 'NunitoSans-bold',sans-serif;
     margin: auto;
-    color: white;
+    /* color: white; */
 }
 
 .about-company-title2 {
@@ -38,7 +38,7 @@
     font-size: 40px;
     font-family: 'NunitoSans-bold',sans-serif;
     margin: auto;
-    color: white;
+    /* color: white; */
 }
 
 .career-values-title {
@@ -57,9 +57,10 @@
 
 .about-intro-block2 {
     height: 400px;
-    margin-top: 100px;
-    margin-bottom: 200px
-    /* background-color: #141414; */
+    /* margin-tsop: 100px; */
+    margin-bottom: 200px;
+    color: black;
+    background-color: #ffffff;
 }
 
 .about-intro-block3 {
@@ -73,7 +74,7 @@
     width: 700px;
     font-family: 'NunitoSans-regular',sans-serif;
     margin: auto;
-    color: #000;
+    /* color: #000; */
 }
 
 .about-leadership-content {
@@ -128,10 +129,11 @@
 
 .about-black-block {
     margin: auto;
-    background-color: #000;
+    background-color: #fff;
     height: 350px;
     width: 250px;
     border-radius: 5%;
+    color: #000;
 }
 
 .about-color-block-title {
@@ -144,7 +146,7 @@
     font-style: normal;
     font-size: clamp(1.8rem,calc(1.8rem + .2vw),3rem);
     font-weight: 800;
-    color: #fff;
+    /* color: #fff; */
 }
 
 .about-color-block-title2 {
@@ -155,7 +157,7 @@
     font-style: normal;
     font-size: clamp(1.8rem,calc(1.8rem + .2vw),3rem);
     font-weight: 800;
-    color: #fff;
+    /* color: #fff; */
 }
 
 .about-color-block-title3 {
@@ -165,7 +167,7 @@
     font-style: normal;
     font-size: clamp(1.8rem,calc(1.8rem + .2vw),3rem);
     font-weight: 800;
-    color: #fff;
+    /* color: #fff; */
 }
 
 
@@ -177,7 +179,7 @@
     font-size: clamp(12px,calc(.8rem + .25vw),20px);
     font-weight: 300;
     line-height: 1.7;
-    color: #fff;
+    /* color: #fff; */
 }
 
 .about-color-block-served2 {
