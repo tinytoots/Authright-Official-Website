@@ -15,12 +15,12 @@ import lowesImg from '../../../img/card-lowes.png'
 
 
 var cardHsbc = {
-    backgroundImage: `url(${hsbcImg}`
+    backgroundImage: "url(https://tva1.sinaimg.cn/large/008i3skNgy1guq233jsj0j60d00i741002.jpg)"
 }
 
 var cardBcbs = {
     backgroundPosition: "40% 100%",
-    backgroundImage: `url(${bcbsImg})`
+    backgroundImage: "url(https://tva1.sinaimg.cn/large/008i3skNgy1guq2837jepj60d008nmxm02.jpg)"
 }
 
 var cardPearson = {
@@ -50,7 +50,7 @@ export default function Card() {
                     </div>
                     </Col>
                     <Col className="gutter-row" span={6}>
-                    <div className="card" style={{backgroundImage: `url(${homedepotImg})`}}>
+                    <div className="card" style={{backgroundImage: "url(https://tva1.sinaimg.cn/large/008i3skNgy1guq2837jepj60d008nmxm02.jpg)"}}>
                         <div className="card-content">
                             <h2 className="card-title"><p>Retailer Services with</p><p>CIAM</p></h2>
                             <p className="card-body">E-commerce Store for daily customer authentication and authorization</p>
@@ -59,7 +59,7 @@ export default function Card() {
                     </div>
                     </Col>
                     <Col className="gutter-row" span={6}>
-                    <div className="card" style={{backgroundImage: `url(${mohawkImg})`}}>
+                    <div className="card" style={{backgroundImage: "url(https://tva1.sinaimg.cn/large/008i3skNgy1guq2a71q0uj60d00jiad702.jpg)"}}>
                         <div className="card-content">
                             <h2 className="card-title"><p>Global Commercial</p><p> SSO Soilution</p></h2>
                             <p className="card-body">Customized system integration and SSO implementation</p>
@@ -68,7 +68,7 @@ export default function Card() {
                     </div>
                     </Col>
                     <Col className="gutter-row" span={6}>
-                    <div className="card" style={{backgroundImage: `url(${toyotaImg})`}}>
+                    <div className="card" style={{backgroundImage: "url(https://tva1.sinaimg.cn/large/008i3skNgy1guq2aqrd9hj60d008o3zl02.jpg)"}}>
                         <div className="card-content">
                             <h2 className="card-title"><p>Consumer Vehicle</p><p>Industry IAM Platform</p></h2>
                             <p className="card-body">Unified application platform with IAM capability for end users</p>
@@ -77,7 +77,7 @@ export default function Card() {
                     </div>
                     </Col>
                     <Col className="gutter-row" span={6}>
-                    <div className="card" style={cardBcbs}>
+                    <div className="card" style={{backgroundImage: "url(https://tva1.sinaimg.cn/large/008i3skNgy1guq2bvn9aaj60d00g9my902.jpg)"}}>
                         <div className="card-content">
                             <h2 className="card-title"><p>Helthcare Industry</p><p>IAM Services</p></h2>
                             <p className="card-body">Compliance driven multi-region system migration and upgrade</p>
@@ -86,7 +86,7 @@ export default function Card() {
                     </div>
                     </Col>
                     <Col className="gutter-row" span={6}>
-                    <div className="card" style={{backgroundImage: `url(${equifaxImg})`}}>
+                    <div className="card" style={{backgroundImage: "url(https://tva1.sinaimg.cn/large/008i3skNgy1guq2eyc3xrj60d007b0u002.jpg)"}}>
                         <div className="card-content">
                             <h2 className="card-title"><p>Workforce IAM</p><p>Solution</p></h2>
                             <p className="card-body">Enforce employee security with MFA while smoothing SSO process</p>
@@ -95,7 +95,7 @@ export default function Card() {
                     </div>
                     </Col>
                     <Col className="gutter-row" span={6}>
-                    <div className="card" style={cardPearson}>
+                    <div className="card" style={{backgroundImage: "url(https://tva1.sinaimg.cn/large/008i3skNgy1guq2g5ihwrj60d008omxk02.jpg)"}}>
                         <div className="card-content">
                             <h2 className="card-title"><p>IAM Platform for </p><p>Educational Sercive</p></h2>
                             <p className="card-body">End user access handling with reliability and security</p>
@@ -104,7 +104,7 @@ export default function Card() {
                     </div>
                     </Col>
                     <Col className="gutter-row" span={6}>
-                    <div className="card" style={{backgroundImage: `url(${deloitteImg})`}}>
+                    <div className="card" style={{backgroundImage: "url(https://tva1.sinaimg.cn/large/008i3skNgy1guq2gs152vj60d009raao02.jpg)"}}>
                         <div className="card-content">
                             <h2 className="card-title"><p>Governmental</p><p>IAM Program</p></h2>
                             <p className="card-body">User lifecycle management and cross domain SSO</p>
