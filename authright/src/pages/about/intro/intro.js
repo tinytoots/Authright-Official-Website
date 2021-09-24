@@ -34,30 +34,30 @@ export default class intro extends Component {
 
         <div className="about-intro-block3">
           <div className="inner">
-            <div className="career-values-title">Our Values</div>
+            <div className="about-values-title">Our Values</div>
             <div className="about-values">
               <Row gutter={16}>
                 <Col className="gutter-row" span={6}>
-                  <img className="values-img" alt="" src={Heart} width={50} />
+                  <img className="values-img" alt="" src={Heart} width={80} />
                 </Col>
                 <Col className="gutter-row" span={6}>
                   <img
                     className="values-img"
                     alt=""
                     src={Important}
-                    width={50}
+                    width={80}
                   />
                 </Col>
                 <Col className="gutter-row" span={6}>
-                  <img className="values-img" alt="" src={Growth} width={50} />
+                  <img className="values-img" alt="" src={Growth} width={80} />
                 </Col>
                 <Col className="gutter-row" span={6}>
-                  <img className="values-img" alt="" src={Bulb} width={50} />
+                  <img className="values-img" alt="" src={Bulb} width={80} />
                 </Col>
               </Row>
               <Row gutter={16}>
                 <Col className="gutter-row" span={6}>
-                  <div style={style}>Client First</div>
+                  <div style={style}>Customer First</div>
                 </Col>
                 <Col className="gutter-row" span={6}>
                   <div style={style}>Employee Centered</div>
