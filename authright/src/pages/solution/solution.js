@@ -72,12 +72,13 @@ export default function Solution()  {
                                         </Col>
                                     </Row>
                                 </div>
-                                <div className='solution-gray-lane' />
+                                
                             </div>   
                         </div>
                         <div className  = "inner" style = {{display: show[0]}}>
                                 <Forgerock />
                         </div>
+                        {show[0] === "none" ? <div className='solution-gap-lane inner' />:""}
 
                         <div className = "even-row solution-row">
                             <div className='inner'>
@@ -122,7 +123,7 @@ export default function Solution()  {
                                         </Col>
                                     </Row>
                                 </div>
-                                <div className='solution-gray-lane' />
+                                {/* <div className='solution-gray-lane' /> */}
                             </div>    
                         </div>
                         <div className="inner" style = {{display: show[1]}}>

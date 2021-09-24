@@ -15,6 +15,15 @@
     /* cursor: pointer; */
 }
 
+.solution-gap-lane {
+    height: 1px;
+    background-color: #000000;
+    width: 1200px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+} 
+
 .solution-row:hover {
 }
 
@@ -27,9 +36,11 @@
 .fr-cert {
     margin-top: 40px;
     text-align: left;
+    margin-bottom: 70px;
 }
 .ping-cert-row {
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-bottom: 120px;
 }
 
 .cert-unit {
@@ -59,14 +70,14 @@
 .solution-logo-gray-lane {
     height: 1px;
     width: 350px;
-    background-color: rgb(206, 206, 206);
-    margin-bottom: 20px;
+    background-color: rgb(230, 230, 230);
+    margin-bottom: 0px;
 }
 
 .solution-ping-logo-gray-lane {
     height: 1px;
     width: 350px;
-    background-color: rgb(206, 206, 206);
-    margin-bottom: 20px;
+    background-color: rgb(230, 230, 230);
+    margin-bottom: 0px;
     margin-top: 65px
 }

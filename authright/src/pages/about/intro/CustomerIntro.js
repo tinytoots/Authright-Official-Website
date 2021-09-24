@@ -11,7 +11,7 @@ export default function CustomerIntro() {
                             <div className="about-color-block">
                                 <div className="about-black-block">
                                    <div className="about-color-block-title">More than</div>
-                                   <div className="about-color-block-title2">1000000</div>
+                                   <div className="about-color-block-title2">1,000,000</div>
                                    <div className="about-color-block-title3">users</div>
                                    <div className="about-color-block-served">served by</div>
                                    <div className="about-color-block-served2">Authright</div>
