@@ -9,7 +9,8 @@ export const employeeInfo = [
     name: "Feizhi Li",
     title: "Principal Consultant",
     linkedin: "https://www.linkedin.com/in/feizhi-li-6029b98/",
-    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gus5yagleoj60st0ulmyr02.jpg",
+    // pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gus5yagleoj60st0ulmyr02.jpg",
+    pic:"https://tva1.sinaimg.cn/large/008i3skNgy1guscgilrgkj60e80e83ye02.jpg"
   },
   {
     name: "Bin Lin",
@@ -46,7 +47,7 @@ export const employeeInfo = [
     name: "Steve Mu",
     title: "Software Engineer",
     linkedin: "https://www.linkedin.com/in/qistevemu/",
-    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gupt7w706zj60dw0dw3zz02.jpg",
+    pic:"https://tva1.sinaimg.cn/large/008i3skNgy1guscgilrgkj60e80e83ye02.jpg",
   },
   {
     name: "Lingchao Jiang",
@@ -58,7 +59,7 @@ export const employeeInfo = [
     name: "Zixiao Zheng",
     title: "Software Engineer",
     linkedin: "https://www.linkedin.com/in/zixiao-zheng-b40a03163/",
-    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guqax7bo3hj60e50e5wfm02.jpg",
+    pic:"https://tva1.sinaimg.cn/large/008i3skNgy1guscgilrgkj60e80e83ye02.jpg",
   },
   {
     name: "Yunfei Xu",
@@ -70,7 +71,7 @@ export const employeeInfo = [
     name: "Xiaohan Li",
     title: "IAM Consultant",
     linkedin: "https://www.linkedin.com/in/xiaohan-li-28a115180/",
-    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guptac8v02j60gq0gq3yx02.jpg",
+    pic:"https://tva1.sinaimg.cn/large/008i3skNgy1guscgilrgkj60e80e83ye02.jpg",
   },
   {
     name: "Chaopeng Hu",
@@ -82,27 +83,27 @@ export const employeeInfo = [
     name: "Yishu Sun",
     title: "IAM Consultant",
     linkedin: "https://www.linkedin.com/in/yishusun-it/",
-    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guptc9cnu3j60u0140q7j02.jpg",
+    pic:"https://tva1.sinaimg.cn/large/008i3skNgy1guscgilrgkj60e80e83ye02.jpg",
   },
   {
     name: "Chance Liu",
     title: "Software Engineer",
     linkedin: "https://www.linkedin.com/in/chanceliu/",
-    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guqardqcppj6070071gls02.jpg",
+    pic:"https://tva1.sinaimg.cn/large/008i3skNgy1guscgilrgkj60e80e83ye02.jpg",
   },
-  /*
+
   {
     name: "Yongzheng Sun",
     title: "IAM Consultant",
     linkedin: "https://www.linkedin.com/in/yongzheng-sun-34b15814b/",
-    pic: "",
+    pic:"https://tva1.sinaimg.cn/large/008i3skNgy1guscgilrgkj60e80e83ye02.jpg"
   },
-  */
+
   {
     name: "Jie Dai",
     title: "Software Engineer",
     linkedin: "https://www.linkedin.com/in/jie-dai-aa817a14b/",
-    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gupt62z7p5j60u013yn6u02.jpg",
+    pic:"https://tva1.sinaimg.cn/large/008i3skNgy1guscgilrgkj60e80e83ye02.jpg",
   },
   {
     name: "Yifu Xu",
@@ -120,7 +121,7 @@ export const employeeInfo = [
     name: "Wenhao Liu",
     title: "IAM Consultant",
     linkedin: "https://www.linkedin.com/in/wenhao-liu-4a351517a/",
-    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gupt95dpt9j60b40b4wep02.jpg",
+    pic:"https://tva1.sinaimg.cn/large/008i3skNgy1guscgilrgkj60e80e83ye02.jpg",
   },
   {
     name: "Chen Wang",
