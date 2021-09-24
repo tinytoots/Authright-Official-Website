@@ -8,7 +8,7 @@ export default function LeadCard(props) {
     <div className="leadCard-container">
       <img className="leadCard-img" src={pic} alt="" />
       <div className="leadCard-info">
-        <div className="leadCard-title">
+        <div className="leadCard-name">
           {name}
           <img
             className="leadCard-linkedin"
