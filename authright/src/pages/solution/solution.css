@@ -17,7 +17,7 @@
 
 .solution-gap-lane {
     height: 1px;
-    background-color: #000000;
+    background-color: #808080;
     width: 1200px;
     margin-top: 15px;
     margin-bottom: 20px;
@@ -69,15 +69,21 @@
 
 .solution-logo-gray-lane {
     height: 1px;
-    width: 350px;
+    width: 570px;
     background-color: rgb(230, 230, 230);
     margin-bottom: 0px;
 }
 
 .solution-ping-logo-gray-lane {
     height: 1px;
-    width: 350px;
+    width: 570px;
     background-color: rgb(230, 230, 230);
     margin-bottom: 0px;
-    margin-top: 65px
+    margin-top: 65px;
+}
+
+.solution-fg-logo {
+    /* float: left; */
+    margin-top: 70px;
+    margin-left: 130px;;
 }

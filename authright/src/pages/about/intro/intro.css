@@ -47,9 +47,15 @@
   background-color: white;
 }
 
+.about-mission-subtitle {
+  font-family: "NunitoSans-bold", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+}
+
 .about-intro-block2 {
     height: 400px;
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
     color: black;
     background-color: #ffffff;
     height: 500px;
@@ -202,7 +208,7 @@
 .about-whoWeAre-content{
   padding-top: 20px;
   font-size: 22px;
-  width: 640px;
+  width: 650px;
   font-family: "NunitoSans-regular", sans-serif;
   margin: auto;
   color: black;
