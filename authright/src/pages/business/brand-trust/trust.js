@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 // import { ReactComponent as ForgeRock } from "../../../img/partner/forgerock.svg";
 // import { ReactComponent as PingIdentity } from "../../../img/partner/ping-identity.svg";
-import { ReactComponent as ForgeRock } from "../../../img/forgerock.svg";
+import ForgeRock from "../../../img/forgerocktrust.png";
 import { ReactComponent as PingIdentity } from "../../../img/ping-identity.svg";
 import "./trust.css";
 import { Row, Col, Divider } from "antd";
@@ -21,12 +21,12 @@ export default class trust extends Component {
               <Col className="gutter-row" span={12}>
                 <div className="trust-color-block">
                   <div className="trust-black-block">
-                    <ForgeRock className="trust-forgerock" />
+                    <img src={ForgeRock} className="trust-forgerock" alt=''/>
                     {/* <img src={forgerock} alt='' width="10"/> */}
                     {/* <div className="trust-color-block-title">2018</div> */}
                     <div className="trust-color-block-title2">Established</div>
                     <div className="trust-color-block-title3">Partnership</div>
-                    <div className="trust-color-block-served">since 2018</div>
+                    {/* <div className="trust-color-block-served">since 2018</div> */}
                     {/* <a
                       className="unifiedcontrol-card-default"
                       href="https://www.forgerock.com"
@@ -50,7 +50,7 @@ export default class trust extends Component {
                     {/* <div className="trust-color-block-title">2021</div> */}
                     <div className="trust-color-block-title2">Established</div>
                     <div className="trust-color-block-title3">Partnership</div>
-                    <div className="trust-color-block-served">since 2021</div>
+                    {/* <div className="trust-color-block-served">since 2021</div> */}
                     {/* <a
                       className="unifiedcontrol-card-default"
                       href="https://www.pingidentity.com/"

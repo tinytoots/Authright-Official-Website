@@ -1,6 +1,6 @@
 import React from "react";
 //import BostonImg from "../../../img/employee/Le.JPG";
-import Linkedin from "../../../img/employee/linkedin-logo.svg";
+import Linkedin from "../../../img/bluelinkedin.png";
 import "./expandCard.scss";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -20,20 +20,20 @@ export default function expandCard(props) {
 
       <div className="employee-info">
         <span className="employee-name">{name}</span>
+        <img
+          className="employee-linkedin"
+          src={Linkedin}
+          height={23}
+          alt="employee-linkedin"
+          onClick={(e) => {
+            e.stopPropagation();
+            window.open(linkedin);
+          }}
+        />
         <br />
         <span className="employee-title">{title}</span>
         {/* <button className="employee-btn">See more info</button> */}
       </div>
-      <img
-        className="employee-linkedin"
-        src={Linkedin}
-        height={30}
-        alt="employee-linkedin"
-        onClick={(e) => {
-          e.stopPropagation();
-          window.open(linkedin);
-        }}
-      />
     </div>
   );
 }
