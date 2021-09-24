@@ -24,9 +24,10 @@
   font-family: "SFProDisplay-Bold", sans-serif;
   font-size: 20px;
   line-height: 150%;
-  background: -webkit-linear-gradient(380deg, #ed2939 15%, #330867 95%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color:#ed2939;
+  /* background: -webkit-linear-gradient(380deg, #ed2939 15%, #330867 95%); */
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
 
 .about-leadership-title {

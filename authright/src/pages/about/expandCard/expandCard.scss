@@ -1,25 +1,27 @@
 .employee-card {
-  background-color: grey;
-  width: 200px;
-  height: 300px;
+  background-color: #fafafa;
+  width: 216px;
+  height: 274px;
+  padding: 8px;
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   // justify-content: center;
   align-items: center;
   border-radius: 5px;
-  color: white;
+  color: black;
   font-family: "NunitoSans-regular", sans-serif;
 }
 
 .employee-card:hover {
   box-shadow: 0px -0.8px 6px rgba(143, 145, 144, 0.1),
-  0px 6.4px 20px rgba(143, 145, 144, 0.2);
+    0px 6.4px 20px rgba(143, 145, 144, 0.2);
 }
 
 .employee-linkedin {
   cursor: pointer;
-  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 15px;
 }
 
 .employee-pic {
@@ -30,10 +32,10 @@
 .employee-name {
   font-size: 20px;
   font-weight: bold;
-  color: white;
+  color: black;
 }
 
 .employee-title {
   font-size: 16px;
-  color: white;
+  color: black;
 }

@@ -33,9 +33,9 @@
     /* color: white; */
 }
 
-.career-values-title {
-  padding-top: 70px;
-  padding-bottom: 20px;
+.about-values-title {
+  padding-top: 65px;
+  padding-bottom: 45px;
   font-size: 40px;
   font-family: "NunitoSans-bold", sans-serif;
   margin: auto;
@@ -71,7 +71,7 @@
 
 .about-values{
     font-size: 20px;
-    width: 700px;
+    width: 900px;
     font-family: "NunitoSans-regular", sans-serif;
     margin: auto;
     /* color: #000; */
