@@ -8,7 +8,7 @@ export default function AdvisorCard(props) {
     <div className="advisorCard-container">
       <img className="advisorCard-img" src={pic} alt="" />
       <div className="advisorCard-info">
-        <div className="advisorCard-title">
+        <div className="advisorCard-name">
           {name}
           <img
             className="advisor-linkedin"

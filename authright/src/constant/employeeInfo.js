@@ -6,10 +6,16 @@ export const employeeInfo = [
     pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guptarh2lkj604u04ua9x02.jpg",
   },
   {
+    name: "Feizhi Li",
+    title: "Principal Consultant",
+    linkedin: "https://www.linkedin.com/in/feizhi-li-6029b98/",
+    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gus5yagleoj60st0ulmyr02.jpg",
+  },
+  {
     name: "Bin Lin",
-    title: "Senior Security Consultant",
+    title: "Senior IAM Consultant",
     linkedin: "https://www.linkedin.com/in/bin-lin-25011110/",
-    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gupxrmkkgpj60hs0hsjry02.jpg",
+    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gus5x4f5v2j60u00u0dhu02.jpg",
   },
   {
     name: "Le Deng",
@@ -17,11 +23,18 @@ export const employeeInfo = [
     linkedin: "https://www.linkedin.com/in/le-deng-82829710a/",
     pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gupt6s9vzjj60e80e8jsa02.jpg",
   },
+
   {
     name: "Lei Zhang",
     title: "Senior IAM Consultant",
     linkedin: "https://www.linkedin.com/in/lei-zhang-a5245a43/",
     pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guq1770rx5j60b40b4mxx02.jpg",
+  },
+  {
+    name: "Victoria Zhang",
+    title: "Operations Manager",
+    linkedin: "https://www.linkedin.com/in/9966-victoria-zhang/",
+    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gus5tqjw7fj60e40emt9302.jpg",
   },
   {
     name: "Jiayi Cai",
