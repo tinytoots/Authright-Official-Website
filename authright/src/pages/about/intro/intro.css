@@ -48,11 +48,12 @@
 }
 
 .about-intro-block2 {
-  height: 400px;
-  /* margin-tsop: 100px; */
-  margin-bottom: 200px;
-  color: black;
-  background-color: #ffffff;
+    height: 400px;
+    margin-bottom: 200px;
+    color: black;
+    background-color: #ffffff;
+    height: 500px;
+    padding-top: 50px
 }
 
 .about-intro-block3 {
@@ -128,16 +129,16 @@
 }
 
 .about-color-block-title {
-  text-align: left;
-  padding-top: 130px;
-  margin-left: 20px;
-  margin-bottom: -10px;
-  font-family: "SFProDisplay-Bold", sans-serif;
-  padding-bottom: -5px;
-  font-style: normal;
-  font-size: clamp(1.8rem, calc(1.8rem + 0.2vw), 3rem);
-  font-weight: 800;
-  /* color: #fff; */
+    text-align: left;
+    padding-top: 70px;
+    margin-left: 20px;
+    margin-bottom: -10px;
+    font-family: 'SFProDisplay-Bold',sans-serif;
+    padding-bottom: -5px;
+    font-style: normal;
+    font-size: clamp(1.8rem,calc(1.8rem + .2vw),3rem);
+    font-weight: 800;
+    /* color: #fff; */
 }
 
 .about-color-block-title2 {

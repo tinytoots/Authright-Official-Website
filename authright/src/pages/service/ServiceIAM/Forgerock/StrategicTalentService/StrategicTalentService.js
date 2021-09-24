@@ -23,17 +23,7 @@ export default class StrategicTalentService extends Component {
                         Strategic Talent Services
                     </div>
                     <div className='managedService-intro2'>
-                        There is a good chance you are probably facing one or more of the following challenges: 
-                        <br/>
-                        You’re having trouble hiring for security roles
-                        <br/>
-                        Your current partners are dropping the ball
-                        <br/>
-                        Your voicemail is full from staffing agencies
-                        <br/>
-                        You keep hearing, “We’re different because …”
-                        <br/>
-                        . . . but end up being more of the same
+                    Finding the perfect person is always hard and time-consuming, especially for security roles. How would you know that he/she is reliable and has professional skill to handle the job, since you are not an expert in the security field? Forgerock has the professional team to search for the right one or do the technical screening for you!
                         <br/>
                     </div>
                     
@@ -41,7 +31,7 @@ export default class StrategicTalentService extends Component {
 
                     <div className="forgerock-conent-bg">
                         <div className='solution-topics-title'>
-                            Our Talent Services:
+                            We provide the following service:
                         </div>
                         <div className='solution-gray-lane' />
                         <Row gutter={16}>

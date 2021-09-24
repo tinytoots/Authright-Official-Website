@@ -12,7 +12,7 @@ export default class intro extends Component {
                     </div>
                 
                     <div className='company-name-content1'>
-                        An Identity Company 
+                        <i>An Identity Company </i>
                     </div>
                     <div className='company-name-content2'>
                         Be True, Be Right

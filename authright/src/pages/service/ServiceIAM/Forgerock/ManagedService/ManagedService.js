@@ -23,7 +23,7 @@ export default class ManagedService extends Component {
                         Managed Services
                     </div>
                     <div className='managedService-intro2'>
-                        Identity management plays a key role in the enterprise, and if you lack the skills or resources to keep your company's identity management environment running smoothly, your business can be exposed to significant risks
+                        Identity management plays a key role to keep your enterprise secure and running smoothly. As a professional team, we truly understand that digital identity management is complicate and your business may be exposed to significant risks in the following scenarios:
                     </div>
                     <div className='managedService-gray-lane2' />
                     <div className="forgerock-conent-bg">
@@ -87,6 +87,9 @@ export default class ManagedService extends Component {
                     <div className="forgerock-conent-bg">
                         <div className='solution-topics-title'>
                             Managed Service Offerings:
+                        </div>
+                        <div className='managedService-intro2'>
+                            With Authright, you don’t need to worry about it at all! Our experts will take care of all these troubles and free your hands for your core buisness. We are offering the following professional management services:
                         </div>
                         <div className='solution-gray-lane' />
                         <Row gutter={16}>
