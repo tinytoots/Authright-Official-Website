@@ -27,12 +27,13 @@
 .advisorCard-title {
   text-align: left;
   font-size: 20px;
+  line-height: 30px;
   font-family: "NunitoSans-bold", sans-serif;
 }
 .advisor-linkedin {
   cursor: pointer;
   height: 30px;
-  margin-left: 20px;
+  padding-left: 500px;
 }
 .advisorCard-description {
   text-align: left;
