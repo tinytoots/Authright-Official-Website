@@ -3,13 +3,13 @@
     background-color: black;
     height: 800px;
     /* margin-bottom: 10px; */
-    background-image: url("../../../img/global-connection.jpeg");
+    background-image: url("https://tva1.sinaimg.cn/large/008i3skNgy1gus935b4eij62b80u0q6v02.jpg");
     /* background-image: url(../); */
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
     text-align: left;
-    padding-left: 250px
+    padding-left: 300px
 }
 
 .company-name-title {
@@ -26,14 +26,18 @@
     line-height: 150%;
     margin-bottom: 10px;
     color: #000000;
+    /* text-align: right; */
+    /* padding-right: 40px; */
+    margin-top: -20px;
 }
 
 .company-name-content2 {
     font-family: 'NunitoSans-bold',sans-serif;
-    font-size:18px;
+    font-size:25px;
     line-height: 150%;
     font-weight: 700px;
     color: #000000;
+    margin-top: 60px;
 }
 
 .gray-lane {

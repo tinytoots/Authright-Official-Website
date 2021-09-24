@@ -20,6 +20,9 @@ export default function expandCard(props) {
 
       <div className="employee-info">
         <span className="employee-name">{name}</span>
+        
+        <br />
+        <span className="employee-title">{title}</span><br/>
         <img
           className="employee-linkedin"
           src={Linkedin}
@@ -30,8 +33,6 @@ export default function expandCard(props) {
             window.open(linkedin);
           }}
         />
-        <br />
-        <span className="employee-title">{title}</span>
         {/* <button className="employee-btn">See more info</button> */}
       </div>
     </div>

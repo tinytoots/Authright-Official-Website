@@ -21,8 +21,8 @@ export default class Forgerock extends Component {
                             <div style={style}>
                                 <div className='forgerock-title'>
                                     <img className='service-img' src={Consulting} width={85} alt=""/>
-                                    <div className='service-iam-title'>Professional Services</div>
-                                    <div className='servicesCate-content4'>Authright has extensive IAM experience in a wide range of industries, including healthcare, finance, manufacturing and retail. Our services are recognized by our clients, but our consultants are never satisfied with that. We always seek to put our clients first and deliver results that exceed their expectations.</div>
+                                    <div className='service-iam-title'>Implementation {"&"} Integration service</div>
+                                    <div className='servicesCate-content4'>Authright team has seasoned experts who will review your expectations and find the best deployment plan based on your particular business requirements. We ensure that our custom solutions are able to integrate with other IAM technologies, HR systems, industry-specific technologies, and custom applications.</div>
                                     <NavLink to="/services/iam/professional-services">
                                         <div>
                                             <div className='company-title' style={{fontSize: 18, marginTop: 30}}>
@@ -38,7 +38,7 @@ export default class Forgerock extends Component {
                                 <div className='forgerock-title'>
                                     <img className='service-img' src={Design} width={80} alt=""/>
                                     <div className='service-iam-title3'>Managed Services</div>
-                                    <div className='servicesCate-content4' style={{marginTop: 14}}>With the development of the Internet and the growth of users and employees, IAM is gradually playing an increasingly important role in the development of enterprises. However, some companies lack the skills to develop and maintain an IAM or the cost to build an IAM team is too expensive, which is a huge concern for their business. We specialize in providing and maintaining customized IAM solutions that allow enterprises to focus on their core business, helping them save costs and ensure the security and good operation of their identity infrastructure..</div>
+                                    <div className='servicesCate-content4' style={{marginTop: 14}}>Authright provides managed services such as hosting, management monitoring, and project-based service to make sure your identity management runs seamlessly. Let our professionals take care of your IAM, and you can focus resources on your core business. </div>
                                     <NavLink to="/services/iam/managed-services">
                                         <div>
                                             <div className='company-title' style={{fontSize: 18, marginTop: 30}}>
@@ -53,7 +53,7 @@ export default class Forgerock extends Component {
                             <div style={style}>
                                 <div className='forgerock-title'>
                                     <img className='service-forgerock-integration-img' src={Integration} width={135} alt=""/>
-                                    <div className='service-iam-title'>Education Services</div>
+                                    <div className='service-iam-title'>Advisory {"&"} Education</div>
                                     <div className='servicesCate-content4'>Authright has rich experience in IAM training, and our consultants and internal resources can effectively help customers improve their IAM skills. The IAM certificate rate of our employees is over 90%(including Forgerock and PingIdentity)</div>
                                     <NavLink to="/services/iam/education-services">
                                         <div>
@@ -69,11 +69,8 @@ export default class Forgerock extends Component {
                             <div style={style}>
                                 <div className='forgerock-title'>
                                     <img className='service-forgerock-support-img' src={Support} width={78} alt=""/>
-                                    <div className='service-iam-title3'>Strategic Talent</div>
-                                    <div className='service-iam-title2'>Services</div>
-                                    <div className='forgerock-content4'>Our ForgeRock team offers onsite and offsite support to ensure</div>
-                                    <div className='forgerock-content4'>your ForgeRock applications are up-to-date and</div>
-                                    <div className='forgerock-content4'>running with nearly zero downtime.</div>
+                                    <div className='service-iam-title3'>Strategic Talent Services</div>
+                                    <div className='servicesCate-content4'>Need help with talent investments？Authright can find the appropriate person or train your team in the IAM area. With our talent strategy road map, you can update your business strategy, identify gaps within your talent management systems and define actionable talent initiatives.</div>
                                     <NavLink to="/services/iam/strategic-talent-services">
                                         <div>
                                             <div className='company-title' style={{fontSize: 18, marginTop: 30}}>
