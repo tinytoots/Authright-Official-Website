@@ -113,18 +113,22 @@
   font-family: "SFProDisplay-Semibold", sans-serif;
   font-size: clamp(12px, calc(0.8rem + 0.25vw), 20px);
   font-weight: 300;
-  line-height: 1; 
+  line-height: 1;
   color: #1890ff;
 }
 
 .trust-forgerock {
-  max-width: 140px;
-  max-height: 140px;
+  max-width: 110px;
+  max-height: 110px;
+  margin-bottom: 34px;
+  margin-top: 60px;
+  border-radius: 5px;
 }
 
 .trust-ping {
-  max-width: 80px;
-  max-height: 80px;
+  max-width: 100px;
+  max-height: 100px;
   margin-bottom: 25px;
-  margin-top: 30px;
+  margin-top: 60px;
+  border-radius: 5px;
 }

@@ -7,6 +7,7 @@
     border-radius: 5px;
     display: flex;
     margin: 50px auto;
+    background-color: white;
   }
   
   .leadCard-container:hover {
@@ -28,6 +29,7 @@
     text-align: left;
     font-size: 24px;
     font-family: "NunitoSans-bold", sans-serif;
+    color: black;
   }
   .leadCard-linkedin {
     cursor: pointer;
@@ -41,5 +43,6 @@
     font-size: 15px;
     margin-top: 10px;
     font-family: "NunitoSans-regular", sans-serif;
+    color: black;
   }
   
