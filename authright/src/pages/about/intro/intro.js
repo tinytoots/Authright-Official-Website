@@ -19,15 +19,14 @@ export default class intro extends Component {
           <div className="inner">
             {/* <img src={IAMImg} width={1200} alt = 'logo' /> */}
             <div className="about-whoWeAre-title1">
-              We are A top-level Professional Team in
+              Our Mission is to Continuously Deliver Identity Security to Any
+              Organization
               {/* <div className='gray-lane' /> */}
             </div>
-            <div className="about-whoWeAre-title2">IAM</div>
-            <div className="career-company-intro">
-              AuthRight Technology provide you with high quality IT consulting
-              services, we have deep experience in cloud storage, identity
-              management, systems integration, you can bring fast, efficient and
-              safe solution.
+            {/* <div className="about-whoWeAre-title2">IAM</div> */}
+            <div className="about-whoWeAre-content">
+              We provide solutions to the most complicated enterprise identity
+              problems and we are obsessed to help our customer succeed.
             </div>
           </div>
         </div>
