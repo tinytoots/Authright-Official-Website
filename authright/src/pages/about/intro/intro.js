@@ -19,14 +19,18 @@ export default class intro extends Component {
           <div className="inner">
             {/* <img src={IAMImg} width={1200} alt = 'logo' /> */}
             <div className="about-whoWeAre-title1">
-              Our Mission is to Continuously Deliver Identity Security to Any
-              Organization
+              Our Mission
               {/* <div className='gray-lane' /> */}
             </div>
+            <div className="about-mission-subtitle">
+                We Earn Trust by Actions<br />
+                Stay True, Stay Right
+            </div>
+          
             {/* <div className="about-whoWeAre-title2">IAM</div> */}
             <div className="about-whoWeAre-content">
-              We provide solutions to the most complicated enterprise identity
-              problems and we are obsessed to help our customer succeed.
+              We are committed to delivering values to our clients and partners. <br/>
+              We are obsessed to help you and our team succeed.
             </div>
           </div>
         </div>

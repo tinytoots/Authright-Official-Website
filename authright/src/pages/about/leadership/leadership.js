@@ -11,9 +11,9 @@ export default function Leadership(props) {
     <div className="leadership-bg">
       <div className="inner">
         <div className="about-leadership-title">Our Team</div>
-        <div className="about-leadership-content">
+        {/* <div className="about-leadership-content">
           We are a team. A great journey begins here.
-        </div>
+        </div> */}
       </div>
       <div className="about-leadership-ceo">
         <LeadCard leadInfo={leads}/>

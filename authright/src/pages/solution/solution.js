@@ -6,7 +6,7 @@ import ForgerockImg from '../../img/forgerock.svg'
 import PingImg from '../../img/ping-identity.svg'
 import ForgerockCert1 from '../../img/forgerock-cert1.png'
 import ForgerockCert2 from '../../img/forgerock-cert2.png'
-import ForgerockCert3 from '../../img/forgerock-cert3.png'
+import ForgerockCert3 from '../../img/forgerock-badge-2020.png'
 import ForgerockCert4 from '../../img/forgerock-cert4.png'
 import ForgerockCert5 from '../../img/forgerock-cert5.png'
 import Ping1 from '../../img/ping-cert1.png'
@@ -33,7 +33,7 @@ export default function Solution()  {
                             <div className='inner'>
                                 <Row justify="start" gutter={10}>
                                     <Col span={13}>
-                                        <img src={ForgerockImg} width={250} alt = 'logo' className='solution-ping-logo'/>
+                                        <img src={ForgerockImg} width={250} alt = 'logo' className='solution-fg-logo'/>
                                         <div className="solution-logo-gray-lane"> </div>
                                     </Col>
                                     <Col>
@@ -50,15 +50,18 @@ export default function Solution()  {
                                 </Row>
                                 <div className="fr-cert">
                                     <Row justify="start">
+                                        
                                         <Col className=" " span={3}>
-                                                <img src={ForgerockCert4} width={100} alt = 'logo' className=''/>
-                                                
+                                                <img src={ForgerockCert4} width={90} alt = 'logo'/>      
                                         </Col>
                                         <Col className=" " span={3}>
-                                                <img src={ForgerockCert1} width={100} alt = 'logo' className=''/>
+                                                <img src={ForgerockCert1} width={90} alt = 'logo' className=''/>
                                         </Col>
-                                        <Col className=" " span={7}>
-                                                <img src={ForgerockCert2} width={100} alt = 'logo' className=''/>
+                                        <Col className=" " span={3}>
+                                                <img src={ForgerockCert3} width={90} alt = 'logo' className=''/>
+                                        </Col>
+                                        <Col className=" " span={4}>
+                                                <img src={ForgerockCert2} width={90} alt = 'logo' className=''/>
                                         </Col>
                                         <Col span={3}>
                                             <div style={{width: 400, marginLeft: 17}} className="solution-content-text">
@@ -78,13 +81,11 @@ export default function Solution()  {
                         <div className  = "inner" style = {{display: show[0]}}>
                                 <Forgerock />
                         </div>
-                        {show[0] === "none" ? <div className='solution-gap-lane inner' />:""}
-
                         <div className = "even-row solution-row">
                             <div className='inner'>
                             <Row justify="start" gutter={10}>
                                     <Col span={13}>
-                                        <img src={PingImg} width={160} alt = 'logo' className='solution-ping-logo'/>   
+                                        <img src={PingImg} width={120} alt = 'logo' className='solution-ping-logo'/>   
                                         <div className="solution-ping-logo-gray-lane"> </div> 
                                     </Col>
                                     <Col>
@@ -100,7 +101,7 @@ export default function Solution()  {
                                 <div className="ping-cert-row">
                                     <Row justify="start">
                                         <Col className="cert-unit" span={3}>
-                                                <img src={Ping1} width={100} alt = 'logo' className=''/>
+                                                <img src={Ping1} width={100} alt = 'logo' style={{marginRight:50}}/>
                                         </Col>
                                         <Col className="cert-unit" span={3}>
                                                 <img src={Ping2} width={100} alt = 'logo' className=''/>    
