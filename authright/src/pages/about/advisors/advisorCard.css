@@ -7,6 +7,7 @@
   border-radius: 5px;
   display: flex;
   margin: 20px auto;
+  padding-right: 15px;
 }
 
 .advisorCard-container:hover {
@@ -24,15 +25,24 @@
   flex-direction: column;
   justify-content: center;
 }
-.advisorCard-title {
+.advisorCard-name {
+  display: flex;
+  justify-content: space-between;
   text-align: left;
-  font-size: 20px;
+  font-size: 24px;
   font-family: "NunitoSans-bold", sans-serif;
 }
+
+.advisorCard-title {
+  text-align: left;
+  font-size: 16px;
+  font-family: "NunitoSans-bold", sans-serif;
+}
+
 .advisor-linkedin {
   cursor: pointer;
-  height: 30px;
-  margin-left: 20px;
+  height: 32px;
+  margin-top: 5px;
 }
 .advisorCard-description {
   text-align: left;

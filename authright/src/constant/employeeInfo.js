@@ -7,7 +7,7 @@ export const employeeInfo = [
   },
   {
     name: "Bin Lin",
-    title: "Senior Security Consultant",
+    title: "Senior IAM Consultant",
     linkedin: "https://www.linkedin.com/in/bin-lin-25011110/",
     pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gupxrmkkgpj60hs0hsjry02.jpg",
   },
