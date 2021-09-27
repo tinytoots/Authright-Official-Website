@@ -18,7 +18,7 @@ export const advisorsInfo = [
     pic:"https://tva1.sinaimg.cn/large/008i3skNgy1gur02k8gdbj605k05kmx802.jpg"
   },
   {
-    name: "Shaun Walsh  ",
+    name: "Shaun Walsh",
     title: "Vice President Product Marketing",
     company: "SecurityScorecard",
     description:
@@ -26,4 +26,13 @@ export const advisorsInfo = [
     linkRef: "https://www.linkedin.com/in/shaunmwalsh2/",
     pic:"https://tva1.sinaimg.cn/large/008i3skNgy1guvjqucxu1j60as0aqaaf02.jpg"
   },
+  {
+    name: "Eric Santos",
+    title: "Business Development - OEM Partnerships",
+    company: "TransUnion",
+    description:
+    "Senior Sales and Marketing professional with 20+ years of experience in program management, product marketing and alliance management / business development. Solid understanding of product development, launch and solution life cycle planning, business case development and marketing programs / PR. Industry knowledge in Cloud Computing, Virtualization, Infrastructure Management including Automation, Orchestration , Provisioning and Security, Authentication and Identity Management. Skilled communicator / presenter and strong leader of virtual teams, across diverse groups and regions. Strategy, business process planning and competitive analysis expertise",
+    linkRef: "https://www.linkedin.com/in/ericesantos/",
+    pic:"https://tva1.sinaimg.cn/large/008i3skNgy1guvwkbjgk9j605k05kdfr02.jpg"
+  }
 ];
