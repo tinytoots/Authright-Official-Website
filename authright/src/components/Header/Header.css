@@ -1,7 +1,7 @@
 .inner1 {
   background: #141414;
   position: fixed;
-  /* width: 100%; */
+  min-width: 1250px;
   z-index: 1000;
   left: 0;
   top: 0;
