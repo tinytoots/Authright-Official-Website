@@ -149,13 +149,13 @@ export const employeeInfo = [
   },
   {
     name: "Hao Luo",
-    title: "IAM Engineer Intern",
+    title: "IAM Engineer",
     linkedin: "https://www.linkedin.com/in/hao-luo-27a08a16b/",
     pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guvlts2fecj60u00u0add02.jpg",
   },
   {
     name: "Shuwan Yao",
-    title: "IAM Engineer Intern",
+    title: "IAM Engineer",
     linkedin: "https://www.linkedin.com/in/shuwan-yao-columbia-nyc/",
     pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gupt794a4lj60u70u042u02.jpg",
   },
