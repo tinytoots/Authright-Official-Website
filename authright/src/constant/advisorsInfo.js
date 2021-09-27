@@ -17,4 +17,13 @@ export const advisorsInfo = [
     linkRef: "https://www.linkedin.com/in/jay-butler-0454235/",
     pic:"https://tva1.sinaimg.cn/large/008i3skNgy1gur02k8gdbj605k05kmx802.jpg"
   },
+  {
+    name: "Shaun Walsh  ",
+    title: "Vice President Product Marketing",
+    company: "SecurityScorecard",
+    description:
+      "Shaun is a senior marketing leader with professional expertise in the areas of cloud, security, artificial intelligence, machine learning, cloud infrastructure, networking, software-defined services, enterprise SaaS platforms, and storage management. In his current role, Shaun serves as Vice President of Product Marketing at SecurityScorecard, a company that offers rating software to help enterprises detect weaknesses in their cybersecurity protocols. Previous experience includes senior marketing roles at companies including Cylance, NetApp,and Igneous Systems.  Shaun works closely with executive teams to devise and execute strategic plans, company positioning, differentiated messaging, increase revenue, global market development, branding through digital and social media marketing, and organically drive web, SEO, and SEM.",
+    linkRef: "https://www.linkedin.com/in/shaunmwalsh2/",
+    pic:"https://tva1.sinaimg.cn/large/008i3skNgy1guvjqucxu1j60as0aqaaf02.jpg"
+  },
 ];
