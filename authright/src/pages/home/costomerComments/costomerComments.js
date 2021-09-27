@@ -27,13 +27,7 @@ export default class customerComments extends Component {
           className="container-customersComments"
           style={{ height: 300, color: "white", minWidth: 1200 }}
         >
-          <div
-            className="card-customersComments"
-            data-tilt
-            data-tilt-max="50"
-            data-tilt-speed="400"
-            data-tilt-perspective="500"
-          >
+          <div className="card-customersComments">
             <div className="content-customersComments">
               <img
                 className="comments-logo"
