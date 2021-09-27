@@ -1,16 +1,17 @@
 .inner1 {
   background: #141414;
-  position: fixed;
+  position: sticky;
   min-width: 1250px;
   z-index: 1000;
-  left: 0;
+  padding-bottom: 8px;
+  text-align: left;
   top: 0;
-  right: 0;
 }
 
-.inner2 {
-  width: 1200px;
-  margin: auto;
+.header-content {
+  width: 800px;
+  /* margin: auto; */
+  /* margin: auto; */
   z-index: 1000;
 }
 

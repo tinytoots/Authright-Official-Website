@@ -26,7 +26,8 @@ export default class Header extends Component {
     const { current } = this.state;
     return (
       <div className="inner1">
-        <div className="inner2">
+        <div className = "authright-inner">
+        <div className="">
           <NavLink to="/home">
             <img className="logo" src={Logo} width={160} alt=""/>
           </NavLink>
@@ -89,6 +90,7 @@ export default class Header extends Component {
                             <NavLink to="/careers" style={{color: '#8e8e93', textDecoration: 'none'}} activeStyle={{color: '#d1d1d6', textDecoration: 'none'}}>Careers</NavLink>   
                         </Menu.Item> */}
           </Menu>
+        </div>
         </div>
       </div>
     );
