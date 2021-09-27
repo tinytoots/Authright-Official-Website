@@ -5,17 +5,16 @@
     box-shadow: 0px 2px 2.9px rgba(143, 145, 144, 0.05),
       0px 0px 5px rgba(143, 145, 144, 0.1);
     border-radius: 5px;
-    padding: 5px;
     display: flex;
-    margin: 80px auto;
+    margin: 60px auto;
     padding-right: 10px;
     background-color: white;
   }
   
-  .leadCard-container:hover {
+  /* .leadCard-container:hover {
     box-shadow: 0px -0.8px 6px rgba(143, 145, 144, 0.1),
       0px 6.4px 20px rgba(143, 145, 144, 0.2);
-  }
+  } */
   .leadCard-img {
     width: 270px;
     margin-right: 20px;
