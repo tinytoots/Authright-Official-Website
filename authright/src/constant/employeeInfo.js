@@ -53,7 +53,7 @@ export const employeeInfo = [
     name: "Lingchao Jiang",
     title: "IAM Consultant",
     linkedin: "https://www.linkedin.com/in/lingchao-jiang-90a181128/",
-    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gupuhoa89jj60b40b4mxe02.jpg",
+    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guvmpj2tu5j60rc0rcdh902.jpg",
   },
   {
     name: "Zixiao Zheng",
