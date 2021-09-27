@@ -16,6 +16,11 @@ code {
   background-color: red;
 }
 
+.authright-inner {
+  width: 1200px;
+  margin: auto;
+}
+
 
 @font-face {
   font-family: 'NunitoSans-regular';

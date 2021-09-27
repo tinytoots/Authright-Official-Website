@@ -1,7 +1,7 @@
 .inner1 {
   background: #141414;
   position: fixed;
-  width: 100%;
+  min-width: 1250px;
   z-index: 1000;
   left: 0;
   top: 0;
@@ -10,8 +10,6 @@
 
 .inner2 {
   width: 1200px;
-  margin-left: 5%;
-  margin-right: 5%;
   margin: auto;
   z-index: 1000;
 }

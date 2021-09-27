@@ -1,5 +1,5 @@
 .home-bg {
     background-color: black;
     margin-top: -20px;    
-    /* width: 1200px; */
+    min-width: 1250px;
 }

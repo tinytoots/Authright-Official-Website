@@ -2,14 +2,12 @@
     margin-top: 30px;
     background-color: black;
     height: 800px;
-    /* margin-bottom: 10px; */
     background-image: url("https://tva1.sinaimg.cn/large/008i3skNgy1gus935b4eij62b80u0q6v02.jpg");
-    /* background-image: url(../); */
-    background-size: contain;
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    text-align: left;
-    padding-left: 300px
+    text-align: center;
+    min-width: 1250px;
 }
 
 .company-name-title {
@@ -59,5 +57,7 @@
 .intro-text {
     width: 400px;
     text-align: center;
+    /* margin: auto auto auto 20%;s */
+
 }
 

@@ -1,13 +1,12 @@
 .clients-bg2 {
-    width: 100%;
+    min-width: 1200px;
     border: none;
     display: block;
     margin: 0 auto;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: clip;
-    position: relative;
-    font-size: 28rpx;
+    /* position: relative; */
     height: 160px;
     background-color:black;
     margin-bottom: 10px;
@@ -21,6 +20,7 @@
     animation: logo 35s linear infinite;
     white-space: nowrap;
     margin-top: -74px;
+    /* min-width: 1200px; */
 }
 
 .hsbc-logo {
