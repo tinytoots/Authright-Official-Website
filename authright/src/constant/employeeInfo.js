@@ -29,7 +29,7 @@ export const employeeInfo = [
     name: "Lei Zhang",
     title: "Senior IAM Consultant",
     linkedin: "https://www.linkedin.com/in/lei-zhang-a5245a43/",
-    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guq1770rx5j60b40b4mxx02.jpg",
+    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guvz935aa4j60u00u0mz702.jpg",
   },
   {
     name: "Victoria Zhang",
@@ -77,7 +77,7 @@ export const employeeInfo = [
     name: "Chaopeng Hu",
     title: "IAM Consultant",
     linkedin: "https://www.linkedin.com/in/chaopeng-hu-15b529175/",
-    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gupt3p8g8ej60u00u0aeh02.jpg",
+    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guvz71m4gfj60u00u0adc02.jpg",
   },
   {
     name: "Yishu Sun",
