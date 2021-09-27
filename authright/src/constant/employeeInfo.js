@@ -53,13 +53,13 @@ export const employeeInfo = [
     name: "Lingchao Jiang",
     title: "IAM Consultant",
     linkedin: "https://www.linkedin.com/in/lingchao-jiang-90a181128/",
-    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guvmpj2tu5j60rc0rcdh902.jpg",
+    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guvpcsyi70j60u00u0tao02.jpg",
   },
   {
     name: "Zixiao Zheng",
     title: "Software Engineer",
     linkedin: "https://www.linkedin.com/in/zixiao-zheng-b40a03163/",
-    pic:"https://tva1.sinaimg.cn/large/008i3skNgy1guscgilrgkj60e80e83ye02.jpg",
+    pic:"https://tva1.sinaimg.cn/large/008i3skNgy1guvmpj2tu5j60rc0rcdh902.jpg",
   },
   {
     name: "Yunfei Xu",
