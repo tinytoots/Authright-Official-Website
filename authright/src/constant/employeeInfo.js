@@ -39,7 +39,7 @@ export const employeeInfo = [
   },
   {
     name: "Jiayi Cai",
-    title: "Software Engineer",
+    title: "Senior IAM Consultant",
     linkedin: "https://www.linkedin.com/in/jiayi-cai-8b7093136/",
     pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guvlxdv517j60u00u0wi702.jpg",
   },
