@@ -30,7 +30,7 @@ export default class intro extends Component {
             {/* <div className="about-whoWeAre-title2">IAM</div> */}
             <div className="about-whoWeAre-content">
               We are committed to delivering values to our clients and partners. <br/>
-              We are obsessed to help you and our team succeed.
+              We are obsessed to help you succeed.
             </div>
           </div>
         </div>
