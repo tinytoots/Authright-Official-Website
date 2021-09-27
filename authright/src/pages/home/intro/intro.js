@@ -15,7 +15,7 @@ export default class intro extends Component {
                         <i>An Identity Company </i>
                     </div>
                     <div className='company-name-content2'>
-                        Be True, Be Right
+                        Be True, Be Right
                     </div>
                 </div>
             </div>
