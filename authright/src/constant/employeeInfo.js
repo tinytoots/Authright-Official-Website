@@ -53,7 +53,7 @@ export const employeeInfo = [
     name: "Lingchao Jiang",
     title: "IAM Consultant",
     linkedin: "https://www.linkedin.com/in/lingchao-jiang-90a181128/",
-    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gupuhoa89jj60b40b4mxe02.jpg",
+    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guvmpj2tu5j60rc0rcdh902.jpg",
   },
   {
     name: "Zixiao Zheng",
@@ -170,5 +170,11 @@ export const employeeInfo = [
     title: "IAM Engineer Intern",
     linkedin: "https://www.linkedin.com/in/yuzhan-student/",
     pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guptcqtd5wj60gq0gq0tc02.jpg",
+  },
+  {
+    name: "Zhiying Weng",
+    title: "Software Engineer Intern",
+    linkedin: "https://www.linkedin.com/in/zhiying-weng-024b5119b/",
+    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guvmd5cxefj60u00u041j02.jpg",
   },
 ];
