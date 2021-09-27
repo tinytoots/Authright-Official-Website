@@ -91,7 +91,7 @@ export default class customerComments extends Component {
               <h4>@ Mohawk Industries</h4>
               <div className="comment-paragraph">
                 <p>
-                  “Working with authright team was an outstanding experience,
+                  “Working with authright team has been an outstanding experience,
                   they provided us excellent support.”
                 </p>
               </div>
