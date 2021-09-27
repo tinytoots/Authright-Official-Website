@@ -17,45 +17,45 @@ export default class clients extends Component {
         return (
             <div className='clients-bg2'>
                 <div className='clients-bg'>
-                            <img className='logo' src={HSBC} width={160} alt = 'logo' className='hsbc-logo'/>
-                            <img className='logo' src={BBB} width={160} alt = 'logo' className='blue-cross-logo'/>
-                            <img className='logo' src={Deloitte} width={160} alt = 'logo' className='deloitte-logo'/>
-                            <img className='logo' src={Toyota} width={160} alt = 'logo' className='toyota-logo'/>
-                            <img className='logo' src={HomeDepot} width={160} alt = 'logo' className='homeDepot-logo'/>
-                            <img className='logo' src={Equifax} width={160} alt = 'logo' className='equifax-logo'/>
-                            <img className='logo' src={Mohawk} width={160} alt = 'logo' className='mohawk-logo'/>
-                            <img className='logo' src={Lowes} width={160} alt = 'logo' className='lowes-logo'/>
-                            <img className='logo' src={Pearson} width={160} alt = 'logo' className='pearson-logo'/>
+                            <img src={HSBC} width={160} alt = 'logo' className='hsbc-logo'/>
+                            <img src={BBB} width={160} alt = 'logo' className='blue-cross-logo'/>
+                            <img src={Deloitte} width={160} alt = 'logo' className='deloitte-logo'/>
+                            <img src={Toyota} width={160} alt = 'logo' className='toyota-logo'/>
+                            <img src={HomeDepot} width={160} alt = 'logo' className='homeDepot-logo'/>
+                            <img src={Equifax} width={160} alt = 'logo' className='equifax-logo'/>
+                            <img src={Mohawk} width={160} alt = 'logo' className='mohawk-logo'/>
+                            <img src={Lowes} width={160} alt = 'logo' className='lowes-logo'/>
+                            <img src={Pearson} width={160} alt = 'logo' className='pearson-logo'/>
 
-                            <img className='logo' src={HSBC} width={160} alt = 'logo' className='hsbc-logo'/>
-                            <img className='logo' src={BBB} width={160} alt = 'logo' className='blue-cross-logo'/>
-                            <img className='logo' src={Deloitte} width={160} alt = 'logo' className='deloitte-logo'/>
-                            <img className='logo' src={Toyota} width={160} alt = 'logo' className='toyota-logo'/>
-                            <img className='logo' src={HomeDepot} width={160} alt = 'logo' className='homeDepot-logo'/>
-                            <img className='logo' src={Equifax} width={160} alt = 'logo' className='equifax-logo'/>
-                            <img className='logo' src={Mohawk} width={160} alt = 'logo' className='mohawk-logo'/>
-                            <img className='logo' src={Lowes} width={160} alt = 'logo' className='lowes-logo'/>
-                            <img className='logo' src={Pearson} width={160} alt = 'logo' className='pearson-logo'/>
+                            <img src={HSBC} width={160} alt = 'logo' className='hsbc-logo'/>
+                            <img src={BBB} width={160} alt = 'logo' className='blue-cross-logo'/>
+                            <img src={Deloitte} width={160} alt = 'logo' className='deloitte-logo'/>
+                            <img src={Toyota} width={160} alt = 'logo' className='toyota-logo'/>
+                            <img src={HomeDepot} width={160} alt = 'logo' className='homeDepot-logo'/>
+                            <img src={Equifax} width={160} alt = 'logo' className='equifax-logo'/>
+                            <img src={Mohawk} width={160} alt = 'logo' className='mohawk-logo'/>
+                            <img src={Lowes} width={160} alt = 'logo' className='lowes-logo'/>
+                            <img src={Pearson} width={160} alt = 'logo' className='pearson-logo'/>
 
-                            <img className='logo' src={HSBC} width={160} alt = 'logo' className='hsbc-logo'/>
-                            <img className='logo' src={BBB} width={160} alt = 'logo' className='blue-cross-logo'/>
-                            <img className='logo' src={Deloitte} width={160} alt = 'logo' className='deloitte-logo'/>
-                            <img className='logo' src={Toyota} width={160} alt = 'logo' className='toyota-logo'/>
-                            <img className='logo' src={HomeDepot} width={160} alt = 'logo' className='homeDepot-logo'/>
-                            <img className='logo' src={Equifax} width={160} alt = 'logo' className='equifax-logo'/>
-                            <img className='logo' src={Mohawk} width={160} alt = 'logo' className='mohawk-logo'/>
-                            <img className='logo' src={Lowes} width={160} alt = 'logo' className='lowes-logo'/>
-                            <img className='logo' src={Pearson} width={160} alt = 'logo' className='pearson-logo'/>
+                            <img src={HSBC} width={160} alt = 'logo' className='hsbc-logo'/>
+                            <img src={BBB} width={160} alt = 'logo' className='blue-cross-logo'/>
+                            <img src={Deloitte} width={160} alt = 'logo' className='deloitte-logo'/>
+                            <img src={Toyota} width={160} alt = 'logo' className='toyota-logo'/>
+                            <img src={HomeDepot} width={160} alt = 'logo' className='homeDepot-logo'/>
+                            <img src={Equifax} width={160} alt = 'logo' className='equifax-logo'/>
+                            <img src={Mohawk} width={160} alt = 'logo' className='mohawk-logo'/>
+                            <img src={Lowes} width={160} alt = 'logo' className='lowes-logo'/>
+                            <img src={Pearson} width={160} alt = 'logo' className='pearson-logo'/>
                             
-                            <img className='logo' src={HSBC} width={160} alt = 'logo' className='hsbc-logo'/>
-                            <img className='logo' src={BBB} width={160} alt = 'logo' className='blue-cross-logo'/>
-                            <img className='logo' src={Deloitte} width={160} alt = 'logo' className='deloitte-logo'/>
-                            <img className='logo' src={Toyota} width={160} alt = 'logo' className='toyota-logo'/>
-                            <img className='logo' src={HomeDepot} width={160} alt = 'logo' className='homeDepot-logo'/>
-                            <img className='logo' src={Equifax} width={160} alt = 'logo' className='equifax-logo'/>
-                            <img className='logo' src={Mohawk} width={160} alt = 'logo' className='mohawk-logo'/>
-                            <img className='logo' src={Lowes} width={160} alt = 'logo' className='lowes-logo'/>
-                            <img className='logo' src={Pearson} width={160} alt = 'logo' className='pearson-logo'/>
+                            <img src={HSBC} width={160} alt = 'logo' className='hsbc-logo'/>
+                            <img src={BBB} width={160} alt = 'logo' className='blue-cross-logo'/>
+                            <img src={Deloitte} width={160} alt = 'logo' className='deloitte-logo'/>
+                            <img src={Toyota} width={160} alt = 'logo' className='toyota-logo'/>
+                            <img src={HomeDepot} width={160} alt = 'logo' className='homeDepot-logo'/>
+                            <img src={Equifax} width={160} alt = 'logo' className='equifax-logo'/>
+                            <img src={Mohawk} width={160} alt = 'logo' className='mohawk-logo'/>
+                            <img src={Lowes} width={160} alt = 'logo' className='lowes-logo'/>
+                            <img src={Pearson} width={160} alt = 'logo' className='pearson-logo'/>
                 </div>
             </div>
         )
