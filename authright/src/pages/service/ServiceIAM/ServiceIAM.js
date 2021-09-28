@@ -9,7 +9,7 @@ import AuthrightImg from '../../../img/authright-logo.jpg'
 export default class ServiceIAM extends Component {
     render() {
         return (
-            <div>
+            <div className="service-layout-bg">
                 <div className='service-banner'>
                     <img src={AuthrightImg} width={380} alt = 'logo' className='servicesCate-authright-logo'/>
                     <div className='servicesCate-content1'>

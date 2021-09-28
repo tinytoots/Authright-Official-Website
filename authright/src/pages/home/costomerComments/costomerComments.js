@@ -17,7 +17,7 @@ export default class customerComments extends Component {
             What our customers say
           </div>
           <div className="customerComments-title2">
-            "Since Authright was founded in 2014, we have provided customized
+            "Since Authright was founded in 2017, we have provided customized
             IAM services to dozens of medium and large enterprises, and our IAM
             experts have been recognized and supported by our customers"
           </div>

@@ -10,7 +10,7 @@ export const employeeInfo = [
     title: "Principal Consultant",
     linkedin: "https://www.linkedin.com/in/feizhi-li-6029b98/",
     // pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gus5yagleoj60st0ulmyr02.jpg",
-    pic:"https://tva1.sinaimg.cn/large/008i3skNgy1guscgilrgkj60e80e83ye02.jpg"
+    pic:"https://tva1.sinaimg.cn/large/008i3skNgy1guwqboytnnj60mq0mqwfq02.jpg"
   },
   {
     name: "Bin Lin",
