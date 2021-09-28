@@ -1,5 +1,5 @@
 .business-bg2 {
-  margin-top: 60px;
+  margin-top: -60px !important;
   background-color: #fafafa;
   margin: auto;
 }
