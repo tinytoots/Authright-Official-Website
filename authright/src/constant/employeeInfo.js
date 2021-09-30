@@ -151,7 +151,7 @@ export const employeeInfo = [
     name: "Hao Luo",
     title: "IAM Consultant",
     linkedin: "https://www.linkedin.com/in/hao-luo-27a08a16b/",
-    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guvlts2fecj60u00u0add02.jpg",
+    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guz1f0azt8j60u00u0q6f02.jpg",
   },
   {
     name: "Shuwan Yao",
