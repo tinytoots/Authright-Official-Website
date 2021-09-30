@@ -89,7 +89,7 @@ export const employeeInfo = [
     name: "Chance Liu",
     title: "Software Engineer",
     linkedin: "https://www.linkedin.com/in/chanceliu/",
-    pic:"https://tva1.sinaimg.cn/large/008i3skNgy1guscgilrgkj60e80e83ye02.jpg",
+    pic:"https://tva1.sinaimg.cn/large/008i3skNgy1gus8um3b34j60u00u0mzj02.jpg",
   },
 
   {
