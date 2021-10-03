@@ -157,7 +157,7 @@ export const employeeInfo = [
     name: "Shuwan Yao",
     title: "IAM Consultant",
     linkedin: "https://www.linkedin.com/in/shuwan-yao-columbia-nyc/",
-    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gupt794a4lj60u70u042u02.jpg",
+    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gv1uuje086j60u00u0acu02.jpg",
   },
   {
     name: "Yifeng Shi",
