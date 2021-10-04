@@ -10,7 +10,7 @@ export const employeeInfo = [
     title: "Principal Consultant",
     linkedin: "https://www.linkedin.com/in/feizhi-li-6029b98/",
     // pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gus5yagleoj60st0ulmyr02.jpg",
-    pic:"https://tva1.sinaimg.cn/large/008i3skNgy1guscgilrgkj60e80e83ye02.jpg"
+    pic:"https://tva1.sinaimg.cn/large/008i3skNgy1guwqboytnnj60mq0mqwfq02.jpg"
   },
   {
     name: "Bin Lin",
@@ -29,7 +29,7 @@ export const employeeInfo = [
     name: "Lei Zhang",
     title: "Senior IAM Consultant",
     linkedin: "https://www.linkedin.com/in/lei-zhang-a5245a43/",
-    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guq1770rx5j60b40b4mxx02.jpg",
+    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guvz935aa4j60u00u0mz702.jpg",
   },
   {
     name: "Victoria Zhang",
@@ -39,7 +39,7 @@ export const employeeInfo = [
   },
   {
     name: "Jiayi Cai",
-    title: "Software Engineer",
+    title: "Senior IAM Consultant",
     linkedin: "https://www.linkedin.com/in/jiayi-cai-8b7093136/",
     pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guvlxdv517j60u00u0wi702.jpg",
   },
@@ -77,7 +77,7 @@ export const employeeInfo = [
     name: "Chaopeng Hu",
     title: "IAM Consultant",
     linkedin: "https://www.linkedin.com/in/chaopeng-hu-15b529175/",
-    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gupt3p8g8ej60u00u0aeh02.jpg",
+    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guvz71m4gfj60u00u0adc02.jpg",
   },
   {
     name: "Yishu Sun",
@@ -89,7 +89,7 @@ export const employeeInfo = [
     name: "Chance Liu",
     title: "Software Engineer",
     linkedin: "https://www.linkedin.com/in/chanceliu/",
-    pic:"https://tva1.sinaimg.cn/large/008i3skNgy1guscgilrgkj60e80e83ye02.jpg",
+    pic:"https://tva1.sinaimg.cn/large/008i3skNgy1gus8um3b34j60u00u0mzj02.jpg",
   },
 
   {
@@ -149,15 +149,15 @@ export const employeeInfo = [
   },
   {
     name: "Hao Luo",
-    title: "IAM Engineer Intern",
+    title: "IAM Consultant",
     linkedin: "https://www.linkedin.com/in/hao-luo-27a08a16b/",
-    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guvlts2fecj60u00u0add02.jpg",
+    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guz1f0azt8j60u00u0q6f02.jpg",
   },
   {
     name: "Shuwan Yao",
-    title: "IAM Engineer Intern",
+    title: "IAM Consultant",
     linkedin: "https://www.linkedin.com/in/shuwan-yao-columbia-nyc/",
-    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gupt794a4lj60u70u042u02.jpg",
+    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gv1uuje086j60u00u0acu02.jpg",
   },
   {
     name: "Yifeng Shi",

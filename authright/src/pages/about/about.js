@@ -7,8 +7,7 @@ import Intro from "./intro/intro";
 export default class about extends Component {
   render() {
     return (
-      <div>
-        <div>
+      <div className="about-layout-bg">
           <Intro />
           <div className="about-advisory">
               <Advisoryboard />
@@ -18,7 +17,6 @@ export default class about extends Component {
               <Leadership />
             </div>
           </div>
-        </div>
       </div>
     );
   }

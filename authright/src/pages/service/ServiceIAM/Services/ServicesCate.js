@@ -8,7 +8,7 @@ import Design from '../../../../img/design.svg';
 import Integration from '../../../../img/Integration.svg'
 import Support from '../../../../img/support.svg'
 
-const style = { background: 'rgb(76 76 76)', padding: '100px 0' };
+const style = { background: 'rgb(76 76 76)', padding: '100px 0',  borderRadius: 10};
 
 export default class Forgerock extends Component {
     render() {
