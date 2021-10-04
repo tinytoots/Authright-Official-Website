@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import { Row, Col, Divider } from "antd";
-import "antd/dist/antd.css";
-import "./card.css";
-import { Link, Route, useRouteMatch, Switch } from "react-router-dom";
-import pearsonImg from "../../../img/education.jpg";
+
+import React, { Component } from 'react'
+import { Row, Col, Divider } from 'antd';
+import 'antd/dist/antd.css';
+import './card.css'
+import { Link, Route, useRouteMatch, Switch } from "react-router-dom"
 
 
 var cardHsbc = {
@@ -11,16 +11,6 @@ var cardHsbc = {
     "url(https://tva1.sinaimg.cn/large/008i3skNgy1guq233jsj0j60d00i741002.jpg)",
 };
 
-var cardBcbs = {
-  backgroundPosition: "40% 100%",
-  backgroundImage:
-    "url(https://tva1.sinaimg.cn/large/008i3skNgy1guq2837jepj60d008nmxm02.jpg)",
-};
-
-var cardPearson = {
-  backgroundPosition: "30% 100%",
-  backgroundImage: `url(${pearsonImg})`,
-};
 
 export default function Card() {
   const { url, path } = useRouteMatch();

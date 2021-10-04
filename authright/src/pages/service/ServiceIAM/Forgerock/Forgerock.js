@@ -14,7 +14,7 @@ export default class Forgerock extends Component {
     render() {
         return (
             <div className='IAM-bg'>
-                <div className='IAM-Intro-bg'>
+                <div className='forgerock-serice-banner'>
                     <img src={ForgerockImg} width={220} alt = 'logo' className='forgerock-logo'/>
                     <div className='forgerock-content1'>
                         ForgeRock provides digital identity management through its primary product, the 
