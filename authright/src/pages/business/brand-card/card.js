@@ -3,29 +3,10 @@ import { Row, Col, Divider } from 'antd';
 import 'antd/dist/antd.css';
 import './card.css'
 import { Link, Route, useRouteMatch, Switch } from "react-router-dom"
-import hsbcImg from '../../../img/bank.png'
-import homedepotImg from '../../../img/homedepot2.jpg'
-import deloitteImg from '../../../img/deloitte.jpg'
-import toyotaImg from '../../../img/toyota.jpg'
-import equifaxImg from '../../../img/equifax.jpg'
-import bcbsImg from '../../../img/medical.jpg'
-import pearsonImg from '../../../img/education.jpg'
-import mohawkImg from '../../../img/mohawk2.jpg'
-import lowesImg from '../../../img/card-lowes.png'
 
 
 var cardHsbc = {
     backgroundImage: "url(https://tva1.sinaimg.cn/large/008i3skNgy1guq233jsj0j60d00i741002.jpg)"
-}
-
-var cardBcbs = {
-    backgroundPosition: "40% 100%",
-    backgroundImage: "url(https://tva1.sinaimg.cn/large/008i3skNgy1guq2837jepj60d008nmxm02.jpg)"
-}
-
-var cardPearson = {
-    backgroundPosition: "30% 100%",
-    backgroundImage: `url(${pearsonImg})`
 }
 
 
