@@ -3,6 +3,7 @@ import "./about.css";
 import Leadership from "./leadership/leadership";
 import Advisoryboard from "./advisors/advisors"
 import Intro from "./intro/intro";
+import Certification from './certification/certification'
 
 export default class about extends Component {
   render() {
@@ -17,6 +18,9 @@ export default class about extends Component {
               <Leadership />
             </div>
           </div>
+          <div className="about-certification">
+            <Certification />
+          </div> 
       </div>
     );
   }
