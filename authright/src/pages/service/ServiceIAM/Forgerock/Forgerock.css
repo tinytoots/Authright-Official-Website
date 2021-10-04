@@ -3,9 +3,10 @@
     margin-top: 40px;
 }
 
-.IAM-Intro-bg {
+.forgerock-serice-banner {
     background-color: white;
-    padding-bottom: 30px;
+    padding-bottom: 170px;
+    padding-top: 100px;
 }
 
 .IAM-grid-bg {

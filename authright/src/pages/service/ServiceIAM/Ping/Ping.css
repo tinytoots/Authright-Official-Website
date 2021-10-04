@@ -6,14 +6,14 @@
 
 .ping-intro-bg {
     background-color: white;
-    padding-top: 40px;
-    margin-bottom: 30px;
+    padding-top: 140px;
+    padding-bottom: 130px;
     padding-bottom: 10px;
 }
 
 .ping-grid-bg {
-    margin-top: -30px;
-    margin-bottom: -30px;
+    margin-top: 30px;
+    margin-bottom: 100px;
 }
 
 .ping-content1 {

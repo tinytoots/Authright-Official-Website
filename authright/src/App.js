@@ -32,6 +32,7 @@ import PingConsulting from './pages/service/ServiceIAM/Forgerock/ProfessionalSer
 import PingIntegration from './pages/service/ServiceIAM/Forgerock/ProfessionalService/PingIntegration/PingIntegration'
 import PingSupport from './pages/service/ServiceIAM/Forgerock/ProfessionalService/PingSupport/PingSupport'
 import JobDescription from './pages/career/jobDesc/JobDescription';
+import ScrollTop  from './components/ScrollTop/ScrollTop';
 
 function App() {
   
@@ -40,40 +41,42 @@ function App() {
   return (
     <div className="App">
         <Header />
-        <Switch>
-          <Route path="/home" component={Home} /> 
-          <Route path="/customer" component={Business} /> 
-          <Route path="/hsbc" component={CaseHsbc} /> 
-          <Route path="/home-depot" component={CaseHomeDepot} /> 
-          <Route path="/mohawk-industries" component={CaseMohawk} /> 
-          <Route path="/toyota" component={CaseToyota} /> 
-          <Route path="/blue-cross-blue-shield" component={CaseBlue} /> 
-          <Route path="/equifax" component={CaseEquifax} /> 
-          <Route path="/pearson" component={CasePearson} /> 
-          <Route path="/deloitte" component={CaseDeloitte} /> 
-          <Route path="/partners" component={Solution} /> 
-          <Route path="/about-us" component={About} /> 
-          
-          <Route path="/careers/detail/:job" component = {JobDescription} />  
-          <Route path="/careers" component={Career} />
-          <Route path="/services/iam/managed-services" component={ManagedService} />
-          <Route path="/services/iam/education-services" component={EducationService} />
-          <Route path="/services/iam/strategic-talent-services" component={StrategicTalentService} />
+          <ScrollTop>
+            <Switch>
+              <Route path="/home" component={Home} /> 
+              <Route path="/customer" component={Business} /> 
+              <Route path="/hsbc" component={CaseHsbc} /> 
+              <Route path="/home-depot" component={CaseHomeDepot} /> 
+              <Route path="/mohawk-industries" component={CaseMohawk} /> 
+              <Route path="/toyota" component={CaseToyota} /> 
+              <Route path="/blue-cross-blue-shield" component={CaseBlue} /> 
+              <Route path="/equifax" component={CaseEquifax} /> 
+              <Route path="/pearson" component={CasePearson} /> 
+              <Route path="/deloitte" component={CaseDeloitte} /> 
+              <Route path="/partners" component={Solution} /> 
+              <Route path="/about-us" component={About} /> 
+              
+              <Route path="/careers/detail/:job" component = {JobDescription} />  
+              <Route path="/careers" component={Career} />
+              <Route path="/services/iam/managed-services" component={ManagedService} />
+              <Route path="/services/iam/education-services" component={EducationService} />
+              <Route path="/services/iam/strategic-talent-services" component={StrategicTalentService} />
 
-          <Route path="/services/iam/professional-services/forgerock-consulting" component={ForgerockConsulting} />
-          <Route path="/services/iam/professional-services/forgerock-design-development" component={ForgeRockDesignDevelopment} />
-          <Route path="/services/iam/professional-services/forgerock-integration" component={ForgerockIntegration} />
-          <Route path="/services/iam/professional-services/forgerock-support-and-maintenance" component={ForgerockSupport} />
-          <Route path="/services/iam/professional-services/pingidentity-consulting" component={PingConsulting} />
-          <Route path="/services/iam/professional-services/pingidentity-design-development" component={PingDesignDevelopment} />
-          <Route path="/services/iam/professional-services/pingidentity-integration" component={PingIntegration} />
-          <Route path="/services/iam/professional-services/pingidentity-support-and-maintenance" component={PingSupport} />
-          <Route path="/services/iam/professional-services" component={ProfessionalService} />
+              <Route path="/services/iam/professional-services/forgerock-consulting" component={ForgerockConsulting} />
+              <Route path="/services/iam/professional-services/forgerock-design-development" component={ForgeRockDesignDevelopment} />
+              <Route path="/services/iam/professional-services/forgerock-integration" component={ForgerockIntegration} />
+              <Route path="/services/iam/professional-services/forgerock-support-and-maintenance" component={ForgerockSupport} />
+              <Route path="/services/iam/professional-services/pingidentity-consulting" component={PingConsulting} />
+              <Route path="/services/iam/professional-services/pingidentity-design-development" component={PingDesignDevelopment} />
+              <Route path="/services/iam/professional-services/pingidentity-integration" component={PingIntegration} />
+              <Route path="/services/iam/professional-services/pingidentity-support-and-maintenance" component={PingSupport} />
+              <Route path="/services/iam/professional-services" component={ProfessionalService} />
 
-          <Route path="/services/iam" component={ServiceIAM} /> 
-          {/* <Route path="/services/digital" component={ServiceDigital} /> */}
-          <Redirect to="/home" />
-        </Switch>
+              <Route path="/services/iam" component={ServiceIAM} /> 
+              {/* <Route path="/services/digital" component={ServiceDigital} /> */}
+              <Redirect to="/home" />
+            </Switch>
+          </ScrollTop>
         <Footer />
     </div>
   );
