@@ -5,6 +5,7 @@ import { ReactComponent as FooterDivider } from "../../img/Footer-divi.svg";
 import Linkedin from "../../img/bluelinkedin.png";
 
 const style = { background: "#000", padding: "10px 0" };
+var customerEmail = "info@authright.com";
 
 export default class Footer extends Component {
   render() {
@@ -13,7 +14,7 @@ export default class Footer extends Component {
         <div className="inner-footer">
           <div className="gray-lane-footer" />
           <Row gutter={[10, 10]}>
-            <Col className="gutter-row" span={7}>
+            <Col className="gutter-row" span={8}>
               <div style={style}>
                 <div>
                   {/* <FooterDivider className="footer-divi-img" /> */}
@@ -36,7 +37,7 @@ export default class Footer extends Component {
                 </div>
               </div>
             </Col>
-            <Col className="gutter-row" span={7}>
+            <Col className="gutter-row" span={8}>
               <div style={style}>
                 {/* <FooterDivider className="footer-divi-img" /> */}
                 <div className="footer-title">CONTACT INFO</div>
@@ -45,10 +46,10 @@ export default class Footer extends Component {
                 </div>
                 <div className="footer-content">Phone: 781-686-1923</div>
                 <div className="footer-content">Fax: 781-686-9639</div>
-                <div className="footer-content">Email: info@authright.com</div>
+                <div className="footer-content">Email: <a className="footer-content2" href={`mailto:${customerEmail}`} >info@authright.com</a></div>
               </div>
             </Col>
-            <Col className="gutter-row" span={9}>
+            <Col className="gutter-row" span={8}>
               <div style={style}>
                 <div className="footer-title2">FOLLOW US</div>
                 <img
