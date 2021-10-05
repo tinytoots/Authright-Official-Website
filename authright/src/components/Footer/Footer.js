@@ -50,7 +50,7 @@ export default class Footer extends Component {
             </Col>
             <Col className="gutter-row" span={9}>
               <div style={style}>
-                <div className="footer-title2">CONTACT INFO</div>
+                <div className="footer-title2">FOLLOW US</div>
                 <img
                   className="footer-linkedin"
                   src={Linkedin}
