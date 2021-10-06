@@ -10,11 +10,11 @@ export default function Advisoryboard(props) {
     <div className="advisor-bg">
       <div className="leader-title">Founder</div>
       <div className="about-leadership-ceo">
-        <LeadCard leadInfo={leads}/>
+        <LeadCard leadInfo={leads} />
       </div>
       <div className="advisor-title">Advisory Board</div>
       {advisors.map((advisor) => {
-        return <AdvisorCard advisor={advisor} />;
+        return <AdvisorCard key={advisor.name} advisor={advisor} />;
       })}
     </div>
   );

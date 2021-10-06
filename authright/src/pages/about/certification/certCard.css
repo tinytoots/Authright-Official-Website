@@ -1,14 +1,22 @@
 .certCard-container {
-  width: 440px;
-  height: 160px;
+  width: 540px;
+  height: 400px;
   margin-bottom: 50px;
-  background-color: hsl(0, 0%, 98%);
+  background-color: white;
   border-radius: 10px;
-  box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
+  box-shadow: 8px 8px 18px 6px rgba(65, 75, 88, 0.3)
+}
+
+.certCard-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
 }
 
 .certCard-title {
-  font-size: 24px;
+  font-size: 34px;
   font-family: "NunitoSans-bold", sans-serif;
   margin: 15px 0;
 }
@@ -16,4 +24,17 @@
 .certCard-certName {
   font-size: 16px;
   font-family: "NunitoSans-regular", sans-serif;
+}
+
+.certCard-img {
+  width: 85px;
+}
+
+.certCard-divider {
+  width: 150px;
+}
+
+.certCard-subList {
+  display: flex;
+  justify-content: space-evenly;
 }

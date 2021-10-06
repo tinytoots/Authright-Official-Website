@@ -14,7 +14,7 @@ export default class customerComments extends Component {
             className="customerComments-title"
             style={{ width: 800, margin: "auto" }}
           >
-            What our customers say
+            What our Customers say
           </div>
           <div className="customerComments-title2">
             "Since Authright was founded in 2017, we have provided customized
@@ -85,14 +85,14 @@ export default class customerComments extends Component {
           <div className="card-customersComments">
             <div className="content-customersComments">
               <img className="comments-logo-mohawk" src={Mohawk} alt="logo" />
-              <br />
-              <h3>Sathish Tirumalasetty</h3>
+
+              <h3>Sathish</h3>
               <h4>Lead - Architecture & Development </h4>
               <h4>@ Mohawk Industries</h4>
               <div className="comment-paragraph">
                 <p>
-                  “Working with authright team has been an outstanding experience,
-                  they provided us excellent support.”
+                  “Working with authright team has been an outstanding
+                  experience, they provided us excellent support.”
                 </p>
               </div>
 
