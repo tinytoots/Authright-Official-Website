@@ -18,6 +18,16 @@
   color: #eff2f7;
   text-align: left;
   margin-bottom: 5px;
+  margin-left: 13px;
+}
+
+.footer-title2 {
+  font-size: 18px;
+  font-family: "NunitoSans-bold", sans-serif;
+  color: #eff2f7;
+  text-align: left;
+  margin-bottom: 5px;
+  margin-left: 130px;
 }
 
 .footer-link {
@@ -50,6 +60,15 @@
   margin-left: 14px;
 }
 
+.footer-content2 {
+  font-size: 18px;
+  font-family: "NunitoSans-regular", sans-serif;
+  margin-bottom: 5px;
+  color: #8c8c8c;
+  text-align: left;
+  margin-top: 5px;
+}
+
 .footer-divi-img {
   float: left;
   margin-right: 10px; 
@@ -60,4 +79,11 @@
 .inner-footer {
   width: 1200px;
   margin: auto;
+}
+
+.footer-linkedin {
+  cursor: pointer;
+  height: 32px;
+  margin-top: 5px;
+  margin-left: -100px;
 }

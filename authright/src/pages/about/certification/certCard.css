@@ -1,0 +1,19 @@
+.certCard-container {
+  width: 440px;
+  height: 160px;
+  margin-bottom: 50px;
+  background-color: hsl(0, 0%, 98%);
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
+}
+
+.certCard-title {
+  font-size: 24px;
+  font-family: "NunitoSans-bold", sans-serif;
+  margin: 15px 0;
+}
+
+.certCard-certName {
+  font-size: 16px;
+  font-family: "NunitoSans-regular", sans-serif;
+}
