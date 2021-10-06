@@ -5,7 +5,7 @@ import "./certification.css";
 const Certification = () => {
   return (
     <div className="certification-bg">
-      <div className="certification-title">Our Certifications</div>
+      <div className="certification-title">Certifications</div>
       <div className="certification-cards">
         {certificationInfo.map((certificate) => {
           const { name, content,color } = certificate;

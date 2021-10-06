@@ -1,0 +1,10 @@
+.subCertCard-number {
+  font-size: 60px;
+  font-weight: 500;
+  font-family: "NunitoSans-bold", sans-serif;
+  color: #919293;
+}
+
+.subCertCard-certName {
+  width: 150px;
+}

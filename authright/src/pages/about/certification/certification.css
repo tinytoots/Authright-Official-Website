@@ -1,5 +1,5 @@
 .certification-bg {
-  height: 600px;
+  height: 1100px;
   width: 100%;
   background-color: white;
   display: flex;
@@ -9,14 +9,14 @@
 }
 
 .certification-title {
-  padding: 50px 0px 30px 0px;
+  padding: 50px 0px 50px 0px;
   font-size: 40px;
   font-family: "NunitoSans-bold", sans-serif;
   color: black;
 }
 
 .certification-cards {
-  width: 1000px;
+  width: 1200px;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;

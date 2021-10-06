@@ -1,47 +1,50 @@
 export const certificationInfo = [
   {
-    name: "Forgerock Certification",
+    name: "Forgerock",
+    color:'hsl(0, 78%, 62%)',
+    pic: '../img/ForgeRock.png',
     content: [
-      { certName: "Forgerock Certified Access Management Specialist", number: 17 },
+      { certName: "Access Management Specialist", number: 17 },
       {
-        certName: "Forgerock Certified Identity Management Specialist",
+        certName: "Identity Management Specialist",
         number: 10,
       },
-      { certName: "ForgeRock Access Management Accredited Consultant", number: 2 },
+      { certName: "Access Management Accredited Consultant", number: 2 },
     ],
-    color:'hsl(0, 78%, 62%)'
+    
   },
   {
-    name: "Ping Certification",
+    name: "Ping",
+    pic:'../img/Ping.png',
     content: [
       {
-        certName: "Ping Identity Certified Professional – PingFederate",
+        certName: "Ping Federate Professional",
         number: 6,
       },
       {
-        certName: "Ping Identity Certified Professional – PingAccess",
+        certName: "Ping Access Professional",
         number: 6,
       },
       {
-        certName: "Ping Identity Certified Professional – PingDirectory",
+        certName: "Ping Directory Professional",
         number: 6,
       },
     ],
     color:'hsl(212, 86%, 64%)'
   },
   {
-    name: "Okta Certification",
+    name: "Okta",
     content: [
-      { certName: "Okta Certified Administrator", number: 5 },
+      { certName: "Certified Administrator", number: 5 },
       {
-        certName: "Okta Certified Professional",
+        certName: "Certified Professional",
         number: 5,
       },
     ],
     color:'hsl(34, 97%, 64%)'
   },
   {
-    name: "ISC Certification",
+    name: "ISC²",
     content: [
       {
         certName: "Certified Information Systems Security Professional(CISSP)",
