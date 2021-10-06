@@ -6,12 +6,25 @@ import Heart from "../../../img/heart.svg";
 import Important from "../../../img/center.svg";
 import Growth from "../../../img/arrow-growth.svg";
 import Bulb from "../../../img/bulb-outline.svg";
+import values  from "./ourValues.js";
 
 const style = { background: "black", padding: "18px 18px" };
 
 let data = ["E50003", "007AE5"];
 
+const v_desc = ["123","345","678", "777"];
+
 export default class intro extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {valueNum : 0}
+  }
+  
+  _chooseValue(number) {
+    this.setState({valueNum: number})
+  }
+
   render() {
     return (
       <div className="about-intro-bg">
@@ -40,37 +53,27 @@ export default class intro extends Component {
             <div className="about-values-title">Our Values</div>
             <div className="about-values">
               <Row gutter={16}>
-                <Col className="gutter-row" span={6}>
-                  <img className="values-img" alt="" src={Heart} width={80} />
-                </Col>
-                <Col className="gutter-row" span={6}>
-                  <img
-                    className="values-img"
-                    alt=""
-                    src={Important}
-                    width={80}
-                  />
-                </Col>
-                <Col className="gutter-row" span={6}>
-                  <img className="values-img" alt="" src={Growth} width={80} />
-                </Col>
-                <Col className="gutter-row" span={6}>
-                  <img className="values-img" alt="" src={Bulb} width={80} />
-                </Col>
+                {values.map((item, index) => {
+                  let select_style = this.state.valueNum === index ?  "#18e8ff":"white";
+                  return (
+                  <Col className="gutter-row" span={6} key = {index}>
+                    <div onClick={(e) => this._chooseValue(index,e)} key = {index} style={{fill: select_style}}>
+                      <div className = "value-img" >
+                        {item.img}
+                      </div>
+                      <div className='value-preview' style={{color: select_style}}>
+                        {item.title}
+                      </div>
+                    </div>
+                  </Col>
+                )})}
               </Row>
-              <Row gutter={16}>
-                <Col className="gutter-row" span={6}>
-                  <div style={style}>Customer First</div>
-                </Col>
-                <Col className="gutter-row" span={6}>
-                  <div style={style}>Employee Centered</div>
-                </Col>
-                <Col className="gutter-row" span={6}>
-                  <div style={style}>Growth Oriented</div>
-                </Col>
-                <Col className="gutter-row" span={6}>
-                  <div style={style}>Sharing Valued</div>
-                </Col>
+              
+              <Row>
+                <div className = "value-description" >
+                 {values[this.state.valueNum].content}
+                </div>
+                
               </Row>
             </div>
           </div>

@@ -41,10 +41,10 @@ export default function Solution()  {
                                             
                                         </div>
                                         <div className='solution-row-title'>
-                                            Forgerock
+                                            ForgeRock
                                         </div>
                                         <div className='solution-content-text'>
-                                            Make it easy for users to log into apps and services.
+                                            <i>Make it easy for users to log into apps and services.</i>
                                         </div>
                                     </Col>
                                 </Row>
@@ -65,6 +65,7 @@ export default function Solution()  {
                                         </Col>
                                         <Col span={3}>
                                             <div style={{width: 400, marginLeft: 17}} className="solution-content-text">
+                                                {/* 需要扩展 */}
                                                 28 certificates, serving dozens of companies, getting hundreds of praise.
                                                 <div className="learn-more-extend" onClick = {(number) => _handleRowClick(0)}>
                                                     learn more {
@@ -93,7 +94,7 @@ export default function Solution()  {
                                             Ping Identity
                                         </div>
                                         <div className='solution-content-text'>
-                                            Identity Security for the Global Enterprise.
+                                            <i>Identity Security for the Global Enterprise.</i>
                                         </div>
                                     </Col>
                                 </Row>
