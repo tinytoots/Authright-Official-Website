@@ -213,3 +213,25 @@
   margin: auto;
   color: black;
 }
+
+
+.value-description {
+
+}
+
+.selected-value {
+  fill:#18e8ff !important;
+  color: #18e8ff;
+}
+
+.value-img {
+  width: 80px;
+  margin: auto;
+  cursor:pointer
+}
+
+.value-preview { 
+  background: "black";
+   padding: 18px 18px;
+   cursor:pointer 
+}
