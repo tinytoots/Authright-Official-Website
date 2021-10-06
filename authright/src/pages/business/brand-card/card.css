@@ -11,7 +11,7 @@
 }
 
 .card-bg {
-    margin-top: 100px;
+    margin-top: 60px;
     min-height: 80vh;
     place-items: center;
     line-height: 1.6;
@@ -124,7 +124,6 @@
 }
 
 .card-grid-case-study-title {
-    margin-top: 110px;
     padding-top: 50px;
     color: #fff;
     text-align: center;
