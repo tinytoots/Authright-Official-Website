@@ -14,7 +14,7 @@ export default class trust extends Component {
     return (
       <div className="trust-bg">
         <div className="trust-bg2">
-          <div className="turst-title">The IAM Partner You Can Trust</div>
+          <div className="turst-title">We Work With the Best Partners</div>
           <div className="turst-title2"></div>
           <div className="trust-grid-bg">
             <Row gutter={24}>

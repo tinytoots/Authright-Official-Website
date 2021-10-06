@@ -54,7 +54,7 @@
   /* font-family: 'NunitoSans-regular'; */
   font-family: "SFProDisplay-MediumItalic", sans-serif;
   color: black;
-} 
+}
 
 .comments-bg {
   background-color: rgba(255, 255, 255, 0.1);
@@ -214,13 +214,14 @@ body::after {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-.comment-paragraph{
+.comment-paragraph {
   margin-top: 30px;
 }
 
 .comments-logo {
-  width: 300px;
-  margin-top: 10px;
+  width: 130px;
+  height: auto;
+  margin-top: -7px;
 }
 
 .comments-logo-homedepot {
@@ -234,24 +235,11 @@ body::after {
   margin-bottom: -10px;
 }
 
-.comments-logo-mohawk{
+.comments-logo-mohawk {
   width: 160px;
-  margin-top:-10px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 40px;
 }
-
-/* element.style {
-    width: 300px;
-    padding: 0px !important;
-    margin: 10px;
-    background: rgb(255, 255, 255);
-    border-radius: 4px;
-    color: rgb(54, 73, 98);
-    font-size: 16px;
-    line-height: 1.6;
-    box-shadow: rgb(20 26 40 / 20%) 0px 7px 42px;
-    will-change: transform;
-} */
 
 .tiltTest {
   padding: 0px !important;
