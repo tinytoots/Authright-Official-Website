@@ -2,9 +2,17 @@
   width: 540px;
   height: 400px;
   margin-bottom: 50px;
-  background-color: hsl(0, 0%, 98%);
+  background-color: white;
   border-radius: 10px;
-  box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
+  box-shadow: 8px 8px 18px 6px rgba(65, 75, 88, 0.3)
+}
+
+.certCard-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
 }
 
 .certCard-title {
@@ -18,14 +26,15 @@
   font-family: "NunitoSans-regular", sans-serif;
 }
 
-.certCard-divider {
-  width: 150px;
-  height: 5px;
-  margin: auto;
-  border-top: 2px solid #d9d9d9;
+.certCard-img {
+  width: 85px;
 }
 
-.certCard-subList{
-  display:flex;
+.certCard-divider {
+  width: 150px;
+}
+
+.certCard-subList {
+  display: flex;
   justify-content: space-evenly;
 }

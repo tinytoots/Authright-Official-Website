@@ -3,8 +3,16 @@
   font-weight: 500;
   font-family: "NunitoSans-bold", sans-serif;
   color: #919293;
+  margin-bottom: 5px;
 }
 
 .subCertCard-certName {
-  width: 150px;
+  width: 155px;
+  font-family: "NunitoSans-regular", sans-serif;
+  font-size: 14px;
+}
+
+.subCertCard-img{
+  width: 80px;
+  margin-bottom: 15px;
 }
