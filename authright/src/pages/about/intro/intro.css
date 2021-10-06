@@ -1,5 +1,6 @@
 .about-intro-bg {
   margin-top: 60px;
+  margin-bottom: 40px;
 }
 
 .career-company-title {
@@ -216,7 +217,9 @@
 
 
 .value-description {
-
+  text-align: center;
+  width: 850px;
+  margin-top: 20px;
 }
 
 .selected-value {

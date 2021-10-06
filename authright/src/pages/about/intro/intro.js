@@ -8,17 +8,11 @@ import Growth from "../../../img/arrow-growth.svg";
 import Bulb from "../../../img/bulb-outline.svg";
 import values  from "./ourValues.js";
 
-const style = { background: "black", padding: "18px 18px" };
-
-let data = ["E50003", "007AE5"];
-
-const v_desc = ["123","345","678", "777"];
-
 export default class intro extends Component {
 
   constructor(props) {
     super(props);
-    this.state = {valueNum : 0}
+    this.state = {valueNum : -1}
   }
   
   _chooseValue(number) {
@@ -69,9 +63,9 @@ export default class intro extends Component {
                 )})}
               </Row>
               
-              <Row>
+              <Row justify="center">
                 <div className = "value-description" >
-                 {values[this.state.valueNum].content}
+                 {this.state.valueNum === -1 ? "" :values[this.state.valueNum].content}
                 </div>
                 
               </Row>

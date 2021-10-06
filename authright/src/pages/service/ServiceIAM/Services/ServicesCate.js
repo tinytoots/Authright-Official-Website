@@ -59,7 +59,7 @@ export default class Forgerock extends Component {
                             <div style={style}>
                                 <div className='forgerock-title'>
                                     <img className='service-integration-card-img' src={Integration} width={135} alt=""/>
-                                    <div className='service-card-title'>Advisory {"&"} Education</div>
+                                    <div className='service-card-title'>Advisory Services</div>
                                     <div className='servicesCate-content4'>
                                         Our team has done numerous identity implementations across every industry. We’ve seen so many identity use cases and nuances with regards to digital transformation and cloud migration.  We will get you ready for the potential challenges and customer demands in the future.
                                     </div>
@@ -78,7 +78,7 @@ export default class Forgerock extends Component {
                                 <div className='forgerock-title'>
                                     
                                     <img className='service-img' src={Consulting} width={85} alt=""/>
-                                    <div className='service-card-title'>Strategic Talent Services</div>
+                                    <div className='service-card-title'>Education Services</div>
                                     <div className='servicesCate-content4'>
                                         Our instructors have hands-on experience in architecting and implementing identity management products of different vendors. We can effectively level up your team’s IAM knowledge and skills.
                                     </div>
