@@ -60,12 +60,13 @@
     color: black;
     background-color: #ffffff;
     height: 500px;
-    padding-top: 50px
+    
 }
 
 .about-intro-block3 {
-  height: 400px;
+  height: 500px;
   background-color: #000;
+  padding-bottom: 20px;
 }
 
 .career-company-intro {
@@ -220,21 +221,43 @@
   text-align: center;
   width: 850px;
   margin-top: 20px;
+  color: rgb(108, 227, 227);
 }
 
 .selected-value {
-  fill:#18e8ff !important;
-  color: #18e8ff;
+  fill: rgb(108, 227, 227) !important;
+  color: rgb(108, 227, 227);
+  font-family: "NunitoSans-bold", sans-serif;
+}
+
+.unselected-value {
+  fill : white;
+  color: white;
 }
 
 .value-img {
   width: 80px;
   margin: auto;
-  cursor:pointer
+  cursor:pointer;
+}
+
+.value-area {
+  cursor:pointer;
+  width: 135px;
+  height: 135px;
+  padding-top: 26px;
+  margin: auto;
+  
+}
+.value-halo {
+  background: radial-gradient(closest-side circle, rgba(255, 255, 255, 0.509),  black);
+  cursor:pointer；
 }
 
 .value-preview { 
-  background: "black";
-   padding: 18px 18px;
-   cursor:pointer 
+  
+   padding: auto;
+   cursor:pointer;
+   margin-bottom: 40px;
+   
 }

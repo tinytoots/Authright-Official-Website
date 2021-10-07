@@ -63,7 +63,7 @@
 }
 
 .learn-more-extend {
-    margin-top: 15px;
+    margin-top: 50px;
     color: rgb(18, 141, 218);
 }
 
@@ -86,4 +86,14 @@
     /* float: left; */
     margin-top: 70px;
     margin-left: 130px;;
+}
+
+.partner-title {
+    font-size: 70px;
+    font-family: "SFProDisplay-Bold", sans-serif;
+    text-align: center;
+    color: black;
+    width: 700px;
+    margin: auto;
+    padding-top: 100px;
 }

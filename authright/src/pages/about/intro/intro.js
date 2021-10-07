@@ -1,11 +1,7 @@
-import React, { Component } from "react";
+import React, { Component, ReactDOM } from "react";
 import "./intro.css";
 import { Row, Col, Divider } from "antd";
 import "antd/dist/antd.css";
-import Heart from "../../../img/heart.svg";
-import Important from "../../../img/center.svg";
-import Growth from "../../../img/arrow-growth.svg";
-import Bulb from "../../../img/bulb-outline.svg";
 import values  from "./ourValues.js";
 
 export default class intro extends Component {
@@ -18,6 +14,11 @@ export default class intro extends Component {
   _chooseValue(number) {
     this.setState({valueNum: number})
   }
+
+  _cancelValue() {
+    this.setState({valueNum: -1})
+  }
+
 
   render() {
     return (
@@ -46,14 +47,18 @@ export default class intro extends Component {
           <div className="inner">
             <div className="about-values-title">Our Values</div>
             <div className="about-values">
-              <Row gutter={16}>
+              <Row gutter={16} justify="center">
                 {values.map((item, index) => {
-                  let select_style = this.state.valueNum === index ?  "#18e8ff":"white";
+                  let select_style = this.state.valueNum === index ?  "value-halo":"";
                   return (
                   <Col className="gutter-row" span={6} key = {index}>
-                    <div onClick={(e) => this._chooseValue(index,e)} key = {index} style={{fill: select_style}}>
-                      <div className = "value-img" >
-                        {item.img}
+                    <div onMouseEnter={(e) => this._chooseValue(index,e)}
+                         onMouseLeave={(e) => this._cancelValue(e)}
+                         key = {index} className={this.state.valueNum  === index ?"selected-value" : "unselected-value"}>
+                      <div className = {"value-area " + select_style}>
+                        <div className = "value-img" >
+                          {item.img}
+                        </div>
                       </div>
                       <div className='value-preview' style={{color: select_style}}>
                         {item.title}

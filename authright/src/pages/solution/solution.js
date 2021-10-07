@@ -16,165 +16,127 @@ import Ping4 from "../../img/ping-cert4.png";
 import { Row, Col, Divider } from "antd";
 import { DownOutlined, UpOutlined } from "@ant-design/icons";
 
-export default function Solution() {
-  const [show, setShow] = useState(["none", "none"]);
 
-  const _handleRowClick = (number) => {
-    let s = [];
-    for (let i = 0; i < show.length; i++)
-      s[i] = i === number ? (show[i] === "none" ? "block" : "none") : show[i];
-    setShow(s);
-  };
-  return (
-    <div>
-      <div className="career-bg">
-        <div className="even-row solution-row">
-          <div className="inner">
-            <Row justify="start" gutter={10}>
-              <Col span={13}>
-                <img
-                  src={ForgerockImg}
-                  width={250}
-                  alt="logo"
-                  className="solution-fg-logo"
-                />
-                <div className="solution-logo-gray-lane"> </div>
-              </Col>
-              <Col>
-                <div className="solution-iam-title"></div>
-                <div className="solution-row-title">ForgeRock</div>
-                <div className="solution-content-text">
-                  <i>Make it easy for users to log into apps and services.</i>
-                </div>
-              </Col>
-            </Row>
-            <div className="fr-cert">
-              <Row justify="start">
-                <Col className=" " span={3}>
-                  <img src={ForgerockCert4} width={90} alt="logo" />
-                </Col>
-                <Col className=" " span={3}>
-                  <img
-                    src={ForgerockCert1}
-                    width={90}
-                    alt="logo"
-                    className=""
-                  />
-                </Col>
-                <Col className=" " span={3}>
-                  <img
-                    src={ForgerockCert3}
-                    width={90}
-                    alt="logo"
-                    className=""
-                  />
-                </Col>
-                <Col className=" " span={4}>
-                  <img
-                    src={ForgerockCert2}
-                    width={90}
-                    alt="logo"
-                    className=""
-                  />
-                </Col>
-                <Col span={3}>
-                  <div
-                    style={{ width: 400, marginLeft: 17 }}
-                    className="solution-content-text"
-                  >
-                    {/* 需要扩展 */}
-                    28 certificates, serving dozens of companies, getting
-                    hundreds of praise.
-                    <div
-                      className="learn-more-extend"
-                      onClick={(number) => _handleRowClick(0)}
-                    >
-                      learn more{" "}
-                      {show[0] === "none" ? (
-                        <DownOutlined style={{ width: 14 }} />
-                      ) : (
-                        <UpOutlined style={{ width: 14 }} />
-                      )}
-                    </div>
-                  </div>
-                </Col>
-              </Row>
-            </div>
-          </div>
-        </div>
-        <div className="inner" style={{ display: show[0] }}>
-          <Forgerock />
-        </div>
-        <div className="even-row solution-row">
-          <div className="inner">
-            <Row justify="start" gutter={10}>
-              <Col span={13}>
-                <img
-                  src={PingImg}
-                  width={120}
-                  alt="logo"
-                  className="solution-ping-logo"
-                />
-                <div className="solution-ping-logo-gray-lane"> </div>
-              </Col>
-              <Col>
-                <div className="solution-row-title" style={{ paddingTop: 70 }}>
-                  Ping Identity
-                </div>
-                <div className="solution-content-text">
-                  <i>Identity Security for the Global Enterprise.</i>
-                </div>
-              </Col>
-            </Row>
+export default function Solution()  {
+        const [show, setShow] = useState(["none", "none"]);
 
-            <div className="ping-cert-row">
-              <Row justify="start">
-                <Col className="cert-unit" span={3}>
-                  <img
-                    src={Ping1}
-                    width={100}
-                    alt="logo"
-                    style={{ marginRight: 50 }}
-                  />
-                </Col>
-                <Col className="cert-unit" span={3}>
-                  <img src={Ping2} width={100} alt="logo" className="" />
-                </Col>
-                <Col className="cert-unit" span={3}>
-                  <img src={Ping3} width={100} alt="logo" className="" />
-                </Col>
-                <Col className="cert-unit " span={4}>
-                  <img src={Ping4} width={100} alt="logo" className="" />
-                </Col>
-                <Col>
-                  <div
-                    style={{ width: 400, marginLeft: 17 }}
-                    className="solution-content-text"
-                  >
-                    12 certificates, serving dozens of companies, getting
-                    hundreds of praise.
-                    <div
-                      className="learn-more-extend"
-                      onClick={(number) => _handleRowClick(1)}
-                    >
-                      learn more{" "}
-                      {show[1] === "none" ? (
-                        <DownOutlined style={{ width: 14 }} />
-                      ) : (
-                        <UpOutlined style={{ width: 14 }} />
-                      )}
+        const _handleRowClick = (number)=> {
+            console.log(number)
+            let s = []
+            for ( let i = 0; i < show.length; i++)
+                s[i] = i === number ? show[i] === "none" ? "block" : "none" : show[i]
+            setShow(s)
+        }
+        return (
+            <div>
+                <div className='career-bg'>
+                        <div className="even-row solution-row" >
+                            <div className='inner'>
+                                <div className = "partner-title">
+                                    we are trusted by identity leaders
+                                </div>
+                                <Row justify="start" gutter={10}>
+                                    <Col span={13}>
+                                        <img src={ForgerockImg} width={250} alt = 'logo' className='solution-fg-logo'/>
+                                        <div className="solution-logo-gray-lane"> </div>
+                                    </Col>
+                                    <Col>
+                                        <div className='solution-iam-title'>
+                                            
+                                        </div>
+                                        <div className='solution-row-title'>
+                                            ForgeRock
+                                        </div>
+                                        <div className='solution-content-text'>
+                                            <i>Make it easy for users to log into apps and services.</i>
+                                        </div>
+                                    </Col>
+                                </Row>
+                                <div className="fr-cert">
+                                    <Row justify="start">
+                                        
+                                        <Col className=" " span={3}>
+                                                <img src={ForgerockCert4} width={90} alt = 'logo'/>      
+                                        </Col>
+                                        <Col className=" " span={3}>
+                                                <img src={ForgerockCert1} width={90} alt = 'logo' className=''/>
+                                        </Col>
+                                        <Col className=" " span={3}>
+                                                <img src={ForgerockCert3} width={90} alt = 'logo' className=''/>
+                                        </Col>
+                                        <Col className=" " span={4}>
+                                                <img src={ForgerockCert2} width={90} alt = 'logo' className=''/>
+                                        </Col>
+                                        <Col span={3}>
+                                            <div style={{width: 400, marginLeft: 17}} className="solution-content-text">
+                                                {/* 需要扩展 */}
+                                                
+                                                <div className="learn-more-extend" onClick = {(number) => _handleRowClick(0)}>
+                                                    learn more {
+                                                            show[0] === "none"?< DownOutlined style={{width:14}}/>:<UpOutlined style={{width:14}}/>
+                                                        }
+                                                </div>
+                                            </div>
+                                        </Col>
+                                    </Row>
+                                </div>
+                                
+                            </div>   
+                        </div>
+                        <div className  = "inner" style = {{display: show[0]}}>
+                                <Forgerock />
+                        </div>
+                        <div className = "even-row solution-row">
+                            <div className='inner'>
+                            <Row justify="start" gutter={10}>
+                                    <Col span={13}>
+                                        <img src={PingImg} width={120} alt = 'logo' className='solution-ping-logo'/>   
+                                        <div className="solution-ping-logo-gray-lane"> </div> 
+                                    </Col>
+                                    <Col>
+                                        <div className='solution-row-title' style={{paddingTop: 70}}>
+                                            Ping Identity
+                                        </div>
+                                        <div className='solution-content-text'>
+                                            <i>Identity Security for the Global Enterprise.</i>
+                                        </div>
+                                    </Col>
+                                </Row>
+                                
+                                <div className="ping-cert-row">
+                                    <Row justify="start">
+                                        <Col className="cert-unit" span={3}>
+                                                <img src={Ping1} width={100} alt = 'logo' style={{marginRight:50}}/>
+                                        </Col>
+                                        <Col className="cert-unit" span={3}>
+                                                <img src={Ping2} width={100} alt = 'logo' className=''/>    
+                                        </Col>
+                                        <Col className="cert-unit" span={3}>
+                                                <img src={Ping3} width={100} alt = 'logo' className=''/>
+                                        </Col>
+                                        <Col className="cert-unit " span={4}>
+                                                <img src={Ping4} width={100} alt = 'logo' className=''/>
+                                        </Col>
+                                        <Col>
+                                            <div style={{width: 400, marginLeft: 17}} className="solution-content-text">
+                                                
+                                                <div className="learn-more-extend" onClick = {(number) => _handleRowClick(1)}>
+                                                    learn more {
+                                                        show[1] === "none"?< DownOutlined style={{width:14}}/>:<UpOutlined style={{width:14}}/>
+                                                        }
+                                                </div>
+                                            </div>
+                                        </Col>
+                                    </Row>
+                                </div>
+                                {/* <div className='solution-gray-lane' /> */}
+                            </div>    
+                        </div>
+                        <div className="inner" style = {{display: show[1]}}>
+                                <Ping />
+                        </div>
                     </div>
-                  </div>
-                </Col>
-              </Row>
-            </div>
-            {/* <div className='solution-gray-lane' /> */}
-          </div>
-        </div>
-        <div className="inner" style={{ display: show[1] }}>
-          <Ping />
-        </div>
-      </div>
     </div>
+
   );
 }
