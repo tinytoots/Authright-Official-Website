@@ -3,14 +3,15 @@ import SubCertCard from "./subCertCard";
 import "./certCard.css";
 
 const CertCard = (props) => {
-  const { name, content, color, pic } = props;
-  console.log(pic);
+  const { name, content} = props;
   return (
     <div className="certCard-container">
       <div className="certCard-header">
         {/* <img className="certCard-img" src={pic} alt={`${name}`} /> */}
-        <div className="certCard-title">{name}</div>
-        <div className="certCard-divider" style={{ borderBottom: `5px solid ${color}` }}></div>
+        <div className="certCard-title" style={{ borderBottom: `3px solid #8c8c8c` }}>
+          {name}
+        </div>
+        <div className="certCard-divider"></div>
       </div>
 
       <div className="certCard-subList">

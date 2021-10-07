@@ -12,13 +12,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 10px 0;
+  margin-bottom: 25px;
+  margin-top: 10px;
 }
 
 .certCard-title {
   font-size: 34px;
   font-family: "NunitoSans-bold", sans-serif;
-  margin: 15px 0;
+  padding-bottom: 5px;
+  margin: 15px 0 0 0;
 }
 
 .certCard-certName {

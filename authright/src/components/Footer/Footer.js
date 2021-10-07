@@ -42,7 +42,7 @@ export default class Footer extends Component {
                 {/* <FooterDivider className="footer-divi-img" /> */}
                 <div className="footer-title">CONTACT INFO</div>
                 <div className="footer-content">
-                  Address: 888 Washington Street, Suite 301 Dedham MA, 02026
+                  Address: 888 Washington Street, Suite 301 <p className="footer-address">Dedham MA, 02026</p>
                 </div>
                 <div className="footer-content">Phone: 781-686-1923</div>
                 <div className="footer-content">Fax: 781-686-9639</div>

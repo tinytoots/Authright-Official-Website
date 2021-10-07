@@ -1,20 +1,21 @@
-import React, { Component, useState } from 'react'
-import Forgerock from './ServiceIAM/Forgerock/Forgerock'
-import Ping from './ServiceIAM/Ping/Ping'
-import './solution.css'
-import ForgerockImg from '../../img/forgerock.svg'
-import PingImg from '../../img/ping-identity.svg'
-import ForgerockCert1 from '../../img/forgerock-cert1.png'
-import ForgerockCert2 from '../../img/forgerock-cert2.png'
-import ForgerockCert3 from '../../img/forgerock-badge-2020.png'
-import ForgerockCert4 from '../../img/forgerock-cert4.png'
-import ForgerockCert5 from '../../img/forgerock-cert5.png'
-import Ping1 from '../../img/ping-cert1.png'
-import Ping2 from '../../img/ping-cert2.png'
-import Ping3 from '../../img/ping-cert3.png'
-import Ping4 from '../../img/ping-cert4.png'
-import { Row, Col, Divider } from 'antd';
-import {DownOutlined ,UpOutlined} from "@ant-design/icons"
+import React, { Component, useState } from "react";
+import Forgerock from "./ServiceIAM/Forgerock/Forgerock";
+import Ping from "./ServiceIAM/Ping/Ping";
+import "./solution.css";
+import ForgerockImg from "../../img/forgerock.svg";
+import PingImg from "../../img/ping-identity.svg";
+import ForgerockCert1 from "../../img/forgerock-cert1.png";
+import ForgerockCert2 from "../../img/forgerock-cert2.png";
+import ForgerockCert3 from "../../img/forgerock-badge-2020.png";
+import ForgerockCert4 from "../../img/forgerock-cert4.png";
+import ForgerockCert5 from "../../img/forgerock-cert5.png";
+import Ping1 from "../../img/ping-cert1.png";
+import Ping2 from "../../img/ping-cert2.png";
+import Ping3 from "../../img/ping-cert3.png";
+import Ping4 from "../../img/ping-cert4.png";
+import { Row, Col, Divider } from "antd";
+import { DownOutlined, UpOutlined } from "@ant-design/icons";
+
 
 export default function Solution()  {
         const [show, setShow] = useState(["none", "none"]);
@@ -134,9 +135,8 @@ export default function Solution()  {
                         <div className="inner" style = {{display: show[1]}}>
                                 <Ping />
                         </div>
+                    </div>
+    </div>
 
-                </div>
-            </div>
-        )
-    
+  );
 }
