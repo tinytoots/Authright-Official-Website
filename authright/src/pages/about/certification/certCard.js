@@ -3,8 +3,7 @@ import SubCertCard from "./subCertCard";
 import "./certCard.css";
 
 const CertCard = (props) => {
-  const { name, content, pic } = props;
-  console.log(pic);
+  const { name, content} = props;
   return (
     <div className="certCard-container">
       <div className="certCard-header">
