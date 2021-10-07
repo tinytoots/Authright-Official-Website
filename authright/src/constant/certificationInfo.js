@@ -108,7 +108,7 @@ export const certificationInfo = [
       {
         certName: "HashiCorp",
         number: 1,
-        pic: "/certification/HashiCorp.png",
+        pic: "/certification/Hashicorp.png",
       },
     ],
   },
