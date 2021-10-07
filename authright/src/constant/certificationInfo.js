@@ -1,7 +1,7 @@
 export const certificationInfo = [
   {
-    name: "Forgerock",
-    color: "hsl(0, 78%, 62%)",
+    name: "ForgeRock",
+
     pic: "/certification/forgerocktrust.png",
     content: [
       {
@@ -22,7 +22,7 @@ export const certificationInfo = [
     ],
   },
   {
-    name: "Ping",
+    name: "Ping Identity",
     pic: "../certification/ping-identity.svg",
     content: [
       {
@@ -41,7 +41,6 @@ export const certificationInfo = [
         pic: "/certification/ping-cert-directory.png",
       },
     ],
-    color: "hsl(212, 86%, 64%)",
   },
   {
     name: "Okta",
@@ -54,10 +53,9 @@ export const certificationInfo = [
       {
         certName: "Certified Professional",
         number: 5,
-        pic: "/certification/okta-cert-professional.png"
+        pic: "/certification/okta-cert-professional.png",
       },
     ],
-    color: "hsl(34, 97%, 64%)",
   },
   {
     name: "ISC²",
@@ -65,56 +63,53 @@ export const certificationInfo = [
       {
         certName: "Certified Information Systems Security Professional(CISSP)",
         number: 2,
-        pic: "/certification/ISC-cert-CISSP.png"
+        pic: "/certification/ISC-cert-CISSP.png",
       },
       {
         certName: "Certified Cloud Security Professional (CCSP)	",
         number: 1,
-        pic: "/certification/ISC-cert-CCSP.png"
+        pic: "/certification/ISC-cert-CCSP.png",
       },
     ],
-    color: "hsl(334, 100%, 77%)",
   },
   {
     name: "Cloud",
     content: [
       {
-        certName: "GCP Architect",
+        certName: "AWS",
         number: 1,
-        pic: "/certification/GCP-cert-Architect.png"
+        pic: "/certification/AWS.png",
       },
       {
-        certName: "GCP Accociate",
+        certName: "Azure",
         number: 1,
-        pic: "/certification/GCP-cert-Associate.png"
+        pic: "/certification/Azure.jpeg",
       },
       {
-        certName: "AWS Associate",
-        number: 1,
-        pic: "/certification/AWS-cert-Developer-Associate.png"
+        certName: "GCP",
+        number: 2,
+        pic: "/certification/GCP.png",
       },
     ],
-    color: "hsl(180, 62%, 55%)",
   },
   {
     name: "DevOps",
     content: [
       {
-        certName: "Certified Kubernetes Administrator (CKA)",
-        number: 1,
-        pic: "/certification/Kubernates-cert-CKA.png"
+        certName: "Kubernetes",
+        number: 3,
+        pic: "/certification/Kubernetes.png",
       },
       {
-        certName: "Certified Kubernetes Application Developer (CKAD)",
-        number: 1,
-        pic: "/certification/Kubernates-cert-CKAD.png"
+        certName: "Docker",
+        number: 2,
+        pic: "/certification/Docker.png",
       },
       {
-        certName: "Certified Kubernetes Security Specialist (CKS)",
+        certName: "HashiCorp",
         number: 1,
-        pic: "/certification/Kubernates-cert-CKS.png"
+        pic: "/certification/HashiCorp.png",
       },
     ],
-    color: "hsl(295, 82%, 56%)",
   },
 ];
