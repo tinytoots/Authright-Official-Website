@@ -31,6 +31,9 @@ export default function Solution()  {
                 <div className='career-bg'>
                         <div className="even-row solution-row" >
                             <div className='inner'>
+                                <div className = "partner-title">
+                                    we are trusted by identity leaders
+                                </div>
                                 <Row justify="start" gutter={10}>
                                     <Col span={13}>
                                         <img src={ForgerockImg} width={250} alt = 'logo' className='solution-fg-logo'/>
@@ -66,7 +69,7 @@ export default function Solution()  {
                                         <Col span={3}>
                                             <div style={{width: 400, marginLeft: 17}} className="solution-content-text">
                                                 {/* 需要扩展 */}
-                                                28 certificates, serving dozens of companies, getting hundreds of praise.
+                                                
                                                 <div className="learn-more-extend" onClick = {(number) => _handleRowClick(0)}>
                                                     learn more {
                                                             show[0] === "none"?< DownOutlined style={{width:14}}/>:<UpOutlined style={{width:14}}/>
@@ -115,7 +118,7 @@ export default function Solution()  {
                                         </Col>
                                         <Col>
                                             <div style={{width: 400, marginLeft: 17}} className="solution-content-text">
-                                                12 certificates, serving dozens of companies, getting hundreds of praise.
+                                                
                                                 <div className="learn-more-extend" onClick = {(number) => _handleRowClick(1)}>
                                                     learn more {
                                                         show[1] === "none"?< DownOutlined style={{width:14}}/>:<UpOutlined style={{width:14}}/>
