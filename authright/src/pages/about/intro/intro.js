@@ -2,10 +2,6 @@ import React, { Component } from "react";
 import "./intro.css";
 import { Row, Col, Divider } from "antd";
 import "antd/dist/antd.css";
-import Heart from "../../../img/heart.svg";
-import Important from "../../../img/center.svg";
-import Growth from "../../../img/arrow-growth.svg";
-import Bulb from "../../../img/bulb-outline.svg";
 import values  from "./ourValues.js";
 
 export default class intro extends Component {
