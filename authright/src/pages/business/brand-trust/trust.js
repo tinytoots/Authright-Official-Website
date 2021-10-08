@@ -1,13 +1,10 @@
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
 // import { ReactComponent as ForgeRock } from "../../../img/partner/forgerock.svg";
 // import { ReactComponent as PingIdentity } from "../../../img/partner/ping-identity.svg";
 import ForgeRock from "../../../img/forgerocktrust.png";
 import { ReactComponent as PingIdentity } from "../../../img/ping-identity.svg";
 import "./trust.css";
-import { Row, Col, Divider } from "antd";
-
-const style = { background: "#0092ff", padding: "8px 0" };
+import { Row, Col } from "antd";
 
 export default class trust extends Component {
   render() {

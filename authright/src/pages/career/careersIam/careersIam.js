@@ -4,8 +4,6 @@ import { Row, Col} from 'antd';
 import IAMImg from '../../../img/hiring.jpg'
 import './careersIam.css'
 
-const style = { background: '#0092ff', padding: '8px 0' };
-
 export default class careersIam extends Component {
     render() {
         return (

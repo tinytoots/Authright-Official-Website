@@ -1,13 +1,8 @@
 import React, { Component } from 'react';
-import advantage from './advantage/advantage';
 import './home.css'
 import Intro from './intro/intro'
 import Advantage from './advantage/advantage'
-import Services from './services/services'
-import Solutions from './solutions/solutions'
-import History from './history/history'
 import Client from './clients/clients'
-import CaseStudy from './case-study/caseStudy'
 import CustomerComments from './costomerComments/costomerComments'
 import BrandTrust from '../business/brand-trust/trust'
 

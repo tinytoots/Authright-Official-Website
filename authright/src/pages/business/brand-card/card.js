@@ -1,9 +1,8 @@
-
-import React, { Component } from 'react'
-import { Row, Col, Divider } from 'antd';
+import React from 'react'
+import { Row, Col } from 'antd';
 import 'antd/dist/antd.css';
 import './card.css'
-import { Link, Route, useRouteMatch, Switch } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 
 var cardHsbc = {
@@ -13,7 +12,6 @@ var cardHsbc = {
 
 
 export default function Card() {
-  const { url, path } = useRouteMatch();
 
   return (
     <div className="card-bg">

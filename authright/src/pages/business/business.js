@@ -1,10 +1,8 @@
 import React, { Component } from "react";
 import "./business.css";
 //import BrandBox from "./brand-box/box";
-import BrandCard from "./brand-card/card";
 //import ExpandCard from "./brand-expandCard/expandCard";
 import UnderLine from "../../img/circle.svg";
-import BrandTrust from "./brand-trust/trust";
 // import Blue_Cross from "../../img/blue-cross-blue-shield-1.svg";
 // import HSBC from "../../img/hsbc-1.svg";
 // import Deloitte from "../../img/deloitte-2.svg";
@@ -23,7 +21,7 @@ export default class business extends Component {
       <div className="business-bg">
         <div className="business-bg2">
           <div className="businessOutcome-intro">
-            <div className="businessOutcome-title1">We are trusted by</div>
+            <div className="businessOutcome-title1">We are Trusted by</div>
             <div className="businessOutcome-title2">the Fortune 500</div>
             {/* <div className="businessOutcome-title2">companies</div> */}
             <img

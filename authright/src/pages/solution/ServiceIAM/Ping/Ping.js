@@ -1,14 +1,6 @@
 import React, { Component } from 'react'
-import PingImg from '../../../../img/ping-identity.svg'
 import './Ping.css'
-import { Row, Col, Divider } from 'antd';
-import { NavLink } from 'react-router-dom'
-import Consulting from '../../../../img/consulting.svg';
-import Design from '../../../../img/design.svg';
-import Integration from '../../../../img/Integration.svg'
-import Support from '../../../../img/support.svg'
-
-const style = { background: '#141414', padding: '100px 0' };
+import { Row, Col } from 'antd';
 
 export default class Ping extends Component {
     render() {

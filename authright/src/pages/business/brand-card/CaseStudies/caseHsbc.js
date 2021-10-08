@@ -1,11 +1,6 @@
 import React, { Component } from 'react'
-import { Row, Col, Divider } from 'antd';
-import HsbcImg from '../../../../img/case-hsbc.png'
+import { Row, Col } from 'antd';
 import './caseStudies.css';
-
-
-const style = { background: '#0092ff', padding: '8px 0' };
-
 
 export default class caseHsbc extends Component {
     render() {
