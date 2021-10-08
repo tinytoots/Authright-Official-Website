@@ -33,7 +33,7 @@ export default function Solution()  {
                         <div className="even-row solution-row" >
                             <div className='inner'>
                                 <div className = "partner-title">
-                                    we are trusted by identity leaders
+                                    We are Trusted by the Identity Leaders
                                 </div>
                                 <Row justify="start" gutter={10}>
                                     <Col span={13}>
