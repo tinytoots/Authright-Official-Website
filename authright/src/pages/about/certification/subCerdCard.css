@@ -15,5 +15,11 @@
 
 .subCertCard-img{
   width: 80px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.subCertCard-okta-img{
+  height: 100px;
+  cursor: pointer;
 }
