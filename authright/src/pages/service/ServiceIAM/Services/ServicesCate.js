@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
-
 import './ServicesCate.css'
-import { Row, Col, Divider } from 'antd';
-import { NavLink } from 'react-router-dom'
+import { Row, Col } from 'antd';
 import Consulting from '../../../../img/consulting.svg';
 import Design from '../../../../img/design.svg';
 import Integration from '../../../../img/Integration.svg'

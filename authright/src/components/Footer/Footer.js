@@ -1,11 +1,9 @@
 import React, { Component } from "react";
 import "./Footer.css";
-import { Row, Col, Divider } from "antd";
-import { ReactComponent as FooterDivider } from "../../img/Footer-divi.svg";
+import { Row, Col } from "antd";
 import Linkedin from "../../img/bluelinkedin.png";
 
 const style = { background: "#000", padding: "10px 0" };
-var customerEmail = "info@authright.com";
 
 export default class Footer extends Component {
   render() {
@@ -47,7 +45,7 @@ export default class Footer extends Component {
                 <div className="footer-content">Phone: 781-686-1923</div>
                 <div className="footer-content">Fax: 781-686-9639</div>
                 {/* <div className="footer-content">Email: <a className="footer-content2" href={`mailto:${customerEmail}`}>info@authright.com</a></div> */}
-                <div className="footer-content">Email: <a className="footer-content2" href="mailto:info@authright.com" target="_blank">info@authright.com</a></div>
+                <div className="footer-content">Email: <a className="footer-content2" href="mailto:info@authright.com" rel="noreferrer" target="_blank">info@authright.com</a></div>
               </div>
             </Col>
             <Col className="gutter-row" span={8}>

@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import ServicesCate from './Services/ServicesCate'
-import Forgerock from './Forgerock/Forgerock'
-import Ping from './Ping/Ping'
 import BrandCard from "../../business/brand-card/card"
 import CustomerIntro from "../../about/intro/CustomerIntro"
 import "./ServiceIAM.css"

@@ -1,13 +1,6 @@
 import React, { Component } from 'react'
-import { Row, Col, Divider } from 'antd';
-import HsbcImg from '../../../../img/card-toyota.png'
-import HsbcLogo from '../../../../img/case-toyota.svg'
-import AuthrightLogo from '../../../../img/authright-logo.jpg'
+import { Row, Col} from 'antd';
 import './caseStudies.css';
-
-
-const style = { background: '#0092ff', padding: '8px 0' };
-
 
 export default class caseToyota extends Component {
     render() {

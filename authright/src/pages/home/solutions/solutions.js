@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './solutions.css'
-import { Row, Col, Divider } from 'antd';
+import { Row, Col } from 'antd';
 
 const style = { background: '#141414', 
                 padding: '28px 0',

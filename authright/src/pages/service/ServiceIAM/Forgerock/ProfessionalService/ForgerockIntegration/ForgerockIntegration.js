@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './ForgerockIntegration.css'
-import { Row, Col, Divider } from 'antd';
+import { Row, Col } from 'antd';
 
 import ForgerockImg from '../../../../../../img/forgerock.svg'
 import ForgerockCert1 from '../../../../../../img/forgerock-cert1.png'
@@ -8,7 +8,6 @@ import ForgerockCert2 from '../../../../../../img/forgerock-cert2.png'
 import ForgerockCert3 from '../../../../../../img/forgerock-cert3.png'
 import ForgerockCert4 from '../../../../../../img/forgerock-cert4.png'
 import ForgerockCert5 from '../../../../../../img/forgerock-cert5.png'
-import ForgeRock from '../../../../../solution/ServiceIAM/Forgerock/Forgerock'
 
 export default class ForgerockIntegration extends Component {
     render() {
