@@ -27,7 +27,7 @@
 }
 
 .about-company-title2 {
-  padding-top: 70px;
+  padding-top: 140px;
   font-size: 40px;
   font-family: "NunitoSans-bold", sans-serif;
   margin: auto;
@@ -56,7 +56,6 @@
 
 .about-intro-block2 {
     height: 400px;
-    /* margin-bottom: 200px; */
     color: black;
     background-color: #ffffff;
     height: 500px;
@@ -119,7 +118,7 @@
   padding-bottom: 5px;
   padding-left: 5px;
   padding-right: 5px;
-  margin-top: 20px;
+  margin-top: 70px;
   margin-left: 120px;
   border-radius: 5%;
   height: 360px;
@@ -255,9 +254,9 @@
 }
 
 .value-preview { 
-  
    padding: auto;
    cursor:pointer;
    margin-bottom: 40px;
-   
 }
+
+  

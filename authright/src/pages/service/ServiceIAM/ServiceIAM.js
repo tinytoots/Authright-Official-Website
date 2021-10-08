@@ -21,7 +21,7 @@ export default class ServiceIAM extends Component {
                         <BrandCard />
                     </div>
                 <div className = "service-inner">
-                    <CustomerIntro />
+                    <CustomerIntro/>
                     
                     <ServicesCate />
                 </div>
