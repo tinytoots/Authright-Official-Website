@@ -16,13 +16,16 @@ const CertCard = (props) => {
 
       <div className="certCard-subList">
         {content.map((certInfo) => {
-          const { certName, number, pic } = certInfo;
+          const { certName, number, pic, link } = certInfo;
+          console.log(link)
           return (
             <SubCertCard
               key={`${certName}+${number}`}
               certName={certName}
               number={number}
               pic={pic}
+              link={link}
+              name={name}
             />
           );
         })}
