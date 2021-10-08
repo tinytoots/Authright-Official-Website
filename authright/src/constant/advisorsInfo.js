@@ -4,7 +4,7 @@ export const advisorsInfo = [
     title: "CEO",
     company: "YouAttest",
     description:
-      "Garret Grajek, CEH, CISSP, is a certified security engineer and product builder. Garret has 25+ years of IT Security product creation. He has 15 U.S. patents for information security products (focus: Application SSO, 2FA, Identity Assurance, Continuous Authentication, AI and Blockchain). Garret has specialized in creating secureIT products for markets in the Financial, Health Care, Federal, State, Education and other regulated arenas. Products Garret has created resulted in multiple awards, Gartner ranking, and sold to over 500 customers resulting in $200M+ in revenue.",
+      "Grajek is a certified security engineer with almost 30 years of experience in information security. Garret is recognized in the industry as a security visionary in identity, access, and authentication matters. He holds 13 patents involving x.509, mobile, SSO, federation, and multi-factor technologies. He has worked on security projects for major commercial accounts including Dish Networks, Office Depot, TicketMaster, Oppenheimer, E*Trade, HP.com, and public sector accounts as GSA, U.S. Navy, EPA, and USUHS. He has been consistent in staying ahead of the curve in identity projects including authentication, continuous identity assurance, and now auditing.",
     linkRef: "https://www.linkedin.com/in/theauthguy/",
     pic:"https://tva1.sinaimg.cn/large/008i3skNgy1gur02js3qvj605k05kdfq02.jpg"
   },
