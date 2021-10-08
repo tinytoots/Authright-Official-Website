@@ -9,7 +9,7 @@ const jobDescription = {
         RecruitingTeam: "IT Solutions & Services Department",
         WhoWeAre: 
         [
-            "Authright, founded in 2014 in Massachusetts, is an information technology company that providing information security including enterprise Identity & Access Management (IAM) Solutions to our customers. Jan 18, 2018, AuthRight and ForgeRock announced Delivery and Strategic Partnership to dedicate to provide top information security solution in the North American area and global in future. ",
+            "Authright, founded in 2017 in Massachusetts, is an information technology company that providing information security including enterprise Identity & Access Management (IAM) Solutions to our customers. Jan 18, 2018, AuthRight and ForgeRock announced Delivery and Strategic Partnership to dedicate to provide top information security solution in the North American area and global in future. ",
             "We provide high-quality tailored IT consulting and management services to help clients to protect, connect, and manage the digital identities of people, devices, and the internet of things (IoT) through an all-in-one Identify Platform. Beyond the professional service, Authright independent researchers and development of security & protection products include Cloud AM, CASB, SSO and multi-factor login solution."
         ],
         PositionSummary: "This position is providing Authright IT professional service for customers. IT Solutions & Services Department diverse group of technical architects, engineers, consultants, and support professionals dedicated to delivering on Authright’s mission of helping our customers to embrace cutting edge technology and propelling our customers’ business imperatives toward success.",
