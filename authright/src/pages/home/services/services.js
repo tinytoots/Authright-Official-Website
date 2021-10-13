@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom'
 import './services.css';
-import { Row, Col, Divider } from 'antd';
+import { Row, Col } from 'antd';
 import IAM from '../../../img/IAM.svg';
 import SDE from '../../../img/SDE.svg';
 

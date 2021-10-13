@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {Redirect, Switch, Route, useRouteMatch } from 'react-router-dom';
+import {Redirect, Switch, Route} from 'react-router-dom';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Home from './pages/home/home';
@@ -9,7 +9,6 @@ import Solution from './pages/solution/solution';
 import About from './pages/about/about';
 import Career from './pages/career/career';
 import ServiceIAM from './pages/service/ServiceIAM/ServiceIAM'
-import ServiceDigital from './pages/service/ServiceDigital/ServiceDigital'
 import CaseHsbc from './pages/business/brand-card/CaseStudies/caseHsbc'
 import CaseHomeDepot from './pages/business/brand-card/CaseStudies/caseHomeDepot'
 import CaseMohawk from './pages/business/brand-card/CaseStudies/caseMohawk'
@@ -32,11 +31,10 @@ import PingIntegration from './pages/service/ServiceIAM/Forgerock/ProfessionalSe
 import PingSupport from './pages/service/ServiceIAM/Forgerock/ProfessionalService/PingSupport/PingSupport'
 import JobDescription from './pages/career/jobDesc/JobDescription';
 import ScrollTop  from './components/ScrollTop/ScrollTop';
+import Earth from './pages/earth/earth.js'
 
 function App() {
   
-  const { url, path } = useRouteMatch();
-
   return (
     <div className="App">
         <Header />
@@ -54,6 +52,7 @@ function App() {
               <Route path="/deloitte" component={CaseDeloitte} /> 
               <Route path="/partners" component={Solution} /> 
               <Route path="/about-us" component={About} /> 
+              <Route path='/earth' component={Earth}/>
               
               <Route path="/careers/detail/:job" component = {JobDescription} />  
               <Route path="/careers" component={Career} />

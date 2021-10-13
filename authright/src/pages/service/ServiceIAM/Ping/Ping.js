@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PingImg from '../../../../img/ping-identity.svg'
 import './Ping.css'
-import { Row, Col, Divider } from 'antd';
+import { Row, Col } from 'antd';
 import { NavLink } from 'react-router-dom'
 import Consulting from '../../../../img/consulting.svg';
 import Design from '../../../../img/design.svg';
@@ -38,7 +38,7 @@ export default class Ping extends Component {
                         <Col className="gutter-row" span={12}>
                             <div style={style}>
                                 <div className='ping-title'>
-                                    <img className='service-img' src={Consulting} width={85} />
+                                    <img className='service-img' src={Consulting} width={85} alt=""/>
                                     <div className='service-iam-title'>Ping Identity Consulting</div>
                                     <div className='ping-content4'>Our Ping Identity consultants integrate your enterprise</div>
                                     <div className='ping-content4'>applications with simple, secured, centralized</div>
@@ -56,7 +56,7 @@ export default class Ping extends Component {
                         <Col className="gutter-row" span={12}>
                             <div style={style}>
                                 <div className='ping-title'>
-                                    <img className='service-img' src={Design} width={80} />
+                                    <img className='service-img' src={Design} width={80} alt=""/>
                                     <div className='service-iam-title3'>Ping Identity Design</div>
                                     <div className='service-iam-title2'>Development</div>
                                     <div className='ping-content4'>Our Ping Identity developers assist you to develop IAM solution</div>
@@ -76,7 +76,7 @@ export default class Ping extends Component {
                         <Col className="gutter-row" span={12}>
                             <div style={style}>
                                 <div className='ping-title'>
-                                    <img className='service-forgerock-integration-img' src={Integration} width={135} />
+                                    <img className='service-forgerock-integration-img' src={Integration} width={135} alt=""/>
                                     <div className='service-iam-title'>Ping Identity Integration</div>
                                     <div className='ping-content4'>Our Open Source integration experts can connect Ping Identity based</div>
                                     <div className='ping-content4'>Open IAM solution to your corporate website, intranet/extranet</div>
@@ -94,7 +94,7 @@ export default class Ping extends Component {
                         <Col className="gutter-row" span={12}>
                             <div style={style}>
                                 <div className='ping-title'>
-                                    <img className='service-forgerock-support-img' src={Support} width={78} />
+                                    <img className='service-forgerock-support-img' src={Support} width={78} alt=""/>
                                     <div className='service-iam-title3'>Ping Identity Support</div>
                                     <div className='service-iam-title2'>& Maintenance</div>
                                     <div className='ping-content4'>Our Ping Identity team offers onsite and offsite support to ensure</div>

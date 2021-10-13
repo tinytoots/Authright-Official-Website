@@ -1,15 +1,15 @@
 const jobDescription = {
     iam: {
-        title: "Identity & Access Management Software Engineer",
-        subTitle: "Identity & Access Management Software Engineer (All Levels)",
+        title: "Identity & Access Management Software Engineer (All Levels)",
+        // subTitle: "Identity & Access Management Software Engineer (All Levels)",
         Location: "Dedham, MA **20-40% Travel Required**",
-        Company: "Authright Inc",
+        Company: "Authright Inc.",
         PostingTitle: "Identity & Access Management Software Engineer (All Levels)",
         JobID: "ITSS2021001",
         RecruitingTeam: "IT Solutions & Services Department",
         WhoWeAre: 
         [
-            "Authright, founded in 2014 in Massachusetts, is an information technology company that providing information security including enterprise Identity & Access Management (IAM) Solutions to our customers. Jan 18, 2018, AuthRight and ForgeRock announced Delivery and Strategic Partnership to dedicate to provide top information security solution in the North American area and global in future. ",
+            "Authright, founded in 2017 in Massachusetts, is an information technology company that providing information security including enterprise Identity & Access Management (IAM) Solutions to our customers. Jan 18, 2018, AuthRight and ForgeRock announced Delivery and Strategic Partnership to dedicate to provide top information security solution in the North American area and global in future. ",
             "We provide high-quality tailored IT consulting and management services to help clients to protect, connect, and manage the digital identities of people, devices, and the internet of things (IoT) through an all-in-one Identify Platform. Beyond the professional service, Authright independent researchers and development of security & protection products include Cloud AM, CASB, SSO and multi-factor login solution."
         ],
         PositionSummary: "This position is providing Authright IT professional service for customers. IT Solutions & Services Department diverse group of technical architects, engineers, consultants, and support professionals dedicated to delivering on Authright’s mission of helping our customers to embrace cutting edge technology and propelling our customers’ business imperatives toward success.",
@@ -28,26 +28,26 @@ const jobDescription = {
             "BS in Computer Science, Computer Engineering, or related discipline from a top school"
         ],
         Benfits: [
-            "Competitive salary with opportunities for raises and bonuses every year",
-            "Visa sponsorship, Green Card Sponsorship available for competitive candidates",
-            "PPO Health, Visual, & Dental Insurance.",
-            "401K retirement plan",
-            "Paid Time Off",
+            "Competitive salary with opportunities for raises and bonuses every year. ",
+            "Visa sponsorship, Green Card Sponsorship available for competitive candidates. ",
+            "PPO Health, Visual, & Dental Insurance. ",
+            "401K retirement plan. ",
+            "Paid Time Off. ",
             "Professional development allowance for conferences, classes, and special events"
         ],
         apply: "If you are interested in this position, please send your latest resume and cover letter to hr@authright.com"
     },
     forgerock: {
         title: "ForgeRock (IAM) Identity Technical Architect",
-        subTitle: "ForgeRock (IAM) Identity Technical Architect",
+        // subTitle: "ForgeRock (IAM) Identity Technical Architect",
         Location: "Dedham, MA **20-40% Travel Required**",
-        Company: "Authright Inc",
+        Company: "Authright Inc.",
         PostingTitle: "ForgeRock (IAM) Identity Technical Architect",
         JobID: "ITSS2021002",
         RecruitingTeam: "IT Solutions & Services Department",
         WhoWeAre: 
         [
-            "Authright, founded in 2014 in Massachusetts, is an information technology company that providing information security including enterprise Identity & Access Management (IAM) Solutions to our customers. Jan 18, 2018, AuthRight and ForgeRock announced Delivery and Strategic Partnership to dedicate to provide top information security solution in the North American area and global in future. ",
+            "Authright, founded in 2017 in Massachusetts, is an information technology company that providing information security including enterprise Identity & Access Management (IAM) Solutions to our customers. Jan 18, 2018, AuthRight and ForgeRock announced Delivery and Strategic Partnership to dedicate to provide top information security solution in the North American area and global in future. ",
             "We provide high-quality tailored IT consulting and management services to help clients to protect, connect, and manage the digital identities of people, devices, and the internet of things (IoT) through an all-in-one Identify Platform. Beyond the professional service, Authright independent researchers and development of security & protection products include Cloud AM, CASB, SSO and multi-factor login solution."
         ],
         PositionSummary: "In this Identity and Access Management Technical Architect position you will be the primary customer interface and technical authority with regard to ForgeRock IAM products and solutions. This position encompasses the entire life-cycle of an identity management deployment and consists of: requirements definition, design, implementation, testing, go-live, and transition to support. This is both an architectural and technical role and requires high level business acumen coupled with deep technical knowledge of identity management products and system design principles.",
@@ -83,26 +83,26 @@ const jobDescription = {
             "Hands-on experience implementing the following: Web SSO products, User provisioning solutions, Enterprise directory solutions"
         ],
         Benfits: [
-            "Competitive salary with opportunities for raises and bonuses every year",
-            "Visa sponsorship, Green Card Sponsorship available for competitive candidates",
-            "PPO Health, Visual, & Dental Insurance.",
-            "401K retirement plan",
-            "Paid Time Off",
+            "Competitive salary with opportunities for raises and bonuses every year. ",
+            "Visa sponsorship, Green Card Sponsorship available for competitive candidates. ",
+            "PPO Health, Visual, & Dental Insurance. ",
+            "401K retirement plan. ",
+            "Paid Time Off. ",
             "Professional development allowance for conferences, classes, and special events"
         ],
         apply: "If you are interested in this position, please send your latest resume and cover letter to hr@authright.com"
     },
     ping: {
         title: "Ping Identity (IAM) Identity Technical Architect",
-        subTitle: "Ping Identity (IAM) Identity Technical Architect ",
+        // subTitle: "Ping Identity (IAM) Identity Technical Architect ",
         Location: "Dedham, MA **20-40% Travel Required**",
-        Company: "Authright Inc",
+        Company: "Authright Inc.",
         PostingTitle: "Ping Identity (IAM) Identity Technical Architect",
         JobID: "ITSS2021003",
         RecruitingTeam: "IT Solutions & Services Department",
         WhoWeAre: 
         [
-            "Authright, founded in 2014 in Massachusetts, is an information technology company that providing information security including enterprise Identity & Access Management (IAM) Solutions to our customers. Jan 18, 2018, AuthRight and Ping Identity announced Delivery and Strategic Partnership to dedicate to provide top information security solution in the North American area and global in future. ",
+            "Authright, founded in 2017 in Massachusetts, is an information technology company that providing information security including enterprise Identity & Access Management (IAM) Solutions to our customers. Jan 18, 2018, AuthRight and ForgeRock announced Delivery and Strategic Partnership to dedicate to provide top information security solution in the North American area and global in future. ",
             "We provide high-quality tailored IT consulting and management services to help clients to protect, connect, and manage the digital identities of people, devices, and the internet of things (IoT) through an all-in-one Identify Platform. Beyond the professional service, Authright independent researchers and development of security & protection products include Cloud AM, CASB, SSO and multi-factor login solution."
         ],
         PositionSummary: "In this Identity and Access Management Technical Architect position you will be the primary customer interface and technical authority with regard to Ping Identity IAM products and solutions. This position encompasses the entire life-cycle of an identity management deployment and consists of: requirements definition, design, implementation, testing, go-live, and transition to support. This is both an architectural and technical role and requires high level business acumen coupled with deep technical knowledge of identity management products and system design principles.",
@@ -138,27 +138,27 @@ const jobDescription = {
             "Hands-on experience implementing the following: Web SSO products, User provisioning solutions, Enterprise directory solutions"
         ],
         Benfits: [
-            "Competitive salary with opportunities for raises and bonuses every year",
-            "Visa sponsorship, Green Card Sponsorship available for competitive candidates",
-            "PPO Health, Visual, & Dental Insurance.",
-            "401K retirement plan",
-            "Paid Time Off",
+            "Competitive salary with opportunities for raises and bonuses every year. ",
+            "Visa sponsorship, Green Card Sponsorship available for competitive candidates. ",
+            "PPO Health, Visual, & Dental Insurance. ",
+            "401K retirement plan. ",
+            "Paid Time Off. ",
             "Professional development allowance for conferences, classes, and special events"
         ],
         apply: "If you are interested in this position, please send your latest resume and cover letter to hr@authright.com"
     },
     intern: {
         title: "Cyber Security / Information Security Intern",
-        subTitle: "Cyber Security / Information Security Intern  (non-paid)",
+        // subTitle: "Cyber Security / Information Security Intern  (non-paid)",
         Location: "Dedham, MA **20-40% Travel Required**",
-        Company: "Authright Inc",
+        Company: "Authright Inc.",
         PostingTitle: "Cyber Security / Information Security Intern",
         JobID: "ITSS2021004",
         RecruitingTeam: "IT Solutions & Services Department",
         WhoWeAre: 
         [
-            "Authright, established in December 2014, in Massachusetts, is a fast-growing information technology company. Our core businesses are independent research and development of security & protection products and the professional IT & Data Services for a variety of customers, ranging from startups to enterprises.",
-            "Authright has developed several information security products, such as X-Factor Login Cloud, Cloudsea, CloudSecutag, etc. The featured product X-Factor Login Cloud allows the web and mobile applications to provide 2- factor login. Our signature service, the Incubation & Development Network allows customers to define and build a tailor-made IT product from the ground up with minimum cost. The team of our talented engineers works closely with customers to understand their needs and provide services of designing, implementing and developing the back-end data solutions and software products. Authright is actively expanding the business into cloud storage, data integration, big data and cloud computing, thriving to provide customers the best solutions for their projects and support to troubleshoot the mission-critical issues."
+            "Authright, founded in 2017 in Massachusetts, is an information technology company that providing information security including enterprise Identity & Access Management (IAM) Solutions to our customers. Jan 18, 2018, AuthRight and ForgeRock announced Delivery and Strategic Partnership to dedicate to provide top information security solution in the North American area and global in future. ",
+            "We provide high-quality tailored IT consulting and management services to help clients to protect, connect, and manage the digital identities of people, devices, and the internet of things (IoT) through an all-in-one Identify Platform. Beyond the professional service, Authright independent researchers and development of security & protection products include Cloud AM, CASB, SSO and multi-factor login solution."
         ],
         PositionSummary: "Mentored by engineers and scientists that are experts in Security fields. From design to operations, you will learn to apply security engineering expertise, innovative concepts, and technology solutions to address every facet of our sponsor’s cyber challenges in three key strategic areas: threat-based operations, threat-based engineering, and security of evolving and emerging technologies.",
         Responsibilities: [
@@ -183,9 +183,9 @@ const jobDescription = {
             "Experience with continuous integration platforms such as Jenkins or Bamboo and testing strategies"
         ],
         Benfits: [
-            "Intern to Full-Time Hire opportunity",
-            "Comprehensive training",
-            "Visa sponsorship available for competitive candidates",
+            "Intern to Full-Time hire opportunity. ",
+            "Comprehensive training. ",
+            "Visa sponsorship available for competitive candidates. ",
             "Career path consulting"
         ],
         apply: "If you are interested in this position, please send your latest resume and cover letter to hr@authright.com"

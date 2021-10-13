@@ -1,13 +1,6 @@
 import React, { Component } from 'react'
-import { Row, Col, Divider } from 'antd';
-import HsbcImg from '../../../../img/case-mohawk-img.jpg'
-import HsbcLogo from '../../../../img/case-mohawk-industries-logo.svg'
-import AuthrightLogo from '../../../../img/authright-logo.jpg'
+import { Row, Col } from 'antd';
 import './caseStudies.css';
-
-
-const style = { background: '#0092ff', padding: '8px 0' };
-
 
 export default class caseMohawk extends Component {
     render() {

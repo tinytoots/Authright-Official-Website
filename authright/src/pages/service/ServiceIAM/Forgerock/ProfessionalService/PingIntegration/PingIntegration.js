@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './PingIntegration.css'
-import { Row, Col, Divider } from 'antd';
+import { Row, Col } from 'antd';
 
 import PingImg from '../../../../../../img/ping-identity.svg'
 import ForgerockCert1 from '../../../../../../img/ping-cert1.png'
@@ -8,7 +8,6 @@ import ForgerockCert2 from '../../../../../../img/ping-cert2.png'
 import ForgerockCert3 from '../../../../../../img/ping-cert3.png'
 import ForgerockCert4 from '../../../../../../img/ping-cert4.png'
 import ForgerockCert5 from '../../../../../../img/ping-cert5.png'
-import ForgeRock from '../../../../../solution/ServiceIAM/Forgerock/Forgerock'
 
 export default class PingIntegration extends Component {
     render() {

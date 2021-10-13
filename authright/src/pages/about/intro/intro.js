@@ -1,6 +1,6 @@
-import React, { Component, ReactDOM } from "react";
+import React, { Component } from "react";
 import "./intro.css";
-import { Row, Col, Divider } from "antd";
+import { Row, Col } from "antd";
 import "antd/dist/antd.css";
 import values  from "./ourValues.js";
 

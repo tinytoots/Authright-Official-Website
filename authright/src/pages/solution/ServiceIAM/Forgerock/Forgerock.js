@@ -1,8 +1,5 @@
 import React, { Component } from 'react'
-import { Row, Col, Divider } from 'antd';
-
-
-const style = { background: '#0092ff', padding: '8px 0' };
+import { Row, Col } from 'antd';
 
 export default class Forgerock extends Component {
     render() {

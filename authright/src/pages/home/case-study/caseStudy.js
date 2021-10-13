@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./caseStudy.css";
-import { Row, Col, Divider } from "antd";
+import { Row, Col } from "antd";
 import { NavLink } from "react-router-dom";
 import HSBC from "../../../img/hsbc-2.svg";
 import Deloitte from "../../../img/deloitte-2.svg";

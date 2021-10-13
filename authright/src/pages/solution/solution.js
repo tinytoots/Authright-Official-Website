@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { useState } from "react";
 import Forgerock from "./ServiceIAM/Forgerock/Forgerock";
 import Ping from "./ServiceIAM/Ping/Ping";
 import "./solution.css";
@@ -8,12 +8,11 @@ import ForgerockCert1 from "../../img/forgerock-cert1.png";
 import ForgerockCert2 from "../../img/forgerock-cert2.png";
 import ForgerockCert3 from "../../img/forgerock-badge-2020.png";
 import ForgerockCert4 from "../../img/forgerock-cert4.png";
-import ForgerockCert5 from "../../img/forgerock-cert5.png";
 import Ping1 from "../../img/ping-cert1.png";
 import Ping2 from "../../img/ping-cert2.png";
 import Ping3 from "../../img/ping-cert3.png";
 import Ping4 from "../../img/ping-cert4.png";
-import { Row, Col, Divider } from "antd";
+import { Row, Col } from "antd";
 import { DownOutlined, UpOutlined } from "@ant-design/icons";
 
 
@@ -33,7 +32,7 @@ export default function Solution()  {
                         <div className="even-row solution-row" >
                             <div className='inner'>
                                 <div className = "partner-title">
-                                    We are trusted by identity Leaders
+                                    We are Trusted by the Identity Leaders
                                 </div>
                                 <Row justify="start" gutter={10}>
                                     <Col span={13}>

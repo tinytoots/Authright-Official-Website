@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import './clients.css'
-import { NavLink } from 'react-router-dom'
-import Logo from '../../../img/Logo.png'
 import BBB from '../../../img/blue-cross-blue-shield-1.svg'
 import HSBC from '../../../img/hsbc-1.svg'
 import Deloitte from '../../../img/deloitte-2.svg'
