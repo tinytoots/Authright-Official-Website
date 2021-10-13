@@ -19,6 +19,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-vanilla-tilt": "^1.0.0",
+    "three": "^0.133.1",
     "vanilla-tilt": "^1.7.1",
     "web-vitals": "^1.0.1"
   },
