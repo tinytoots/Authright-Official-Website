@@ -176,7 +176,7 @@
   font-size: clamp(12px, calc(0.8rem + 0.25vw), 20px);
   font-weight: 300;
   line-height: 1.7;
-  /* color: #fff; */
+  color: #434343;
 }
 
 .about-color-block-served2 {
@@ -186,7 +186,7 @@
   font-size: clamp(12px, calc(0.8rem + 0.25vw), 20px);
   font-weight: 300;
   line-height: 1.7;
-  color: #1890ff;
+  color: #000;
 }
 
 .about-whoWeAre-title1 {
@@ -255,4 +255,12 @@
 .value-preview {
   padding: auto;
   margin-bottom: 40px;
+}
+
+.about-color-block-served2-t1 {
+  color: #1890ff;
+}
+
+.about-color-block-served2-t2 {
+  color: #f5222d;
 }
