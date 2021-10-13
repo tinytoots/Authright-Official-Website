@@ -72,7 +72,7 @@ export default function Solution()  {
                                                 {/* 需要扩展 */}
                                                 
                                                 <div className="learn-more-extend" onClick = {(number) => _handleRowClick(0)}>
-                                                    learn more {
+                                                    Learn more {
                                                             show[0] === "none"?< DownOutlined style={{width:14}}/>:<UpOutlined style={{width:14}}/>
                                                         }
                                                 </div>
@@ -121,7 +121,7 @@ export default function Solution()  {
                                             <div style={{width: 400, marginLeft: 17}} className="solution-content-text">
                                                 
                                                 <div className="learn-more-extend" onClick = {(number) => _handleRowClick(1)}>
-                                                    learn more {
+                                                    Learn more {
                                                         show[1] === "none"?< DownOutlined style={{width:14}}/>:<UpOutlined style={{width:14}}/>
                                                         }
                                                 </div>

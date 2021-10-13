@@ -11,7 +11,7 @@ const values = [
 
     },
     {
-        title: "Employue Contered",
+        title: "Employee Contered",
         content: "We want employees to feel confortable sharing concerns, and have their voice heard and needs respected.",
         img: <svg t="1627065589549" class="icon" viewBox="0 0 1024 1024" version="1.1"
                 xmlns="http://www.w3.org/2000/svg" p-id="7303"
