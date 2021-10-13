@@ -12,7 +12,7 @@ export default class advantage extends Component {
         <div className="advan">
           Whether you want to integrate IAM for your own system or need a
           high-quality development team to help you turn your ideas into
-          reality, we can provide you with the reliable technical services
+          reality, we can provide you with reliable technical services
         </div>
         <NavLink to="/services/iam">
           <div className="unifiedcontrol-card-title">

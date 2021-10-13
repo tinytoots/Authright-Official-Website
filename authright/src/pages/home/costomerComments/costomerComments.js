@@ -14,7 +14,7 @@ export default class customerComments extends Component {
             className="customerComments-title"
             style={{ width: 800, margin: "auto" }}
           >
-            What our Customers say
+            What our Customers said
           </div>
           <div className="customerComments-title2">
             "Since Authright was founded in 2017, we have provided customized
