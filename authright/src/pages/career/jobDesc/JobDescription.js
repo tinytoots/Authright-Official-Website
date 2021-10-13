@@ -22,7 +22,7 @@ export default function JobDescription(props) {
                         Company: {description.Company}
                     </div>
                     <div className =  "content">
-                        Posting Title: {description.PostingTitle}
+                        {/* Posting Title: {description.PostingTitle} */}
                     </div>
                     <div className =  "content">
                         Job ID: {description.JobID}
