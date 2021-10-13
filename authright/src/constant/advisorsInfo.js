@@ -13,7 +13,7 @@ export const advisorsInfo = [
     title: "Major Account Manager",
     company: "ForgeRock",
     description:
-      "Results-oriented sales executive with 16 years of experience generating record-setting sales of new and existing products and solutions. Skilled in identifying new strategic partnerships, building long-term client relationships and creating bridges to assure mutually beneficial outcomes. Specializes in enhancing a product’s/company’s market position and establishing new markets/customers for those solutions. Dedicated sales executive and mentor to diverse organizations of experienced and novice sales professionals, who leads by example and places a premium on building a cohesive team.",
+      "Jay is a results-oriented sales executive with 16 years of experience generating record-setting sales of new and existing products and solutions. He is skilled in identifying new strategic partnerships, building long-term client relationships and creating bridges to assure mutually beneficial outcomes. He specializes in enhancing a product’s/company’s market position and establishing new markets/customers for those solutions. He is a dedicated sales executive and mentor to diverse organizations of experienced and novice sales professionals, who leads by example and places a premium on building a cohesive team.",
     linkRef: "https://www.linkedin.com/in/jay-butler-0454235/",
     pic:"https://tva1.sinaimg.cn/large/008i3skNgy1gur02k8gdbj605k05kmx802.jpg"
   },
@@ -31,7 +31,7 @@ export const advisorsInfo = [
     title: "Business Development - OEM Partnerships",
     company: "TransUnion",
     description:
-    "Senior Sales and Marketing professional with 20+ years of experience in program management, product marketing and alliance management / business development. Solid understanding of product development, launch and solution life cycle planning, business case development and marketing programs / PR. Industry knowledge in Cloud Computing, Virtualization, Infrastructure Management including Automation, Orchestration , Provisioning and Security, Authentication and Identity Management. Skilled communicator / presenter and strong leader of virtual teams, across diverse groups and regions. Strategy, business process planning and competitive analysis expertise",
+    "Eric is a senior sales and marketing professional with 20+ years of experience in program management, product marketing and alliance management / business development. He has solid understanding of product development, launch and solution life cycle planning, business case development and marketing programs / PR. He has industry knowledge in Cloud Computing, Virtualization, Infrastructure Management including Automation, Orchestration , Provisioning and Security, Authentication and Identity Management. He is a skilled communicator / presenter and strong leader of virtual teams, across diverse groups and regions. He has strategy, business process planning and competitive analysis expertise.",
     linkRef: "https://www.linkedin.com/in/ericesantos/",
     pic:"https://tva1.sinaimg.cn/large/008i3skNgy1guvwkbjgk9j605k05kdfr02.jpg"
   }
