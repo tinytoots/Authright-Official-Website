@@ -1,56 +1,89 @@
 .leadCard-container {
-    width: 1200px;
-    height: 280px;
-    /* border:1px solid black; */
-    box-shadow: 0px 2px 2.9px rgba(143, 145, 144, 0.05),
-      0px 0px 5px rgba(143, 145, 144, 0.1);
-    border-radius: 5px;
-    display: flex;
-    margin: 60px auto;
-    padding-right: 10px;
-    background-color: white;
-  }
-  
-  /* .leadCard-container:hover {
+  width: 1200px;
+  height: 280px;
+  /* border:1px solid black; */
+  box-shadow: 0px 2px 2.9px rgba(143, 145, 144, 0.05),
+    0px 0px 5px rgba(143, 145, 144, 0.1);
+  border-radius: 5px;
+  display: flex;
+  margin: 60px auto;
+  padding-right: 10px;
+  background-color: white;
+}
+
+/* .leadCard-container:hover {
     box-shadow: 0px -0.8px 6px rgba(143, 145, 144, 0.1),
       0px 6.4px 20px rgba(143, 145, 144, 0.2);
   } */
-  .leadCard-img {
-    width: 270px;
-    margin-right: 20px;
-    border-radius: 5px;
-  }
-  .leadCard-info {
+.leadCard-img {
+  width: 270px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+.leadCard-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+.leadCard-name {
+  display: flex;
+  justify-content: space-between;
+  font-size: 26px;
+  font-family: "NunitoSans-bold", sans-serif;
+  color: black;
+}
+.leadCard-title {
+  text-align: left;
+  font-size: 18px;
+  font-family: "NunitoSans-bold", sans-serif;
+  color: black;
+}
+.leadCard-linkedin {
+  cursor: pointer;
+  height: 35px;
+  margin-right: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+.leadCard-description {
+  text-align: left;
+  font-size: 15px;
+  margin-top: 10px;
+  font-family: "NunitoSans-regular", sans-serif;
+  color: black;
+}
+
+@media screen and (max-width: 400px) {
+  .leadCard-container {
+    width: 360px;
+    height: 500px;
+    margin: 10px auto;
+    padding: 8px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    color:white;
+    align-items: center;
   }
+  .leadCard-img {
+    width: 150px;
+    height: 150px;
+    margin-right:0px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+
   .leadCard-name {
-    display: flex;
-    justify-content: space-between;
-    font-size: 26px;
-    font-family: "NunitoSans-bold", sans-serif;
-    color: black;
+    font-size: 15px;
   }
   .leadCard-title {
-    text-align: left;
-    font-size: 18px;
-    font-family: "NunitoSans-bold", sans-serif;
-    color: black;
+    font-size: 13px;
   }
   .leadCard-linkedin {
-    cursor: pointer;
-    height: 35px;
-    margin-right: 10px;
-    background-color: white;
-    border-radius: 5px
+    height: 22px;
+    margin-right: 0px;
   }
   .leadCard-description {
-    text-align: left;
-    font-size: 15px;
+    font-size: 11px;
     margin-top: 10px;
-    font-family: "NunitoSans-regular", sans-serif;
-    color: black;
   }
-  
+}

@@ -17,6 +17,7 @@ export default function Leadership(props) {
               title={title}
               linkedin={linkedin}
               pic={pic}
+              key={name+title}
             />
           );
         })}
