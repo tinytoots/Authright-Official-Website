@@ -31,13 +31,13 @@ import PingIntegration from './pages/service/ServiceIAM/Forgerock/ProfessionalSe
 import PingSupport from './pages/service/ServiceIAM/Forgerock/ProfessionalService/PingSupport/PingSupport'
 import JobDescription from './pages/career/jobDesc/JobDescription';
 import ScrollTop  from './components/ScrollTop/ScrollTop';
-import Earth from './pages/earth/earth.js'
+// import Earth from './pages/earth/earth.js'
 
 function App() {
   
   return (
     <div className="App">
-        {/* <Header /> */}
+        <Header />
           <ScrollTop>
             <Switch>
               <Route path="/home" component={Home} /> 
@@ -75,7 +75,7 @@ function App() {
               <Redirect to="/home" />
             </Switch>
           </ScrollTop>
-        {/* <Footer /> */}
+        <Footer />
     </div>
   );
 }
