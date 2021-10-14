@@ -6,21 +6,15 @@ import Design from "../../../../img/design.svg";
 import Integration from "../../../../img/Integration.svg";
 import Support from "../../../../img/support.svg";
 
-const style = {
-  background: "rgb(76 76 76)",
-  padding: "100px 0",
-  borderRadius: 10,
-};
-
 export default class Forgerock extends Component {
   render() {
     return (
       <div className="IAM-bg">
-        <div className="service-ttile">Our Services</div>
+        <div className="service-title">Our Services</div>
         <div className="IAM-grid-bg">
           <Row gutter={[10, 10]} justify="center">
-            <Col className="gutter-row" span={5}>
-              <div style={style}>
+            <Col className="gutter-row">
+              <div className="service-card">
                 <div className="forgerock-title">
                   <img
                     className="service-card-support-img"
@@ -46,8 +40,8 @@ export default class Forgerock extends Component {
                 </div>
               </div>
             </Col>
-            <Col className="gutter-row" span={5}>
-              <div style={style}>
+            <Col className="gutter-row">
+              <div className="service-card">
                 <div className="forgerock-title">
                   <img
                     className="service-card-support-img"
@@ -76,8 +70,8 @@ export default class Forgerock extends Component {
                 </div>
               </div>
             </Col>
-            <Col className="gutter-row" span={5}>
-              <div style={style}>
+            <Col className="gutter-row">
+              <div className="service-card">
                 <div className="forgerock-title">
                   <img
                     className="service-integration-card-img"
@@ -104,8 +98,8 @@ export default class Forgerock extends Component {
                 </div>
               </div>
             </Col>
-            <Col className="gutter-row" span={5}>
-              <div style={style}>
+            <Col className="gutter-row">
+              <div className="service-card">
                 <div className="forgerock-title">
                   <img
                     className="service-card-support-img"
