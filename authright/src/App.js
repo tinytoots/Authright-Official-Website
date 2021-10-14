@@ -38,7 +38,7 @@ function App() {
   
   return (
     <div className="App">
-        {/* <Header /> */}
+        <Header />
         {/* <Header2 /> */}
           <ScrollTop>
             <Switch>
@@ -77,7 +77,7 @@ function App() {
               <Redirect to="/home" />
             </Switch>
           </ScrollTop>
-        {/* <Footer /> */}
+        <Footer />
     </div>
   );
 }
