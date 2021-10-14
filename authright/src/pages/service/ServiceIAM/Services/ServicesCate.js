@@ -15,7 +15,6 @@ export default class Forgerock extends Component {
           <Row gutter={[10, 10]} justify="center">
             <Col className="gutter-row">
               <div className="service-card">
-                <div className="forgerock-title">
                   <img
                     className="service-card-support-img"
                     src={Support}
@@ -37,12 +36,10 @@ export default class Forgerock extends Component {
                                             </div>
                                         </div>
                                     </NavLink> */}
-                </div>
               </div>
             </Col>
             <Col className="gutter-row">
               <div className="service-card">
-                <div className="forgerock-title">
                   <img
                     className="service-card-support-img"
                     src={Design}
@@ -67,12 +64,10 @@ export default class Forgerock extends Component {
                                             </div>
                                         </div>
                                     </NavLink> */}
-                </div>
               </div>
             </Col>
             <Col className="gutter-row">
               <div className="service-card">
-                <div className="forgerock-title">
                   <img
                     className="service-integration-card-img"
                     src={Integration}
@@ -95,12 +90,10 @@ export default class Forgerock extends Component {
                                             </div>
                                         </div>
                                     </NavLink> */}
-                </div>
               </div>
             </Col>
             <Col className="gutter-row">
               <div className="service-card">
-                <div className="forgerock-title">
                   <img
                     className="service-card-support-img"
                     src={Consulting}
@@ -122,7 +115,6 @@ export default class Forgerock extends Component {
                                             </div>
                                         </div>
                                     </NavLink> */}
-                </div>
               </div>
             </Col>
           </Row>
