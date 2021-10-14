@@ -38,8 +38,8 @@ function App() {
   
   return (
     <div className="App">
-        {/* <Header /> */}
-        <Header2 />
+        <Header />
+        {/* <Header2 /> */}
           <ScrollTop>
             <Switch>
               <Route path="/home" component={Home} /> 
