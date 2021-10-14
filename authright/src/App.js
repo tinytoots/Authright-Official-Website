@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import {Redirect, Switch, Route} from 'react-router-dom';
 import Header from './components/Header/Header';
+import Header2 from './components/Header/Header2';
 import Footer from './components/Footer/Footer';
 import Home from './pages/home/home';
 import Business from './pages/business/business';
@@ -37,7 +38,8 @@ function App() {
   
   return (
     <div className="App">
-        <Header />
+        {/* <Header /> */}
+        <Header2 />
           <ScrollTop>
             <Switch>
               <Route path="/home" component={Home} /> 
