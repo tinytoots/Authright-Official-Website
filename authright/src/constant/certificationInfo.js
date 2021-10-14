@@ -87,7 +87,7 @@ export const certificationInfo = [
     content: [
       {
         certName: "AWS",
-        number: 3,
+        number: 6,
         pic: "/certification/AWS.png",
         link:'https://aws.amazon.com/certification/'
       },
@@ -99,7 +99,7 @@ export const certificationInfo = [
       },
       {
         certName: "GCP",
-        number: 2,
+        number: 10,
         pic: "/certification/GCP.png",
         link:'https://cloud.google.com/certification#certification_paths'
       },
