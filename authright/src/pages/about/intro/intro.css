@@ -58,7 +58,7 @@
   height: 400px;
   color: black;
   background-color: #ffffff;
-  height: 500px;   
+  height: 500px;
 }
 
 .about-intro-block3 {
@@ -251,7 +251,6 @@
   );
 }
 
-
 .value-preview {
   padding: auto;
   margin-bottom: 40px;
@@ -263,4 +262,28 @@
 
 .about-color-block-served2-t2 {
   color: #f5222d;
+}
+
+@media screen and (max-width: 400px) {
+  .about-whoWeAre-content {
+    font-size: 14px;
+    width: 320px;
+  }
+  .about-values {
+    font-size: 16px;
+    width: 380px;
+  }
+  .value-img {
+    width: 50px;
+    margin: auto;
+  }
+  .value-area {
+    width: 70px;
+    height: 70px;
+    padding-top: 26px;
+    margin: auto;
+  }
+  .value-description{
+    width:320px;
+  }
 }

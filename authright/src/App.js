@@ -37,7 +37,7 @@ function App() {
   
   return (
     <div className="App">
-        <Header />
+        {/* <Header /> */}
           <ScrollTop>
             <Switch>
               <Route path="/home" component={Home} /> 
@@ -75,7 +75,7 @@ function App() {
               <Redirect to="/home" />
             </Switch>
           </ScrollTop>
-        <Footer />
+        {/* <Footer /> */}
     </div>
   );
 }
