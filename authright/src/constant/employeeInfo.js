@@ -159,12 +159,12 @@ export const employeeInfo = [
     linkedin: "https://www.linkedin.com/in/shuwan-yao-columbia-nyc/",
     pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gv1uuje086j60u00u0acu02.jpg",
   },
-  {
-    name: "Yifeng Shi",
-    title: "IAM Engineer Intern",
-    linkedin: "https://www.linkedin.com/in/yifeng-carl-shi-a20156aa/",
-    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guptbbh0xzj60cg0cgt9002.jpg",
-  },
+  // {
+  //   name: "Yifeng Shi",
+  //   title: "IAM Engineer Intern",
+  //   linkedin: "https://www.linkedin.com/in/yifeng-carl-shi-a20156aa/",
+  //   pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guptbbh0xzj60cg0cgt9002.jpg",
+  // },
   {
     name: "Yu Zhan",
     title: "IAM Engineer Intern",

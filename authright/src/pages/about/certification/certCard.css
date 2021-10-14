@@ -40,3 +40,18 @@
   display: flex;
   justify-content: space-evenly;
 }
+
+
+@media screen and (max-width:400px)  {
+  .certCard-container{
+    width: 320px;
+    height: 280px;
+    margin-bottom: 30px;
+  }
+  .certCard-title {
+    font-size: 24px;
+    font-family: "NunitoSans-bold", sans-serif;
+    padding-bottom: 4px;
+    margin: 5px 0 0 0;
+  }
+}

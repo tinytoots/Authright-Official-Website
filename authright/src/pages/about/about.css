@@ -6,6 +6,8 @@
     margin-top: -200px;
     /* background-color: #434343; */
     background-color: #000;
+    display: flex;
+    justify-content: center;
 }
 
 .about-certification{

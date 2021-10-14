@@ -26,6 +26,8 @@
 }
 
 .employee-pic {
+  width: 200px;
+  height: 200px;
   border-radius: 5px;
   margin-bottom: 5px;
 }
@@ -39,4 +41,22 @@
 .employee-title {
   font-size: 16px;
   color: black;
+}
+
+@media screen and (max-width:400px) {
+  .employee-card{
+    width: 160px;
+    height: 250px;
+  }
+  .employee-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .employee-title {
+    font-size: 12px;
+  }
+  .employee-pic {
+    width: 150px;
+    height: 150px;
+  }
 }

@@ -1,5 +1,5 @@
 .certification-bg {
-  height: 1600px;
+  height: auto;
   width: 100%;
   background-color: white;
   display: flex;
@@ -23,4 +23,17 @@
   align-items: center;
   /* grid-template-columns: 50% 50%;
   grid-template-rows: 33.3% 33.3% 33.3%; */
+}
+
+
+@media screen and (max-width:768px) and (min-width:401px) {
+  .certification-cards{
+    width: 700px;
+  }
+}
+
+@media screen and (max-width:400px)  {
+  .certification-cards{
+    width: 380px;
+  }
 }

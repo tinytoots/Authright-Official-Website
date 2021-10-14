@@ -226,7 +226,6 @@
   );
 }
 
-
 .value-preview {
   padding: auto;
   margin-bottom: 40px;
@@ -259,5 +258,26 @@
   .about-color-block-title {
     font-size: 25px;
 
+  }
+  .about-whoWeAre-content {
+    font-size: 14px;
+    width: 320px;
+  }
+  .about-values {
+    font-size: 16px;
+    width: 380px;
+  }
+  .value-img {
+    width: 50px;
+    margin: auto;
+  }
+  .value-area {
+    width: 70px;
+    height: 70px;
+    padding-top: 26px;
+    margin: auto;
+  }
+  .value-description{
+    width:320px;
   }
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import {Redirect, Switch, Route} from 'react-router-dom';
 import Header from './components/Header/Header';
+import Header2 from './components/Header/Header2';
 import Footer from './components/Footer/Footer';
 import Home from './pages/home/home';
 import Business from './pages/business/business';
@@ -31,13 +32,14 @@ import PingIntegration from './pages/service/ServiceIAM/Forgerock/ProfessionalSe
 import PingSupport from './pages/service/ServiceIAM/Forgerock/ProfessionalService/PingSupport/PingSupport'
 import JobDescription from './pages/career/jobDesc/JobDescription';
 import ScrollTop  from './components/ScrollTop/ScrollTop';
-import Earth from './pages/earth/earth.js'
+// import Earth from './pages/earth/earth.js'
 
 function App() {
   
   return (
     <div className="App">
         <Header />
+        {/* <Header2 /> */}
           <ScrollTop>
             <Switch>
               <Route path="/home" component={Home} /> 
@@ -52,7 +54,7 @@ function App() {
               <Route path="/deloitte" component={CaseDeloitte} /> 
               <Route path="/partners" component={Solution} /> 
               <Route path="/about-us" component={About} /> 
-              <Route path='/earth' component={Earth}/>
+              {/* <Route path='/earth' component={Earth}/> */}
               
               <Route path="/careers/detail/:job" component = {JobDescription} />  
               <Route path="/careers" component={Career} />

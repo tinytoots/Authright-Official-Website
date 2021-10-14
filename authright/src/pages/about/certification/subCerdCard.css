@@ -23,3 +23,20 @@
   height: 100px;
   cursor: pointer;
 }
+
+@media screen and (max-width:400px)  {
+  .subCertCard-number{
+    font-size: 40px;
+  }
+  .subCertCard-img {
+    width: 40px;
+    margin-bottom: 5px;
+  }
+  .subCertCard-okta-img{
+    height: 50px;
+  }
+  .subCertCard-certName {
+    width: 90px;
+    font-size: 11px;
+  }
+}
