@@ -13,20 +13,19 @@
     margin-top: 10px;
 }
 
+.service-card {
+    background: rgb(76 76 76);
+    padding: 100px 0;
+    border-radius: 10px;
+    width: 335px;
+}
+
 .servicesCate-authright-logo {
     margin-top: 50px;
     margin-bottom: 30px;
 }
 
-.servicesCate-content1 {
-    font-family: 'SFProDisplay-regular',sans-serif;
-    font-size:18px;
-    line-height: 150%;
-    margin-top: -35px;
-    color: black;
-    width: 850px;
-    margin: auto;
-}
+
 
 .forgerock-content2 {
     font-family: 'SFProDisplay-regular',sans-serif;
@@ -54,7 +53,7 @@
 }
 
 .service-card-title {
-    font-size: 23px !important;
+    font-size: 23px;
     font-family: 'SFProDisplay-bold',sans-serif;
     margin: auto;
     margin-top: 10px;
@@ -95,11 +94,12 @@
     color: #1890ff;
 }
 
-.service-ttile {
+.service-title {
     color: white;
     font-size: 40px;
     font-family: 'NunitoSans-bold',sans-serif;
     margin: 100px auto 80px auto;
+    padding-top: 100px;
 }
 
 /* .ant-col ant-col-12 gutter-row1 {
@@ -122,4 +122,31 @@
 
 .service-card-support-img {
     margin-bottom: 24px;
+}
+
+@media (max-width: 400px) {
+    .service-card {
+        height: 400px;
+        padding-top: 40px;
+        width: 305px;
+    }
+    .service-title {
+        font-size: 15px;
+        padding-top: 30px;
+        margin-bottom: 30px;
+    }
+    .service-card-support-img {
+        width: 50px
+    }
+    .service-integration-card-img {
+        width: 80px
+    }
+    .service-card-title {
+        font-size: 18px;
+    }
+    .servicesCate-content4 {
+        font-size: 14px;
+        width: 80%
+
+    }
 }

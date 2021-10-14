@@ -55,10 +55,8 @@
 }
 
 .about-intro-block2 {
-  height: 400px;
   color: black;
   background-color: #ffffff;
-  height: 500px;
 }
 
 .about-intro-block3 {
@@ -138,34 +136,11 @@
   text-align: left;
   padding-top: 70px;
   margin-left: 20px;
-  margin-bottom: -10px;
-  font-family: "SFProDisplay-Bold", sans-serif;
-  padding-bottom: -5px;
-  font-style: normal;
-  font-size: clamp(1.8rem, calc(1.8rem + 0.2vw), 3rem);
-  font-weight: 800;
-  /* color: #fff; */
-}
-
-.about-color-block-title2 {
-  margin-bottom: -12px;
-  text-align: left;
-  margin-left: 17px;
+  margin-bottom: 20px;
   font-family: "SFProDisplay-Bold", sans-serif;
   font-style: normal;
   font-size: clamp(1.8rem, calc(1.8rem + 0.2vw), 3rem);
   font-weight: 800;
-  /* color: #fff; */
-}
-
-.about-color-block-title3 {
-  text-align: left;
-  margin-left: 20px;
-  font-family: "SFProDisplay-Bold", sans-serif;
-  font-style: normal;
-  font-size: clamp(1.8rem, calc(1.8rem + 0.2vw), 3rem);
-  font-weight: 800;
-  /* color: #fff; */
 }
 
 .about-color-block-served {
@@ -264,7 +239,26 @@
   color: #f5222d;
 }
 
-@media screen and (max-width: 400px) {
+@media (max-width: 400px) {
+  .about-color-block{
+    margin: 50px auto auto auto;
+    height: 300px
+  }
+  .about-black-block {
+    height: 290px
+  }
+  .career-company-intro {
+    width: 80%;
+    font-size: 10px;
+  }
+  .about-company-title2 {
+    font-size: 15px;
+    padding-top: 40px
+  }
+  .about-color-block-title {
+    font-size: 25px;
+
+  }
   .about-whoWeAre-content {
     font-size: 14px;
     width: 320px;

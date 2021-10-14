@@ -14,17 +14,14 @@ var cardHsbc = {
 export default function Card() {
 
   return (
-    <div className="card-bg">
+    <div className="card-bg" >
       <div className="card-grid-case-study-title">Our Case Studies</div>
       <div className="card-grid-title">
-        We are committed to providing reliable and efficient IAM
-      </div>
-      <div className="card-grid-title2">
+        We are committed to providing reliable and efficient IAM <br/>
         and Full Stack services in different industrial fields{" "}
       </div>
-      {/* <h1>This is card</h1> */}
-      <Row gutter={[25, 25]}>
-        <Col className="gutter-row" span={6}>
+      <Row gutter={[25, 25]} wrap={true} justify="center">
+        <Col className="gutter-row" >
           <div className="card" style={cardHsbc}>
             <div className="card-content">
               <h2 className="card-title">
@@ -40,7 +37,7 @@ export default function Card() {
             </div>
           </div>
         </Col>
-        <Col className="gutter-row" span={6}>
+        <Col className="gutter-row" >
           <div
             className="card"
             style={{
@@ -63,7 +60,7 @@ export default function Card() {
             </div>
           </div>
         </Col>
-        <Col className="gutter-row" span={6}>
+        <Col className="gutter-row" >
           <div
             className="card"
             style={{
@@ -85,7 +82,7 @@ export default function Card() {
             </div>
           </div>
         </Col>
-        <Col className="gutter-row" span={6}>
+        <Col className="gutter-row" >
           <div
             className="card"
             style={{
@@ -107,7 +104,7 @@ export default function Card() {
             </div>
           </div>
         </Col>
-        <Col className="gutter-row" span={6}>
+        <Col className="gutter-row" >
           <div
             className="card"
             style={{
@@ -129,7 +126,7 @@ export default function Card() {
             </div>
           </div>
         </Col>
-        <Col className="gutter-row" span={6}>
+        <Col className="gutter-row" >
           <div
             className="card"
             style={{
@@ -151,7 +148,7 @@ export default function Card() {
             </div>
           </div>
         </Col>
-        <Col className="gutter-row" span={6}>
+        <Col className="gutter-row" >
           <div
             className="card"
             style={{
@@ -173,7 +170,7 @@ export default function Card() {
             </div>
           </div>
         </Col>
-        <Col className="gutter-row" span={6}>
+        <Col className="gutter-row" >
           <div
             className="card"
             style={{
@@ -195,51 +192,7 @@ export default function Card() {
             </div>
           </div>
         </Col>
-        {/* <Col className="gutter-row" span={6}>
-                    <div className="card" style={{backgroundImage: `url(${lowesImg})`}}>
-                        <div className="card-content">
-                            <h2 className="card-title">Lowe's</h2>
-                            <p className="card-body">This is a great compnay that everyone want be a employee</p>
-                            <a href="/home" className="button">Learn More</a>
-                        </div>
-                    </div>
-                    </Col> */}
-        {/* <Col className="gutter-row" span={8}>
-                    <div className="card" style={{backgroundImage: `url(${bostonImg})`}}>
-                        <div className="card-content">
-                            <h2 className="card-title">Homesite Insurance</h2>
-                            <p className="card-body">This is a great compnay that everyone want be a employee</p>
-                            <a href="/home" className="button">Learn More</a>
-                        </div>
-                    </div>
-                    </Col>
-                    <Col className="gutter-row" span={8}>
-                    <div className="card" style={{backgroundImage: `url(${bostonImg})`}}>
-                        <div className="card-content">
-                            <h2 className="card-title">Databento</h2>
-                            <p className="card-body">This is a great compnay that everyone want be a employee</p>
-                            <a href="/home" className="button">Learn More</a>
-                        </div>
-                    </div>
-                    </Col>
-                    <Col className="gutter-row" span={8}>
-                    <div className="card" style={{backgroundImage: `url(${bostonImg})`}}>
-                        <div className="card-content">
-                            <h2 className="card-title">CueThink</h2>
-                            <p className="card-body">This is a great compnay that everyone want be a employee</p>
-                            <a href="/home" className="button">Learn More</a>
-                        </div>
-                    </div>
-                    </Col>
-                    <Col className="gutter-row" span={8}>
-                    <div className="card" style={{backgroundImage: `url(${bostonImg})`}}>
-                        <div className="card-content">
-                            <h2 className="card-title">Lowe's</h2>
-                            <p className="card-body">This is a great compnay that everyone want be a employee</p>
-                            <a href="/home" className="button">Learn More</a>
-                        </div>
-                    </div>
-                    </Col> */}
+                
       </Row>
     </div>
   );
