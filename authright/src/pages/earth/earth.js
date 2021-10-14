@@ -1,4 +1,5 @@
 import React from "react";
+import gsap from "gsap";
 import { useState, useEffect, useRef } from "react";
 
 import * as THREE from "three";
@@ -9,6 +10,7 @@ const Earth = () => {
     x: 0,
     y: 0,
   });
+  const positionRef = useRef(MousePosition);
 
   useEffect(() => {
     const scene = new THREE.Scene();
@@ -42,15 +44,22 @@ const Earth = () => {
       renderer.render(scene, camera);
       sphere.rotation.y += 0.0005;
       // sphere.rotation.x += 0.0005;
-      // group.rotation.y =MousePosition.x*0.5;
+      gsap.to(group.rotation, {
+        x: positionRef.current.y * 0.5,
+        y: positionRef.current.x * 0.5,
+        duration: 2,
+      });
     };
 
     animate();
 
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    return () => mountRef.current.removeChild(renderer.domElement);
-  
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    return () => {
+      // eslint-disable-next-line react-hooks/exhaustive-deps
+      mountRef.current.removeChild(renderer.domElement);
+      scene.remove(group);
+      geometry.dispose();
+      material.dispose();
+    };
   }, []);
 
   const handleMouseMove = (e) => {
@@ -58,6 +67,7 @@ const Earth = () => {
       x: (e.clientX / window.innerWidth) * 2 - 1,
       y: (e.clientY / window.innerHeight) * 2 - 1,
     });
+    positionRef.current = MousePosition;
     // console.log(MousePosition);
   };
 
