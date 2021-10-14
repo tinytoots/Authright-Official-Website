@@ -125,6 +125,9 @@
 }
 
 @media (max-width: 400px) {
+    .IAM-bg {
+        padding-bottom: 40px;
+    }
     .service-card {
         height: 400px;
         padding-top: 40px;
