@@ -31,7 +31,7 @@ import PingIntegration from './pages/service/ServiceIAM/Forgerock/ProfessionalSe
 import PingSupport from './pages/service/ServiceIAM/Forgerock/ProfessionalService/PingSupport/PingSupport'
 import JobDescription from './pages/career/jobDesc/JobDescription';
 import ScrollTop  from './components/ScrollTop/ScrollTop';
-import Earth from './pages/earth/earth.js'
+// import Earth from './pages/earth/earth.js'
 
 function App() {
   

@@ -7,12 +7,7 @@ import "antd/dist/antd.css";
 export default function Leadership(props) {
   return (
     <div className="leadership-bg">
-      <div className="inner">
-        <div className="about-leadership-title">Our Team</div>
-        {/* <div className="about-leadership-content">
-          We are a team. A great journey begins here.
-        </div> */}
-      </div>
+      <div className="about-leadership-title">Our Team</div>
       <div className="leadership-container">
         {employees.map((employee) => {
           const { name, title, linkedin, pic } = employee;
@@ -26,7 +21,6 @@ export default function Leadership(props) {
           );
         })}
       </div>
-
     </div>
   );
 }

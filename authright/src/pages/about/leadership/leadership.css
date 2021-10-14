@@ -1,11 +1,10 @@
 .leadership-bg {
   padding-top: 90px;
-  background-color: #000;
-  /* background-image: url("../../../img/football-bg.svg"); */
-  background-size: 100%;
+  /* background-color: #000; */
+  /* background-size: 100%;
   background-position: 100% 120%;
-  background-repeat: no-repeat;
-  min-width: 1200px;
+  background-repeat: no-repeat; */
+  /* min-width: 1200px; */
   height: auto;
   width: 1200px;
   /* margin-left: -100px; */
@@ -18,22 +17,38 @@
   grid-gap: 10px;
 }
 
-.about-leadership-content {
+/* .about-leadership-content {
   margin-top: 10px;
   margin-bottom: 60px;
   font-family: "SFProDisplay-Bold", sans-serif;
   font-size: 20px;
   line-height: 150%;
-  color:#ed2939;
-  /* background: -webkit-linear-gradient(380deg, #ed2939 15%, #330867 95%); */
+  color: #ed2939;
+  background: -webkit-linear-gradient(380deg, #ed2939 15%, #330867 95%); */
   /* -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
-}
+  -webkit-text-fill-color: transparent;
+} */
 
 .about-leadership-title {
   font-size: 40px;
   font-family: "NunitoSans-bold", sans-serif;
   margin: auto;
   color: white;
-  margin-bottom:40px;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 400px) {
+  .leadership-bg {
+    width: 360px;
+  }
+  .leadership-container {
+    grid-template-columns: repeat(auto-fill, 170px);
+    grid-gap: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width:401px) {
+  .leadership-bg {
+    width: 700px;
+  }
 }
