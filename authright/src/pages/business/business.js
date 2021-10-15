@@ -38,12 +38,6 @@ export default class business extends Component {
             </div>
           </div>
         </div>
-        {/* <div className="businessOutcome-card-bg">
-          <div className="businessOutcome-card">
-            <BrandCard />
-          </div>
-        </div> */}
-        {/* <BrandTrust /> */}
       </div>
     );
   }

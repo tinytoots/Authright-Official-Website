@@ -1,7 +1,10 @@
 .footer-bg {
-  height: 300px;
   background-color: black;
-  min-width: 1250px;
+  padding-bottom: 20px;
+}
+
+.footer-block {
+  margin-left: 23%;
 }
 
 .gray-lane-footer {
@@ -81,13 +84,17 @@
   margin: auto;
 }
 
-.footer-linkedin {
-  cursor: pointer;
-  height: 32px;
-  margin-top: 5px;
-  margin-left: -100px;
-}
-
 .footer-address {
   margin-left: 76px;
+}
+
+.footer-linkedin {
+  display: flex;
+  margin-left: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-block {
+    margin-left: 5% !important;
+  }
 }
