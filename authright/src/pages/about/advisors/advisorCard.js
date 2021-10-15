@@ -6,7 +6,6 @@ import Linkedin from "../../../img/bluelinkedin.png";
 export default function AdvisorCard(props) {
   const { name, title, company, description, linkRef, pic } = props.advisor;
   const isMobile = useMediaQuery({ query: "(max-width: 400px)" });
-  const space = <br />;
 
   return (
     <div className="advisorCard-container">
