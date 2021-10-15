@@ -13,9 +13,11 @@ export default function Advisoryboard(props) {
         <LeadCard leadInfo={leads} />
       </div>
       <div className="advisor-title">Advisory Board</div>
-      {advisors.map((advisor) => {
-        return <AdvisorCard key={advisor.name} advisor={advisor} />;
-      })}
+      <div className="advisor-container">
+        {advisors.map((advisor) => {
+          return <AdvisorCard key={advisor.name} advisor={advisor} />;
+        })}
+      </div>
     </div>
   );
 }

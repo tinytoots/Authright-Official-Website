@@ -21,9 +21,14 @@
   color: black;
 }
 
+.advisor-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 @media screen and (max-width: 400px) {
   .advisor-bg {
-    height: 2700px;
+    height: auto;
   }
   .advisor-title {
     padding: 20px 0px 10px 0px;

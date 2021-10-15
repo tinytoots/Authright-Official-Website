@@ -49,7 +49,7 @@
 
 @media screen and (max-width: 400px) {
   .advisorCard-container {
-    width: 360px;
+    width: 164px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -75,9 +75,12 @@
 
   .advisor-linkedin {
     height: 20px;
-    margin-top: 5px;
+    margin-top: 0px;
   }
   .advisorCard-description {
     font-size: 11px;
+  }
+  .advisorCard-description {
+    display: none;
   }
 }
