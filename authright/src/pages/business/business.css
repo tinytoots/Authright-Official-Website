@@ -36,7 +36,6 @@
   margin-left: 330px;
 }
 
-
 .businessOutcome-card {
   width: 1200px;
   margin: auto;
@@ -46,7 +45,6 @@
 .business-bg {
   background-color: black;
 }
-
 
 .customer-logo-list {
   display: grid;
@@ -68,3 +66,28 @@ svg,
   width: 100%;
 }
 
+@media screen and (max-width: 400px) {
+  .customer-logo-list {
+    grid-template-columns: repeat(auto-fill, 100px);
+    grid-gap: 10px;
+    margin-top: 30px;
+  }
+  .businessOutcome-intro {
+    height: auto;
+    width: 360px;
+    margin: auto;
+  }
+  .businessOutcome-title1 {
+    font-size: 40px;
+  }
+
+  .businessOutcome-title2 {
+    font-size: 30px;
+  }
+
+  .businessOutcome-underline-img {
+    width: 80px !important;
+    margin-top: -90px;
+    margin-left: 160px;
+  }
+}

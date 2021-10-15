@@ -240,14 +240,14 @@
 }
 
 @media (max-width: 400px) {
-  .about-color-block{
+  .about-color-block {
     margin: 50px auto auto auto;
-    height: 300px
+    height: 300px;
   }
   .about-black-block {
-    height: 290px
+    height: 290px;
   }
-  .about-whoWeAre-title1{
+  .about-whoWeAre-title1 {
     width: 290px;
   }
 
@@ -257,15 +257,23 @@
   }
   .about-company-title2 {
     font-size: 15px;
-    padding-top: 40px
+    padding-top: 40px;
   }
   .about-color-block-title {
     font-size: 25px;
-
   }
   .about-whoWeAre-content {
     font-size: 14px;
     width: 320px;
+  }
+
+  .about-values-title {
+    padding-top: 35px;
+    padding-bottom: 5px;
+  }
+
+  .about-intro-block3 {
+    height: 380px;
   }
   .about-values {
     font-size: 16px;
@@ -281,7 +289,8 @@
     padding-top: 26px;
     margin: auto;
   }
-  .value-description{
-    width:320px;
+  .value-description {
+    width: 320px;
+    margin-top: 0px;
   }
 }

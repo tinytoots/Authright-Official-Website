@@ -19,8 +19,8 @@ export const advisorsInfo = [
   },
   {
     name: "Shaun Walsh",
-    title: "Vice President Product Marketing",
-    company: "SecurityScorecard",
+    title: "VP, Global Marketing",
+    company: "SimSpace",
     description:
       "Shaun is a senior marketing leader with professional expertise in the areas of cloud, security, artificial intelligence, machine learning, cloud infrastructure, networking, software-defined services, enterprise SaaS platforms, and storage management. In his current role, Shaun serves as Vice President of Product Marketing at SecurityScorecard, a company that offers rating software to help enterprises detect weaknesses in their cybersecurity protocols. Previous experience includes senior marketing roles at companies including Cylance, NetApp,and Igneous Systems.  Shaun works closely with executive teams to devise and execute strategic plans, company positioning, differentiated messaging, increase revenue, global market development, branding through digital and social media marketing, and organically drive web, SEO, and SEM.",
     linkRef: "https://www.linkedin.com/in/shaunmwalsh2/",
@@ -28,7 +28,7 @@ export const advisorsInfo = [
   },
   {
     name: "Eric Santos",
-    title: "Business Development - OEM Partnerships",
+    title: "Business Development",
     company: "TransUnion",
     description:
     "Eric is a senior sales and marketing professional with 20+ years of experience in program management, product marketing and alliance management / business development. He has solid understanding of product development, launch and solution life cycle planning, business case development and marketing programs / PR. He has industry knowledge in Cloud Computing, Virtualization, Infrastructure Management including Automation, Orchestration , Provisioning and Security, Authentication and Identity Management. He is a skilled communicator / presenter and strong leader of virtual teams, across diverse groups and regions. He has strategy, business process planning and competitive analysis expertise.",

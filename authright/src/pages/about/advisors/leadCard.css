@@ -56,8 +56,8 @@
 
 @media screen and (max-width: 400px) {
   .leadCard-container {
-    width: 360px;
-    height: 500px;
+    width: auto;
+    height: auto;
     margin: 10px auto;
     padding: 8px;
     display: flex;
@@ -65,9 +65,9 @@
     align-items: center;
   }
   .leadCard-img {
-    width: 150px;
-    height: 150px;
-    margin-right:0px;
+    width: 200px;
+    height: 200px;
+    margin-right: 0px;
     margin-bottom: 10px;
     border-radius: 5px;
   }
@@ -81,9 +81,11 @@
   .leadCard-linkedin {
     height: 22px;
     margin-right: 0px;
+    margin-left: 50px;
   }
   .leadCard-description {
     font-size: 11px;
     margin-top: 10px;
+    display: none;
   }
 }

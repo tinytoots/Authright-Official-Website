@@ -1,19 +1,26 @@
 .expandCard-grid {
-    padding-top: 100px;
+  padding-top: 100px;
 }
 
 .about-leadership {
-    margin-top: -200px;
-    /* background-color: #434343; */
-    background-color: #000;
-    display: flex;
-    justify-content: center;
+  margin-top: -200px;
+  /* background-color: #434343; */
+  background-color: #000;
+  display: flex;
+  justify-content: center;
 }
 
-.about-certification{
-    margin-top: 60px;
+.about-certification {
+  margin-top: 60px;
 }
 
 .about-layout-bg {
-    margin-top: -60px;
+  margin-top: -60px;
+}
+
+@media screen and (max-width: 400px) {
+  .about-leadership {
+    display: none;
+    margin-top: 0px;
+  }
 }
