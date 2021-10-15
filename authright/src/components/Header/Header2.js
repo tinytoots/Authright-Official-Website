@@ -14,7 +14,7 @@ export default class Header extends Component {
         <header className="header-bg">
         {/* <h1 class="logo">Logo</h1> */}
         <NavLink to="/home">
-            <img className="header-logo" src={Logo} width={160} alt=""/>
+            <img className="headerLogo" src={Logo} width={160} alt=""/>
         </NavLink>
         <input type="checkbox" id="nav-toggle" className="nav-toggle" />
         <nav className="header-nav">
@@ -23,7 +23,7 @@ export default class Header extends Component {
             <li><NavLink to="/services/iam">Service</NavLink></li>
             <li><NavLink to="/customer">Customer</NavLink></li>
             <li><NavLink to="/partners">Partners</NavLink></li>
-            <li><NavLink to="/about-us">About</NavLink></li>
+            <li><NavLink to="/about-us">About Us</NavLink></li>
           </ul>
         </nav>
         <label for="nav-toggle" className="nav-toggle-label">

@@ -12,7 +12,6 @@
 	margin: 0;
 	background: #141414;
 	font-family: 'NunitoSans-bold',sans-serif;
-	/* font-weight: 400; */
   font-size: 17;
   height: 80px;
 }
@@ -48,7 +47,7 @@ header {
 /* 控制汉堡icon */
 .nav-toggle-label {
   position: absolute;
-  top: 10px;
+  top: 4px;
   right: 10px;
   margin-left: 1em;
   height: 100%;
@@ -82,9 +81,6 @@ header {
   top: 7px;
 }
 
-
-
-
 nav {
   position: absolute;
   text-align: left;
@@ -110,9 +106,10 @@ nav li {
 }
 
 nav a {
-  color: #d1d1d6;
+  color: #a7a7ab;
   text-decoration: none;
-  font-size: 1.0rem;
+  font-size: 17px;
+  font-family:'NunitoSans-bold', sans-serif;
   /* text-transform: uppercase; */
   opacity: 0;
   transition: opacity 150ms ease-in-out;
@@ -131,24 +128,22 @@ nav a:hover {
   transition: opacity 250ms ease-in-out 250ms;
 }
 
-@media screen and (min-width: 800px) {
+.headerLogo {
+  margin-top: 27px;
+}
+
+@media screen and (min-width: 768px) {
   .nav-toggle-label {
     display: none;
   }
 
   header {
     display: grid;
-    grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
-  }
-  
-  .logo {
-    grid-column: 2 / 3;
+    /* display: flex; */
+    grid-template-columns: 1fr 0 minmax(550px, 1fr) 2fr;
   }
   
   nav {
-    /* this causes issues with Edge, since it's unsupported */
-    
-    /* the following lines are not from my video, but add Edge support */
     position: relative;
     text-align: left;
     transition: none;
@@ -156,21 +151,20 @@ nav a:hover {
     background: none;
     top: initial;
     left: initial;
-    /* end Edge support stuff */
     
     grid-column: 3 / 4;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
   }
   
-  nav ul {
+  nav ul { 
     display: flex;
   }
   
   nav li {
-    margin-left: 3em;
-    margin-bottom: 0;
+    margin-left: 2em;
+    margin-bottom: 10px;
   }
   
   nav a {
@@ -181,7 +175,7 @@ nav a:hover {
   nav a::before {
     content: '';
     display: block;
-    height: 5px;
+    /* height: 5px; */
     background: #f0f0f0;
     position: absolute;
     top: -.75em;
@@ -196,15 +190,31 @@ nav a:hover {
   }
 }
 
-.header-logo {
-  margin-top: 32px;
-  margin-left: 50px;
-}
+
 
 .header-nav {
   /* margin-left: -100px; */
   margin-top: 20px;
 }
+
+@media screen and (min-width: 1000px) {
+  .headerLogo {
+    margin-left: 180px;
+  }
+} 
+
+
+@media screen and (min-width: 768px) and (max-width:1000px) {
+  .headerLogo {
+    margin-left: 80px;
+  }
+} 
+
+
+/* .headerLogo {
+  margin-top: 29px;
+  margin-left: 90px;
+} */
 
 
 /* .inner1 {
