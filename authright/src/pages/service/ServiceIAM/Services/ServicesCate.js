@@ -12,7 +12,7 @@ export default class Forgerock extends Component {
       <div className="IAM-bg">
         <div className="service-title">Our Services</div>
         <div className="IAM-grid-bg">
-          <Row gutter={[10, 10]} justify="center">
+          <Row gutter={[0, 10]} justify="center">
             <Col className="gutter-row">
               <div className="service-card">
                   <img

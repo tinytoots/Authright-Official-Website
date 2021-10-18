@@ -29,7 +29,7 @@
     overflow: hidden;
     transition: transform 500ms ease;
     width: 380px;
-    margin: auto
+    margin: auto 10px auto 10px;
 }
 
 .card:hover,
