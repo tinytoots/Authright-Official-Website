@@ -15,7 +15,7 @@
 }
 
 .about-layout-bg {
-  margin-top: -60px;
+  padding-top: 80px;
 }
 
 @media screen and (max-width: 400px) {
