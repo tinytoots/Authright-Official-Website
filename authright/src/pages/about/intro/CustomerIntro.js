@@ -5,7 +5,7 @@ import "./intro.css";
 export default function CustomerIntro() {
   return (
     <div className="about-intro-block2">
-        <Row gutter={16} justify="center">
+        <Row gutter={0} justify="center">
           <Col className="gutter-row" >
             <div className="about-color-block">
               <div className="about-black-block">

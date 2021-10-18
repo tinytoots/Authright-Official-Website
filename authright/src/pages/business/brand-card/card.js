@@ -20,7 +20,7 @@ export default function Card() {
         We are committed to providing reliable and efficient IAM <br/>
         and Full Stack services in different industrial fields{" "}
       </div>
-      <Row gutter={[25, 25]} wrap={true} justify="center">
+      <Row gutter={[0, 25]} wrap={true} justify="center">
         <Col className="gutter-row" >
           <div className="card" style={cardHsbc}>
             <div className="card-content">
