@@ -1,7 +1,7 @@
 .business-bg2 {
   background-color: #fafafa;
   margin: auto;
-  margin-top: -48px;
+  padding-top: 80px;
 }
 
 .businessOutcome-intro {
@@ -15,7 +15,6 @@
   font-size: 80px;
   font-family: "SFProDisplay-Bold", sans-serif;
   text-align: center;
-  margin: 4% 10%;
   color: black;
 }
 
