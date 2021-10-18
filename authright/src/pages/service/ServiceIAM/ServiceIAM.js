@@ -7,7 +7,7 @@ import AuthrightImg from '../../../img/authright-logo.jpg'
 export default class ServiceIAM extends Component {
     render() {
         return (
-            <>
+            <div className='service-bg'>
                 <div className='service-banner'>
                     <img src={AuthrightImg} alt = 'logo' className='servicesCate-authright-logo'/>
                     <div className='servicesCate-content1'>
@@ -22,7 +22,7 @@ export default class ServiceIAM extends Component {
                     <ServicesCate />
                 </div>
                 
-            </>
+            </div>
         )
     }
 }
