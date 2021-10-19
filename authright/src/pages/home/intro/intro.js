@@ -9,7 +9,6 @@ export default class intro extends Component {
         {/* <div className="authright-inner"> */}
           <div className="intro-text">
             <div className="company-name-title">AUTHRIGHT</div>
-
             <div className="company-name-content1">
               <i>An Identity Company </i>
             </div>
