@@ -19,17 +19,12 @@
     /* cursor: pointer; */
 }
 
-.solution-gap-lane {
+.gap-lane {
     height: 1px;
-    background-color: #808080;
-    width: 1200px;
-    margin-top: 15px;
-    margin-bottom: 20px;
-
+    background-color: #484747;
+    width: 95%;
+    margin: 15px auto 20px auto;
 } 
-
-.solution-row:hover {
-}
 
 .forgerock-cert-logo {
     margin-top: 30px;
@@ -108,14 +103,21 @@
 }
 
 .partner-title {
-    font-size: 70px;
+    font-size: 80px;
     font-family: "SFProDisplay-Bold", sans-serif;
     text-align: center;
     color: black;
-    /* width: 700px; */
     margin: auto;
-    margin-bottom: 100px;
     padding-top: 100px;
+}
+
+.parnter-subTitle {
+    margin: auto;
+    text-align: center;
+    font-family: "SFProDisplay-semiBold", sans-serif;
+    color: black;
+    font-size: 60px;
+    margin-bottom: 100px;
 }
 
 .crt-img {
@@ -124,9 +126,13 @@
 
 @media (max-width: 400px) {
     .partner-title {
-        font-size: 25px;
+        font-size: 40px;
         margin-bottom: 10px;
-        padding-top: 150px;
+        padding-top: 50px;
+    }
+    .parnter-subTitle {
+        font-size:30px; 
+        margin-bottom: 20px;
     }
     .solution-row-title {
         display: none;
@@ -141,12 +147,12 @@
         width: 100%;
     }
     .solution-fg-logo {
-        margin-left: 10%;
-        width: 80%
+        margin-left: auto;
+        width: 220px
     }
     .parnter-ping-logo  {
         margin-left: 15%;
-        width: 70%
+        width: 160px
     }
     .learn-more-extend {
         margin-left: 10px;
@@ -155,7 +161,18 @@
         padding-left: 25px;
         padding-right: 25px;
     }
+    .fg-cert {
+        width: 70px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .ping-cert {
+        width: 80px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
     .learn-more-extra-space {
-        padding-left: 0px;;
+        padding-left: 0px;
     }
 }
