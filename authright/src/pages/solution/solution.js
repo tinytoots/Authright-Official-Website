@@ -56,7 +56,7 @@ export default function Solution()  {
                                 <div className="fr-cert">
                                     <Row justify={isMobile? "center": "start"} gutter={[0,25]}>
                                         
-                                        <Col className="crt-img">
+                                        <Col className="crt-img" >
                                                 <img src={ForgerockCert4} width={90} alt = 'logo' className = "fg-cert"/>      
                                         </Col>
                                         <Col className="crt-img">

@@ -23,7 +23,7 @@
     height: 1px;
     background-color: #484747;
     width: 95%;
-    margin-top: 15px auto 20px auto;
+    margin: 15px auto 20px auto;
 } 
 
 .forgerock-cert-logo {
@@ -148,11 +148,11 @@
     }
     .solution-fg-logo {
         margin-left: auto;
-        width: 100%
+        width: 220px
     }
     .parnter-ping-logo  {
         margin-left: 15%;
-        width: 70%
+        width: 160px
     }
     .learn-more-extend {
         margin-left: 10px;
@@ -163,12 +163,16 @@
     }
     .fg-cert {
         width: 70px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .ping-cert {
         width: 80px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .learn-more-extra-space {
-        padding-left: 0px;;
+        padding-left: 0px;
     }
 }
