@@ -1,6 +1,5 @@
 import React, { Component, useState } from "react";
 import "./Header2.css";
-import { Menu } from "antd";
 import { NavLink } from "react-router-dom";
 import "antd/dist/antd.css";
 import Logo from "../../img/Authright_logo_white_text.png";
@@ -19,7 +18,7 @@ export default function Header() {
         <NavLink to="/home">
             <img className="headerLogo" src={Logo} width={160} alt=""/>
         </NavLink>
-        <input type="checkbox" id="nav-toggle" className="nav-toggle" />
+        <input type="checkbox" id="nav-toggle" className="nav-toggle"/>
         <nav className="header-nav">
           <ul>
             <li><NavLink to="/home" onClick={close}>Home</NavLink></li>
@@ -40,10 +39,10 @@ export default function Header() {
   return (
     <div>
         <header className="header-bg">
-        {/* <h1 class="logo">Logo</h1> */}
-        <NavLink to="/home">
+        {/* <NavLink to="/home">
             <img className="headerLogo" src={Logo} width={160} alt=""/>
-        </NavLink>
+        </NavLink> */}
+        {/* <input type="checkbox" id="nav-toggle" className="nav-toggle2" onClick={() => setIsOpen(prev => !prev)}/> */}
         <input type="checkbox" id="nav-toggle" className="nav-toggle2" onClick={() => setIsOpen(prev => !prev)}/>
         <nav className="header-nav">
           <ul>
