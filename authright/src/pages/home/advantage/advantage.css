@@ -1,15 +1,14 @@
-.tilte {
+.advantage-title {
   font-size: 28px;
   font-family: "SFProDisplay-Bold", sans-serif;
   margin-bottom: 15px;
   color: black;
 }
 
-.advan {
+.advantage-content {
   width: 700px;
   font-size: 18px;
   font-family: "NunitoSans-regular", sans-serif;
-  margin-bottom: 30px;
   margin: auto;
   color: black;
 }
@@ -17,14 +16,43 @@
 .adv-bg {
   background-color: #eff2f7;
   margin-top: -30px;
-  padding-top: 80px;
+  padding-top: 70px;
   height: 300px;
+  min-width: 1200px;
 }
 
-.unifiedcontrol-card-title {
-  margin-top:20px;
-  font-family: 'NunitoSans-regular',sans-serif;
+.advantage-learnmore {
+  margin-top: 20px;
+  font-family: "NunitoSans-regular", sans-serif;
   font-size: 18px;
   line-height: 150%;
 }
 
+@media screen and (max-width: 400px) {
+  .advantage-title {
+    font-size: 20px;
+    width: 270px;
+    color: white;
+    margin: auto;
+  }
+
+  .advantage-content {
+    width: 320px;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+  .adv-bg {
+    background-color: black;
+    padding-top: 60px;
+    height: 310px;
+    width: 400px;
+    min-width: 180px;
+  }
+
+  .advantage-learnmore {
+    font-size: 14px;
+  }
+}
