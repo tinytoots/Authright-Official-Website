@@ -8,7 +8,7 @@ import Logo from "../../img/Authright_logo_white_text.png";
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [isSelected, setIsSelected] = useState("");
-  const isMobile = useMediaQuery({ query: "(max-width: 400px)" });
+  const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
   const onClick = (name) => {
     setIsSelected(name);
     setIsOpen(!isOpen);
