@@ -15,9 +15,7 @@ export default class caseMohawk extends Component {
                         solutions for Commercial Industries
                     </div>
                     <div className="caseStudies-content">
-                        We provide the global support for all servers, monitor
-                    </div>
-                    <div className="caseStudies-content" style={{paddingBottom: 70}}>
+                        We provide the global support for all servers, monitor<br/>
                         and alert and take timely action
                     </div>
             </div>
@@ -29,10 +27,10 @@ export default class caseMohawk extends Component {
                 <div className="case-about-bg">
                     <div className="inner">
                         <Row>
-                            <Col span={12}>
+                            <Col>
                                 <img src="https://tva1.sinaimg.cn/large/008i3skNgy1guq28n6fqfj60d00d475a02.jpg" width={550} height={500} alt = 'logo' className='case-hsbc-img' style={{paddingTop: 50, paddingBottom: 70}}/>
                             </Col>
-                            <Col span={12}>
+                            <Col>
                                 <div className="caseStudies-about-title" style={{paddingTop: 70}}>
                                     Description
                                 </div>
@@ -52,7 +50,7 @@ export default class caseMohawk extends Component {
                 
                 <div className="inner" style={{marginBottom: 50}}>
                     <Row>
-                        <Col span={12}>
+                        <Col>
                             <div className="caseStudies-about-title" style={{paddingTop: 40}}>
                                 Scenario
                             </div>
@@ -61,40 +59,56 @@ export default class caseMohawk extends Component {
                                 A non-typical SSO flow through SAML.
                             </div>
                         </Col>
-                        <Col span={12}>
-                            <Row>
-                                <Col span={6}>
-                                    <div className="caseStudies-data" style={{paddingTop: 10, marginLeft:110, color:"#cf1322", fontSize: 28}}>
-                                        130
-                                    </div>
-                                    <div className="caseStudies-data2" style={{marginLeft:110}}>
-                                        Countires
+                        <Col>
+                        <Row style ={{marginTop: "75px"}}>
+                                <Col >
+                                    <div className = "case-mark-block" >
+                                    {/* style={{paddingTop: 10, marginLeft:110, color:"#cf1322", fontSize: 28}} */}
+                                        <div className="case-mark-number" >
+                                            130
+                                        </div>
+                                        {/* style={{marginLeft:110}} */}
+                                        <div className="case-mark-text">
+                                            Countires
+                                        </div>
                                     </div>
                                 </Col>
-                                <Col span={6}>
-                                    <div className="caseStudies-data3" style={{paddingTop: 10, marginLeft:200, color:"#cf1322", fontSize: 28}}>
-                                        194,000
-                                    </div>
-                                    <div className="caseStudies-data4" style={{marginLeft:200}}>
-                                        Shareholders
+                                <Col >
+                                <div className = "case-mark-block" >
+                                    {/* style={{paddingTop: 10, marginLeft:110, color:"#cf1322", fontSize: 28}} */}
+                                        <div className="case-mark-number" >
+                                            194,000
+                                        </div>
+                                        {/* style={{marginLeft:110}} */}
+                                        <div className="case-mark-text">
+                                            Shareholders
+                                        </div>
                                     </div>
                                 </Col>
                             </Row>
                             <Row>
-                                <Col span={6}>
-                                    <div className="caseStudies-data" style={{marginLeft:110, marginTop:50, color:"#cf1322", fontSize: 28}}>
-                                        40,000,000
-                                    </div>
-                                    <div className="caseStudies-data2" style={{marginLeft:110}}>
+                                <Col >
+                                <div className = "case-mark-block" >
+                                    {/* style={{paddingTop: 10, marginLeft:110, color:"#cf1322", fontSize: 28}} */}
+                                        <div className="case-mark-number" >
+                                            40,000,000
+                                        </div>
+                                        {/* style={{marginLeft:110}} */}
+                                        <div className="case-mark-text">
                                         Customers
+                                        </div>
                                     </div>
                                 </Col>
-                                <Col span={6}>
-                                    <div className="caseStudies-data3" style={{marginLeft:200, marginTop:50, color:"#cf1322", fontSize:28}}>
+                                <Col>
+                                <div className = "case-mark-block" >
+                                    {/* style={{paddingTop: 10, marginLeft:110, color:"#cf1322", fontSize: 28}} */}
+                                        <div className="case-mark-number" >
                                         24/7
-                                    </div>
-                                    <div className="caseStudies-data4" style={{marginLeft:200}}>
+                                        </div>
+                                        {/* style={{marginLeft:110}} */}
+                                        <div className="case-mark-text">
                                         Support
+                                        </div>
                                     </div>
                                 </Col>
                             </Row>
@@ -105,7 +119,8 @@ export default class caseMohawk extends Component {
                 <div className="case-about-bg" style={{marginBottom: 150}}>
                     <div className="inner">
                         <Row>
-                            <Col span={12}>
+                            <div className = "case-solution-tool">
+                            <Col>
                                 <Row>
                                     <Col span={6}>
                                         <div className="caseStudies-data" style={{marginTop: 70}}>
@@ -131,7 +146,8 @@ export default class caseMohawk extends Component {
                                     </Col>
                                 </Row>
                             </Col>
-                            <Col span={12}>
+                            </div>
+                            <Col>
                                 <div className="caseStudies-about-title">
                                     The Solution
                                 </div>
