@@ -8,7 +8,7 @@ export default class Footer extends Component {
     return (
       <div className="footer-bg">
           <div className="gray-lane-footer" />
-          <Row gutter={[10, 10]}>
+          <Row gutter={[0, 10]}>
             <Col xs={24} sm={24} md={12} lg={8} xl={8}>
               <div className="footer-block">
                 <div>
