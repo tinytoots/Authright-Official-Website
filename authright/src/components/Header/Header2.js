@@ -1,6 +1,5 @@
 import React, { Component, useState } from "react";
 import "./Header2.css";
-import { Menu } from "antd";
 import { NavLink } from "react-router-dom";
 import "antd/dist/antd.css";
 import Logo from "../../img/Authright_logo_white_text.png";

@@ -67,9 +67,9 @@ svg,
 
 @media screen and (max-width: 400px) {
   .customer-logo-list {
-    grid-template-columns: repeat(auto-fill, 100px);
+    grid-template-columns: repeat(auto-fill, 110px);
     grid-gap: 10px;
-    margin-top: 30px;
+    margin-top: 10px;
   }
   .businessOutcome-intro {
     height: auto;
@@ -77,16 +77,16 @@ svg,
     margin: auto;
   }
   .businessOutcome-title1 {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   .businessOutcome-title2 {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .businessOutcome-underline-img {
-    width: 80px !important;
-    margin-top: -90px;
-    margin-left: 160px;
+    width: 70px !important;
+    margin-top: -80px;
+    margin-left: 130px;
   }
 }
