@@ -7,36 +7,57 @@ import Logo from "../../img/Authright_logo_white_text.png";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const [isSelected, setIsSelected] = useState("");
   const isMobile = useMediaQuery({ query: "(max-width: 400px)" });
-  const onClick = () => {
-    console.log(isOpen);
+  const onClick = (name) => {
+    setIsSelected(name);
     setIsOpen(!isOpen);
   };
   const Nav = (
-    <nav className= "header-nav">
+    <nav className="header-nav">
       <ul>
         <li>
-          <NavLink to="/home" onClick={() => onClick()}>
+          <NavLink
+            to="/home"
+            className={isSelected === "home" ? "nav-active" : ""}
+            onClick={() => onClick("home")}
+          >
             Home
           </NavLink>
         </li>
         <li>
-          <NavLink to="/services/iam" onClick={() => onClick()}>
+          <NavLink
+            to="/services/iam"
+            className={isSelected === "service" ? "nav-active" : ""}
+            onClick={() => onClick("service")}
+          >
             Service
           </NavLink>
         </li>
         <li>
-          <NavLink to="/customer" onClick={() => onClick()}>
+          <NavLink
+            to="/customer"
+            className={isSelected === "customer" ? "nav-active" : ""}
+            onClick={() => onClick("customer")}
+          >
             Customer
           </NavLink>
         </li>
         <li>
-          <NavLink to="/partners" onClick={() => onClick()}>
+          <NavLink
+            to="/partners"
+            className={isSelected === "partners" ? "nav-active" : ""}
+            onClick={() => onClick("partners")}
+          >
             Partners
           </NavLink>
         </li>
         <li>
-          <NavLink to="/about-us" onClick={() => onClick()}>
+          <NavLink
+            to="/about-us"
+            className={isSelected === "aboutus" ? "nav-active" : ""}
+            onClick={() => onClick("aboutus")}
+          >
             About Us
           </NavLink>
         </li>
@@ -50,11 +71,8 @@ export default function Header() {
         <NavLink to="/home">
           <img className="headerLogo" src={Logo} width={160} alt="" />
         </NavLink>
-        {isMobile ? (isOpen ? Nav : <div />) : Nav}
-        <label
-          className="nav-toggle-label"
-          onClick={() => onClick()}
-        >
+        {isMobile ? isOpen ? Nav : <div /> : Nav}
+        <label className="nav-toggle-label" onClick={() => onClick()}>
           <span></span>
         </label>
       </header>

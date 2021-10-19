@@ -1,17 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:300,600");
 
 :root {
   --background: black;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
 .header-bg {
-	margin: 0;
-	background: black;
-	font-family: 'NunitoSans-bold',sans-serif;
+  margin: 0;
+  background: black;
+  font-family: "NunitoSans-bold", sans-serif;
   font-size: 17px;
   height: 80px;
 }
@@ -59,7 +61,7 @@ header {
 
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
-  content: '';
+  content: "";
   position: absolute;
 }
 
@@ -78,7 +80,7 @@ nav {
   left: 0px;
   background: black;
   width: 100%;
- }
+}
 
 nav ul {
   margin: 0px;
@@ -95,13 +97,16 @@ nav a {
   color: #a7a7ab;
   text-decoration: none;
   font-size: 17px;
-  font-family:'NunitoSans-bold', sans-serif;
+  font-family: "NunitoSans-bold", sans-serif;
 }
 
 nav a:hover {
   color: #fff;
 }
 
+.nav-active {
+  color: #fff;
+}
 
 .headerLogo {
   margin-top: 27px;
@@ -117,73 +122,66 @@ nav a:hover {
     /* display: flex; */
     grid-template-columns: 1fr 0 minmax(550px, 1fr) 2fr;
   }
-  
+
   nav {
     position: relative;
     text-align: left;
     transition: none;
-    transform: scale(1,1);
-    background: none;
+    transform: scale(1, 1);
     top: initial;
     left: initial;
-    
     grid-column: 3 / 4;
     display: flex;
     justify-content: flex-start;
     align-items: center;
   }
-  
-  nav ul { 
+
+  nav ul {
     display: flex;
   }
-  
+
   nav li {
     margin-left: 2em;
     margin-bottom: 10px;
   }
-  
+
   nav a {
     opacity: 1;
     position: relative;
   }
-  
+
   nav a::before {
-    content: '';
+    content: "";
     display: block;
     /* height: 5px; */
     background: #f0f0f0;
     position: absolute;
-    top: -.75em;
+    top: -0.75em;
     left: 0;
     right: 0;
     transform: scale(0, 1);
     transition: transform ease-in-out 250ms;
   }
-  
+
   nav a:hover::before {
-    transform: scale(1,1);
+    transform: scale(1, 1);
   }
 }
 
-
 .header-nav {
   padding-top: 20px;
-  height:auto;
-  background-color:black;
+  height: auto;
+  background-color: black;
 }
 
 @media screen and (min-width: 1000px) {
   .headerLogo {
     margin-left: 180px;
   }
-} 
+}
 
-
-@media screen and (min-width: 768px) and (max-width:1000px) {
+@media screen and (min-width: 768px) and (max-width: 1000px) {
   .headerLogo {
     margin-left: 80px;
   }
-} 
-
-
-
+}
