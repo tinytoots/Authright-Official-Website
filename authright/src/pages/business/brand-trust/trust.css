@@ -6,7 +6,6 @@
 }
 
 .trust-bg2 {
-  width: 1200px;
   margin: auto;
 }
 
@@ -131,4 +130,38 @@
   margin-bottom: 25px;
   margin-top: 60px;
   border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .trust-color-block {
+    height: 234px;
+    width: 170px;
+  }
+
+  .trust-black-block {
+    height: 224px;
+    width: 160px;
+    border-radius: 5%;
+  }
+
+  .trust-ping {
+    width: 70px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+
+  .trust-forgerock {
+    width: 74px;
+    margin-top: 45px;
+    margin-bottom: 22px;
+  }
+
+  .trust-color-block-title2 {
+    margin-bottom: -12px;
+    font-size: clamp(1.5rem, calc(1.8rem + 0.2vw), 1.5rem);
+  }
+  
+  .trust-color-block-title3 {
+    font-size: clamp(1.5rem, calc(1.8rem + 0.2vw), 1.5rem);
+  }
 }

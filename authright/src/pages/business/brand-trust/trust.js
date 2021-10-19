@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-// import { ReactComponent as ForgeRock } from "../../../img/partner/forgerock.svg";
-// import { ReactComponent as PingIdentity } from "../../../img/partner/ping-identity.svg";
 import ForgeRock from "../../../img/forgerocktrust.png";
 import { ReactComponent as PingIdentity } from "../../../img/ping-identity.svg";
 import "./trust.css";
@@ -15,7 +13,7 @@ export default class trust extends Component {
           <div className="turst-title2"></div>
           <div className="trust-grid-bg">
             <Row gutter={24}>
-              <Col className="gutter-row" span={12}>
+              <Col xs={12} sm={12} md={12} lg={12} xl={12}>
                 <div className="trust-color-block">
                   <div className="trust-black-block">
                     <img src={ForgeRock} className="trust-forgerock" alt="" />
@@ -24,7 +22,7 @@ export default class trust extends Component {
                   </div>
                 </div>
               </Col>
-              <Col className="gutter-row" span={12}>
+              <Col xs={12} sm={12} md={12} lg={12} xl={12}>
                 <div className="trust-color-block">
                   <div className="trust-black-block">
                     <PingIdentity className="trust-ping" />
