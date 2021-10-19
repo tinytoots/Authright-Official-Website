@@ -1,6 +1,6 @@
 .advisor-bg {
   width: 100%;
-  height: 1950px;
+  height: 2000px;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -23,7 +23,7 @@
 
 .advisor-container{
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 400px) {

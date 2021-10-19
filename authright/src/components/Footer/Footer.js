@@ -3,8 +3,6 @@ import "./Footer.css";
 import { Row, Col } from "antd";
 import Linkedin from "../../img/bluelinkedin.png";
 
-const style = { background: "#000", margin: "auto" };
-
 export default class Footer extends Component {
   render() {
     return (

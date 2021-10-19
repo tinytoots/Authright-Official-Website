@@ -1,5 +1,4 @@
 .about-intro-bg {
-  margin-top: 60px;
   margin-bottom: 40px;
 }
 
@@ -61,9 +60,9 @@
 }
 
 .about-intro-block3 {
-  height: 500px;
+  height: auto;
   background-color: #000;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 
 .career-company-intro {
@@ -167,7 +166,7 @@
 }
 
 .about-whoWeAre-title1 {
-  padding-top: 70px;
+  padding-top: 60px;
   padding-bottom: 30px;
   font-family: "SFProDisplay-Semibold", sans-serif;
   width: 700px;
@@ -250,6 +249,7 @@
     height: 290px;
   }
   .about-whoWeAre-title1 {
+    margin-top: 10px;
     width: 290px;
   }
 
@@ -274,9 +274,6 @@
     padding-bottom: 5px;
   }
 
-  .about-intro-block3 {
-    height: 380px;
-  }
   .about-values {
     font-size: 16px;
     width: 380px;
@@ -294,5 +291,8 @@
   .value-description {
     width: 320px;
     margin-top: 0px;
+  }
+  .about-intro-block3{
+    margin-bottom:30px;
   }
 }

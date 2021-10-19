@@ -18,25 +18,9 @@ export default class trust extends Component {
               <Col className="gutter-row" span={12}>
                 <div className="trust-color-block">
                   <div className="trust-black-block">
-                    <img src={ForgeRock} className="trust-forgerock" alt=''/>
-                    {/* <img src={forgerock} alt='' width="10"/> */}
-                    {/* <div className="trust-color-block-title">2018</div> */}
+                    <img src={ForgeRock} className="trust-forgerock" alt="" />
                     <div className="trust-color-block-title2">Established</div>
                     <div className="trust-color-block-title3">Partnership</div>
-                    {/* <div className="trust-color-block-served">since 2018</div> */}
-                    {/* <a
-                      className="unifiedcontrol-card-default"
-                      href="https://www.forgerock.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <div className="unifiedcontrol-card-title">
-                        <div className="trust-color-block-served2">
-                          ForgeRock
-                        </div>
-                        <i className="approw-arrow-down-line arrow"></i>
-                      </div>
-                    </a> */}
                   </div>
                 </div>
               </Col>
@@ -44,45 +28,11 @@ export default class trust extends Component {
                 <div className="trust-color-block">
                   <div className="trust-black-block">
                     <PingIdentity className="trust-ping" />
-                    {/* <div className="trust-color-block-title">2021</div> */}
                     <div className="trust-color-block-title2">Established</div>
                     <div className="trust-color-block-title3">Partnership</div>
-                    {/* <div className="trust-color-block-served">since 2021</div> */}
-                    {/* <a
-                      className="unifiedcontrol-card-default"
-                      href="https://www.pingidentity.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <div className="unifiedcontrol-card-title">
-                        <div className="trust-color-block-served2">
-                          Ping Identity
-                        </div>
-                        <i className="approw-arrow-down-line arrow"></i>
-                      </div>
-                    </a> */}
                   </div>
                 </div>
               </Col>
-              {/* <Col className="gutter-row" span={8}>
-                <div className="trust-color-block">
-                  <div className="trust-black-block">
-                    <div className="trust-color-block-title">More than</div>
-                    <div className="trust-color-block-title4">1000000</div>
-                    <div className="trust-color-block-title3">users</div>
-                    <div className="trust-color-block-served">served by</div>
-                    <NavLink to="/home">
-                      <div className="unifiedcontrol-card-title">
-                        <div className="trust-color-block-served2">
-                          Authright
-                        </div>
-                        <i className="approw-arrow-down-line arrow"></i>
-                      </div>
-                    </NavLink>
-                  </div>
-                </div>
-                }
-              </Col> */}
             </Row>
           </div>
         </div>

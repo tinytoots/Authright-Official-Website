@@ -3,3 +3,11 @@
     min-width: 1250px;
     padding-top: 80px;
 }
+
+@media screen and (max-width: 400px){
+    .home-bg {
+        background-color: black;
+        width:400px;
+    }
+}
+

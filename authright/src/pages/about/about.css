@@ -16,6 +16,7 @@
 
 .about-layout-bg {
   padding-top: 80px;
+  background-color: white;
 }
 
 @media screen and (max-width: 400px) {
