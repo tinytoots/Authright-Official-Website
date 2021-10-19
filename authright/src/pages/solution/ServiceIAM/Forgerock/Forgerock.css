@@ -1,93 +1,97 @@
 .solution-IAM-bg {
-    text-align: left;
+  text-align: left;
 }
 
 .forgerock-conent-bg {
 }
 
 .solution-iam-title {
-    margin-top: 60px;
-    padding-top: 50px;
-    font-family: 'NunitoSans-extraBold',sans-serif;
-    font-size: 20px;
-    line-height: 150%;
-    color: #595959;
-    margin-bottom: 15px;
+  margin-top: 60px;
+  padding-top: 50px;
+  font-family: "NunitoSans-extraBold", sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  color: #595959;
+  margin-bottom: 15px;
 }
 
 .solution-forgerock-title {
-    font-family: 'NunitoSans-extraBold',sans-serif;
-    font-size:38px;
-    line-height: 150%;
-    color: black;
-    margin-bottom: 15px;
+  font-family: "NunitoSans-extraBold", sans-serif;
+  font-size: 38px;
+  line-height: 150%;
+  color: black;
+  margin-bottom: 15px;
 }
 
 .partner-topics-title {
-    font-family: 'NunitoSans-extraBold',sans-serif;
-    font-size:30px;
-    line-height: 150%;
-    color: black;
-    margin-bottom: 20px;
+  font-family: "NunitoSans-extraBold", sans-serif;
+  font-size: 30px;
+  line-height: 150%;
+  color: black;
+  margin-bottom: 20px;
 }
 
 .partner-forgerock-intro {
-    font-family: 'NunitoSans-regular',sans-serif;
-    font-size: 18px;
-    line-height: 150%;
-    color: #1f1f1f;
+  font-family: "NunitoSans-regular", sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #1f1f1f;
 }
 
 .partner-forgerock-intro1 {
-    font-family: 'NunitoSans-bold',sans-serif;
-    font-size: 20px;
-    line-height: 150%;
-    color: #1f1f1f;
+  font-family: "NunitoSans-bold", sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1f1f1f;
 }
 
 .solution-forgerock-intro2 {
-    font-family: 'NunitoSans-regular',sans-serif;
-    font-size: 25px !important;
-    line-height: 150%;
-    color: #1f1f1f;
-    margin-bottom: 30px;
+  font-family: "NunitoSans-regular", sans-serif;
+  font-size: 25px !important;
+  line-height: 150%;
+  color: #1f1f1f;
+  margin-bottom: 30px;
 }
 
 .solution-forgerock-logo {
-    /* margin-top: -28px; */
-    float: right;
+  /* margin-top: -28px; */
+  float: right;
 }
 
 .solution-gray-lane {
-    height: 1px;
-    background-color: #d9d9d9;
-    width: 100%;
-    margin-top: 15px;
-    margin-bottom: 20px;
-} 
+  height: 1px;
+  background-color: #d9d9d9;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
 
 .solution-gray-lane2 {
-    height: 1px;
-    background-color: #d9d9d9;
-    width: 455px;
-    margin-top: 15px;
-    margin-bottom: 30px;
-} 
+  height: 1px;
+  background-color: #d9d9d9;
+  width: 455px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
 
 @media (max-width: 400px) {
-    .partner-topics-title {
-        font-size: 20px;
-    }
-    .solution-IAM-bg {
-        padding-left: 20px;
-        padding-right: 10px;
-    }
-    .partner-forgerock-intro1 {
-        font-size: 15px;
-        margin-right: 0px;
-    }
-    .partner-forgerock-intro {
-        font-size: 15px;
-        padding-left: 10px;
-    }
+  .partner-topics-title {
+    font-size: 20px;
+  }
+  .solution-IAM-bg {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .partner-forgerock-intro1 {
+    font-size: 15px;
+    margin-right: 0px;
+  }
+  .partner-forgerock-intro {
+    font-size: 15px;
+    padding-left: 10px;
+  }
+  .solution-gray-lane2 {
+    width: 300px;
+  }
+
 }
