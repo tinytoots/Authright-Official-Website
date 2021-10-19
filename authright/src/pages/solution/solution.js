@@ -14,6 +14,7 @@ import Ping3 from "../../img/ping-cert3.png";
 import Ping4 from "../../img/ping-cert4.png";
 import { Row, Col } from "antd";
 import { DownOutlined, UpOutlined } from "@ant-design/icons";
+import { useMediaQuery } from 'react-responsive';
 
 
 export default function Solution()  {
@@ -26,23 +27,21 @@ export default function Solution()  {
                 s[i] = i === number ? show[i] === "none" ? "block" : "none" : show[i]
             setShow(s)
         }
+        const isMobile = useMediaQuery({ query: `(max-width: 400px)` });
         return (
             <div>
                 <div className='career-bg'>
                         <div className="even-row solution-row" >
                             <div className='inner'>
                                 <div className = "partner-title">
-                                    We are Trusted by the Identity Leaders
+                                    We are Trusted by the <br/> Identity Leaders
                                 </div>
-                                <Row justify="start" gutter={10}>
+                                <Row justify={isMobile? "center": "start"} gutter={0}>
                                     <Col span={13}>
-                                        <img src={ForgerockImg} width={250} alt = 'logo' className='solution-fg-logo'/>
+                                        <img src={ForgerockImg} alt = 'logo' className='solution-fg-logo'/>
                                         <div className="solution-logo-gray-lane"> </div>
                                     </Col>
                                     <Col>
-                                        <div className='solution-iam-title'>
-                                            
-                                        </div>
                                         <div className='solution-row-title'>
                                             ForgeRock
                                         </div>
@@ -52,29 +51,25 @@ export default function Solution()  {
                                     </Col>
                                 </Row>
                                 <div className="fr-cert">
-                                    <Row justify="start">
+                                    <Row justify={isMobile? "center": "start"} gutter={[0,10]}>
                                         
-                                        <Col className=" " span={3}>
+                                        <Col className="crt-img">
                                                 <img src={ForgerockCert4} width={90} alt = 'logo'/>      
                                         </Col>
-                                        <Col className=" " span={3}>
-                                                <img src={ForgerockCert1} width={90} alt = 'logo' className=''/>
+                                        <Col className="crt-img">
+                                                <img src={ForgerockCert1} width={90} alt = 'logo'/>
                                         </Col>
-                                        <Col className=" " span={3}>
-                                                <img src={ForgerockCert3} width={90} alt = 'logo' className=''/>
+                                        <Col className="crt-img">
+                                                <img src={ForgerockCert3} width={90} alt = 'logo'/>
                                         </Col>
-                                        <Col className=" " span={4}>
-                                                <img src={ForgerockCert2} width={90} alt = 'logo' className=''/>
+                                        <Col className="crt-img">
+                                                <img src={ForgerockCert2} width={90} alt = 'logo'/>
                                         </Col>
-                                        <Col span={3}>
-                                            <div style={{width: 400, marginLeft: 17}} className="solution-content-text">
-                                                {/* 需要扩展 */}
-                                                
-                                                <div className="learn-more-extend" onClick = {(number) => _handleRowClick(0)}>
-                                                    Learn more {
-                                                            show[0] === "none"?< DownOutlined style={{width:14}}/>:<UpOutlined style={{width:14}}/>
-                                                        }
-                                                </div>
+                                        <Col >
+                                            <div className="learn-more-extend learn-more-extra-space" onClick = {(number) => _handleRowClick(0)}>
+                                                Learn more {
+                                                        show[0] === "none"?< DownOutlined style={{width:14}}/>:<UpOutlined style={{width:14}}/>
+                                                    }
                                             </div>
                                         </Col>
                                     </Row>
@@ -87,9 +82,9 @@ export default function Solution()  {
                         </div>
                         <div className = "even-row solution-row">
                             <div className='inner'>
-                            <Row justify="start" gutter={10}>
+                            <Row justify={isMobile? "center": "start"} gutter={0}>
                                     <Col span={13}>
-                                        <img src={PingImg} width={120} alt = 'logo' className='solution-ping-logo'/>   
+                                        <img src={PingImg} alt = 'logo' className='parnter-ping-logo'/>   
                                         <div className="solution-ping-logo-gray-lane"> </div> 
                                     </Col>
                                     <Col>
@@ -103,28 +98,25 @@ export default function Solution()  {
                                 </Row>
                                 
                                 <div className="ping-cert-row">
-                                    <Row justify="start">
-                                        <Col className="cert-unit" span={3}>
-                                                <img src={Ping1} width={100} alt = 'logo' style={{marginRight:50}}/>
+                                    <Row justify={isMobile? "center": "start"} gutter={[0,10]}>
+                                        <Col className="crt-img">
+                                                <img src={Ping1} width={100} alt = 'logo'/>
                                         </Col>
-                                        <Col className="cert-unit" span={3}>
+                                        <Col className="crt-img">
                                                 <img src={Ping2} width={100} alt = 'logo' className=''/>    
                                         </Col>
-                                        <Col className="cert-unit" span={3}>
+                                        <Col className="crt-img">
                                                 <img src={Ping3} width={100} alt = 'logo' className=''/>
                                         </Col>
-                                        <Col className="cert-unit " span={4}>
+                                        <Col className="crt-img">
                                                 <img src={Ping4} width={100} alt = 'logo' className=''/>
                                         </Col>
-                                        <Col>
-                                            <div style={{width: 400, marginLeft: 17}} className="solution-content-text">
-                                                
+                                        <Col>      
                                                 <div className="learn-more-extend" onClick = {(number) => _handleRowClick(1)}>
                                                     Learn more {
                                                         show[1] === "none"?< DownOutlined style={{width:14}}/>:<UpOutlined style={{width:14}}/>
                                                         }
                                                 </div>
-                                            </div>
                                         </Col>
                                     </Row>
                                 </div>

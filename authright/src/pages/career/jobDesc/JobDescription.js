@@ -15,40 +15,40 @@ export default function JobDescription(props) {
                     <div className =  "subtitle">
                         {description.subTitle}
                     </div>
-                    <div className =  "content">
+                    <div className =  "job-des-content">
                         Location: {description.Location}
                     </div>
-                    <div className =  "content">
+                    <div className =  "job-des-content">
                         Company: {description.Company}
                     </div>
-                    <div className =  "content">
+                    <div className =  "job-des-content">
                         {/* Posting Title: {description.PostingTitle} */}
                     </div>
-                    <div className =  "content">
+                    <div className =  "job-des-content">
                         Job ID: {description.JobID}
                     </div>
 
-                    <div className =  "content">
+                    <div className =  "job-des-content">
                         Recruiting Team: {description.RecruitingTeam}
                     </div>
                     <div className =  "subtitle">
                         Who we are
                     </div>
                     {description.WhoWeAre.map((item, index) => (
-                        <div className = "content" key = {index}>
+                        <div className = "job-des-content" key = {index}>
                             {item}
                         </div>
                     ))}
                     <div className = "subtitle">
                         Position Summary
                     </div>
-                    <div className = "content">
+                    <div className = "job-des-content">
                         {description.PositionSummary}
                     </div>
                     <div className="subtitle">
                         {job === "intern" ? "Requirements" : "Responsibilities"}
                     </div>
-                    <div className = "content">
+                    <div className = "job-des-content">
                         {description.Responsibilities.map((item, index) => (
                             <div className = "point">
                                 {item}
@@ -58,7 +58,7 @@ export default function JobDescription(props) {
                     <div className="subtitle">
                         {job === "intern" ? "Desired skills" : "Requirements"}
                     </div>
-                    <div className = "content">
+                    <div className = "job-des-content">
                         {description.Requirements.map((item, index) => (
                             <div className = "point">
                                 {item}
@@ -68,13 +68,13 @@ export default function JobDescription(props) {
                     <div className = "subtitle">
                         Benefits
                     </div>
-                    <div className = "content">
+                    <div className = "job-des-content">
                         {description.Benfits}
                     </div>
                     <div className = "subtitle">
                         Apply for this job
                     </div>
-                    <div className = "content">
+                    <div className = "job-des-content">
                         {description.apply}
                     </div>
                 </div>

@@ -57,6 +57,7 @@
 .about-intro-block2 {
   color: black;
   background-color: #ffffff;
+  padding-bottom: 80px;
 }
 
 .about-intro-block3 {
@@ -117,6 +118,7 @@
   padding-right: 5px;
   margin-top: 70px;
   margin-left: 120px;
+  margin-right: 20px;
   border-radius: 5%;
   height: 360px;
   width: 260px;
