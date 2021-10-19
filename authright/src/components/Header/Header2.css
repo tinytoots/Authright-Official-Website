@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
 
 :root {
-  --background: #141414;
+  --background: black;
 }
 
 *, *::before, *::after {
@@ -10,9 +10,9 @@
 
 .header-bg {
 	margin: 0;
-	background: #141414;
+	background: black;
 	font-family: 'NunitoSans-bold',sans-serif;
-  font-size: 17;
+  font-size: 17px;
   height: 80px;
 }
 
@@ -32,23 +32,6 @@ header {
   position: fixed;
   z-index: 999;
   width: 100%;
-}
-
-.nav-toggle {
-  position: absolute !important;
-  top: -9999px !important;
-  left: -9999px !important;
-}
-
-.nav-toggle2 {
-  position: absolute !important;
-  top: -9999px !important;
-  left: -9999px !important;
-}
-
-
-.nav-toggle:focus ~ .nav-toggle-label {
-  outline: 3px solid rgba(lightblue, .75);
 }
 
 /* 控制汉堡icon */
@@ -93,12 +76,8 @@ nav {
   text-align: left;
   top: 70%;
   left: 0px;
-  /* background: var(--background); */
-  background: #141414;
+  background: black;
   width: 100%;
-  transform: scale(1, 0);
-  transform-origin: top;
-  transition: transform 400ms ease-in-out;
  }
 
 nav ul {
@@ -117,23 +96,12 @@ nav a {
   text-decoration: none;
   font-size: 17px;
   font-family:'NunitoSans-bold', sans-serif;
-  /* text-transform: uppercase; */
-  opacity: 0;
-  transition: opacity 150ms ease-in-out;
 }
 
 nav a:hover {
   color: #fff;
 }
 
-.nav-toggle:checked ~ nav {
-  transform: scale(1,1);
-}
-
-.nav-toggle:checked ~ nav a {
-  opacity: 1;
-  transition: opacity 250ms ease-in-out 250ms;
-}
 
 .headerLogo {
   margin-top: 27px;
@@ -199,8 +167,9 @@ nav a:hover {
 
 
 .header-nav {
-  /* margin-left: -100px; */
-  margin-top: 20px;
+  padding-top: 20px;
+  height:auto;
+  background-color:black;
 }
 
 @media screen and (min-width: 1000px) {
@@ -217,21 +186,4 @@ nav a:hover {
 } 
 
 
-/* .headerLogo {
-  margin-top: 29px;
-  margin-left: 90px;
-} */
 
-
-/* .inner1 {
-  background: gray;
-  position: sticky;
-  min-width: 1250px;
-  z-index: 1000;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  text-align: left;
-  top: 0;
-  height: 180px;
-}
- */
