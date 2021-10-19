@@ -34,8 +34,11 @@ export default function Solution()  {
                         <div className="even-row solution-row" >
                             <div className='inner'>
                                 <div className = "partner-title">
-                                    We are Trusted by the <br/> Identity Leaders
+                                    We are Trusted by 
                                 </div>
+                                <div className = "parnter-subTitle">
+                                    the  Identity Leaders
+                                </div> 
                                 <Row justify={isMobile? "center": "start"} gutter={0}>
                                     <Col span={13}>
                                         <img src={ForgerockImg} alt = 'logo' className='solution-fg-logo'/>
@@ -51,19 +54,19 @@ export default function Solution()  {
                                     </Col>
                                 </Row>
                                 <div className="fr-cert">
-                                    <Row justify={isMobile? "center": "start"} gutter={[0,10]}>
+                                    <Row justify={isMobile? "center": "start"} gutter={[0,25]}>
                                         
                                         <Col className="crt-img">
-                                                <img src={ForgerockCert4} width={90} alt = 'logo'/>      
+                                                <img src={ForgerockCert4} width={90} alt = 'logo' className = "fg-cert"/>      
                                         </Col>
                                         <Col className="crt-img">
-                                                <img src={ForgerockCert1} width={90} alt = 'logo'/>
+                                                <img src={ForgerockCert1} width={90} alt = 'logo' className = "fg-cert"/>
                                         </Col>
                                         <Col className="crt-img">
-                                                <img src={ForgerockCert3} width={90} alt = 'logo'/>
+                                                <img src={ForgerockCert3} width={90} alt = 'logo' className = "fg-cert"/>
                                         </Col>
                                         <Col className="crt-img">
-                                                <img src={ForgerockCert2} width={90} alt = 'logo'/>
+                                                <img src={ForgerockCert2} width={90} alt = 'logo' className = "fg-cert"/>
                                         </Col>
                                         <Col >
                                             <div className="learn-more-extend learn-more-extra-space" onClick = {(number) => _handleRowClick(0)}>
@@ -100,16 +103,16 @@ export default function Solution()  {
                                 <div className="ping-cert-row">
                                     <Row justify={isMobile? "center": "start"} gutter={[0,10]}>
                                         <Col className="crt-img">
-                                                <img src={Ping1} width={100} alt = 'logo'/>
+                                                <img src={Ping1} width={100} alt = 'logo' className='ping-cert'/>
+                                        </Col>
+                                        <Col className="crt-img" >
+                                                <img src={Ping2} width={100} alt = 'logo' className='ping-cert'/>    
                                         </Col>
                                         <Col className="crt-img">
-                                                <img src={Ping2} width={100} alt = 'logo' className=''/>    
+                                                <img src={Ping3} width={100} alt = 'logo' className='ping-cert'/>
                                         </Col>
                                         <Col className="crt-img">
-                                                <img src={Ping3} width={100} alt = 'logo' className=''/>
-                                        </Col>
-                                        <Col className="crt-img">
-                                                <img src={Ping4} width={100} alt = 'logo' className=''/>
+                                                <img src={Ping4} width={100} alt = 'logo' className='ping-cert'/>
                                         </Col>
                                         <Col>      
                                                 <div className="learn-more-extend" onClick = {(number) => _handleRowClick(1)}>
