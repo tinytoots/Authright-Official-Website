@@ -83,6 +83,8 @@ export default function Solution()  {
                         <div className  = "inner" style = {{display: show[0]}}>
                                 <Forgerock />
                         </div>
+
+                        {isMobile ? <div className="gap-lane"></div> : ""}
                         <div className = "even-row solution-row">
                             <div className='inner'>
                             <Row justify={isMobile? "center": "start"} gutter={0}>

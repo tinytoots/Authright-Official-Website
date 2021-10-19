@@ -19,17 +19,12 @@
     /* cursor: pointer; */
 }
 
-.solution-gap-lane {
+.gap-lane {
     height: 1px;
-    background-color: #808080;
-    width: 1200px;
-    margin-top: 15px;
-    margin-bottom: 20px;
-
+    background-color: #484747;
+    width: 95%;
+    margin-top: 15px auto 20px auto;
 } 
-
-.solution-row:hover {
-}
 
 .forgerock-cert-logo {
     margin-top: 30px;
@@ -152,8 +147,8 @@
         width: 100%;
     }
     .solution-fg-logo {
-        margin-left: 10%;
-        width: 90%
+        margin-left: auto;
+        width: 100%
     }
     .parnter-ping-logo  {
         margin-left: 15%;

@@ -39,6 +39,9 @@
 }
 
 @media (max-width: 400px) {
+	.servicesCate-authright-logo {
+		display: none;
+	}
 	.service-banner {
 		padding-top: 40px;
 		padding-bottom: 40px;
