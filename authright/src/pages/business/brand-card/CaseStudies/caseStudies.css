@@ -35,6 +35,7 @@
     font-size: 20px;
     font-family: 'NunitoSans-regular',sans-serif;
     color: #434343;
+    padding-bottom: 70px;
 }
 
 .caseStudies-about-title {
@@ -57,7 +58,7 @@
     font-size: 20px;
     font-family: 'SFProDisplay-Regular',sans-serif;
     color: #434343;
-    width: 500px;
+    max-width: 500px;
 }
 
 .gray-lane-case {
@@ -106,4 +107,49 @@
 
 .case-result-bg {
     padding-bottom: 80px;
+}
+.case-solution-tool {
+    margin-right: 130px;
+}
+
+.case-mark-block {
+    text-align: left;
+    font-size: 28px;
+    height: 100%;
+    margin-left: 100px;
+    margin-bottom: 55px;
+    width: 160px
+}
+
+.case-mark-number {
+    color: #cf1322;
+    font-family: 'SFProDisplay-Semibold',sans-serif;
+}
+.case-mark-text {
+    font-family: 'SFProDisplay-Regular',sans-serif;
+}
+
+@media (max-width: 400px) {
+    .caseStudies-title {
+        font-size: 25px;
+    }
+    .caseStudies-title2 {
+        font-size: 25px;
+    }
+    .caseStudies-content {
+        font-size: 15px;
+        width: 80%;
+        margin: auto;
+    }
+    .case-hsbc-img {
+        display: none;
+    }
+    .case-solution-tool {
+        display: none;
+    }
+    .case-mark-block {
+        font-size: 18px;
+        width: 100px;
+        margin-left: 50px
+    }
 }

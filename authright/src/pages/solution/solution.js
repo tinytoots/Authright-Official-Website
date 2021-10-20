@@ -1,143 +1,44 @@
-import React, { useState } from "react";
-import Forgerock from "./ServiceIAM/Forgerock/Forgerock";
-import Ping from "./ServiceIAM/Ping/Ping";
-import "./solution.css";
-import ForgerockImg from "../../img/forgerock.svg";
-import PingImg from "../../img/ping-identity.svg";
-import ForgerockCert1 from "../../img/forgerock-cert1.png";
-import ForgerockCert2 from "../../img/forgerock-cert2.png";
-import ForgerockCert3 from "../../img/forgerock-badge-2020.png";
-import ForgerockCert4 from "../../img/forgerock-cert4.png";
-import Ping1 from "../../img/ping-cert1.png";
-import Ping2 from "../../img/ping-cert2.png";
-import Ping3 from "../../img/ping-cert3.png";
-import Ping4 from "../../img/ping-cert4.png";
-import { Row, Col } from "antd";
-import { DownOutlined, UpOutlined } from "@ant-design/icons";
-import { useMediaQuery } from "react-responsive";
+import React, { Component } from 'react'
+import './solutions.css'
+import { Row, Col } from 'antd';
 
-export default function Solution() {
-  const [show, setShow] = useState(["none", "none"]);
+const style = { background: '#141414', 
+                padding: '28px 0',
+            };
 
-  const _handleRowClick = (number) => {
-    console.log(number);
-    let s = [];
-    for (let i = 0; i < show.length; i++)
-      s[i] = i === number ? (show[i] === "none" ? "block" : "none") : show[i];
-    setShow(s);
-  };
-  const isMobile = useMediaQuery({ query: `(max-width: 400px)` });
-  return (
-    <div>
-      <div className="career-bg">
-        <div className="even-row solution-row">
-          <div className="inner">
-            <div className="partner-title">
-              We are Trusted by the <br /> Identity Leaders
-            </div>
-            <Row justify={isMobile ? "center" : "start"} gutter={0}>
-              <Col span={13}>
-                <img
-                  src={ForgerockImg}
-                  alt="logo"
-                  className="solution-fg-logo"
-                />
-                <div className="solution-logo-gray-lane"> </div>
-              </Col>
-              <Col>
-                <div className="solution-row-title">ForgeRock</div>
-                <div className="solution-content-text">
-                  <i>Make it easy for users to log into apps and services.</i>
+export default class solutions extends Component {
+    render() {
+        return (
+            <div className='solutions-bg'>
+                <div className='grid-posi'>
+                <Row gutter={[16, 24]}>
+                    <Col className="gutter-row" span={8}>
+                        <div className='solution-content2' style={style}>Federation & Single Sign-On</div>
+                    </Col>
+                    <Col className="gutter-row" span={8}>
+                        <div className='solution-content2' style={style}>User Provisioning</div>
+                    </Col>
+                    <Col className="gutter-row" span={8}>
+                        <div className='solution-content2' style={style}>Enterprise Directory</div>
+                    </Col>
+                    <Col className="gutter-row" span={8}>
+                        <div className='solution-content' style={style}>Workshops</div>
+                    </Col>
+                    <Col className="gutter-row" span={8}>
+                        <div className='solution-content' style={style}>Upgrades & Migrations</div>
+                    </Col>
+                    <Col className="gutter-row" span={8}>
+                        <div className='solution-content' style={style}>Cloud Identity</div>
+                    </Col>
+                    <Col className="gutter-row" span={12}>
+                        <div className='solution-content' style={style}>Website Design and Development</div>
+                    </Col>
+                    <Col className="gutter-row" span={12}>
+                        <div className='solution-content' style={style}>App Development and Automation</div>
+                    </Col>
+                </Row>
                 </div>
-              </Col>
-            </Row>
-            <div className="fr-cert">
-              <Row justify={isMobile ? "center" : "start"} gutter={[0, 10]}>
-                <Col className="crt-img">
-                  <img src={ForgerockCert4} width={90} alt="logo" />
-                </Col>
-                <Col className="crt-img">
-                  <img src={ForgerockCert1} width={90} alt="logo" />
-                </Col>
-                <Col className="crt-img">
-                  <img src={ForgerockCert3} width={90} alt="logo" />
-                </Col>
-                <Col className="crt-img">
-                  <img src={ForgerockCert2} width={90} alt="logo" />
-                </Col>
-                <Col>
-                  <div
-                    className="learn-more-extend learn-more-extra-space"
-                    onClick={(number) => _handleRowClick(0)}
-                  >
-                    Learn more{" "}
-                    {show[0] === "none" ? (
-                      <DownOutlined style={{ width: 14 }} />
-                    ) : (
-                      <UpOutlined style={{ width: 14 }} />
-                    )}
-                  </div>
-                </Col>
-              </Row>
             </div>
-          </div>
-        </div>
-        <div className="inner" style={{ display: show[0] }}>
-          <Forgerock />
-        </div>
-        <div className="even-row solution-row">
-          <div className="inner">
-            <Row justify={isMobile ? "center" : "start"} gutter={0}>
-              <Col span={13}>
-                <img src={PingImg} alt="logo" className="parnter-ping-logo" />
-                <div className="solution-ping-logo-gray-lane"> </div>
-              </Col>
-              <Col>
-                <div className="solution-row-title" style={{ paddingTop: 70 }}>
-                  Ping Identity
-                </div>
-                <div className="solution-content-text">
-                  <i>Identity Security for the Global Enterprise.</i>
-                </div>
-              </Col>
-            </Row>
-
-            <div className="ping-cert-row">
-              <Row justify={isMobile ? "center" : "start"} gutter={[0, 10]}>
-                <Col className="crt-img">
-                  <img src={Ping1} width={100} alt="logo" />
-                </Col>
-                <Col className="crt-img">
-                  <img src={Ping2} width={100} alt="logo" className="" />
-                </Col>
-                <Col className="crt-img">
-                  <img src={Ping3} width={100} alt="logo" className="" />
-                </Col>
-                <Col className="crt-img">
-                  <img src={Ping4} width={100} alt="logo" className="" />
-                </Col>
-                <Col>
-                  <div
-                    className="learn-more-extend"
-                    onClick={(number) => _handleRowClick(1)}
-                  >
-                    Learn more{" "}
-                    {show[1] === "none" ? (
-                      <DownOutlined style={{ width: 14 }} />
-                    ) : (
-                      <UpOutlined style={{ width: 14 }} />
-                    )}
-                  </div>
-                </Col>
-              </Row>
-            </div>
-            {/* <div className='solution-gray-lane' /> */}
-          </div>
-        </div>
-        <div className="inner" style={{ display: show[1] }}>
-          <Ping />
-        </div>
-      </div>
-    </div>
-  );
+        )
+    }
 }
