@@ -29,8 +29,13 @@
 @media screen and (max-width: 400px) {
   .advisor-bg {
     height: auto;
+    width: 100%;
   }
   .advisor-title {
     padding: 20px 0px 10px 0px;
+  }
+  .advisor-container{
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }
