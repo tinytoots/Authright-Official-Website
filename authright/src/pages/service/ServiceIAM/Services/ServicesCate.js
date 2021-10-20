@@ -103,10 +103,10 @@ export default class Forgerock extends Component {
                   />
                   <div className="service-card-title">Education Services</div>
                   <div className="servicesCate-content4">
-                    Our instructors have hands-on experience in architecting and
-                    implementing identity management products of different
-                    vendors. We can effectively level up your team’s IAM
-                    knowledge and skills.
+                      Our instructors have hands-on experience in architecting and
+                      implementing identity management products of different
+                      vendors. We can effectively level up your team’s IAM
+                      knowledge and skills.
                   </div>
                   {/* <NavLink to="/services/iam/strategic-talent-services">
                                         <div>
