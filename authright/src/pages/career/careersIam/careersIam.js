@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Row, Col } from "antd";
 // import IAMImg from '../../../img/careers-img2.jpg'
-import IAMImg from "../../../img/hiring.jpg";
+// import IAMImg from "../../../img/hiring.jpg";
 import "./careersIam.css";
 
 export default class careersIam extends Component {
@@ -9,17 +9,17 @@ export default class careersIam extends Component {
     return (
       <div className="solution-IAM-bg">
         <div className="solution-IAM-Intro-bg">
-          <div className="careers-title">Security Engineer</div>
+          <div className="careers-title">Work With Us</div>
           <div className="solution-gray-lane2" />
           <div className="forgerock-conent-bg">
             <Row gutter={16}>
               <Col className="gutter-row" span={16}>
                 <div className="careers-position-title">Position</div>
               </Col>
-              <Col className="gutter-row" span={8}>
+              {/* <Col className="gutter-row" span={8}>
                 <div className="careers-position-title">Team</div>
-              </Col>
-              <div className="solution-gray-lane" />
+              </Col> */}
+              <div className="careers-gray-lane" />
               <Col className="gutter-row" span={16}>
                 <a
                   className="unifiedcontrol-card-default"
@@ -33,10 +33,10 @@ export default class careersIam extends Component {
                   </div>
                 </a>
               </Col>
-              <Col className="gutter-row" span={8}>
+              {/* <Col className="gutter-row" span={8}>
                 <div className="solution-forgerock-intro">IAM</div>
-              </Col>
-              <div className="solution-gray-lane" />
+              </Col> */}
+              <div className="careers-gray-lane" />
               <Col className="gutter-row" span={16}>
                 <a
                   className="unifiedcontrol-card-default"
@@ -50,10 +50,10 @@ export default class careersIam extends Component {
                   </div>
                 </a>
               </Col>
-              <Col className="gutter-row" span={8}>
+              {/* <Col className="gutter-row" span={8}>
                 <div className="solution-forgerock-intro">IAM</div>
-              </Col>
-              <div className="solution-gray-lane" />
+              </Col> */}
+              <div className="careers-gray-lane" />
               <Col className="gutter-row" span={16}>
                 <a
                   className="unifiedcontrol-card-default"
@@ -67,10 +67,10 @@ export default class careersIam extends Component {
                   </div>
                 </a>
               </Col>
-              <Col className="gutter-row" span={8}>
+              {/* <Col className="gutter-row" span={8}>
                 <div className="solution-forgerock-intro">IAM</div>
-              </Col>
-              <div className="solution-gray-lane" />
+              </Col> */}
+              <div className="careers-gray-lane" />
               <Col className="gutter-row" span={16}>
                 <a
                   className="unifiedcontrol-card-default"
@@ -79,15 +79,15 @@ export default class careersIam extends Component {
                   rel="noopener noreferrer"
                 >
                   <div className="unifiedcontrol-card-title2">
-                    Cyber Security / Information Security Intern (non-paid)
+                    Cyber Security / Information Security Intern
                     <i className="approw-arrow-down-line arrow"></i>
                   </div>
                 </a>
               </Col>
-              <Col className="gutter-row" span={8}>
+              {/* <Col className="gutter-row" span={8}>
                 <div className="solution-forgerock-intro">IAM</div>
-              </Col>
-              <div className="solution-gray-lane" />
+              </Col> */}
+              <div className="careers-gray-lane" />
             </Row>
           </div>
         </div>

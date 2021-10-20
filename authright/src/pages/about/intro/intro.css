@@ -276,7 +276,7 @@
 
   .about-values {
     font-size: 16px;
-    width: 380px;
+    width: 100%;
   }
   .value-img {
     width: 50px;
@@ -289,7 +289,7 @@
     margin: auto;
   }
   .value-description {
-    width: 320px;
+    width: 75%;
     margin-top: 0px;
   }
   .about-intro-block3{
