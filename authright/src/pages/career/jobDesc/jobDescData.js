@@ -149,7 +149,7 @@ const jobDescription = {
     },
     intern: {
         title: "Cyber Security / Information Security Intern",
-        // subTitle: "Cyber Security / Information Security Intern  (non-paid)",
+        // subTitle: "Cyber Security / Information Security Intern",
         Location: "Dedham, MA **20-40% Travel Required**",
         Company: "Authright Inc.",
         PostingTitle: "Cyber Security / Information Security Intern",

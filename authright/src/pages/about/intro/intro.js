@@ -45,7 +45,7 @@ export default class intro extends Component {
         <div className="about-intro-block3">
           <div className="about-values-title">Our Values</div>
           <div className="about-values">
-            <Row gutter={16} justify="center">
+            <Row gutter={16} justify="center" style={{marginLeft:0,marginRight:0}}>
               {values.map((item, index) => {
                 let select_style =
                   this.state.valueNum === index ? "value-halo" : "";

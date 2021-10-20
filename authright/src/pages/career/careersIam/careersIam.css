@@ -1,25 +1,39 @@
 .careers-iam-logo {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 .careers-title {
-    font-family: 'NunitoSans-bold',sans-serif;
-    font-size:38px;
-    line-height: 150%;
-    color: black;
-    margin-bottom: 25px;
-    margin-top: 60px;
+  font-family: "NunitoSans-bold", sans-serif;
+  font-size: 38px;
+  line-height: 150%;
+  color: black;
+  margin-bottom: 25px;
+  margin-top: 60px;
 }
 
 .careers-position-title {
-    font-family: 'NunitoSans-regular',sans-serif;
-    font-size: 18px;
-    line-height: 150%;
-    color: #595959;
+  font-family: "NunitoSans-regular", sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #595959;
 }
 
 .unifiedcontrol-card-title2 {
-    font-family: 'NunitoSans-bold',sans-serif;
-    font-size: 18px;
-    line-height: 150%;
+  font-family: "NunitoSans-bold", sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.careers-gray-lane {
+  height: 1px;
+  background-color: #d9d9d9;
+  width: 45%;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 400px) {
+  .careers-gray-lane {
+    width: 65%;
+  }
 }
