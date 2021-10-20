@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./costomerComments.css";
+import 'antd/dist/antd.css';
+import { Row, Col } from 'antd';
 import Equifax from "../../../img/company/equifax.svg";
 import ForgeRock from "../../../img/forgerock.svg";
 import HomeDepot from "../../../img/the-home-depot.svg";
@@ -24,80 +26,90 @@ export default class customerComments extends Component {
 
         <div
           className="container-customersComments"
-          style={{ height: 300, color: "white", minWidth: 1200 }}
+          style={{ height: 300, color: "white" }}
         >
-          <div className="card-customersComments">
-            <div className="content-customersComments">
-              <img
-                className="comments-logo"
-                src={ForgeRock}
-                height={110}
-                alt="logo"
-              />
-              <br />
-              <h3>Jay Butler</h3>
-              <h4>Major Account Manager</h4>
-              <h4> @ ForgeRock</h4>
-              <div className="comment-paragraph">
-                <p>
-                  "I would bring the Authright team to any ForgeRock customers
-                  for their exceptional ForgeRock services."
-                </p>
+          <Row>
+            <Col xs={12} sm={12} md={6} lg={6} xl={6}>
+                <div className="card-customersComments">
+                  <div className="content-customersComments">
+                    <img
+                      className="comments-logo"
+                      src={ForgeRock}
+                      height={110}
+                      alt="logo"
+                    />
+                    <br />
+                    <h3>Jay Butler</h3>
+                    <h4>Major Account Manager</h4>
+                    <h4> @ ForgeRock</h4>
+                    <div className="comment-paragraph">
+                      <p>
+                        "I would bring the Authright team to any ForgeRock customers
+                        for their exceptional ForgeRock services."
+                      </p>
+                    </div>
+                    {/* <a href="https://www.forgerock.com/partner/authright">Read More</a> */}
+                  </div>
+                </div>
+            </Col>
+            <Col xs={12} sm={12} md={6} lg={6} xl={6}>
+                <div className="card-customersComments">
+                  <div className="content-customersComments">
+                    <img
+                      className="comments-logo-homedepot"
+                      src={HomeDepot}
+                      alt="logo"
+                    />
+                    <br />
+                    <h3>Linda Sroufe</h3>
+                    <h4>Senior Manager of CIAM</h4>
+                    <h4>@ The Home Depot</h4>
+                    <div className="comment-paragraph">
+                      <p>"Top notch, we can count on the authright team."</p>
+                    </div>
+                    {/* <br height="30" /> */}
+                    {/* <a href="/home-depot">Read More</a> */}
+                  </div>
+                </div>
+            </Col>
+            <Col xs={12} sm={12} md={6} lg={6} xl={6}>
+              <div className="card-customersComments">
+                <div className="content-customersComments">
+                  <img className="comments-logo-equifax" src={Equifax} alt="logo" />
+                  <br />
+                  <h3>Todd Oxford</h3>
+                  <h4>Senior Director of IAM</h4>
+                  <h4>@ Equifax</h4>
+                  <div className="comment-paragraph">
+                    <p>
+                      “Great team! Authright is helping us build a more trustable
+                      and stable IAM platform.”
+                    </p>
+                  </div>
+                  {/* <a href="/equifax">Read More</a> */}
+                  </div>
+                </div>
+            </Col>
+            <Col xs={12} sm={12} md={6} lg={6} xl={6}>
+              <div className="card-customersComments">
+              <div className="content-customersComments">
+                <img className="comments-logo-mohawk" src={Mohawk} alt="logo" />
+                <br />
+                <h3>Sathish</h3>
+                <h4>Lead - Architecture & Development </h4>
+                <h4>@ Mohawk Industries</h4>
+                <div className="comment-paragraph">
+                  <p>
+                    “Working with authright team has been an outstanding
+                    experience, they provided us excellent support.”
+                  </p>
+                </div>
+                {/* <a href="/mohawk-industries">Read More</a> */}
               </div>
-              {/* <a href="https://www.forgerock.com/partner/authright">Read More</a> */}
             </div>
-          </div>
-          <div className="card-customersComments">
-            <div className="content-customersComments">
-              <img
-                className="comments-logo-homedepot"
-                src={HomeDepot}
-                alt="logo"
-              />
-              <br />
-              <h3>Linda Sroufe</h3>
-              <h4>Senior Manager of CIAM</h4>
-              <h4>@ The Home Depot</h4>
-              <div className="comment-paragraph">
-                <p>"Top notch, we can count on the authright team."</p>
-              </div>
-              {/* <br height="30" /> */}
-              {/* <a href="/home-depot">Read More</a> */}
-            </div>
-          </div>
-          <div className="card-customersComments">
-            <div className="content-customersComments">
-              <img className="comments-logo-equifax" src={Equifax} alt="logo" />
-              <br />
-              <h3>Todd Oxford</h3>
-              <h4>Senior Director of IAM</h4>
-              <h4>@ Equifax</h4>
-              <div className="comment-paragraph">
-                <p>
-                  “Great team! Authright is helping us build a more trustable
-                  and stable IAM platform.”
-                </p>
-              </div>
-              {/* <a href="/equifax">Read More</a> */}
-            </div>
-          </div>
-          <div className="card-customersComments">
-            <div className="content-customersComments">
-              <img className="comments-logo-mohawk" src={Mohawk} alt="logo" />
-
-              <h3>Sathish</h3>
-              <h4>Lead - Architecture & Development </h4>
-              <h4>@ Mohawk Industries</h4>
-              <div className="comment-paragraph">
-                <p>
-                  “Working with authright team has been an outstanding
-                  experience, they provided us excellent support.”
-                </p>
-              </div>
-
-              {/* <a href="/mohawk-industries">Read More</a> */}
-            </div>
-          </div>
+            </Col>
+          </Row>
+          
         </div>
       </div>
     );

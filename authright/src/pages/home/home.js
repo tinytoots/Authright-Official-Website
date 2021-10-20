@@ -13,7 +13,6 @@ export default class home extends Component {
                 <Intro />
                 <Client />
                 <Advantage />
-                {/* <Services /> */}
                 <CustomerComments />
                 <BrandTrust />
             </div>
