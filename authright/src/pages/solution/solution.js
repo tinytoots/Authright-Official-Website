@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './solutions.css'
+import './solution.css'
 import { Row, Col } from 'antd';
 
 const style = { background: '#141414', 
