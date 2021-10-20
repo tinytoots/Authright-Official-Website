@@ -10,14 +10,10 @@ export default class customerComments extends Component {
     return (
       <div className="customerComments-bg">
         <div className="customerComments-section">
-          <div
-            className="customerComments-title"
-          >
-            What our Customers said
-          </div>
+          <div className="customerComments-title">What our Customers said</div>
           <div className="customerComments-content">
-            Since Authright was founded in 2017, we have provided customized
-            IAM services to dozens of medium and large enterprises, and our IAM
+            Since Authright was founded in 2017, we have provided customized IAM
+            services to dozens of medium and large enterprises, and our IAM
             experts have been recognized and supported by our customers
           </div>
         </div>
@@ -44,7 +40,6 @@ export default class customerComments extends Component {
                   for their exceptional ForgeRock services."
                 </p>
               </div>
-              {/* <a href="https://www.forgerock.com/partner/authright">Read More</a> */}
             </div>
           </div>
           <div className="card-customersComments">
@@ -61,8 +56,6 @@ export default class customerComments extends Component {
               <div className="comment-paragraph">
                 <p>"Top notch, we can count on the authright team."</p>
               </div>
-              {/* <br height="30" /> */}
-              {/* <a href="/home-depot">Read More</a> */}
             </div>
           </div>
           <div className="card-customersComments">
@@ -78,13 +71,11 @@ export default class customerComments extends Component {
                   and stable IAM platform.”
                 </p>
               </div>
-              {/* <a href="/equifax">Read More</a> */}
             </div>
           </div>
           <div className="card-customersComments">
             <div className="content-customersComments">
               <img className="comments-logo-mohawk" src={Mohawk} alt="logo" />
-
               <h3>Sathish</h3>
               <h4>Lead - Architecture & Development </h4>
               <h4>@ Mohawk Industries</h4>
@@ -94,8 +85,6 @@ export default class customerComments extends Component {
                   experience, they provided us excellent support.”
                 </p>
               </div>
-
-              {/* <a href="/mohawk-industries">Read More</a> */}
             </div>
           </div>
         </div>

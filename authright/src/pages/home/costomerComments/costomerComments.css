@@ -62,7 +62,6 @@
   text-align: left;
   margin-left: 250px;
   font-size: 20px;
-  /* font-family: 'NunitoSans-regular'; */
   font-family: "SFProDisplay-Semibold", sans-serif;
   color: #262626;
 }
@@ -71,7 +70,6 @@
   text-align: left;
   margin-left: 250px;
   font-size: 16px;
-  /* font-family: 'NunitoSans-regular'; */
   font-family: "SFProDisplay-regular", sans-serif;
   color: #595959;
 }
@@ -81,7 +79,6 @@
   padding-top: 20px;
   text-align: left;
   font-size: 25px;
-  /* font-family: 'NunitoSans-regular'; */
   font-family: "SFProDisplay-MediumItalic", sans-serif;
   color: black;
 }
