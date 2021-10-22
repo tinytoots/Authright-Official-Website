@@ -8,15 +8,15 @@ export const advisorsInfo = [
     linkRef: "https://www.linkedin.com/in/theauthguy/",
     pic:"https://tva1.sinaimg.cn/large/008i3skNgy1gur02js3qvj605k05kdfq02.jpg"
   },
-  {
-    name: "Jay Butler",
-    title: "Major Account Manager",
-    company: "ForgeRock",
-    description:
-      "Jay is a results-oriented sales executive with 16 years of experience generating record-setting sales of new and existing products and solutions. He is skilled in identifying new strategic partnerships, building long-term client relationships and creating bridges to assure mutually beneficial outcomes. He specializes in enhancing a product’s/company’s market position and establishing new markets/customers for those solutions. He is a dedicated sales executive and mentor to diverse organizations of experienced and novice sales professionals, who leads by example and places a premium on building a cohesive team.",
-    linkRef: "https://www.linkedin.com/in/jay-butler-0454235/",
-    pic:"https://tva1.sinaimg.cn/large/008i3skNgy1gur02k8gdbj605k05kmx802.jpg"
-  },
+  // {
+  //   name: "Jay Butler",
+  //   title: "Major Account Manager",
+  //   company: "ForgeRock",
+  //   description:
+  //     "Jay is a results-oriented sales executive with 16 years of experience generating record-setting sales of new and existing products and solutions. He is skilled in identifying new strategic partnerships, building long-term client relationships and creating bridges to assure mutually beneficial outcomes. He specializes in enhancing a product’s/company’s market position and establishing new markets/customers for those solutions. He is a dedicated sales executive and mentor to diverse organizations of experienced and novice sales professionals, who leads by example and places a premium on building a cohesive team.",
+  //   linkRef: "https://www.linkedin.com/in/jay-butler-0454235/",
+  //   pic:"https://tva1.sinaimg.cn/large/008i3skNgy1gur02k8gdbj605k05kmx802.jpg"
+  // },
   {
     name: "Shaun Walsh",
     title: "VP, Global Marketing",
