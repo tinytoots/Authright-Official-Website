@@ -5,6 +5,9 @@
   color: black;
   text-align: left;
 }
+.resumeEmail {
+  color: #1890ff;
+}
 .jb-inner {
   width: 1200px;
   margin: auto auto auto auto;
