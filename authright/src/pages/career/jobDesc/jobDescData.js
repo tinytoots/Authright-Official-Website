@@ -5,7 +5,7 @@ const jobDescription = {
     iam: {
         title: "Identity & Access Management Software Engineer (All Levels)",
         // subTitle: "Identity & Access Management Software Engineer (All Levels)",
-        Location: "Dedham, MA **20-40% Travel Required**",
+        Location: "Dedham, MA",
         Company: "Authright Inc.",
         PostingTitle: "Identity & Access Management Software Engineer (All Levels)",
         JobID: "ITSS2021001",
@@ -38,13 +38,13 @@ const jobDescription = {
             "Paid Time Off. ",
             "Professional development allowance for conferences, classes, and special events"
         ],
-        apply: "If you are interested in this position, please send your latest resume and cover letter to",
+        apply: "If you are interested in this position, please send your latest resume to",
         mailto: "Apply for IAM Software Engineer"
     },
     forgerock: {
         title: "ForgeRock (IAM) Identity Technical Architect",
         // subTitle: "ForgeRock (IAM) Identity Technical Architect",
-        Location: "Dedham, MA **20-40% Travel Required**",
+        Location: "Dedham, MA",
         Company: "Authright Inc.",
         PostingTitle: "ForgeRock (IAM) Identity Technical Architect",
         JobID: "ITSS2021002",
@@ -94,13 +94,13 @@ const jobDescription = {
             "Paid Time Off. ",
             "Professional development allowance for conferences, classes, and special events"
         ],
-        apply: "If you are interested in this position, please send your latest resume and cover letter to",
+        apply: "If you are interested in this position, please send your latest resume to",
         mailto: "Apply for ForgeRock(IAM) Identity Technical Architect"
     },
     ping: {
         title: "Ping Identity (IAM) Identity Technical Architect",
         // subTitle: "Ping Identity (IAM) Identity Technical Architect ",
-        Location: "Dedham, MA **20-40% Travel Required**",
+        Location: "Dedham, MA",
         Company: "Authright Inc.",
         PostingTitle: "Ping Identity (IAM) Identity Technical Architect",
         JobID: "ITSS2021003",
@@ -150,13 +150,13 @@ const jobDescription = {
             "Paid Time Off. ",
             "Professional development allowance for conferences, classes, and special events"
         ],
-        apply: "If you are interested in this position, please send your latest resume and cover letter to",
+        apply: "If you are interested in this position, please send your latest resume to",
         mailto: "Apply for Ping Identity(IAM) Identity Technical Architect"
     },
     intern: {
         title: "Cyber Security / Information Security Intern",
         // subTitle: "Cyber Security / Information Security Intern",
-        Location: "Dedham, MA **20-40% Travel Required**",
+        Location: "Dedham, MA",
         Company: "Authright Inc.",
         PostingTitle: "Cyber Security / Information Security Intern",
         JobID: "ITSS2021004",
@@ -194,7 +194,7 @@ const jobDescription = {
             "Visa sponsorship available for competitive candidates. ",
             "Career path consulting"
         ],
-        apply: "If you are interested in this position, please send your latest resume and cover letter to",
+        apply: "If you are interested in this position, please send your latest resume to",
         mailto: "Apply for Cyber Security / Information Security Intern"
     }
 }
