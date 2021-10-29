@@ -19,7 +19,7 @@ export default class Footer extends Component {
                   <a href="/services/iam">Services</a>
                 </div>
                 <div className="footer-link">
-                  <a href="/customer">Customers</a>
+                  <a href="/customer">Customers</a> 
                 </div>
                 <div className="footer-link">
                   <a href="/partners">Partners</a>

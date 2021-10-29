@@ -1,3 +1,6 @@
+var careeremail = "info@authright.com";
+const jobuploademail = <a className="footer-content2" href={`mailto:${careeremail}?subject=Apply for IAM Software Engineer`} rel="noreferrer" target="_blank">info@authright.com</a>
+
 const jobDescription = {
     iam: {
         title: "Identity & Access Management Software Engineer (All Levels)",
@@ -35,7 +38,8 @@ const jobDescription = {
             "Paid Time Off. ",
             "Professional development allowance for conferences, classes, and special events"
         ],
-        apply: "If you are interested in this position, please send your latest resume and cover letter to hr@authright.com"
+        apply: "If you are interested in this position, please send your latest resume and cover letter to",
+        mailto: "Apply for IAM Software Engineer"
     },
     forgerock: {
         title: "ForgeRock (IAM) Identity Technical Architect",
@@ -90,7 +94,8 @@ const jobDescription = {
             "Paid Time Off. ",
             "Professional development allowance for conferences, classes, and special events"
         ],
-        apply: "If you are interested in this position, please send your latest resume and cover letter to hr@authright.com"
+        apply: "If you are interested in this position, please send your latest resume and cover letter to",
+        mailto: "Apply for ForgeRock(IAM) Identity Technical Architect"
     },
     ping: {
         title: "Ping Identity (IAM) Identity Technical Architect",
@@ -145,7 +150,8 @@ const jobDescription = {
             "Paid Time Off. ",
             "Professional development allowance for conferences, classes, and special events"
         ],
-        apply: "If you are interested in this position, please send your latest resume and cover letter to hr@authright.com"
+        apply: "If you are interested in this position, please send your latest resume and cover letter to",
+        mailto: "Apply for Ping Identity(IAM) Identity Technical Architect"
     },
     intern: {
         title: "Cyber Security / Information Security Intern",
@@ -188,7 +194,8 @@ const jobDescription = {
             "Visa sponsorship available for competitive candidates. ",
             "Career path consulting"
         ],
-        apply: "If you are interested in this position, please send your latest resume and cover letter to hr@authright.com"
+        apply: "If you are interested in this position, please send your latest resume and cover letter to",
+        mailto: "Apply for Cyber Security / Information Security Intern"
     }
 }
 
