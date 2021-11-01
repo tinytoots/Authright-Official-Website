@@ -1,6 +1,3 @@
-var careeremail = "info@authright.com";
-const jobuploademail = <a className="footer-content2" href={`mailto:${careeremail}?subject=Apply for IAM Software Engineer`} rel="noreferrer" target="_blank">info@authright.com</a>
-
 const jobDescription = {
     iam: {
         title: "Identity & Access Management Software Engineer (All Levels)",

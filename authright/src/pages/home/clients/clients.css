@@ -111,7 +111,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
   .clients-bg2 {
     display: none;
   }

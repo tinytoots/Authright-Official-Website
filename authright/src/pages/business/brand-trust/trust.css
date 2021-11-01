@@ -177,13 +177,13 @@
     padding-top: 50px;
     color: #fff;
     text-align: center;
-    font-size: 40px;
+    font-size: 28px;
     font-family: "SFProDisplay-Bold", sans-serif;
   }
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
   .trust-color-block {
     margin-left: 9px;
     margin-right: 10px;
