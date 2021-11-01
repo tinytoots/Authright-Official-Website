@@ -28,7 +28,7 @@ export default class customerComments extends Component {
           className="container-customersComments"
           style={{ height: 300, color: "white" }}
         >
-          <Row>
+          <Row gutter="10">
             <Col xs={12} sm={12} md={6} lg={6} xl={6}>
                 <div className="card-customersComments">
                   <div className="content-customersComments">
