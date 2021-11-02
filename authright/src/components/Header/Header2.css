@@ -112,9 +112,15 @@ nav a:hover {
   margin-top: 27px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .nav-toggle-label {
     display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .nav-toggle-label {
+    display: show;
+    margin-right: 20px;
   }
 
   header {
