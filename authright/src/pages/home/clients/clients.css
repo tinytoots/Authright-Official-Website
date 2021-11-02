@@ -111,7 +111,24 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1024px) {
+  .clients-bg2 {
+    min-width: 1024px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: clip;
+    /* position: relative; */
+    height: 140px;
+    background-color: black;
+    margin-top: 45px;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
   .clients-bg2 {
     display: none;
   }

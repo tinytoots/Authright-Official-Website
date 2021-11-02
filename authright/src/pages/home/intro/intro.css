@@ -65,6 +65,85 @@
   /* margin: auto auto auto 20%;s */
 }
 
+@media screen and (max-width: 1024px) {
+  .intro-bg {
+    background-image: none;
+    background-color:#f0f0f0;
+    height: 360px;
+    min-width: 200px;
+    width: 100%;
+    overflow: auto;
+  }
+
+  .intro-content {
+    width: 360px;
+    margin: auto;
+  }
+
+  .intro-text {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .company-name-title {
+    padding-top: 50px;
+    margin-bottom: 20px;
+    font-size: 56px;
+  }
+  .company-name-content1 {
+    line-height: 150%;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  .company-name-content2 {
+    font-size: 25px;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .intro-bg {
+    background-image: none;
+    background-color:#f0f0f0;
+    height: 320px;
+    min-width: 200px;
+    width: 100%;
+    overflow: auto;
+  }
+
+  .intro-content {
+    width: 360px;
+    margin: auto;
+  }
+
+  .intro-text {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .company-name-title {
+    padding-top: 50px;
+    margin-bottom: 20px;
+    font-size: 35px;
+  }
+  .company-name-content1 {
+    line-height: 150%;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .company-name-content2 {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+}
+
+
 @media screen and (max-width: 400px) {
   .intro-bg {
     background-image: none;
