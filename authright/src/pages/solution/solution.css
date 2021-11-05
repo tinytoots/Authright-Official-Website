@@ -124,6 +124,53 @@
     padding-right: 50px
 }
 
+@media (max-width: 930px) {
+    .partner-title {
+        font-size: 60px;
+    }
+    .parnter-subTitle {
+        font-size: 50px;
+    }
+    .solution-fg-logo {
+        margin-left: 60px;
+        width: 45%
+    }
+    .solution-logo-gray-lane {
+        width: 70%;
+        margin-left: 3%;
+    }
+    .solution-row-title {
+        font-size: 35px;
+        width: 70%;
+    }
+    .solution-content-text {
+        font-size: 17px;
+        width: 320px;
+    }
+    .crt-img {
+        padding-left: 0px;
+        padding-right: 5px;
+    }
+    .fg-cert {
+        width: 70px;
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+    .parnter-ping-logo  {
+        margin-left: 15%;
+        width: 160px
+    }
+    .solution-ping-logo-gray-lane {
+        width: 80%;
+        margin-left: 15px;
+    }
+    .ping-cert {
+        width: 80px;
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+}
+
 @media (max-width: 400px) {
     .partner-title {
         font-size: 40px;
