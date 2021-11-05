@@ -81,14 +81,13 @@ export default class customerComments extends Component {
                   <h4>Senior Director of IAM</h4>
                   <h4>@ Equifax</h4>
                   <div className="comment-paragraph">
-                    <p>
+                    <p className="equifax-comments-scope">
                       “Great team! Authright is helping us build a more trustable
                       and stable IAM platform.”
                     </p>
                   </div>
-                  {/* <a href="/equifax">Read More</a> */}
-                  </div>
                 </div>
+              </div>
             </Col>
             <Col xs={12} sm={12} md={6} lg={6} xl={6}>
               <div className="card-customersComments">
