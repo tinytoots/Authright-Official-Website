@@ -92,7 +92,7 @@ svg,
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 400px) and (max-width: 800px) {
   .customer-logo-list {
     grid-template-columns: repeat(auto-fill, 150px);
     grid-gap: 10px;
@@ -119,7 +119,7 @@ svg,
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 800px) and (max-width: 1200px) {
   .customer-logo-list {
     grid-template-columns: repeat(auto-fill, 150px);
     grid-gap: 10px;
