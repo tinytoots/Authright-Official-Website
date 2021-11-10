@@ -24,7 +24,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width:400px)  {
+@media screen and (max-width:420px)  {
   .subCertCard-number{
     font-size: 40px;
   }
