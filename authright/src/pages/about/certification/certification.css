@@ -26,7 +26,7 @@
 }
 
 
-@media screen and (max-width:768px) and (min-width:401px) {
+@media screen and (max-width:768px) and (min-width:421px) {
   .certification-bg {
     background-color: black;
   }
@@ -38,7 +38,7 @@
   }
 }
 
-@media screen and (max-width:400px)  {
+@media screen and (max-width:420px)  {
   .certification-bg {
     background-color: black;
   }
@@ -49,6 +49,18 @@
     padding: 50px 0px 50px 0px;
     font-size: 40px;
     font-family: "NunitoSans-bold", sans-serif;
+    color: white;
+  }
+}
+
+@media screen and (max-width:1024px) and (min-width:769px) {
+  .certification-bg {
+    background-color: black;
+  }
+  .certification-cards{
+    width: 100%;
+  }
+  .certification-title {
     color: white;
   }
 }
