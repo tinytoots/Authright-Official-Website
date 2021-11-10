@@ -148,7 +148,7 @@ p{
     margin-bottom: 0px !important;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
     .card-bg {
         margin-top:0px
     }
