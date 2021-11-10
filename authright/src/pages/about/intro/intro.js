@@ -80,7 +80,7 @@ export default class intro extends Component {
               <div className="value-description">
                 {this.state.valueNum === -1
                   ? ""
-                  : values[this.state.valueNum].content}
+                  : <div className = "vale-description-text">{values[this.state.valueNum].content}</div>}
               </div>
             </Row>
           </div>
