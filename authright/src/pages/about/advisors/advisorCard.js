@@ -5,7 +5,7 @@ import Linkedin from "../../../img/bluelinkedin.png";
 
 export default function AdvisorCard(props) {
   const { name, title, company, description, linkRef, pic } = props.advisor;
-  const isMobile = useMediaQuery({ query: "(max-width: 400px)" });
+  const isIpadorMobile = useMediaQuery({ query: "(max-width: 768px)" });
 
   return (
     <div className="advisorCard-container">
@@ -24,10 +24,10 @@ export default function AdvisorCard(props) {
           />
         </div>
         <div className="advisorCard-title">
-          {isMobile ? `${title}` : `${title} - ${company}`}
+          {isIpadorMobile ? `${title}` : `${title} - ${company}`}
         </div>
         <div className="advisorCard-title">
-          {isMobile ? `${company}`:``}
+          {isIpadorMobile ? `${company}`:``}
         </div>
         
         <div className="advisorCard-description">{description}</div>

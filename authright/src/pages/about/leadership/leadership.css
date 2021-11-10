@@ -47,7 +47,8 @@
   }
 }
 
-@media screen and (max-width: 768px) and (min-width:420px) {
+
+@media screen and (max-width: 768px) and (min-width:421px) {
   .leadership-bg {
     width: 700px;
   }

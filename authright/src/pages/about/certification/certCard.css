@@ -42,7 +42,7 @@
 }
 
 
-@media screen and (max-width:400px)  {
+@media screen and (max-width:420px)  {
   .certCard-container{
     width: 320px;
     height: 280px;
@@ -55,3 +55,19 @@
     margin: 5px 0 0 0;
   }
 }
+
+@media screen and (min-width: 769px) and (max-width:1024px)  {
+  .certCard-container{
+    width: 480px;
+    height: 360px;
+    margin-bottom: 30px;
+  }
+  .certCard-title {
+    font-size: 24px;
+    font-family: "NunitoSans-bold", sans-serif;
+    padding-bottom: 4px;
+    margin: 5px 0 0 0;
+  }
+}
+
+

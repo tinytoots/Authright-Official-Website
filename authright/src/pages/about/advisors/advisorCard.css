@@ -47,7 +47,7 @@
   font-family: "NunitoSans-regular", sans-serif;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   .advisorCard-container {
     width: 164px;
     height: auto;
@@ -84,3 +84,72 @@
     display: none;
   }
 }
+
+@media screen and (min-width: 421px) and (max-width: 768px) {
+  .advisorCard-container {
+    width: 260px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 8px;
+  }
+
+  .advisorCard-img {
+    width: 240px;
+    height: 240px;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .advisorCard-name {
+    font-size: 20px;
+  }
+
+  .advisorCard-title {
+    font-size: 16px;
+  }
+
+  .advisor-linkedin {
+    height: 28px;
+    margin-top: 0px;
+  }
+  .advisorCard-description {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .advisorCard-container {
+    width: 80%;
+    height: auto;
+    margin: 10px auto;
+    padding: 8px;
+  }
+
+  .advisorCard-img {
+    width: 240px;
+    height: 240px;
+    margin: auto;
+    margin-right:10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .advisorCard-name {
+    font-size: 20px;
+  }
+
+  .advisorCard-title {
+    font-size: 16px;
+  }
+
+  .advisor-linkedin {
+    height: 28px;
+    margin-top: 0px;
+  }
+  .advisorCard-description {
+    font-size: 12px;
+  }
+}
+
