@@ -27,7 +27,7 @@ export default function Solution()  {
                 s[i] = i === number ? show[i] === "none" ? "block" : "none" : show[i]
             setShow(s)
         }
-        const isMobile = useMediaQuery({ query: `(max-width: 400px)` });
+        const isMobile = useMediaQuery({ query: `(max-width: 420px)` });
         return (
             <div>
                 <div className='career-bg'>
