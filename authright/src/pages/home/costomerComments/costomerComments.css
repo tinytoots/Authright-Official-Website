@@ -401,7 +401,7 @@
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   .container-customersComments .card-customersComments {
     width: 165px;
     height: 230px;

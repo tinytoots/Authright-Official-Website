@@ -144,7 +144,7 @@
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   .intro-bg {
     background-image: none;
     background-color:#f0f0f0;
