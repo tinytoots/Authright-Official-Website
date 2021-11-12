@@ -19,6 +19,7 @@
   background-color: white;
 }
 
+
 @media screen and (max-width: 768px) {
   .about-leadership {
     display: none;

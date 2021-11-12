@@ -15,10 +15,10 @@
 
 .service-card {
     background: rgb(76 76 76);
-    padding: 100px 0;
+    padding: 60px 0px 0px 0px;
     border-radius: 10px;
     width: 335px;
-    height: 530px;
+    height: 500px;
     margin: auto 10px auto 10px;
 }
 
@@ -100,8 +100,8 @@
     color: white;
     font-size: 40px;
     font-family: 'NunitoSans-bold',sans-serif;
-    margin: 100px auto 80px auto;
-    padding-top: 100px;
+    margin: 0px auto 80px auto;
+    padding-top: 50px;
 }
 
 /* .ant-col ant-col-12 gutter-row1 {
@@ -126,6 +126,15 @@
     margin-bottom: 24px;
 }
 
+@media (max-width: 1100px) {
+
+    .about-color-block{
+        margin-left: auto;
+    }
+    .about-company-title2 {
+        padding-top: 50px
+    }
+}
 @media (max-width: 400px) {
     .IAM-bg {
         padding-bottom: 40px;
