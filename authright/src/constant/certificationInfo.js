@@ -12,7 +12,7 @@ export const certificationInfo = [
       },
       {
         certName: "Identity Management Specialist",
-        number: 10,
+        number: 12,
         pic: "/certification/forgerock-cert-IDM.png",
         link: "https://www.credly.com/org/forgerock/badge/forgerock-certified-identity-management-specialist",
       },
