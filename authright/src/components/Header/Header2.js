@@ -64,10 +64,18 @@ export default function Header() {
             About Us
           </NavLink>
         </li>
+        <li>
+          <a
+            href="https://medium.com/authright"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Blogs
+          </a>
+        </li>
       </ul>
     </nav>
   );
-
 
   return (
     <div>
@@ -75,7 +83,7 @@ export default function Header() {
         <NavLink to="/home">
           <img className="headerLogo" src={Logo} width={160} alt="" />
         </NavLink>
-        {isMobile ? (isOpen ? Nav : <div />) : Nav}
+        {isMobile ? isOpen ? Nav : <div /> : Nav}
         <label className="nav-toggle-label" onClick={() => onClick()}>
           <span></span>
         </label>

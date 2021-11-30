@@ -6,6 +6,7 @@ import Deloitte from "../../../img/deloitte-2.svg";
 import Toyota from "../../../img/toyota-1.svg";
 import HomeDepot from "../../../img/the-home-depot.svg";
 import Equifax from "../../../img/equifax.svg";
+import Macy from "../../../img/macy.svg";
 import Mohawk from "../../../img/mohawk-industries-logo.svg";
 import Lowes from "../../../img/lowe-s-5.svg";
 import Pearson from "../../../img/pearson-logo.svg";
@@ -30,6 +31,7 @@ export default class clients extends Component {
             alt="logo"
             className="homeDepot-logo"
           />
+          <img src={Macy} width={160} alt="logo" className="macy-logo" />
           <img src={Equifax} width={160} alt="logo" className="equifax-logo" />
           <img src={Mohawk} width={160} alt="logo" className="mohawk-logo" />
           <img src={Lowes} width={160} alt="logo" className="lowes-logo" />
@@ -50,6 +52,7 @@ export default class clients extends Component {
             alt="logo"
             className="homeDepot-logo"
           />
+          <img src={Macy} width={160} alt="logo" className="macy-logo" />
           <img src={Equifax} width={160} alt="logo" className="equifax-logo" />
           <img src={Mohawk} width={160} alt="logo" className="mohawk-logo" />
           <img src={Lowes} width={160} alt="logo" className="lowes-logo" />
@@ -70,6 +73,7 @@ export default class clients extends Component {
             alt="logo"
             className="homeDepot-logo"
           />
+          <img src={Macy} width={160} alt="logo" className="macy-logo" />
           <img src={Equifax} width={160} alt="logo" className="equifax-logo" />
           <img src={Mohawk} width={160} alt="logo" className="mohawk-logo" />
           <img src={Lowes} width={160} alt="logo" className="lowes-logo" />
@@ -90,6 +94,7 @@ export default class clients extends Component {
             alt="logo"
             className="homeDepot-logo"
           />
+          <img src={Macy} width={160} alt="logo" className="macy-logo" />
           <img src={Equifax} width={160} alt="logo" className="equifax-logo" />
           <img src={Mohawk} width={160} alt="logo" className="mohawk-logo" />
           <img src={Lowes} width={160} alt="logo" className="lowes-logo" />
