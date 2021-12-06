@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./clients.css";
 import BBB from "../../../img/blue-cross-blue-shield-1.svg";
 import HSBC from "../../../img/hsbc-1.svg";
-import Deloitte from "../../../img/deloitte-2.svg";
+// import Deloitte from "../../../img/deloitte-2.svg";
 import Toyota from "../../../img/toyota-1.svg";
 import HomeDepot from "../../../img/the-home-depot.svg";
 import Equifax from "../../../img/equifax.svg";
@@ -18,12 +18,12 @@ export default class clients extends Component {
         <div className="clients-bg">
           <img src={HSBC} width={160} alt="logo" className="hsbc-logo" />
           <img src={BBB} width={160} alt="logo" className="blue-cross-logo" />
-          <img
+          {/* <img
             src={Deloitte}
             width={160}
             alt="logo"
             className="deloitte-logo"
-          />
+          /> */}
           <img src={Toyota} width={160} alt="logo" className="toyota-logo" />
           <img
             src={HomeDepot}
@@ -39,12 +39,12 @@ export default class clients extends Component {
 
           <img src={HSBC} width={160} alt="logo" className="hsbc-logo" />
           <img src={BBB} width={160} alt="logo" className="blue-cross-logo" />
-          <img
+          {/* <img
             src={Deloitte}
             width={160}
             alt="logo"
             className="deloitte-logo"
-          />
+          /> */}
           <img src={Toyota} width={160} alt="logo" className="toyota-logo" />
           <img
             src={HomeDepot}
@@ -60,12 +60,12 @@ export default class clients extends Component {
 
           <img src={HSBC} width={160} alt="logo" className="hsbc-logo" />
           <img src={BBB} width={160} alt="logo" className="blue-cross-logo" />
-          <img
+          {/* <img
             src={Deloitte}
             width={160}
             alt="logo"
             className="deloitte-logo"
-          />
+          /> */}
           <img src={Toyota} width={160} alt="logo" className="toyota-logo" />
           <img
             src={HomeDepot}
@@ -81,12 +81,12 @@ export default class clients extends Component {
 
           <img src={HSBC} width={160} alt="logo" className="hsbc-logo" />
           <img src={BBB} width={160} alt="logo" className="blue-cross-logo" />
-          <img
+          {/* <img
             src={Deloitte}
             width={160}
             alt="logo"
             className="deloitte-logo"
-          />
+          /> */}
           <img src={Toyota} width={160} alt="logo" className="toyota-logo" />
           <img
             src={HomeDepot}
