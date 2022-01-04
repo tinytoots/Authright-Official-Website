@@ -18,6 +18,15 @@ export const advisorsInfo = [
     pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gur02k8gdbj605k05kmx802.jpg",
   },
   {
+    name: "Todd Oxford",
+    title: "Senior Security Director",
+    company: "Equifax",
+    description:
+      "Todd Oxford is an enterprise identity and access management professional with 25 years of IT experience. Extensive knowledge of Information Technology with proven skills in various IT disciplines: cloud security, project management, identity and access management, server provisioning, system administration, security architecture, network configuration, business continuity, and application and middleware support. He successfully completed business transformation projects for Fortune 100 corporations across financial, manufacturing, retail, insurance and beverage industries. He also has extensive experience in security solutions, sustainability strategy, project/program management, budget & resource management, M&A integration and outsourcing initiatives.",
+    linkRef: " https://www.linkedin.com/in/toddoxford/ ",
+    pic: "https://tva1.sinaimg.cn/large/008i3skNgy1gy21qg6koxj30cl0cl74y.jpg ",
+  },
+  {
     name: "Shaun Walsh",
     title: "VP, Global Marketing",
     company: "SimSpace",
