@@ -1,6 +1,6 @@
 .advisor-bg {
   width: 100%;
-  height: 1800px;
+  height: 2100px;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -21,7 +21,7 @@
   color: black;
 }
 
-.advisor-container{
+.advisor-container {
   display: flex;
   flex-direction: column;
 }
@@ -34,13 +34,13 @@
   .advisor-title {
     padding: 20px 0px 10px 0px;
   }
-  .advisor-container{
+  .advisor-container {
     flex-direction: row;
     flex-wrap: wrap;
   }
 }
 
-@media screen and (min-width: 420px) and (max-width:768px) {
+@media screen and (min-width: 420px) and (max-width: 768px) {
   .advisor-bg {
     height: auto;
     width: 100%;
@@ -48,7 +48,7 @@
   .advisor-title {
     padding: 20px 0px 10px 0px;
   }
-  .advisor-container{
+  .advisor-container {
     flex-direction: row;
     flex-wrap: wrap;
   }
