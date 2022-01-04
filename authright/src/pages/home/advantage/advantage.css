@@ -18,7 +18,6 @@
   margin-top: -30px;
   padding-top: 70px;
   height: 300px;
-  min-width: 1200px;
 }
 
 .advantage-learnmore {
@@ -28,7 +27,41 @@
   line-height: 150%;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
+  .advantage-title {
+    font-size: 28px;
+    color: white;
+    margin: auto;
+  }
+
+  .advantage-content {
+    font-size: 18px;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+  }
+
+  .adv-bg {
+    background-color: black;
+    padding-top: 60px;
+    height: 290px;
+    width: 100%;
+    min-width: 180px;
+  }
+
+  .advantage-learnmore {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .adv-bg {
+    height: 380px;
+  }
+}
+
+@media screen and (max-width: 420px) {
   .advantage-title {
     font-size: 20px;
     width: 270px;
@@ -48,7 +81,7 @@
     background-color: black;
     padding-top: 60px;
     height: 310px;
-    width: 400px;
+    width: 100%;
     min-width: 180px;
   }
 

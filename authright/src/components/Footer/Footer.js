@@ -19,7 +19,7 @@ export default class Footer extends Component {
                   <a href="/services/iam">Services</a>
                 </div>
                 <div className="footer-link">
-                  <a href="/customer">Customers</a>
+                  <a href="/customer">Customers</a> 
                 </div>
                 <div className="footer-link">
                   <a href="/partners">Partners</a>
@@ -37,7 +37,7 @@ export default class Footer extends Component {
                 {/* <FooterDivider className="footer-divi-img" /> */}
                 <div className="footer-title">CONTACT US</div>
                 <div className="footer-content">
-                  Address: 888 Washington Street, Dedham, MA 02026
+                  Address: 888 Washington St STE 301, Dedham, MA 02026
                 </div>
                 <div className="footer-content">Phone: 781-686-1923</div>
                 <div className="footer-content">Fax: 781-686-9639</div>

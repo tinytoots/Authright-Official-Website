@@ -148,15 +148,15 @@ p{
     margin-bottom: 0px !important;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
     .card-bg {
         margin-top:0px
     }
     .card-grid-case-study-title {
-        font-size: 17px;
+        font-size: 20px;
     }
     .card-grid-title {
-        font-size: 10px;
+        font-size: 13px;
     }
     .card {
         width:305px;

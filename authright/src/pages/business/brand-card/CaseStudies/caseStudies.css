@@ -1,155 +1,161 @@
 .hsbc-bg {
-    background-color: white;
-    padding-top: 100px;
-    color: black;
-    margin: auto;
+  background-color: white;
+  padding-top: 100px;
+  color: black;
+  margin: auto;
 }
 
 .case-hsbc-img {
-    float: left;
-    margin-left: 50px;
-    margin-top: 25px;
+  float: left;
+  margin-left: 50px;
+  margin-top: 25px;
 }
 
 .case-hsbc-logo-img {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .caseStudies-title {
-    margin-top: 15px;
-    font-size: 35px;
-    /* font-family: 'NunitoSans-regular'; */
-    font-family: 'SFProDisplay-Semibold',sans-serif;
-    color: #000;
+  margin-top: 15px;
+  font-size: 35px;
+  /* font-family: 'NunitoSans-regular'; */
+  font-family: "SFProDisplay-Semibold", sans-serif;
+  color: #000;
 }
 
 .caseStudies-title2 {
-    font-size: 35px;
-    /* font-family: 'NunitoSans-regular'; */
-    font-family: 'SFProDisplay-Semibold',sans-serif;
-    margin-bottom: 30px;
-    color: #000;
+  font-size: 35px;
+  /* font-family: 'NunitoSans-regular'; */
+  font-family: "SFProDisplay-Semibold", sans-serif;
+  margin-bottom: 30px;
+  color: #000;
 }
 
 .caseStudies-content {
-    font-size: 20px;
-    font-family: 'NunitoSans-regular',sans-serif;
-    color: #434343;
-    padding-bottom: 70px;
+  font-size: 20px;
+  font-family: "NunitoSans-regular", sans-serif;
+  color: #434343;
+  padding-bottom: 70px;
 }
 
 .caseStudies-about-title {
-    margin-top: 25px;
-    padding-top: 30px;
-    text-align: left;
-    margin-left: 50px;
-    font-size: 30px;
-    /* font-family: 'NunitoSans-regular'; */
-    font-family: 'SFProDisplay-Semibold',sans-serif;
-    color: #000;
+  margin-top: 25px;
+  padding-top: 30px;
+  text-align: left;
+  margin-left: 50px;
+  font-size: 30px;
+  /* font-family: 'NunitoSans-regular'; */
+  font-family: "SFProDisplay-Semibold", sans-serif;
+  color: #000;
+  padding-top: 70px;
 }
 
 .caseStudies-about-content {
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 15px;
-    padding-bottom: 30px;
-    text-align: left;
-    font-size: 20px;
-    font-family: 'SFProDisplay-Regular',sans-serif;
-    color: #434343;
-    max-width: 500px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 15px;
+  padding-bottom: 30px;
+  text-align: left;
+  font-size: 20px;
+  font-family: "SFProDisplay-Regular", sans-serif;
+  color: #434343;
+  max-width: 500px;
 }
 
 .gray-lane-case {
-    height: 30px;
-    width: 2px;
-    background-color: #595959;
-    /* width: 1200px; */
-    float: left;
-    margin-left: 50px;
-    margin-top: 10px;
+  height: 30px;
+  width: 2px;
+  background-color: #595959;
+  /* width: 1200px; */
+  float: left;
+  margin-left: 50px;
+  margin-top: 10px;
 }
 
 .case-about-bg {
-    background-color: #fafafa;
+  background-color: #fafafa;
 }
 
 .caseStudies-data {
-    margin-top: 80px;
-    margin-left: 130px;
-    font-family: 'SFProDisplay-Semibold',sans-serif;
-    font-size: 20px;
+  margin-top: 80px;
+  margin-left: 130px;
+  font-family: "SFProDisplay-Semibold", sans-serif;
+  font-size: 20px;
 }
 
 .caseStudies-data2 {
-    font-family: 'SFProDisplay-Regular',sans-serif;
-    margin-left: 130px;
-    font-size: 20px;
+  font-family: "SFProDisplay-Regular", sans-serif;
+  margin-left: 130px;
+  font-size: 20px;
 }
 
 .caseStudies-data3 {
-    margin-top: 80px;
-    margin-left: 180px;
-    font-family: 'SFProDisplay-Semibold',sans-serif;
-    font-size: 20px;
+  margin-top: 80px;
+  margin-left: 180px;
+  font-family: "SFProDisplay-Semibold", sans-serif;
+  font-size: 20px;
 }
 
 .caseStudies-data4 {
-    font-family: 'SFProDisplay-Regular',sans-serif;
-    margin-left: 180px;
-    font-size: 20px;
+  font-family: "SFProDisplay-Regular", sans-serif;
+  margin-left: 180px;
+  font-size: 20px;
 }
 
 .case-authright-img {
-    margin-top: 120px;
+  margin-top: 120px;
 }
 
 .case-result-bg {
-    padding-bottom: 80px;
+  padding-bottom: 80px;
 }
 .case-solution-tool {
-    margin-right: 130px;
+  margin-right: 130px;
 }
 
 .case-mark-block {
-    text-align: left;
-    font-size: 28px;
-    height: 100%;
-    margin-left: 100px;
-    margin-bottom: 55px;
-    width: 160px
+  text-align: left;
+  font-size: 28px;
+  height: 100%;
+  margin-left: 100px;
+  margin-bottom: 55px;
+  width: 160px;
 }
 
 .case-mark-number {
-    color: #cf1322;
-    font-family: 'SFProDisplay-Semibold',sans-serif;
+  color: #cf1322;
+  font-family: "SFProDisplay-Semibold", sans-serif;
 }
 .case-mark-text {
-    font-family: 'SFProDisplay-Regular',sans-serif;
+  font-family: "SFProDisplay-Regular", sans-serif;
 }
 
 @media (max-width: 400px) {
-    .caseStudies-title {
-        font-size: 25px;
-    }
-    .caseStudies-title2 {
-        font-size: 25px;
-    }
-    .caseStudies-content {
-        font-size: 15px;
-        width: 80%;
-        margin: auto;
-    }
-    .case-hsbc-img {
-        display: none;
-    }
-    .case-solution-tool {
-        display: none;
-    }
-    .case-mark-block {
-        font-size: 18px;
-        width: 100px;
-        margin-left: 50px
-    }
+  .caseStudies-title {
+    font-size: 25px;
+  }
+  .caseStudies-title2 {
+    font-size: 25px;
+  }
+  .caseStudies-content {
+    font-size: 15px;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  .caseStudies-about-title {
+    padding-top: 20px;
+  }
+  .case-hsbc-img {
+    display: none;
+  }
+  .case-solution-tool {
+    display: none;
+  }
+  .case-mark-block {
+    font-size: 18px;
+    width: 100px;
+    margin-left: 50px;
+    margin-top: -45px;
+  }
 }

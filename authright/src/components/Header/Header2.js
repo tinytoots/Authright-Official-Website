@@ -9,9 +9,12 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [isSelected, setIsSelected] = useState("");
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
-  const onClick = (name) => {
-    setIsSelected(name);
+  const onClick = () => {
     setIsOpen(!isOpen);
+  };
+  const onClose = (name) => {
+    setIsSelected(name);
+    setIsOpen(false);
   };
   const Nav = (
     <nav className="header-nav">
@@ -20,7 +23,7 @@ export default function Header() {
           <NavLink
             to="/home"
             className={isSelected === "home" ? "nav-active" : ""}
-            onClick={() => onClick("home")}
+            onClick={() => onClose("home")}
           >
             Home
           </NavLink>
@@ -29,7 +32,7 @@ export default function Header() {
           <NavLink
             to="/services/iam"
             className={isSelected === "service" ? "nav-active" : ""}
-            onClick={() => onClick("service")}
+            onClick={() => onClose("service")}
           >
             Service
           </NavLink>
@@ -38,7 +41,7 @@ export default function Header() {
           <NavLink
             to="/customer"
             className={isSelected === "customer" ? "nav-active" : ""}
-            onClick={() => onClick("customer")}
+            onClick={() => onClose("customer")}
           >
             Customer
           </NavLink>
@@ -47,7 +50,7 @@ export default function Header() {
           <NavLink
             to="/partners"
             className={isSelected === "partners" ? "nav-active" : ""}
-            onClick={() => onClick("partners")}
+            onClick={() => onClose("partners")}
           >
             Partners
           </NavLink>
@@ -56,15 +59,23 @@ export default function Header() {
           <NavLink
             to="/about-us"
             className={isSelected === "aboutus" ? "nav-active" : ""}
-            onClick={() => onClick("aboutus")}
+            onClick={() => onClose("aboutus")}
           >
             About Us
           </NavLink>
         </li>
+        <li>
+          <a
+            href="https://medium.com/authright"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Blogs
+          </a>
+        </li>
       </ul>
     </nav>
   );
-
 
   return (
     <div>

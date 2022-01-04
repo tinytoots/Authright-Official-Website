@@ -4,55 +4,56 @@
 } */
 
 .service-bg {
-	padding-top: 80px;
+  padding-top: 80px;
 }
 
 .businessOutcome-card-bg {
-	margin: 0 auto 0 auto;
-	padding-bottom: 100px;
-	background-color: black;
+  margin: 0 auto 0 auto;
+  padding-bottom: 100px;
+  background-color: black;
 }
 
 .service-banner {
-	background-color: white;
-	padding-top: 70px;
-	padding-bottom: 90px;
+  background-color: white;
+  padding-top: 70px;
+  padding-bottom: 90px;
 }
 
 .service-inner {
-	/* max-width: 1600px; */
-	margin-bottom: 50px;
+  /* max-width: 1600px; */
+  margin-bottom: 50px;
 }
 
 .servicesCate-authright-logo {
-	width: 25%;
+  width: 25%;
 }
 
 .servicesCate-content1 {
-    font-family: 'SFProDisplay-regular',sans-serif;
-    font-size:18px;
-    line-height: 150%;
-    margin-top: -35px;
-    color: black;
-    width: 50%;
-    margin: auto;
+  font-family: "SFProDisplay-regular", sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  margin-top: -10px;
+  color: black;
+  width: 50%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media (max-width: 400px) {
-	.servicesCate-authright-logo {
-		display: none;
-	}
-	.service-banner {
-		padding-top: 40px;
-		padding-bottom: 40px;
-	}
-	.servicesCate-content1 {
-		font-size: 10px;
-		width: 90%
-	}
-	.businessOutcome-card-bg {
-		max-width: 400px;
-		background-color: black;
-	}
+@media (max-width: 420px) {
+  .servicesCate-authright-logo {
+    display: none;
+  }
+  .service-banner {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .servicesCate-content1 {
+    font-size: 15px;
+    width: 90%;
+  }
+  .businessOutcome-card-bg {
+    max-width: 400px;
+    background-color: black;
+  }
 }
-

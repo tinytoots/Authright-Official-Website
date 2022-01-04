@@ -12,7 +12,7 @@ export default class trust extends Component {
           <div className="turst-title">We work with the Best Partners</div>
           <div className="turst-title2"></div>
           <div className="trust-grid-bg">
-            <Row gutter={24}>
+            <Row>
               <Col xs={12} sm={12} md={12} lg={12} xl={12}>
                 <div className="trust-color-block">
                   <div className="trust-black-block">

@@ -5,6 +5,7 @@ import "./JobDescription.css";
 export default function JobDescription(props) {
   const job = props.match.params.job;
   const description = jobDescription[job];
+  var careeremail = "info@authright.com";
   return (
     <div className="job-description">
       <div className="jb-inner">
@@ -18,7 +19,7 @@ export default function JobDescription(props) {
           <div className="job-des-content">
             {/* Posting Title: {description.PostingTitle} */}
           </div>
-          <div className="job-des-content">Job ID: {description.JobID}</div>
+          {/* <div className="job-des-content">Job ID: {description.JobID}</div> */}
 
           <div className="job-des-content">
             Recruiting Team: {description.RecruitingTeam}
@@ -44,13 +45,26 @@ export default function JobDescription(props) {
           </div>
           <div className="job-des-content">
             {description.Requirements.map((item, index) => (
-              <div className="point">{item}</div>
+              <div className="point">
+                {item}
+                
+              </div>
+              
             ))}
           </div>
           <div className="subtitle">Benefits</div>
-          <div className="job-des-content">{description.Benfits}</div>
+          <div className="job-des-content">
+            {description.Benfits.map((item, index) => (
+              <div className="point">
+                {item}
+                
+              </div>
+              
+            ))}
+          </div>
+          {/* <div className="job-des-content">{description.Benfits}</div> */}
           <div className="subtitle">Apply for this job</div>
-          <div className="job-des-content">{description.apply}</div>
+          <div className="job-des-content">{description.apply} <a className="resumeEmail" href={`mailto:${careeremail}?subject=${description.mailto}`} rel="noreferrer" target="_blank">info@authright.com</a></div>
         </div>
       </div>
     </div>

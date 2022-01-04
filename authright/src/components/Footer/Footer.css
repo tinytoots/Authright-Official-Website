@@ -91,6 +91,7 @@
 .footer-linkedin {
   display: flex;
   margin-left: 14px;
+  cursor:pointer;
 }
 
 @media screen and (max-width: 768px) {

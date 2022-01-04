@@ -1,178 +1,224 @@
 .career-bg {
-    padding-top: 80px;
+  padding-top: 80px;
 }
 
 .inner {
-    max-width: 1200px;
-    margin: auto;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .odd-row {
-    text-align: left;
+  text-align: left;
 }
 
 .even-row {
-    text-align: left;
+  text-align: left;
 }
 
 .solution-row {
-    /* cursor: pointer; */
+  /* cursor: pointer; */
 }
 
 .gap-lane {
-    height: 1px;
-    background-color: #484747;
-    width: 95%;
-    margin: 15px auto 20px auto;
-} 
+  height: 1px;
+  background-color: #484747;
+  width: 95%;
+  margin: 15px auto 20px auto;
+}
 
 .forgerock-cert-logo {
-    margin-top: 30px;
-    margin-bottom: 120px;
-    margin-left: 60px;
+  margin-top: 30px;
+  margin-bottom: 120px;
+  margin-left: 60px;
 }
 
 .fr-cert {
-    margin-top: 40px;
-    text-align: left;
-    margin-bottom: 70px;
+  margin-top: 40px;
+  text-align: left;
+  margin-bottom: 70px;
 }
 .ping-cert-row {
-    margin-top: 30px;
-    margin-bottom: 120px;
+  margin-top: 30px;
+  margin-bottom: 120px;
 }
 
 .cert-unit {
-    /* width: 550px !important;
+  /* width: 550px !important;
     text-align: left; */
 }
 
 .solution-row-title {
-    font-family: 'NunitoSans-extraBold',sans-serif;
-    font-size: 48px;
-    line-height: 150%;
-    color: black;
-    margin-bottom: 15px;
-    padding-top: 70px;
-    padding-right: 10px;
+  font-family: "NunitoSans-extraBold", sans-serif;
+  font-size: 48px;
+  line-height: 150%;
+  color: black;
+  margin-bottom: 15px;
+  padding-top: 70px;
+  padding-right: 10px;
 }
 .solution-content-text {
-    font-size: 19px;
-    
+  font-size: 19px;
 }
 
 .learn-more-extra-space {
-    padding-left: 30px;
+  padding-left: 30px;
 }
 
 .learn-more-extend {
-    margin-top: 50px;
-    color: rgb(18, 141, 218);
-    cursor: pointer;
-    font-size: 19px;
-    margin-left: 70px;
+  margin-top: 50px;
+  color: rgb(18, 141, 218);
+  cursor: pointer;
+  font-size: 19px;
+  margin-left: 70px;
 }
 
 .solution-logo-gray-lane {
-    height: 1px;
-    width: 570px;
-    background-color: rgb(230, 230, 230);
-    margin-bottom: 0px;
+  height: 1px;
+  width: 570px;
+  background-color: rgb(230, 230, 230);
+  margin-bottom: 0px;
 }
 
 .parnter-ping-logo {
-    margin-top: 70px;
-    margin-left: 200px;
-    width: 120px;
+  margin-top: 70px;
+  margin-left: 200px;
+  width: 120px;
 }
 
 .solution-ping-logo-gray-lane {
-    height: 1px;
-    width: 570px;
-    background-color: rgb(230, 230, 230);
-    margin-bottom: 0px;
-    margin-top: 65px;
+  height: 1px;
+  width: 570px;
+  background-color: rgb(230, 230, 230);
+  margin-bottom: 0px;
+  margin-top: 65px;
 }
 
 .solution-fg-logo {
-    /* float: left; */
-    margin-top: 30px;
-    margin-left: 130px;
-    width: 250px;
-    /* margin: auto; */
+  /* float: left; */
+  margin-top: 30px;
+  margin-left: 130px;
+  width: 250px;
+  /* margin: auto; */
 }
 
 .partner-title {
-    font-size: 80px;
-    font-family: "SFProDisplay-Bold", sans-serif;
-    text-align: center;
-    color: black;
-    margin: auto;
-    padding-top: 100px;
+  font-size: 80px;
+  font-family: "SFProDisplay-Bold", sans-serif;
+  text-align: center;
+  color: black;
+  margin: auto;
+  padding-top: 100px;
 }
 
 .parnter-subTitle {
-    margin: auto;
-    text-align: center;
-    font-family: "SFProDisplay-semiBold", sans-serif;
-    color: black;
-    font-size: 60px;
-    margin-bottom: 100px;
+  margin: auto;
+  text-align: center;
+  font-family: "SFProDisplay-semiBold", sans-serif;
+  color: black;
+  font-size: 60px;
+  margin-bottom: 100px;
 }
 
 .crt-img {
-    padding-right: 50px
+  padding-right: 50px;
 }
 
-@media (max-width: 400px) {
-    .partner-title {
-        font-size: 40px;
-        margin-bottom: 10px;
-        padding-top: 50px;
-    }
-    .parnter-subTitle {
-        font-size:30px; 
-        margin-bottom: 20px;
-    }
-    .solution-row-title {
-        display: none;
-    }
-    .solution-content-text {
-        display: none;
-    }
-    .solution-logo-gray-lane {
-        width: 100%;
-    }
-    .solution-ping-logo-gray-lane {
-        width: 100%;
-    }
-    .solution-fg-logo {
-        margin-left: auto;
-        width: 220px
-    }
-    .parnter-ping-logo  {
-        margin-left: 15%;
-        width: 160px
-    }
-    .learn-more-extend {
-        margin-left: 10px;
-    }
-    .crt-img {
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-    .fg-cert {
-        width: 70px;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .ping-cert {
-        width: 80px;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
+@media (max-width: 930px) {
+  .partner-title {
+    font-size: 60px;
+  }
+  .parnter-subTitle {
+    font-size: 50px;
+  }
+  .solution-fg-logo {
+    margin-left: 60px;
+    width: 45%;
+  }
+  .solution-logo-gray-lane {
+    width: 70%;
+    margin-left: 3%;
+  }
+  .solution-row-title {
+    font-size: 35px;
+    width: 70%;
+  }
+  .solution-content-text {
+    font-size: 17px;
+    width: 320px;
+  }
+  .crt-img {
+    padding-left: 0px;
+    padding-right: 5px;
+  }
+  .fg-cert {
+    width: 70px;
+    margin-left: 10px;
+    margin-right: 0px;
+  }
+  .parnter-ping-logo {
+    margin-left: 15%;
+    width: 160px;
+  }
+  .solution-ping-logo-gray-lane {
+    width: 80%;
+    margin-left: 15px;
+  }
+  .ping-cert {
+    width: 80px;
+    margin-left: 10px;
+    margin-right: 0px;
+  }
+}
 
-    .learn-more-extra-space {
-        padding-left: 0px;
-    }
+@media (max-width: 420px) {
+  .partner-title {
+    font-size: 40px;
+    margin-bottom: 10px;
+    padding-top: 50px;
+  }
+  .parnter-subTitle {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .solution-row-title {
+    display: none;
+  }
+  .solution-content-text {
+    display: none;
+  }
+  .solution-logo-gray-lane {
+    width: 100%;
+  }
+  .solution-ping-logo-gray-lane {
+    width: 100%;
+  }
+  .solution-fg-logo {
+    margin-left: auto;
+    width: 220px;
+  }
+  .parnter-ping-logo {
+    margin-left: 15%;
+    width: 160px;
+  }
+  .learn-more-extend {
+    margin-left: 10px;
+  }
+  .crt-img {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .fg-cert {
+    width: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .ping-cert {
+    width: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .learn-more-extra-space {
+    padding-left: 0px;
+  }
 }

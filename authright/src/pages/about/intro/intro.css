@@ -195,6 +195,18 @@
   width: 850px;
   margin-top: 20px;
   color: rgb(108, 227, 227);
+  height: 70px;
+  background-color: #000;
+  
+}
+.vale-description-text {
+    overflow: auto;
+    animation: anim 1.2s;
+}
+@keyframes anim { 
+	0% {opacity: 0;}
+	100%{opacity:1;
+}
 }
 
 .selected-value {
@@ -240,6 +252,76 @@
   color: #f5222d;
 }
 
+
+@media (min-width:400px) and (max-width: 800px) {
+  .about-color-block {
+    margin: 50px auto auto auto;
+    height: 300px;
+  }
+  .about-black-block {
+    height: 290px;
+  }
+  .about-whoWeAre-title1 {
+    margin-top: 10px;
+    width: 290px;
+  }
+
+  .about-intro-block {
+    height: 450px;
+    background-color: white;
+  }
+  
+  .about-mission-subtitle {
+    font-family: "NunitoSans-bold", sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+  }
+
+  .career-company-intro {
+    width: 80%;
+    font-size: 15px;
+  }
+  .about-company-title2 {
+    font-size: 18px;
+    padding-top: 40px;
+  }
+  .about-color-block-title {
+    font-size: 25px;
+  }
+  .about-whoWeAre-content {
+    font-size: 20px;
+    width: 320px;
+  }
+
+  .about-values-title {
+    padding-top: 35px;
+    padding-bottom: 5px;
+  }
+
+  .about-values {
+    font-size: 16px;
+    width: 100%;
+  }
+  .value-img {
+    width: 50px;
+    margin: auto;
+  }
+  .value-area {
+    width: 70px;
+    height: 70px;
+    padding-top: 26px;
+    margin: auto;
+  }
+  .value-description {
+    width: 75%;
+    margin-top: 0px;
+  }
+  .about-intro-block3{
+    margin-bottom:30px;
+  }
+}
+
+
 @media (max-width: 400px) {
   .about-color-block {
     margin: 50px auto auto auto;
@@ -255,10 +337,10 @@
 
   .career-company-intro {
     width: 80%;
-    font-size: 10px;
+    font-size: 15px;
   }
   .about-company-title2 {
-    font-size: 15px;
+    font-size: 18px;
     padding-top: 40px;
   }
   .about-color-block-title {
@@ -276,7 +358,7 @@
 
   .about-values {
     font-size: 16px;
-    width: 380px;
+    width: 100%;
   }
   .value-img {
     width: 50px;
@@ -289,7 +371,7 @@
     margin: auto;
   }
   .value-description {
-    width: 320px;
+    width: 75%;
     margin-top: 0px;
   }
   .about-intro-block3{

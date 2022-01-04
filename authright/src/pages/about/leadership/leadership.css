@@ -37,7 +37,7 @@
   margin-bottom: 40px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   .leadership-bg {
     width: 360px;
   }
@@ -47,7 +47,8 @@
   }
 }
 
-@media screen and (max-width: 768px) and (min-width:401px) {
+
+@media screen and (max-width: 768px) and (min-width:421px) {
   .leadership-bg {
     width: 700px;
   }

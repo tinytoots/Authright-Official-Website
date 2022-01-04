@@ -12,7 +12,7 @@ const values = [
     },
     {
         title: "Employee Contered",
-        content: "We want employees to feel confortable sharing concerns, and have their voice heard and needs respected.",
+        content: "We want employees to feel comfortable sharing concerns and have their voices heard and needs respected.",
         img: <svg t="1627065589549" class="icon" viewBox="0 0 1024 1024" version="1.1"
                 xmlns="http://www.w3.org/2000/svg" p-id="7303"
                 xmlnsXlink="http://www.w3.org/1999/xlink" width="200" height="200">
