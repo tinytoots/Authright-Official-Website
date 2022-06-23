@@ -1,12 +1,12 @@
 .App {
   text-align: center;
   background-color: black;
-  /* min-width: 1600px; */
-  /* margin: auto; */
 }
 
+.main-content {
+  min-height: calc(100vh - 600px);
+}
 
-
-
-
-
+.footer {
+  height: 600px;
+}

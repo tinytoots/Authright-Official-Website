@@ -1,27 +1,24 @@
-import React from 'react'
-import { Row, Col } from 'antd';
-import 'antd/dist/antd.css';
-import './card.css'
-import { Link } from "react-router-dom"
-
+import React from "react";
+import { Row, Col } from "antd";
+import "antd/dist/antd.css";
+import "./card.css";
+import { Link } from "react-router-dom";
 
 var cardHsbc = {
   backgroundImage:
     "url(https://tva1.sinaimg.cn/large/008i3skNgy1guq233jsj0j60d00i741002.jpg)",
 };
 
-
 export default function Card() {
-
   return (
-    <div className="card-bg" >
+    <div className="card-bg">
       <div className="card-grid-case-study-title">Our Case Studies</div>
       <div className="card-grid-title">
-        We are committed to providing reliable and efficient IAM <br/>
+        We are committed to providing reliable and efficient IAM <br />
         and Full Stack services in different industrial fields{" "}
       </div>
       <Row gutter={[0, 25]} wrap={true} justify="center">
-        <Col className="gutter-row" >
+        <Col className="gutter-row">
           <div className="card" style={cardHsbc}>
             <div className="card-content">
               <h2 className="card-title">
@@ -31,13 +28,13 @@ export default function Card() {
               <p className="card-body">
                 Digital Security Platform enabling millions of customer services
               </p>
-              <Link to="/hsbc" className="button">
+              <Link to="/1" className="button">
                 Learn More
               </Link>
             </div>
           </div>
         </Col>
-        <Col className="gutter-row" >
+        <Col className="gutter-row">
           <div
             className="card"
             style={{
@@ -54,13 +51,13 @@ export default function Card() {
                 E-commerce Store for daily customer authentication and
                 authorization
               </p>
-              <Link to="/home-depot" className="button">
+              <Link to="/2" className="button">
                 Learn More
               </Link>
             </div>
           </div>
         </Col>
-        <Col className="gutter-row" >
+        <Col className="gutter-row">
           <div
             className="card"
             style={{
@@ -76,13 +73,13 @@ export default function Card() {
               <p className="card-body">
                 Customized system integration and SSO implementation
               </p>
-              <Link to="/mohawk-industries" className="button">
+              <Link to="/3" className="button">
                 Learn More
               </Link>
             </div>
           </div>
         </Col>
-        <Col className="gutter-row" >
+        <Col className="gutter-row">
           <div
             className="card"
             style={{
@@ -98,13 +95,13 @@ export default function Card() {
               <p className="card-body">
                 Unified application platform with IAM capability for end users
               </p>
-              <Link to="/toyota" className="button">
+              <Link to="/4" className="button">
                 Learn More
               </Link>
             </div>
           </div>
         </Col>
-        <Col className="gutter-row" >
+        <Col className="gutter-row">
           <div
             className="card"
             style={{
@@ -120,13 +117,13 @@ export default function Card() {
               <p className="card-body">
                 Compliance driven multi-region system migration and upgrade
               </p>
-              <Link to="/blue-cross-blue-shield" className="button">
+              <Link to="/5" className="button">
                 Learn More
               </Link>
             </div>
           </div>
         </Col>
-        <Col className="gutter-row" >
+        <Col className="gutter-row">
           <div
             className="card"
             style={{
@@ -142,13 +139,13 @@ export default function Card() {
               <p className="card-body">
                 Enforce employee security with MFA while smoothing SSO process
               </p>
-              <Link to="/equifax" className="button">
+              <Link to="/6" className="button">
                 Learn More
               </Link>
             </div>
           </div>
         </Col>
-        <Col className="gutter-row" >
+        <Col className="gutter-row">
           <div
             className="card"
             style={{
@@ -164,13 +161,13 @@ export default function Card() {
               <p className="card-body">
                 End user access handling with reliability and security
               </p>
-              <Link to="/pearson" className="button">
+              <Link to="/7" className="button">
                 Learn More
               </Link>
             </div>
           </div>
         </Col>
-        <Col className="gutter-row" >
+        <Col className="gutter-row">
           <div
             className="card"
             style={{
@@ -186,13 +183,12 @@ export default function Card() {
               <p className="card-body">
                 User lifecycle management and cross domain SSO
               </p>
-              <Link to="/deloitte" className="button">
+              <Link to="/8" className="button">
                 Learn More
               </Link>
             </div>
           </div>
         </Col>
-                
       </Row>
     </div>
   );
