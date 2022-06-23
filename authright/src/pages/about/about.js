@@ -14,7 +14,7 @@ export default class about extends Component {
           <Advisoryboard />
         </div>
         <div className="about-leadership">
-          <Leadership />
+          {/* <Leadership /> */}
         </div>
         <div className="about-certification">
           <Certification />
