@@ -2,7 +2,7 @@ import React from "react";
 import { advisorsInfo as advisors } from "../../../constant/advisorsInfo";
 import AdvisorCard from "./advisorCard";
 import { leadInfo as leads } from "../../../constant/leadInfo";
-import { leadInfo as leads2 } from "../../../constant/leadInfoSecond";
+import { leadInfo as leadsScond } from "../../../constant/leadInfoSecond";
 import LeadCard from "../advisors/leadCard";
 import "./advisors.css";
 
@@ -15,7 +15,7 @@ export default function Advisoryboard(props) {
       </div>
       <div className="leader-title">Co-Founder</div>
       <div className="about-leadership-ceo">
-        <LeadCard leadInfo={leads2} />
+        <LeadCard leadInfo={leadsScond} />
       </div>
       <div className="advisor-title">Advisory Board</div>
       <div className="advisor-container">
