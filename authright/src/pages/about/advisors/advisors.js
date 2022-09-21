@@ -2,7 +2,7 @@ import React from "react";
 import { advisorsInfo as advisors } from "../../../constant/advisorsInfo";
 import AdvisorCard from "./advisorCard";
 import { leadInfo as leads } from "../../../constant/leadInfo";
-import { leadInfo as leads2 } from "../../../constant/leadInfo2";
+import { leadInfo as leads2 } from "../../../constant/leadInfoSecond";
 import LeadCard from "../advisors/leadCard";
 import "./advisors.css";
 
