@@ -1,6 +1,6 @@
 export const leadInfo = {
   name: "Yaodong(Don) Hu",
-  title: "CEO, Founder",
+  title: "CEO, Co-Founder",
   linkedin: "https://www.linkedin.com/in/yaodonghu/",
   pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guvlp3eb3qj60u00u0q6d02.jpg",
   description:
