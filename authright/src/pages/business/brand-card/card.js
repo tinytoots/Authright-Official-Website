@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 var cardHsbc = {
   backgroundImage:
-    "url(https://tva1.sinaimg.cn/large/008i3skNgy1guq233jsj0j60d00i741002.jpg)",
+    "url(https://p.ipic.vip/3rtl8c.jpeg)",
 };
 
 export default function Card() {
@@ -39,7 +39,7 @@ export default function Card() {
             className="card"
             style={{
               backgroundImage:
-                "url(https://tva1.sinaimg.cn/large/008i3skNgy1guq2837jepj60d008nmxm02.jpg)",
+                "url(https://p.ipic.vip/cvvngb.jpeg)",
             }}
           >
             <div className="card-content">
@@ -62,7 +62,7 @@ export default function Card() {
             className="card"
             style={{
               backgroundImage:
-                "url(https://tva1.sinaimg.cn/large/008i3skNgy1guq2a71q0uj60d00jiad702.jpg)",
+                "url(https://p.ipic.vip/4pt01d.jpeg)",
             }}
           >
             <div className="card-content">
@@ -84,7 +84,7 @@ export default function Card() {
             className="card"
             style={{
               backgroundImage:
-                "url(https://tva1.sinaimg.cn/large/008i3skNgy1guq2aqrd9hj60d008o3zl02.jpg)",
+                "url(https://p.ipic.vip/l0jfjr.jpeg)",
             }}
           >
             <div className="card-content">
@@ -106,7 +106,7 @@ export default function Card() {
             className="card"
             style={{
               backgroundImage:
-                "url(https://tva1.sinaimg.cn/large/008i3skNgy1guq2bvn9aaj60d00g9my902.jpg)",
+                "url(https://p.ipic.vip/0ea9m1.jpeg)",
             }}
           >
             <div className="card-content">
@@ -128,7 +128,7 @@ export default function Card() {
             className="card"
             style={{
               backgroundImage:
-                "url(https://tva1.sinaimg.cn/large/008i3skNgy1guq2eyc3xrj60d007b0u002.jpg)",
+                "url(https://p.ipic.vip/ez6cdf.jpeg)",
             }}
           >
             <div className="card-content">
@@ -150,7 +150,7 @@ export default function Card() {
             className="card"
             style={{
               backgroundImage:
-                "url(https://tva1.sinaimg.cn/large/008i3skNgy1guq2g5ihwrj60d008omxk02.jpg)",
+                "url(https://p.ipic.vip/vc1utl.jpeg)",
             }}
           >
             <div className="card-content">
@@ -172,7 +172,7 @@ export default function Card() {
             className="card"
             style={{
               backgroundImage:
-                "url(https://tva1.sinaimg.cn/large/008i3skNgy1guq2gs152vj60d009raao02.jpg)",
+                "url(https://p.ipic.vip/jryao2.jpeg)",
             }}
           >
             <div className="card-content">

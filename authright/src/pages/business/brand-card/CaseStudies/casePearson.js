@@ -28,7 +28,7 @@ export default class casePearson extends Component {
                     <div className="inner">
                         <Row>
                             <Col>
-                                <img src="https://tva1.sinaimg.cn/large/008i3skNgy1guq2fib9h2j60d008o0t002.jpg" width={550} alt = 'logo' className='case-hsbc-img' style={{paddingTop: 50, paddingBottom: 70}}/>
+                                <img src="https://p.ipic.vip/vi77v5.jpeg" width={550} alt = 'logo' className='case-hsbc-img' style={{paddingTop: 50, paddingBottom: 70}}/>
                             </Col>
                             <Col>
                                 <div className="caseStudies-about-title" style={{paddingTop: 55}}>

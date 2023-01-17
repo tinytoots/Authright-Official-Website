@@ -25,7 +25,7 @@ export default class caseDeloitte extends Component {
                     <div className="inner">
                         <Row>
                             <Col>
-                                <img src="https://tva1.sinaimg.cn/large/008i3skNgy1guq2hqsz9xj60d008oaak02.jpg" width={550} alt = 'logo' className='case-hsbc-img' style={{paddingTop: 50, paddingBottom: 70}}/>
+                                <img src="https://p.ipic.vip/ft4b7i.jpeg" width={550} alt = 'logo' className='case-hsbc-img' style={{paddingTop: 50, paddingBottom: 70}}/>
                             </Col>
                             <Col>
                                 <div className="caseStudies-about-title" style={{paddingTop: 35}}>

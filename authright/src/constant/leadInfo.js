@@ -2,7 +2,7 @@ export const leadInfo = {
   name: "Yaodong(Don) Hu",
   title: "CEO, Co-Founder",
   linkedin: "https://www.linkedin.com/in/yaodonghu/",
-  pic: "https://tva1.sinaimg.cn/large/008i3skNgy1guvlp3eb3qj60u00u0q6d02.jpg",
+  pic: "https://p.ipic.vip/nlc64l.jpeg",
   description:
     ["Don is a certified security engineer, with more than 20 years of experience in IAM product development and consulting. He is an expert in the IAM industry focusing on authentication, authorization, SSO, 2FA, SAML, and OAuth2." ,
     // "As an IAM pioneer in Chinese market, he always has great leadership, motivation and responsibility.",

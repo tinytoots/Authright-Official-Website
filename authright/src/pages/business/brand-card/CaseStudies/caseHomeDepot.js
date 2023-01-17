@@ -28,7 +28,7 @@ export default class caseHomeDepot extends Component {
                     <div className="inner">
                         <Row>
                             <Col>
-                                <img src="https://tva1.sinaimg.cn/large/008i3skNgy1guq27018pjj60d008oaam02.jpg" width={550} alt = 'logo' className='case-hsbc-img' style={{paddingTop: 50, paddingBottom: 70}}/>
+                                <img src="https://p.ipic.vip/qaygg4.jpeg" width={550} alt = 'logo' className='case-hsbc-img' style={{paddingTop: 50, paddingBottom: 70}}/>
                             </Col>
                             <Col>
                                 <div className="caseStudies-about-title" style={{paddingTop: 70}}>

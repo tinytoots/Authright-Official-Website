@@ -22,7 +22,7 @@ export default class caseHsbc extends Component {
                     <div className="inner">
                         <Row>
                             <Col>
-                                <img src="https://tva1.sinaimg.cn/large/008i3skNgy1guq261j4a0j60d008ojs002.jpg" width={550} alt = 'logo' className='case-hsbc-img' style={{paddingTop: 50, paddingBottom: 70}}/>
+                                <img src="https://p.ipic.vip/gs2f4v.jpeg" width={550} alt = 'logo' className='case-hsbc-img' style={{paddingTop: 50, paddingBottom: 70}}/>
                             </Col>
                             <Col>
                                 <div className="caseStudies-about-title">

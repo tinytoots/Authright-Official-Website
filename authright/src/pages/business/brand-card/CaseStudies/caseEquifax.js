@@ -29,7 +29,7 @@ export default class caseEquifax extends Component {
                     <div className="inner">
                         <Row>
                             <Col>
-                                <img src="https://tva1.sinaimg.cn/large/008i3skNgy1guq2eyc3xrj60d007b0u002.jpg" width={550} alt = 'logo' className='case-hsbc-img' style={{paddingTop: 50, paddingBottom: 70}}/>
+                                <img src="https://p.ipic.vip/46ueuy.jpeg" width={550} alt = 'logo' className='case-hsbc-img' style={{paddingTop: 50, paddingBottom: 70}}/>
                             </Col>
                             <Col>
                                 <div className="caseStudies-about-title" style={{paddingTop: 60}}>
