@@ -11,7 +11,8 @@
 }
 
 .about-certification {
-  margin-top: 60px;
+  /* margin-top: 60px; */
+  margin-top: -200px;
 }
 
 .about-layout-bg {
@@ -24,5 +25,9 @@
   .about-leadership {
     display: none;
     margin-top: 0px;
+  }
+  .about-certification {
+    margin-top: 60px;
+    /* margin-top: -200px; */
   }
 }
