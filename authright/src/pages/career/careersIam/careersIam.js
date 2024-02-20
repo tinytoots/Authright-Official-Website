@@ -23,12 +23,12 @@ export default class careersIam extends Component {
               <Col className="gutter-row" span={16}>
                 <a
                   className="unifiedcontrol-card-default"
-                  href="/careers/detail/iam"
+                  href="/careers/detail/assistant"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <div className="unifiedcontrol-card-title2">
-                    Identity & Access Management Software Engineer (All Levels)
+                    Full-time Executive Assistant
                     <i className="approw-arrow-down-line arrow"></i>
                   </div>
                 </a>
@@ -40,12 +40,12 @@ export default class careersIam extends Component {
               <Col className="gutter-row" span={16}>
                 <a
                   className="unifiedcontrol-card-default"
-                  href="/careers/detail/forgerock"
+                  href="/careers/detail/iamConsultant"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <div className="unifiedcontrol-card-title2">
-                    ForgeRock (IAM) Identity Technical Architect
+                    Identity and Access Management (IAM) Consultant - Hybrid
                     <i className="approw-arrow-down-line arrow"></i>
                   </div>
                 </a>
@@ -57,12 +57,12 @@ export default class careersIam extends Component {
               <Col className="gutter-row" span={16}>
                 <a
                   className="unifiedcontrol-card-default"
-                  href="/careers/detail/ping"
+                  href="/careers/detail/sales"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <div className="unifiedcontrol-card-title2">
-                    Ping Identity (IAM) Identity Technical Architect
+                    Full-time Identity and Access Management (IAM) Sales
                     <i className="approw-arrow-down-line arrow"></i>
                   </div>
                 </a>
@@ -70,6 +70,24 @@ export default class careersIam extends Component {
               {/* <Col className="gutter-row" span={8}>
                 <div className="solution-forgerock-intro">IAM</div>
               </Col> */}
+              <div className="careers-gray-lane" />
+              <Col className="gutter-row" span={16}>
+                <a
+                  className="unifiedcontrol-card-default"
+                  href="/careers/detail/hr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="unifiedcontrol-card-title2">
+                  Full-time Accounting and Human Resources Manager
+                    <i className="approw-arrow-down-line arrow"></i>
+                  </div>
+                </a>
+              </Col>
+              {/* <Col className="gutter-row" span={8}>
+                <div className="solution-forgerock-intro">IAM</div>
+              </Col> */}
+              <div className="careers-gray-lane" />
               <div className="careers-gray-lane" />
               <Col className="gutter-row" span={16}>
                 <a
@@ -79,7 +97,7 @@ export default class careersIam extends Component {
                   rel="noopener noreferrer"
                 >
                   <div className="unifiedcontrol-card-title2">
-                    Cyber Security / Information Security Intern
+                  Identity and Access Management (IAM) Intern
                     <i className="approw-arrow-down-line arrow"></i>
                   </div>
                 </a>

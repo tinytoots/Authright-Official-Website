@@ -5,7 +5,7 @@ import "./JobDescription.css";
 export default function JobDescription(props) {
   const job = props.match.params.job;
   const description = jobDescription[job];
-  var careeremail = "info@authright.com";
+  var careeremail = "career@authright.com";
   return (
     <div className="job-description">
       <div className="jb-inner">
@@ -21,9 +21,9 @@ export default function JobDescription(props) {
           </div>
           {/* <div className="job-des-content">Job ID: {description.JobID}</div> */}
 
-          <div className="job-des-content">
+          {/* <div className="job-des-content">
             Recruiting Team: {description.RecruitingTeam}
-          </div>
+          </div> */}
           <div className="subtitle">Who we are</div>
           {description.WhoWeAre.map((item, index) => (
             <div className="job-des-content" key={index}>
@@ -64,7 +64,7 @@ export default function JobDescription(props) {
           </div>
           {/* <div className="job-des-content">{description.Benfits}</div> */}
           <div className="subtitle">Apply for this job</div>
-          <div className="job-des-content">{description.apply} <a className="resumeEmail" href={`mailto:${careeremail}?subject=${description.mailto}`} rel="noreferrer" target="_blank">info@authright.com</a></div>
+          <div className="job-des-content">{description.apply} <a className="resumeEmail" href={`mailto:${careeremail}?subject=${description.mailto}`} rel="noreferrer" target="_blank">career@authright.com</a></div>
         </div>
       </div>
     </div>
