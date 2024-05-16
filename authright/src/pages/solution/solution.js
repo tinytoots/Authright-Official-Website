@@ -34,11 +34,11 @@ export default function Solution()  {
                         <div className="even-row solution-row" >
                             <div className='inner'>
                                 <div className = "partner-title">
-                                    We are Trusted by 
+                                    Identity Leaders Trust Us 
                                 </div>
-                                <div className = "parnter-subTitle">
-                                    the  Identity Leaders
-                                </div> 
+                                {/* <div className = "parnter-subTitle">
+                                Identity Leaders Trust Us 
+                                </div>  */}
                                 <Row justify={isMobile? "center": "start"} gutter={0}>
                                     <Col span={13}>
                                         <img src={ForgerockImg} alt = 'logo' className='solution-fg-logo'/>
@@ -49,7 +49,7 @@ export default function Solution()  {
                                             ForgeRock
                                         </div>
                                         <div className='solution-content-text'>
-                                            <i>Make it easy for users to log into apps and services.</i>
+                                            <i>which Simplifies User Access to Apps and Services.</i>
                                         </div>
                                     </Col>
                                 </Row>
@@ -97,7 +97,7 @@ export default function Solution()  {
                                             Ping Identity
                                         </div>
                                         <div className='solution-content-text'>
-                                            <i>Identity Security for the Global Enterprise.</i>
+                                            <i>Identity Security for Global Businesses.</i>
                                         </div>
                                     </Col>
                                 </Row>

@@ -11,7 +11,7 @@ export default class ServiceIAM extends Component {
                 <div className='service-banner'>
                     <img src={AuthrightImg} alt = 'logo' className='servicesCate-authright-logo'/>
                     <div className='servicesCate-content1'>
-                        Authright's IAM team is dedicated to create a variety of customized services that you need. Whether it's Forgerock or PingIdentity, our IAM experts have a wealth of experience. Over the past few years, Authright has provided reliable and efficient IAM services to dozens of organizations, including several Fortune 500 companies. If you want a team of professionals to provide you with IAM solutions, Authright is the right choice for you.
+                    Authright's IAM team is committed to delivering a diverse range of customized services tailored to your specific needs. With extensive expertise in Forgerock and PingIdentity, our IAM specialists have a proven track record of success. Over the years, Authright has consistently provided dependable and efficient IAM solutions to numerous organizations, including multiple Fortune 500 companies. If you're seeking a team of seasoned professionals to handle your IAM needs, Authright is the ideal choice for you.
                         {/* Authright's IAM team is dedicated to create customized services. Our IAM experts have rich experience of ForgeRock and PingIdentity products and provided reliable IAM services to various organizations. If you are looking for a professional IAM solution team, Authright is the right choice for you. */}
                     </div>
                 </div>

@@ -80,7 +80,7 @@ export default class Ping extends Component {
                         </Col>
                         <Col className="gutter-row" span={18}>
                             <div className='partner-forgerock-intro'>
-                                Is your current identity solution reaching its end of life and the vendor is no longer in business? Do you have an old version of the product and are looking to upgrade to the latest release? Is your current vendor forcing you to migrate to a solution that you really don’t want and are now looking for a more cost effective and palatable alternative? Identity Fusion has extensive experience with upgrades and migrations.
+                                Is your current identity solution nearing its end, with the vendor going out of business? Are you stuck with an outdated version, craving the latest upgrades? Feeling pressured by your current vendor to migrate to a solution that just doesn't sit right with you? Authright is here to rescue you. With a proven track record in seamless upgrades and migrations, we offer a cost-effective and preferable alternative. Say goodbye to outdated hassles and hello to a future-proof identity solution with Authright.
                                 <br /><br />
                                 PingFederate is built on open standards and provides customers, employees and partners with secure authentication and single sign-on to any application from any device and any location.
                             </div>

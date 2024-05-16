@@ -9,14 +9,14 @@ export default class caseBlue extends Component {
                 <div className="inner">
                     {/* <img src={HsbcLogo} width={180} alt = 'logo' className='case-hsbc-logo-img'/> */}
                     <div className="caseStudies-title">
-                        Authright provides modern IAM customized
+                        Authright delivers tailored IAM solutions for the healthcare industry,
                     </div>
                     <div className="caseStudies-title2">
-                        solutions for Mohawk Industries
+                        empowering organizations with modern security mechanisms.
                     </div>
                     <div className="caseStudies-content">
-                        We provide the global support for all servers, monitor<br/>
-                        and alert and take timely action
+                    We offer comprehensive global support for all servers, ensuring continuous monitoring,<br/>
+                    proactive alerts, and swift action to resolve any issues promptly.
                     </div>
             </div>
 
@@ -28,11 +28,10 @@ export default class caseBlue extends Component {
                             </Col>
                             <Col>
                                 <div className="caseStudies-about-title" style={{paddingTop: 55}}>
-                                    Description
+                                    Empowering the Healthcare Industry
                                 </div>
                                 <div className="caseStudies-about-content">
-                                    This is a leading healthcare provider serving more than half of the healthcare organizations across the US. 
-                                    ForgeRock is used to replace their legacy (SecureAuth) IAM platform.
+                                    Authright, a premier IAM solution provider, demonstrates its proficiency in crafting advanced, cloud-based Customer Identity Access Management (CIAM) platforms tailored for the healthcare industry. Through partnerships with prominent IAM companies and top-tier healthcare organizations, Authright adeptly tackles critical industry challenges, expands service offerings, enhances user experience and security measures, delivering robust, cost-effective solutions across the healthcare industry. 
                                 </div>    
                             </Col>
                         </Row>
@@ -43,13 +42,17 @@ export default class caseBlue extends Component {
                     <Row>
                         <Col>
                             <div className="caseStudies-about-title" style={{paddingTop: 40}}>
-                                Scenario
+                                Key Contributions to Client Success
                             </div>
                             <div className="caseStudies-about-content" style={{paddingBottom: 70}}>
-                                Customer Authentication and Authorization.<br/>
-                                User accounts consolidating and provisioning/deprovisioning.<br/>
-                                SSO through SAML.
-
+                                • Upgraded Architecture.<br/>
+                                • Expanded Service Reach.<br/>
+                                • Cost-Effective Deployment and Maintenance.<br/>
+                                • Strengthened Risk Management.<br/>
+                                • Broadened User Coverage Across Multiple Devices.<br/>
+                                • Seamless Integration.<br/>
+                                • Enhanced Patient Data Protection and Legal Compliance.<br/>
+                                • Data Collection for Business Analysis.<br/>
                             </div>
                         </Col>
                         <Col>
@@ -70,11 +73,11 @@ export default class caseBlue extends Component {
                                 <div className = "case-mark-block" >
                                     {/* style={{paddingTop: 10, marginLeft:110, color:"#cf1322", fontSize: 28}} */}
                                         <div className="case-mark-number" >
-                                            194,000
+                                            40,000,000
                                         </div>
                                         {/* style={{marginLeft:110}} */}
                                         <div className="case-mark-text">
-                                            Shareholders
+                                            Users
                                         </div>
                                     </div>
                                 </Col>
@@ -84,11 +87,11 @@ export default class caseBlue extends Component {
                                 <div className = "case-mark-block" >
                                     {/* style={{paddingTop: 10, marginLeft:110, color:"#cf1322", fontSize: 28}} */}
                                         <div className="case-mark-number" >
-                                            40,000,000
+                                            24/7
                                         </div>
                                         {/* style={{marginLeft:110}} */}
                                         <div className="case-mark-text">
-                                        Customers
+                                            Support
                                         </div>
                                     </div>
                                 </Col>
@@ -96,11 +99,11 @@ export default class caseBlue extends Component {
                                 <div className = "case-mark-block" >
                                     {/* style={{paddingTop: 10, marginLeft:110, color:"#cf1322", fontSize: 28}} */}
                                         <div className="case-mark-number" >
-                                        24/7
+                                        100%
                                         </div>
                                         {/* style={{marginLeft:110}} */}
                                         <div className="case-mark-text">
-                                        Support
+                                        Customer Satisfaction
                                         </div>
                                     </div>
                                 </Col>
@@ -142,14 +145,12 @@ export default class caseBlue extends Component {
                             </div>
                             <Col>
                                 <div className="caseStudies-about-title">
-                                    The Solution
+                                    Our Comprehensive Solution
                                 </div>
                                 <div className="caseStudies-about-content" style={{paddingBottom: 50}}>
-                                    AM chain development and integration.<br/>
-                                    IDM development for user account reconciliation and sync.<br/> 
-                                    SSO integration through SAML.<br/>
-                                    Troubleshooting and support
-
+                                    Authright plays a crucial role in transforming the digital infrastructure of healthcare organizations. Through our expertise, Authright facilitates clients’ transition from legacy IAM products to a modern ForgeRock architecture system, incorporating ForgeRock Identity Cloud, Remote Connector Server, and Identity Gateway.<br/>
+                                    <br/>
+                                    Our solutions implement containerized component deployment on the cloud with Docker and Kubernetes. We creatively design journeys with various authentication methods and self-services consumed by applications, as well as helpdesk service flow for delegated admins to handle support cases. Moreover, we implement data migration with RCS and OpenICF connectors to achieve synchronization, and set up a federated system for single sign-on across healthcare applications and third-party identity platforms.<br/> 
                                 </div>    
                             </Col>
                         </Row>

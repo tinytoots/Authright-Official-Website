@@ -10,7 +10,7 @@ export default class Forgerock extends Component {
   render() {
     return (
       <div className="IAM-bg">
-        <div className="service-title">Our Services</div>
+        <div className="service-title">Our Comprehensive Services and Tailored Solutions for Your Success</div>
         <div className="IAM-grid-bg">
           <Row gutter={[0, 10]} justify="center">
             <Col className="gutter-row">
@@ -25,9 +25,7 @@ export default class Forgerock extends Component {
                     Implementation {"&"} Integration
                   </div>
                   <div className="servicesCate-content4">
-                    Our team will review your business requirements and find the
-                    best plan tailored for you. We are seasoned experts. We know
-                    what to plan for and how to execute.
+                    Trust our seasoned experts to analyze your needs thoroughly and craft a tailored plan for success. With our wealth of experience, we execute flawlessly from start to finish.
                   </div>
                   {/* <NavLink to="/services/iam/professional-services">
                                         <div>
@@ -51,11 +49,7 @@ export default class Forgerock extends Component {
                     className="servicesCate-content4"
                     style={{ marginTop: 14 }}
                   >
-                    We will improve your operations and cut expenses by
-                    maintaining, supporting, and monitoring your identity
-                    management solutions. Let our experts take care of your IAM
-                    services and eliminate the issue before they arise, and you
-                    can focus on your core business.
+                    Maximize efficiency and slash costs with our expertly managed identity management solutions. Our proactive approach eliminates issues before they arise, freeing you to focus on your core business. Trust us to optimize your IAM services and propel your success.
                   </div>
                   {/* <NavLink to="/services/iam/managed-services">
                                         <div>
@@ -75,13 +69,9 @@ export default class Forgerock extends Component {
                     // height={85}
                     alt=""
                   />
-                  <div className="service-card-title">Advisory Services</div>
+                  <div className="service-card-title">Consulting Solutions</div>
                   <div className="servicesCate-content4">
-                    Our team has done numerous identity implementations across
-                    every industry. We’ve seen so many identity use cases and
-                    nuances with regards to digital transformation and cloud
-                    migration. We will get you ready for the customer demands
-                    and potential challenges in the future.
+                    Our team has executed countless identity implementations across industries, witnessing myriad use cases and nuances in digital transformation and cloud migration. We're poised to prepare you for future customer demands and challenges.
                   </div>
                   {/* <NavLink to="/services/iam/education-services">
                                         <div>
@@ -101,12 +91,9 @@ export default class Forgerock extends Component {
                     // height={85}
                     alt=""
                   />
-                  <div className="service-card-title">Education Services</div>
+                  <div className="service-card-title">Authright Academy</div>
                   <div className="servicesCate-content4">
-                      Our instructors have hands-on experience in architecting and
-                      implementing identity management products of different
-                      vendors. We can effectively level up your team’s IAM
-                      knowledge and skills.
+                  Our instructors possess hands-on expertise in architecting and implementing identity management products from various vendors. Let us elevate your team's IAM knowledge and skills effectively.
                   </div>
                   {/* <NavLink to="/services/iam/strategic-talent-services">
                                         <div>

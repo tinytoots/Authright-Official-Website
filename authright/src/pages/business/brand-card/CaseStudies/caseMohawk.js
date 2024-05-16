@@ -15,9 +15,9 @@ export default class caseMohawk extends Component {
                         solutions for Commercial Industries
                     </div>
                     <div className="caseStudies-content">
-                        We provide the global support for all servers, monitor<br/>
-                        and alert and take timely action
-                    </div>
+                        We offer comprehensive global support for all servers, ensuring continuous monitoring,<br/>
+                        proactive alerts, and swift action to resolve any issues promptly.
+                    </div> 
             </div>
 
                 
@@ -32,16 +32,13 @@ export default class caseMohawk extends Component {
                             </Col>
                             <Col>
                                 <div className="caseStudies-about-title" style={{paddingTop: 70}}>
-                                    Description
+                                    Empowering the Commercial Industries
                                 </div>
                                 <div className="caseStudies-about-content">
-                                    This is an American flooring manufacturer which produces floor covering
-                                    products for residential and commercial applications in North America and residential 
-                                    applications in Europe. 
+                                    We're thrilled to highlight our collaboration with an esteemed American flooring manufacturer, renowned for its top-quality floor covering products. Operating across North America and catering to residential and commercial needs, with additional residential applications in Europe, this client represents excellence in the flooring industry.
                                 </div>    
                                 <div className="caseStudies-about-content">
-                                    ForgeRock IAM is used to integrate Azure Active Directory and their commercial 
-                                    applications to achieve Single-Sing On.
+                                    Through our partnership, we seamlessly integrated ForgeRock IAM and Azure Active Directory with the client's commercial applications, resulting in a game-changing Single Sign-On solution.
                                 </div>  
                             </Col>
                         </Row>
@@ -52,11 +49,11 @@ export default class caseMohawk extends Component {
                     <Row>
                         <Col>
                             <div className="caseStudies-about-title" style={{paddingTop: 40}}>
-                                Scenario
+                                Key Contributions to Client Success 
                             </div>
                             <div className="caseStudies-about-content" style={{paddingBottom: 70}}>
-                                Customer account login. <br />
-                                A non-typical SSO flow through SAML.
+                                Simplified Customer Account Access. <br />
+                                Implemented a unique SSO flow using SAML for streamlined customer account login.
                             </div>
                         </Col>
                         <Col>
@@ -77,11 +74,11 @@ export default class caseMohawk extends Component {
                                 <div className = "case-mark-block" >
                                     {/* style={{paddingTop: 10, marginLeft:110, color:"#cf1322", fontSize: 28}} */}
                                         <div className="case-mark-number" >
-                                            194,000
+                                            40,000,000
                                         </div>
                                         {/* style={{marginLeft:110}} */}
                                         <div className="case-mark-text">
-                                            Shareholders
+                                            Users
                                         </div>
                                     </div>
                                 </Col>
@@ -91,11 +88,11 @@ export default class caseMohawk extends Component {
                                 <div className = "case-mark-block" >
                                     {/* style={{paddingTop: 10, marginLeft:110, color:"#cf1322", fontSize: 28}} */}
                                         <div className="case-mark-number" >
-                                            40,000,000
+                                            24/7
                                         </div>
                                         {/* style={{marginLeft:110}} */}
                                         <div className="case-mark-text">
-                                        Customers
+                                            Support
                                         </div>
                                     </div>
                                 </Col>
@@ -103,11 +100,11 @@ export default class caseMohawk extends Component {
                                 <div className = "case-mark-block" >
                                     {/* style={{paddingTop: 10, marginLeft:110, color:"#cf1322", fontSize: 28}} */}
                                         <div className="case-mark-number" >
-                                        24/7
+                                            100%
                                         </div>
                                         {/* style={{marginLeft:110}} */}
                                         <div className="case-mark-text">
-                                        Support
+                                            Customer Satisfaction
                                         </div>
                                     </div>
                                 </Col>
@@ -149,15 +146,14 @@ export default class caseMohawk extends Component {
                             </div>
                             <Col>
                                 <div className="caseStudies-about-title">
-                                    The Solution
+                                    Our Comprehensive Solution
                                 </div>
                                 <div className="caseStudies-about-content" style={{paddingBottom: 50}}>
-                                    SSO through SAML with a non-typical workflow.<br/>
-                                    Hybrid Cloud and On-prem system structure.<br/>
-                                    Component customization and development.<br/>
+                                    SSO via SAML with a unique workflow design.<br/>
+                                    Hybrid Cloud and On-prem system architecture.<br/>
+                                    Customization design and development of components.<br/>
                                     System upgrade.<br/>
-                                    Production supporting and issue solving.
-
+                                    Production support and issue resolution.
                                 </div>    
                             </Col>
                         </Row>

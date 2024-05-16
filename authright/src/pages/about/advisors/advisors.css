@@ -14,6 +14,16 @@
   color: black;
 }
 
+.about-leadership-ceo1{
+  height: auto; /* 将固定高度改为自动，以适应内容大小 */
+  margin-top: 30px;
+  padding: 20px; /* 添加内边距以确保内容不触及边缘 */
+  display: flex;
+  align-items: center; /* 垂直居中内容 */
+  justify-content: center; /* 水平居中内容 */
+  flex-direction: column; /* 垂直堆叠子元素 */
+}
+
 .leader-title {
   padding: 50px 0px 0px 0px;
   font-size: 40px;
@@ -26,11 +36,13 @@
   flex-direction: column;
 }
 
+
 @media screen and (max-width: 420px) {
   .advisor-bg {
     height: auto;
     width: 100%;
   }
+
   .advisor-title {
     padding: 20px 0px 10px 0px;
   }
@@ -45,6 +57,7 @@
     height: auto;
     width: 100%;
   }
+
   .advisor-title {
     padding: 20px 0px 10px 0px;
   }

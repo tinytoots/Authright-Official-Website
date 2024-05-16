@@ -15,12 +15,10 @@ export default class customerComments extends Component {
           <div
             className="customerComments-title"
           >
-            What our Customers said
+            Hear Directly from Those Who Love Us
           </div>
           <div className="customerComments-content">
-            Since Authright was founded in 2017, we have provided customized
-            IAM services to dozens of medium and large enterprises, and our IAM
-            experts have been recognized and supported by our customers
+            Since 2017, Authright has led the IAM industry, crafting tailored solutions for dozens of medium to large enterprises. Our expert team's dedication has earned us acclaim and trust from our clients, reinforcing our commitment to excellence.
           </div>
         </div>
 

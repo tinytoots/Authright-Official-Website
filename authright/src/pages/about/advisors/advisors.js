@@ -9,12 +9,12 @@ import "./advisors.css";
 export default function Advisoryboard(props) {
   return (
     <div className="advisor-bg">
-      <div className="leader-title">Founders</div>
-      <div className="about-leadership-ceo">
+      <div className="leader-title">Authright Founders</div>
+      <div className="about-leadership-ceo1">
         <LeadCard leadInfo={leads} />
       </div>
       {/* <div className="leader-title">Co-Founder</div> */}
-      <div className="about-leadership-ceo">
+      <div className="about-leadership-ceo2">
         <LeadCard leadInfo={leadsScond} />
       </div>
       <div className="advisor-title">Advisory Board</div>

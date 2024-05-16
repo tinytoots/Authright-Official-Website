@@ -17,14 +17,12 @@ export default function CustomerIntro() {
           </Col>
           <Col className="gutter-row" >
             <div className="about-company-title2">
-              We are Committed to Saving Money and<br/>
-              Improving Efficiency for Our Customers
+              We are committed to providing cost-efficient<br/>
+              and highly effective solutions to our clients
             </div>
             <div className="career-company-intro">
-              With more than{" "}
-              <span style={{ fontFamily: "SFProDisplay-bold" }}>90%</span> IAM
-              certificate holding rate, our professional team will escort your
-              business all the time and provide 24/7 managed services.
+              With over{" "}
+              <span style={{ fontFamily: "SFProDisplay-bold" }}>90%</span> of our team holding IAM certificates, rest assured, your business is always in expert hands. Experience round-the-clock managed services with confidence, backed by our highly skilled professionals.
             </div>
           </Col>
         </Row>

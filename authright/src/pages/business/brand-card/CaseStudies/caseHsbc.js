@@ -8,14 +8,14 @@ export default class caseHsbc extends Component {
             <div className="hsbc-bg">
                 <div className="inner">
                     <div className="caseStudies-title">
-                        Authright provides 24/7 global
+                        Authright offers round-the-clock global IAM technical support,
                     </div>
                     <div className="caseStudies-title2">
-                        IAM technical support
+                        ensuring uninterrupted assistance to clients across all time zones.
                     </div>
                     <div className="caseStudies-content">
-                        We provide the global support for all servers, monitor<br/>
-                        and alert and take timely action
+                        We offer comprehensive global support for all servers, ensuring continuous monitoring,<br/>
+                        proactive alerts, and swift action to resolve any issues promptly.
                     </div>
             </div>
                 <div className="case-about-bg">
@@ -26,10 +26,10 @@ export default class caseHsbc extends Component {
                             </Col>
                             <Col>
                                 <div className="caseStudies-about-title">
-                                    Description
+                                    Authright Empowers the Finance Sector
                                 </div>
                                 <div className="caseStudies-about-content">
-                                    This project build a digital security platform with Forgerock products, which enable millions of customers use web browser or mobile to operate on their accounts.
+                                For this client, we revolutionized their digital security framework with Forgerock products, ensuring millions of their customers can now effortlessly and securely manage their accounts across various platforms, be it web browsers or mobile devices.
                                 </div>    
                             </Col>
                         </Row>
@@ -40,14 +40,14 @@ export default class caseHsbc extends Component {
                     <Row>
                         <Col>
                             <div className="caseStudies-about-title">
-                                Scenario
+                                Key Contributions to Client Success
                             </div>
                             <div className="caseStudies-about-content" style={{paddingBottom: 70}}>
-                                Integrate with legacy app and database <br/>
-                                Secure authentication and authorization with MFA<br/>
+                            Let us dive into the remarkable journey of how we transformed our client's operations. By seamlessly integrating their legacy application and database, implementing robust multi-factor authentication (MFA), and enabling smooth single sign-on (SSO) across web and mobile platforms using SAML and OAuth, we fortified their security and streamlined their processes. Additionally, we empowered end-users with self-service capabilities through a customized user interface. Now, witness their evolution as they migrate their platform to the AWS cloud, achieving exceptional scalability and flexibility. <br/>
+                                {/* Secure authentication and authorization with MFA<br/>
                                 SSO through SAML, Oauth across web and mobile<br/>
                                 End user self-service through a customized UI<br/>
-                                Now migrating the platform to AWS cloud.
+                                Now migrating the platform to AWS cloud. */}
 
                             </div>
                         </Col>
@@ -69,11 +69,11 @@ export default class caseHsbc extends Component {
                                 <div className = "case-mark-block" >
                                     {/* style={{paddingTop: 10, marginLeft:110, color:"#cf1322", fontSize: 28}} */}
                                         <div className="case-mark-number" >
-                                            194,000
+                                            40,000,000
                                         </div>
                                         {/* style={{marginLeft:110}} */}
                                         <div className="case-mark-text">
-                                            Shareholders
+                                            Users   
                                         </div>
                                     </div>
                                 </Col>
@@ -83,11 +83,11 @@ export default class caseHsbc extends Component {
                                 <div className = "case-mark-block" >
                                     {/* style={{paddingTop: 10, marginLeft:110, color:"#cf1322", fontSize: 28}} */}
                                         <div className="case-mark-number" >
-                                            40,000,000
+                                            24/7
                                         </div>
                                         {/* style={{marginLeft:110}} */}
                                         <div className="case-mark-text">
-                                        Customers
+                                            Support
                                         </div>
                                     </div>
                                 </Col>
@@ -95,11 +95,11 @@ export default class caseHsbc extends Component {
                                 <div className = "case-mark-block" >
                                     {/* style={{paddingTop: 10, marginLeft:110, color:"#cf1322", fontSize: 28}} */}
                                         <div className="case-mark-number" >
-                                        24/7
+                                            100%
                                         </div>
                                         {/* style={{marginLeft:110}} */}
                                         <div className="case-mark-text">
-                                        Support
+                                            Customer Satisfaction
                                         </div>
                                     </div>
                                 </Col>
@@ -141,14 +141,13 @@ export default class caseHsbc extends Component {
                             </div>
                             <Col>
                                 <div className="caseStudies-about-title">
-                                    The Solution
+                                    Our Comprehensive Solution
                                 </div>
                                 <div className="caseStudies-about-content" style={{paddingBottom: 50}}>
-                                    UI dashboard development <br />
-                                    AM endpoint and authentication node customization.<br />
-                                    AM session and token management customization<br />
-                                    Troubleshooting and support<br />
-
+                                    Tailored UI Dashboard Development <br />
+                                    Customization of AM Endpoint and Authentication Node<br />
+                                    Personalized AM Session and Token Management<br />
+                                    Dedicated Troubleshooting and Responsive Support<br />
                                 </div>    
                             </Col>
                         </Row>

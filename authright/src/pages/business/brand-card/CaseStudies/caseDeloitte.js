@@ -9,15 +9,14 @@ export default class caseDeloitte extends Component {
                 <div className="inner">
                     {/* <img src={HsbcLogo} width={180} alt = 'logo' className='case-hsbc-logo-img'/> */}
                     <div className="caseStudies-title">
-                        Authright provides modern IAM customized
+                        Authright equips governmental organizations and programs
                     </div>
                     <div className="caseStudies-title2">
-                        solutions for Governmental Program
+                        with cutting-Edge customized IAM solutions
                     </div>
                     <div className="caseStudies-content">
-                        We provide the global support for all servers, monitor<br/>
-
-                        and alert and take timely action
+                        We offer comprehensive global support for all servers, ensuring continuous monitoring,<br/>
+                        proactive alerts, and swift action to resolve any issues promptly.
                     </div>
             </div>
 
@@ -29,12 +28,10 @@ export default class caseDeloitte extends Component {
                             </Col>
                             <Col>
                                 <div className="caseStudies-about-title" style={{paddingTop: 35}}>
-                                    Description
+                                    Empowering Governmental Organizations
                                 </div>
                                 <div className="caseStudies-about-content">
-                                    This program enables state agencies, local governments, 
-                                    and institutions of higher education to provide simple, 
-                                    accessible and secure digital government services to their constituents.
+                                    We take great pride in our service to state agencies, local governments, and institutions of higher education, delivering robust, accessible, and secure digital government services to their constituents.
                                 </div>    
                             </Col>
                         </Row>
@@ -45,13 +42,12 @@ export default class caseDeloitte extends Component {
                     <Row>
                         <Col>
                             <div className="caseStudies-about-title" style={{paddingTop: 40}}>
-                                Scenario
+                                Key Contributions to Client Successes
                             </div>
                             <div className="caseStudies-about-content" style={{paddingBottom: 70}}>
-                                User mappings through IDM and reconciliation and live sync.<br/>
-                                IDM Connectors integration with other apps.<br/>
-                                End user self-service through a customized UI.
-
+                                User mappings facilitated via IDM, alongside reconciliation and live synchronization.<br/>
+                                Seamless integration of IDM Connectors with various applications.<br/>
+                                Empower end-users with self-service capabilities through a tailored user interface.
                             </div>
                         </Col>
                         <Col>
@@ -72,11 +68,11 @@ export default class caseDeloitte extends Component {
                                 <div className = "case-mark-block" >
                                     {/* style={{paddingTop: 10, marginLeft:110, color:"#cf1322", fontSize: 28}} */}
                                         <div className="case-mark-number" >
-                                            194,000
+                                            40,000,000
                                         </div>
                                         {/* style={{marginLeft:110}} */}
                                         <div className="case-mark-text">
-                                            Shareholders
+                                            Users
                                         </div>
                                     </div>
                                 </Col>
@@ -86,11 +82,11 @@ export default class caseDeloitte extends Component {
                                 <div className = "case-mark-block" >
                                     {/* style={{paddingTop: 10, marginLeft:110, color:"#cf1322", fontSize: 28}} */}
                                         <div className="case-mark-number" >
-                                            40,000,000
+                                            24/7
                                         </div>
                                         {/* style={{marginLeft:110}} */}
                                         <div className="case-mark-text">
-                                        Customers
+                                            Support
                                         </div>
                                     </div>
                                 </Col>
@@ -98,11 +94,11 @@ export default class caseDeloitte extends Component {
                                 <div className = "case-mark-block" >
                                     {/* style={{paddingTop: 10, marginLeft:110, color:"#cf1322", fontSize: 28}} */}
                                         <div className="case-mark-number" >
-                                        24/7
+                                            100%
                                         </div>
                                         {/* style={{marginLeft:110}} */}
                                         <div className="case-mark-text">
-                                        Support
+                                            Customer Satisfaction
                                         </div>
                                     </div>
                                 </Col>
@@ -144,13 +140,14 @@ export default class caseDeloitte extends Component {
                             </div>
                             <Col>
                                 <div className="caseStudies-about-title">
-                                    The Solution
+                                    Our Comprehensive Solution
                                 </div>
                                 <div className="caseStudies-about-content" style={{paddingBottom: 50}}>
-                                    Connectors development: Use CSV connector (for bulk user), SaleForce connector and DS connector.<br/>
+                                    Connector Development: Utilized CSV connector for bulk user management, SaleForce connector, and DS connector.<br/>
                                     Mappings: Data reconcile and sync; develop customized scripts for data manipulation.<br/>
-                                    UI dashboard development.<br/>
-                                    Custom IDM API enhancement.
+                                    Data Mapping: Reconciled and synchronized data; developed customized scripts for data manipulation.<br/>
+                                    UI Dashboard Development.<br/>
+                                    Custom IDM API Enhancement.
                                 </div>    
                             </Col>
                         </Row>

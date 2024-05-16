@@ -9,14 +9,14 @@ export default class caseHomeDepot extends Component {
                 <div className="inner">
                     {/* <img src={HsbcLogo} width={180} alt = 'logo' className='case-hsbc-logo-img'/> */}
                     <div className="caseStudies-title">
-                        Authright provides modern IAM customized
+                        Authright offers cutting-edge IAM solutions tailored specifically for the
                     </div>
                     <div className="caseStudies-title2">
-                        solutions for Retailer Industries
+                        Retailer Industry, ensuring seamless and secure access management in today's dynamic market landscape.
                     </div>
                     <div className="caseStudies-content">
-                        We provide the global support for all servers, monitor<br/>
-                        and alert and take timely action
+                        We offer comprehensive global support for all servers, ensuring continuous<br/>
+                        monitoring, proactive alerts, and swift action to resolve any issues promptly.
                     </div>
             </div>
 
@@ -32,11 +32,10 @@ export default class caseHomeDepot extends Component {
                             </Col>
                             <Col>
                                 <div className="caseStudies-about-title" style={{paddingTop: 70}}>
-                                    Description
+                                    IAM System Powers E-Commerce Growth
                                 </div>
                                 <div className="caseStudies-about-content">
-                                    This IAM system supports their online e-commerce store for daily customer login. 
-                                    The IAM system deals with 0.3 billion registered accounts and more than 30 million active accounts. 
+                                Our IAM system serves as the backbone of their bustling online e-commerce platform, facilitating seamless customer logins day in and day out. With a staggering 100 million registered accounts and over 30 million active users, our robust IAM solution is the driving force behind their continued growth and success in the digital marketplace. 
                                 </div>    
                                 
                             </Col>
@@ -48,14 +47,13 @@ export default class caseHomeDepot extends Component {
                     <Row>
                         <Col>
                             <div className="caseStudies-about-title" style={{paddingTop: 40}}>
-                                Scenario
+                                Key Contributions to Client Success 
                             </div>
                             <div className="caseStudies-about-content" style={{paddingBottom: 70}}>
-                                CIAM with 30,000,000+ active users<br />
-                                Monitoring and customer behavior data extraction<br />
-                                Self-service enhancement<br />
-                                User accounts migration
-
+                                Implementation of CIAM for 30,000,000+ active users<br />
+                                Efficient monitoring and extraction of customer behavior data<br />
+                                Enhancement of self-service capabilities<br />
+                                Seamless migration of user accounts
                             </div>
                         </Col>
                         <Col>
@@ -76,11 +74,11 @@ export default class caseHomeDepot extends Component {
                                 <div className = "case-mark-block" >
                                     {/* style={{paddingTop: 10, marginLeft:110, color:"#cf1322", fontSize: 28}} */}
                                         <div className="case-mark-number" >
-                                            194,000
+                                            40,000,000
                                         </div>
                                         {/* style={{marginLeft:110}} */}
                                         <div className="case-mark-text">
-                                            Shareholders
+                                            Users
                                         </div>
                                     </div>
                                 </Col>
@@ -90,11 +88,11 @@ export default class caseHomeDepot extends Component {
                                 <div className = "case-mark-block" >
                                     {/* style={{paddingTop: 10, marginLeft:110, color:"#cf1322", fontSize: 28}} */}
                                         <div className="case-mark-number" >
-                                            40,000,000
+                                            24/7
                                         </div>
                                         {/* style={{marginLeft:110}} */}
                                         <div className="case-mark-text">
-                                        Customers
+                                            Support
                                         </div>
                                     </div>
                                 </Col>
@@ -102,11 +100,11 @@ export default class caseHomeDepot extends Component {
                                 <div className = "case-mark-block" >
                                     {/* style={{paddingTop: 10, marginLeft:110, color:"#cf1322", fontSize: 28}} */}
                                         <div className="case-mark-number" >
-                                        24/7
+                                             100%
                                         </div>
                                         {/* style={{marginLeft:110}} */}
                                         <div className="case-mark-text">
-                                        Support
+                                            Customer Satisfaction
                                         </div>
                                     </div>
                                 </Col>
@@ -148,14 +146,14 @@ export default class caseHomeDepot extends Component {
                             </div>
                             <Col>
                                 <div className="caseStudies-about-title">
-                                    The Solution
+                                    Our Comprehensive Solution
                                 </div>
                                 <div className="caseStudies-about-content" style={{paddingBottom: 50}}>
-                                    Authentication module customization <br />
-                                    DS user accounts migration <br />
-                                    Disaster Recover setup<br />
-                                    System upgrades<br />
-                                    Troubleshooting and support
+                                    Tailored authentication module customization <br />
+                                    Seamless migration of DS user accounts <br />
+                                    Comprehensive disaster recovery setup <br />
+                                    Efficient system upgrades<br />
+                                    Proactive troubleshooting and continuous support
 
                                 </div>    
                             </Col>

@@ -12,21 +12,21 @@ var cardHsbc = {
 export default function Card() {
   return (
     <div className="card-bg">
-      <div className="card-grid-case-study-title">Our Case Studies</div>
+      <div className="card-grid-case-study-title">Client Success Stories</div>
       <div className="card-grid-title">
-        We are committed to providing reliable and efficient IAM <br />
-        and Full Stack services in different industrial fields{" "}
+        We are dedicated to delivering robust and highly efficient IAM <br />
+        and Full Stack services across diverse industries{" "}
       </div>
       <Row gutter={[0, 25]} wrap={true} justify="center">
         <Col className="gutter-row">
           <div className="card" style={cardHsbc}>
             <div className="card-content">
               <h2 className="card-title">
-                <p>Financial Services</p>
-                <p>with CIAM</p>
+                <p>Empowering the Finance Sector</p>
+                <p>with Cutting-Edge CIAM Services</p>
               </h2>
               <p className="card-body">
-                Digital Security Platform enabling millions of customer services
+                Effortlessly manage millions of accounts with our cutting-edge Digital Security Platform.
               </p>
               <Link to="/1" className="button">
                 Learn More
@@ -44,12 +44,11 @@ export default function Card() {
           >
             <div className="card-content">
               <h2 className="card-title">
-                <p>Retailer Services with</p>
-                <p>CIAM</p>
+                <p>Transforming Retail with</p>
+                <p>Advanced CIAM Solutions</p>
               </h2>
               <p className="card-body">
-                E-commerce Store for daily customer authentication and
-                authorization
+                Assisting E-commerce businesses with essential daily customer authentication and authorization processes, ensuring smooth and secure transactions.
               </p>
               <Link to="/2" className="button">
                 Learn More
@@ -67,11 +66,11 @@ export default function Card() {
           >
             <div className="card-content">
               <h2 className="card-title">
-                <p>Global Commercial</p>
-                <p> SSO Soilution</p>
+                <p>Empowering Global Businesses:</p>
+                <p>Our Seamless SSO Solution</p>
               </h2>
               <p className="card-body">
-                Customized system integration and SSO implementation
+                Authright delivers cutting-edge IAM solutions customized for global commercial enterprises.
               </p>
               <Link to="/3" className="button">
                 Learn More
@@ -89,11 +88,11 @@ export default function Card() {
           >
             <div className="card-content">
               <h2 className="card-title">
-                <p>Consumer Vehicle</p>
-                <p>Industry IAM Platform</p>
+                <p>Revolutionizing the Automotive</p>
+                <p>Industry with IAM Platform</p>
               </h2>
               <p className="card-body">
-                Unified application platform with IAM capability for end users
+                Streamlined application platform  with IAM capabilities empowering end users
               </p>
               <Link to="/4" className="button">
                 Learn More
@@ -111,11 +110,11 @@ export default function Card() {
           >
             <div className="card-content">
               <h2 className="card-title">
-                <p>Healthcare Industry</p>
-                <p>IAM Services</p>
+                <p>Empowering Healthcare Giants</p>
+                <p>with Cutting-Edge IAM Services</p>
               </h2>
               <p className="card-body">
-                Compliance driven multi-region system migration and upgrade
+                Seamless multi-Region system migration and upgrade for regulatory compliance.
               </p>
               <Link to="/5" className="button">
                 Learn More
@@ -133,11 +132,11 @@ export default function Card() {
           >
             <div className="card-content">
               <h2 className="card-title">
-                <p>Workforce IAM</p>
-                <p>Solution</p>
+                <p>Your Go-To IAM Solution</p>
+                <p>for Workforce Management</p>
               </h2>
               <p className="card-body">
-                Enforce employee security with MFA while smoothing SSO process
+                Boosting employee security with MFA and streamlining SSO processes
               </p>
               <Link to="/6" className="button">
                 Learn More
@@ -155,11 +154,11 @@ export default function Card() {
           >
             <div className="card-content">
               <h2 className="card-title">
-                <p>IAM Platform for </p>
-                <p>Educational Sercive</p>
+                <p>Empowering Education</p>
+                <p>with Our IAM Platform</p>
               </h2>
               <p className="card-body">
-                End user access handling with reliability and security
+                Ensuring unwavering reliability and security in end user access.
               </p>
               <Link to="/7" className="button">
                 Learn More
@@ -177,11 +176,11 @@ export default function Card() {
           >
             <div className="card-content">
               <h2 className="card-title">
-                <p>Governmental</p>
-                <p>IAM Program</p>
+                <p>Revolutionary IAM Program</p>
+                <p>Empowering Governmental Organizations</p>
               </h2>
               <p className="card-body">
-                User lifecycle management and cross domain SSO
+                Empowering clients through seamless User Lifecycle Management and Cross-Domain SSO.
               </p>
               <Link to="/8" className="button">
                 Learn More

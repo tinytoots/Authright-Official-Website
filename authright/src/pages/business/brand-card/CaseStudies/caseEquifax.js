@@ -9,15 +9,14 @@ export default class caseEquifax extends Component {
                 <div className="inner">
                     {/* <img src={HsbcLogo} width={220} alt = 'logo' className='case-hsbc-logo-img'/> */}
                     <div className="caseStudies-title" style={{marginTop: 60}}>
-                        Authright provides modern IAM customized
+                        Authright Transforms Workforce Management with
                     </div>
                     <div className="caseStudies-title2">
-                        solutions for Workforce field
+                        Cutting-edge Custom IAM Solutions
                     </div>
                     <div className="caseStudies-content">
-                        We provide the global support for all servers, monitor<br/>
-
-                        and alert and take timely action
+                        We offer comprehensive global support for all servers, ensuring continuous monitoring,<br/>
+                        proactive alerts, and swift action to resolve any issues promptly.
                     </div>
             </div>
 
@@ -33,11 +32,10 @@ export default class caseEquifax extends Component {
                             </Col>
                             <Col>
                                 <div className="caseStudies-about-title" style={{paddingTop: 60}}>
-                                    Description
+                                    Empowering the Workforce Management
                                 </div>
                                 <div className="caseStudies-about-content">
-                                    This project focuses on Workforce IAM solution including 20k+ employees from US, Canada, Australia,  
-                                    and South America.
+                                    We take pride in delivering cutting-edge Workforce IAM solutions that have positively impacted over 20,000 employees spanning across the United States, Canada, Australia, and South America.
                                 </div>    
                             </Col>
                         </Row>
@@ -48,14 +46,13 @@ export default class caseEquifax extends Component {
                     <Row>
                         <Col>
                             <div className="caseStudies-about-title" style={{paddingTop: 40}}>
-                                Scenario
+                                Key Contributions to Client Successes
                             </div>
                             <div className="caseStudies-about-content" style={{paddingBottom: 70}}>
-                                SSO onboarding 200+ applications.<br/>
-                                Secure authentication with MFA.<br/>
-                                End user self-service through a customized UI.<br/>
-                                Comprehensive Authentication Policy basd on various workflows.
-
+                                Seamless SSO onboarding for over 200 applications.<br/>
+                                Strengthened security with MFA authentication.<br/>
+                                Customized UI design that enabled end-users with  self-service.<br/>
+                                Implemented comprehensive Authentication Policy tailored to a variety of workflows.
                             </div>
                         </Col>
                         <Col>
@@ -76,11 +73,11 @@ export default class caseEquifax extends Component {
                                 <div className = "case-mark-block" >
                                     {/* style={{paddingTop: 10, marginLeft:110, color:"#cf1322", fontSize: 28}} */}
                                         <div className="case-mark-number" >
-                                            194,000
+                                            40,000,000
                                         </div>
                                         {/* style={{marginLeft:110}} */}
                                         <div className="case-mark-text">
-                                            Shareholders
+                                            Users
                                         </div>
                                     </div>
                                 </Col>
@@ -90,11 +87,11 @@ export default class caseEquifax extends Component {
                                 <div className = "case-mark-block" >
                                     {/* style={{paddingTop: 10, marginLeft:110, color:"#cf1322", fontSize: 28}} */}
                                         <div className="case-mark-number" >
-                                            40,000,000
+                                             24/7
                                         </div>
                                         {/* style={{marginLeft:110}} */}
                                         <div className="case-mark-text">
-                                        Customers
+                                            Support
                                         </div>
                                     </div>
                                 </Col>
@@ -102,11 +99,11 @@ export default class caseEquifax extends Component {
                                 <div className = "case-mark-block" >
                                     {/* style={{paddingTop: 10, marginLeft:110, color:"#cf1322", fontSize: 28}} */}
                                         <div className="case-mark-number" >
-                                        24/7
+                                            100%
                                         </div>
                                         {/* style={{marginLeft:110}} */}
                                         <div className="case-mark-text">
-                                        Support
+                                            Customer Satisfaction
                                         </div>
                                     </div>
                                 </Col>
@@ -148,14 +145,14 @@ export default class caseEquifax extends Component {
                             </div>
                             <Col>
                                 <div className="caseStudies-about-title">
-                                    The Solution
+                                    Our Comprehensive Solution
                                 </div>
                                 <div className="caseStudies-about-content" style={{paddingBottom: 50}}>
-                                    Authentication Workflow development.<br/>
-                                    Self-service implementation.<br/>
-                                    SSO Application onboarding through SAML and OAuth.<br/>
-                                    Legacy Application Integration.<br/>
-                                    Troubleshooting and support.
+                                    Development of smooth Authentication Workflow.<br/>
+                                    Implementation of Seamless Self-Service.<br/>
+                                    Effortless SSO Application Onboarding via SAML and OAuth.<br/>
+                                    Seamless Integration with Legacy Applications.<br/>
+                                    Dedicated Troubleshooting and Support.
                                 </div>    
                             </Col>
                         </Row>

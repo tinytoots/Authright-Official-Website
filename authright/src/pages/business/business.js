@@ -8,8 +8,8 @@ export default class business extends Component {
     return (
       <div className="business-bg2">
         <div className="businessOutcome-intro">
-          <div className="businessOutcome-title1">We are Trusted by</div>
-          <div className="businessOutcome-title2">the Fortune 500</div>
+          {/* <div className="businessOutcome-title1">We are Trusted by</div> */}
+          <div className="businessOutcome-title2">Fortune 500 Companies Trust Us!</div>
           {/* <div className="businessOutcome-title2">companies</div> */}
           <img
             className="businessOutcome-underline-img"

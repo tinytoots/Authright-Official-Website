@@ -9,14 +9,14 @@ export default class casePearson extends Component {
                 <div className="inner">
                     {/* <img src={HsbcLogo} width={200} alt = 'logo' className='case-hsbc-logo-img'/> */}
                     <div className="caseStudies-title">
-                        Authright provides modern IAM customized
+                        Revolutionize Education with Authright's
                     </div>
                     <div className="caseStudies-title2">
-                        solutions for educational field
+                        Tailored Modern IAM Solutions
                     </div>
                     <div className="caseStudies-content">
-                        We provide the global support for all servers, monitor<br/>
-                        and alert and take timely action
+                        We offer comprehensive global support for all servers, ensuring continuous monitoring,<br/>
+                        proactive alerts, and swift action to resolve any issues promptly.
                     </div>
             </div>
 
@@ -32,10 +32,10 @@ export default class casePearson extends Component {
                             </Col>
                             <Col>
                                 <div className="caseStudies-about-title" style={{paddingTop: 55}}>
-                                    Description
+                                    Authright Empowers the Education Field
                                 </div>
                                 <div className="caseStudies-about-content">
-                                    The customer needed to upgrade Sun OpenSSO 8.0 to ForgeRock OpenAM 13.
+                                    We proudly showcase our expertise in facilitating smooth transitions for our esteemed client, exemplified by our successful endeavor in assisting the migration from Sun OpenSSO 8.0 to ForgeRock OpenAM 13. Our approach was rooted in meticulous planning, strategic execution, and unwavering commitment to excellence. We began by conducting a comprehensive assessment of the client’s existing infrastructure, identifying potential gaps and areas for improvement. Leveraging our deep understanding of both Sun OpenSSO and ForgeRock OpenAM platforms, we devised a customized migration strategy tailored to the client’s unique requirements.
                                 </div>    
                             </Col>
                         </Row>
@@ -46,13 +46,12 @@ export default class casePearson extends Component {
                     <Row>
                         <Col>
                             <div className="caseStudies-about-title" style={{paddingTop: 40}}>
-                                Scenario
+                                Key Contributions to Client Success
                             </div>
                             <div className="caseStudies-about-content" style={{paddingBottom: 70}}>
-                                A lost OpenSSO dev/testing environment needs to be rebuilt. <br/>
-                                Upgrades OpenSSO 8 to ForgeRock OpenAM 13.<br/>
-                                Migrates hundreds legacy applications integrated with OpenSSO to ForgeRock OpenAM.<br/>
-
+                                Restored a lost OpenSSO dev/testing environment to full functionality, ensuring uninterrupted operations. <br/>
+                                Upgraded from OpenSSO 8 to ForgeRock OpenAM 13, boosting security and efficiency.<br/>
+                                Migrated hundreds of legacy applications bound to OpenSSO to ForgeRock OpenAM, streamlining authentication and authorization processes.<br/>
                             </div>
                         </Col>
                         <Col>
@@ -73,11 +72,11 @@ export default class casePearson extends Component {
                                 <div className = "case-mark-block" >
                                     {/* style={{paddingTop: 10, marginLeft:110, color:"#cf1322", fontSize: 28}} */}
                                         <div className="case-mark-number" >
-                                            194,000
+                                            40,000,000
                                         </div>
                                         {/* style={{marginLeft:110}} */}
                                         <div className="case-mark-text">
-                                            Shareholders
+                                            Users
                                         </div>
                                     </div>
                                 </Col>
@@ -87,11 +86,11 @@ export default class casePearson extends Component {
                                 <div className = "case-mark-block" >
                                     {/* style={{paddingTop: 10, marginLeft:110, color:"#cf1322", fontSize: 28}} */}
                                         <div className="case-mark-number" >
-                                            40,000,000
+                                            24/7
                                         </div>
                                         {/* style={{marginLeft:110}} */}
                                         <div className="case-mark-text">
-                                        Customers
+                                            Support
                                         </div>
                                     </div>
                                 </Col>
@@ -99,11 +98,11 @@ export default class casePearson extends Component {
                                 <div className = "case-mark-block" >
                                     {/* style={{paddingTop: 10, marginLeft:110, color:"#cf1322", fontSize: 28}} */}
                                         <div className="case-mark-number" >
-                                        24/7
+                                            100%
                                         </div>
                                         {/* style={{marginLeft:110}} */}
                                         <div className="case-mark-text">
-                                        Support
+                                            Customer Satisfaction
                                         </div>
                                     </div>
                                 </Col>
@@ -145,13 +144,12 @@ export default class casePearson extends Component {
                             </div>
                             <Col>
                                 <div className="caseStudies-about-title">
-                                    The Solution
+                                    Our Comprehensive Solution
                                 </div>
                                 <div className="caseStudies-about-content" style={{paddingBottom: 50}}>
-                                    Exported OpenSSO configuration from production env, manually massaged the configuration,  and rebuilt OpenSSO dev/testing environment.<br/>
-                                    Upgraded OpenSSO 8.0 to ForgeRock OpenAM 13.<br/>
-                                    Smoothly migrated OpenSSO 8.0 Agent based applications to be integrated with ForgeRock OpenAM 13.<br/>
-
+                                    Expertly exported the OpenSSO configuration from the production environment and meticulously fine-tuned it, and reconstructed a robust OpenSSO development and testing environment, ensuring a flawless transition for future developments.<br/>
+                                    Implemented a strategic upgrade, elevating OpenSSO 8.0 to the advanced ForgeRock OpenAM 13 platform.<br/>
+                                    Executed a streamlined migration process, seamlessly transitioning OpenSSO 8.0 Agent-based applications to seamlessly integrate with ForgeRock OpenAM 13. <br/>
                                 </div>    
                             </Col>
                         </Row>

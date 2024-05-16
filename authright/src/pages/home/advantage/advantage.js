@@ -7,12 +7,10 @@ export default class advantage extends Component {
     return (
       <div className="adv-bg">
         <div className="advantage-title">
-          High Quality, Rapid Development, Customization
+          Cutting-Edge Solutions: Unparalleled Quality, Lightning-Fast Development, Tailored Just for You
         </div>
         <div className="advantage-content">
-          Whether you want to integrate IAM for your own system or need a
-          high-quality development team to help you turn your ideas into
-          reality, we can provide you with reliable technical services
+          Whether you're aiming to seamlessly integrate IAM into your existing system or seeking a top-notch development team to bring your ideas to life, count on us for dependable technical services that guarantee success.
         </div>
         <NavLink to="/services/iam">
           <div className="advantage-learnmore">

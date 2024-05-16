@@ -22,7 +22,7 @@ export default function Header() {
         <li>
           <NavLink
             to="/home"
-            className={isSelected === "home" ? "nav-active" : ""}
+            className={`${isSelected === "home" ? "nav-active" : ""} wide-nav-link`}
             onClick={() => onClose("home")}
           >
             Home
@@ -31,7 +31,7 @@ export default function Header() {
         <li>
           <NavLink
             to="/services/iam"
-            className={isSelected === "service" ? "nav-active" : ""}
+            className={`${isSelected === "service" ? "nav-active" : ""} wide-nav-link`}
             onClick={() => onClose("service")}
           >
             Service
@@ -40,25 +40,25 @@ export default function Header() {
         <li>
           <NavLink
             to="/customer"
-            className={isSelected === "customer" ? "nav-active" : ""}
+            className={`${isSelected === "customer" ? "nav-active" : ""} wide-nav-link`}
             onClick={() => onClose("customer")}
           >
-            Customer
+            Our Clients
           </NavLink>
         </li>
         <li>
           <NavLink
             to="/partners"
-            className={isSelected === "partners" ? "nav-active" : ""}
+            className={`${isSelected === "partners" ? "nav-active" : ""} wide-nav-link`}
             onClick={() => onClose("partners")}
           >
-            Partners
+            Our Partners
           </NavLink>
         </li>
         <li>
           <NavLink
             to="/about-us"
-            className={isSelected === "aboutus" ? "nav-active" : ""}
+            className={`${isSelected === "aboutus" ? "nav-active" : ""} wide-nav-link`}
             onClick={() => onClose("aboutus")}
           >
             About Us

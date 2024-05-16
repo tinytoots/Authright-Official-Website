@@ -20,7 +20,7 @@
 
 .businessOutcome-title2 {
   position: relative;
-  margin-top: -10px !important;
+  margin-top: 120px !important;
   font-size: 60px;
   font-family: "SFProDisplay-Bold", sans-serif;
   text-align: center;
@@ -31,8 +31,8 @@
 
 .businessOutcome-underline-img {
   position: relative;
-  margin-top: -150px;
-  margin-left: 330px;
+  margin-top: -160px;
+  margin-left: -350px;
 }
 
 .businessOutcome-card {
@@ -65,7 +65,36 @@ svg,
   width: 100%;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 375px) {
+  .customer-logo-list {
+    grid-template-columns: repeat(auto-fill, 110px);
+    grid-gap: 10px;
+    margin-top: 10px;
+  }
+  .businessOutcome-intro {
+    height: auto;
+    width: 360px;
+    margin: auto;
+  }
+  .businessOutcome-title1 {
+    font-size: 35px;
+    padding-top: 60px;
+  }
+
+  .businessOutcome-title2 {
+    margin-top: 45px !important;
+    font-size: 25px;
+  }
+
+  .businessOutcome-underline-img {
+    width: 70px !important;
+    margin-left: 55px;
+    bottom: 500px;
+  }
+}
+
+
+@media screen and (min-width: 376px) and (max-width: 390px) {
   .customer-logo-list {
     grid-template-columns: repeat(auto-fill, 110px);
     grid-gap: 10px;
@@ -83,16 +112,74 @@ svg,
 
   .businessOutcome-title2 {
     font-size: 25px;
+    margin-top: 45px !important;
   }
 
   .businessOutcome-underline-img {
     width: 70px !important;
-    margin-top: -80px;
-    margin-left: 130px;
+    margin-left: 55px;
+    bottom: 678px;
   }
 }
 
-@media screen and (min-width: 420px) and (max-width: 800px) {
+
+@media screen and (min-width: 411px) and (max-width: 429px) {
+  .customer-logo-list {
+    grid-template-columns: repeat(auto-fill, 110px);
+    grid-gap: 10px;
+    margin-top: 10px;
+  }
+  .businessOutcome-intro {
+    height: auto;
+    width: 360px;
+    margin: auto;
+  }
+  .businessOutcome-title1 {
+    font-size: 35px;
+    padding-top: 60px;
+  }
+
+  .businessOutcome-title2 {
+    font-size: 25px;
+    margin-top: 45px !important;
+  }
+
+  .businessOutcome-underline-img {
+    width: 70px !important;
+    margin-left: 55px;
+    bottom: 730px;
+  }
+}
+
+@media screen and (min-width: 430px) and (max-width: 459px) {
+  .customer-logo-list {
+    grid-template-columns: repeat(auto-fill, 110px);
+    grid-gap: 10px;
+    margin-top: 10px;
+  }
+  .businessOutcome-intro {
+    height: auto;
+    width: 360px;
+    margin: auto;
+  }
+  .businessOutcome-title1 {
+    font-size: 35px;
+    padding-top: 60px;
+  }
+
+  .businessOutcome-title2 {
+    margin-top: 45px !important;
+    font-size: 25px;
+  }
+
+  .businessOutcome-underline-img {
+    width: 70px !important;
+    margin-left: 53px;
+    bottom: 765px;
+  }
+}
+
+@media screen and (min-width: 760px) and (max-width: 770px) {
   .customer-logo-list {
     grid-template-columns: repeat(auto-fill, 150px);
     grid-gap: 10px;
@@ -110,16 +197,45 @@ svg,
 
   .businessOutcome-title2 {
     font-size: 50px;
+    margin-top: 45px !important;
   }
 
   .businessOutcome-underline-img {
     width: 140px !important;
-    margin-top: -20%;
-    margin-left: 43%;
+    bottom: 820px;
+    margin-left: 245px;
   }
 }
 
-@media screen and (min-width: 800px) and (max-width: 1200px) {
+@media screen and (min-width: 771px) and (max-width: 830px) {
+  .customer-logo-list {
+    grid-template-columns: repeat(auto-fill, 150px);
+    grid-gap: 10px;
+    margin-top: 20px;
+  }
+  .businessOutcome-intro {
+    height: auto;
+    width: 80%;
+    margin: auto;
+  }
+  .businessOutcome-title1 {
+    font-size: 60px;
+    padding-top: 100px;
+  }
+
+  .businessOutcome-title2 {
+    font-size: 50px;
+    margin-top: 45px !important;
+  }
+
+  .businessOutcome-underline-img {
+    width: 140px !important;
+    bottom: 973px;
+    margin-left: 235px;
+  }
+}
+
+@media screen and (min-width: 831px) and (max-width: 1200px) {
   .customer-logo-list {
     grid-template-columns: repeat(auto-fill, 150px);
     grid-gap: 10px;
@@ -141,7 +257,7 @@ svg,
 
   .businessOutcome-underline-img {
     width: 140px !important;
-    margin-top: -15%;
-    margin-left: 33%;
+    bottom: 1085px;
+    margin-left: 88px;
   }
 }

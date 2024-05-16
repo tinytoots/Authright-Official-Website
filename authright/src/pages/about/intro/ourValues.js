@@ -1,8 +1,8 @@
 const values = [
   {
-    title: "Customer First",
+    title: "Client-Centered",
     content:
-      "We put the needs and requirements of all customers ahead of anything and everything",
+      "We prioritize the needs and requirements of every client above all else. Your satisfaction is not just a goal; it's our relentless pursuit.",
     img: (
       <svg
         t="1627065458197"
@@ -21,9 +21,9 @@ const values = [
     ),
   },
   {
-    title: "Employee Centered",
+    title: "Employee-Valued",
     content:
-      "We want employees to feel comfortable sharing concerns and have their voices heard and needs respected.",
+      "We foster an environment where every employee's concerns matter, every voice resonates, and every employee's needs are not just heard but honored.",
     img: (
       <svg
         t="1627065589549"
@@ -44,9 +44,9 @@ const values = [
     ),
   },
   {
-    title: "Growth Oriented",
+    title: "Growth-Driven",
     content:
-      "We encourage our employees to go out of their comfort zone and innovate on the basis of research and expertise.",
+      "We empower our team to push beyond boundaries and inspire innovation rooted in rigorous research and unwavering expertise.",
     img: (
       <svg
         t="1627065227387"
@@ -67,9 +67,9 @@ const values = [
     ),
   },
   {
-    title: "Sharing Valued",
+    title: "Candor-Welcomed",
     content:
-      "We treasure team cohesion and promote caring, openness respect, and equality among our team members.",
+      "Fueling success with a foundation of unwavering unity, we cherish team cohesion as our cornerstone. Our ethos champions a culture of profound care, unbridled openness, unwavering respect, and unyielding equality among every member of our team.",
     img: (
       <svg
         t="1627065408336"

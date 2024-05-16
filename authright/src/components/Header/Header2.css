@@ -112,9 +112,19 @@ nav a:hover {
   margin-top: 27px;
 }
 
+.wide-nav-link { 
+  flex-grow: 1;  /*Change the width of nav bar font*/
+  white-space: nowrap; 
+}
+
 @media screen and (min-width: 1024px) {
   .nav-toggle-label {
     display: none;
+  }
+
+  nav li {
+    margin-left: 1.5em;
+    margin-bottom: 10px;
   }
 }
 @media screen and (min-width: 769px) {
@@ -147,7 +157,7 @@ nav a:hover {
   }
 
   nav li {
-    margin-left: 1.8em;
+    margin-left: 0.5em;
     margin-bottom: 10px;
   }
 
@@ -180,9 +190,20 @@ nav a:hover {
   background-color: black;
 }
 
+
 @media screen and (min-width: 1000px) {
   .headerLogo {
-    margin-left: 180px;
+    margin-left: 40px;
+  }
+
+  nav li {
+    margin-left: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  .wide-nav-link { 
+    flex-grow: 1;  /*Change the width of nav bar font*/
+    white-space: nowrap; 
   }
 }
 

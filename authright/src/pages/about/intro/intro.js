@@ -24,26 +24,25 @@ export default class intro extends Component {
         <div className="about-intro-block">
           {/* <img src={IAMImg} width={1200} alt = 'logo' /> */}
           <div className="about-whoWeAre-title1">
-            Our Mission
+            Authright Mission
             {/* <div className='gray-lane' /> */}
           </div>
           <div className="about-mission-subtitle">
-            We Earn Trust by Actions
+            Trust Forged Through Actions
             <br />
             Stay True, Stay Right
           </div>
 
           {/* <div className="about-whoWeAre-title2">IAM</div> */}
           <div className="about-whoWeAre-content">
-            We are committed to delivering values to our clients and partners.{" "}
+            We are unwaveringly dedicated to providing unparalleled value to our clients and partners, ensuring every interaction is a testament to our relentless commitment.{" "}
             <br />
-            We are obsessed with helping you succeed and we are eager to see you
-            grow.
+            With an insatiable drive, we are fervently devoted to propelling your triumph and nurturing your expansion.
           </div>
         </div>
 
         <div className="about-intro-block3">
-          <div className="about-values-title">Our Values</div>
+          <div className="about-values-title">Authright Values</div>
           <div className="about-values">
             <Row gutter={16} justify="center" style={{marginLeft:0,marginRight:0}}>
               {values.map((item, index) => {

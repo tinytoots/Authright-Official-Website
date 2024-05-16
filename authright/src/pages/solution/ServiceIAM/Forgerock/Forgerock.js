@@ -21,7 +21,7 @@ export default class Forgerock extends Component {
                         </Col>
                         <Col className="gutter-row" span={18}>
                             <div className='partner-forgerock-intro'>
-                                Policy agents, SAML, OAuth, OpenID Connect, UMA – there are numerous methods for protecting precious resources. But selecting the right method for the right circumstance is not always obvious.
+                                Amidst a sea of security modules and standards like Policy agents, SAML, OAuth, OpenID Connect, and UMA, safeguarding your valuable assets demands precision. However, determining the ideal method for your specific needs isn't always straightforward.
                             </div>
                         </Col>
                         </Row>
@@ -34,7 +34,7 @@ export default class Forgerock extends Component {
                         </Col>
                         <Col className="gutter-row" span={18}>
                             <div className='partner-forgerock-intro'>
-                                There are numerous pockets of identity data strewn across any enterprise. Synchronizing that data, ensuring that it is up to date, and providing your users with methods of managing their own data is critical.
+                                In every enterprise, valuable identity data is scattered across various systems. Centralizing and updating this data while empowering users to manage their information is paramount for seamless operations and customer satisfaction.
                             </div>
                         </Col>
                         </Row>
@@ -47,7 +47,7 @@ export default class Forgerock extends Component {
                         </Col>
                         <Col className="gutter-row" span={18}>
                             <div className='partner-forgerock-intro'>
-                                A strong directory infrastructure is at the core of most identity implementations.  Knowing how to properly architect and build an enterprise directory can be as much of an art as it is a science.
+                                In the realm of identity implementations, a robust directory infrastructure stands as the cornerstone. Mastering the craft of architecting and constructing an enterprise directory isn't merely a matter of science; it's an art form in its own right. It forms the bedrock of organizational identity management, wielding profound influence over operational efficiency, security, and scalability.
                             </div>
                         </Col>
                         </Row>
@@ -60,7 +60,7 @@ export default class Forgerock extends Component {
                         </Col>
                         <Col className="gutter-row" span={18}>
                             <div className='partner-forgerock-intro'>
-                                Seeking to architect an identity solution? Are you looking for a review of your current implementation to determine if it is configured properly? Need someone to watch your back as you move your project into production? AuthRight works with ForgeRock Professional Services to offer a broad range of 3 to 5 day workshops – for those times when you need just a little bit of extra assistance.
+                                Empowering your journey towards a seamless identity solution! In search of meticulous scrutiny for your current implementation's configuration? Require vigilant support as you transition into production? Look no further than AuthRight, your trusted ally. Teaming up with ForgeRock Professional Services, we deliver targeted 3 to 5 day workshops, providing that crucial extra boost precisely when you need it.
                             </div>
                         </Col>
                         </Row>
@@ -73,7 +73,7 @@ export default class Forgerock extends Component {
                         </Col>
                         <Col className="gutter-row" span={18}>
                             <div className='partner-forgerock-intro'>
-                                Is your current identity solution reaching its end of life and the vendor is no longer in business? Do you have an old version of the product and are looking to upgrade to the latest release? Is your current vendor forcing you to migrate to a solution that you really don’t want and are now looking for a more cost effective and palatable alternative? Identity Fusion has extensive experience with upgrades and migrations.
+                                Is your current identity solution nearing its end, with the vendor going out of business? Are you stuck with an outdated version, craving the latest upgrades? Feeling pressured by your current vendor to migrate to a solution that just doesn't sit right with you? Authright is here to rescue you. With a proven track record in seamless upgrades and migrations, we offer a cost-effective and preferable alternative. Say goodbye to outdated hassles and hello to a future-proof identity solution with Authright.
                             </div>
                         </Col>
                         </Row>
@@ -86,7 +86,7 @@ export default class Forgerock extends Component {
                         </Col>
                         <Col className="gutter-row" span={18}>
                             <div className='partner-forgerock-intro'>
-                                Cloud-based identity services are becoming more and more common as companies seek to cut costs. But knowing how to properly architect, implement, and secure cloud-based identity solutions is essential as they hold the keys to your most critical assets. AuthRight has experience building identity solutions in the cloud and understands the challenges associated with IDaaS solutions.
+                                Cloud-based identity services are rapidly gaining traction as businesses prioritize cost efficiency. Yet, the significance of adeptly designing, deploying, and fortifying these solutions cannot be overstated, as they safeguard access to your invaluable assets. AuthRight stands out with its proven proficiency in crafting secure cloud-based identity solutions, navigating the complexities inherent in Identity as a Service (IDaaS) platforms.
                             </div>
                         </Col>
                         </Row>

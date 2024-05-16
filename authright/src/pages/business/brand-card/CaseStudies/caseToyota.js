@@ -9,14 +9,14 @@ export default class caseToyota extends Component {
                 <div className="inner">
                     {/* <img src={HsbcLogo} width={220} alt = 'logo' className='case-hsbc-logo-img'/> */}
                     <div className="caseStudies-title" style={{marginTop: 70}}>
-                        Authright provides modern IAM customized
+                        Authright Provides Tailored IAM Solutions
                     </div>
                     <div className="caseStudies-title2">
-                        solutions for Consumer Vehicle
+                        for Vehicle Infotainment Systems
                     </div>
                     <div className="caseStudies-content">
-                        We provide the global support for all servers, monitor<br/>
-                        and alert and take timely action
+                        We offer comprehensive global support for all servers, ensuring continuous monitoring,<br/>
+                        proactive alerts, and swift action to resolve any issues promptly.
                     </div>
             </div>
 
@@ -32,11 +32,10 @@ export default class caseToyota extends Component {
                             </Col>
                             <Col>
                                 <div className="caseStudies-about-title" style={{paddingTop: 60}}>
-                                    Description
+                                    Empowering the Automobile Industry
                                 </div>
                                 <div className="caseStudies-about-content">
-                                    This project enables mobile OneApp to provide identity and access management services for 
-                                    its customers.
+                                    Our cutting-edge tech services revolutionized the client's offerings, providing advanced identity and access management on their mobile OneApp.
                                 </div>    
                             </Col>
                         </Row>
@@ -47,13 +46,12 @@ export default class caseToyota extends Component {
                     <Row>
                         <Col>
                             <div className="caseStudies-about-title" style={{paddingTop: 40}}>
-                                Scenario
+                                Key Contributions to Client Success
                             </div>
                             <div className="caseStudies-about-content" style={{paddingBottom: 70}}>
-                                Using IDM to finish user self-service registration flow.<br/>
-                                Using AM to finish OAuth authentication flow.<br/>
-                                Custimaize End-user self-service UI.
-
+                                Employed IDM to streamline user self-service registration process.<br/>
+                                Utilized AM to complete OAuth authentication procedure.<br/>
+                                Tailored End-user self-service UI for enhanced user experience.
                             </div>
                         </Col>
                         <Col>
@@ -74,11 +72,11 @@ export default class caseToyota extends Component {
                                 <div className = "case-mark-block" >
                                     {/* style={{paddingTop: 10, marginLeft:110, color:"#cf1322", fontSize: 28}} */}
                                         <div className="case-mark-number" >
-                                            194,000
+                                            40,000,000
                                         </div>
                                         {/* style={{marginLeft:110}} */}
                                         <div className="case-mark-text">
-                                            Shareholders
+                                            Users
                                         </div>
                                     </div>
                                 </Col>
@@ -88,11 +86,11 @@ export default class caseToyota extends Component {
                                 <div className = "case-mark-block" >
                                     {/* style={{paddingTop: 10, marginLeft:110, color:"#cf1322", fontSize: 28}} */}
                                         <div className="case-mark-number" >
-                                            40,000,000
+                                            24/7
                                         </div>
                                         {/* style={{marginLeft:110}} */}
                                         <div className="case-mark-text">
-                                        Customers
+                                            Support
                                         </div>
                                     </div>
                                 </Col>
@@ -100,11 +98,11 @@ export default class caseToyota extends Component {
                                 <div className = "case-mark-block" >
                                     {/* style={{paddingTop: 10, marginLeft:110, color:"#cf1322", fontSize: 28}} */}
                                         <div className="case-mark-number" >
-                                        24/7
+                                            100%
                                         </div>
                                         {/* style={{marginLeft:110}} */}
                                         <div className="case-mark-text">
-                                        Support
+                                            Customer Satisfaction
                                         </div>
                                     </div>
                                 </Col>
@@ -146,13 +144,12 @@ export default class caseToyota extends Component {
                             </div>
                             <Col>
                                 <div className="caseStudies-about-title">
-                                    The Solution
+                                    Our Comprehensive Solution
                                 </div>
                                 <div className="caseStudies-about-content" style={{paddingBottom: 50}}>
-                                    IDM API endpoints customization.<br/>
-                                    User self-service workflow customization and development.<br/>
-                                    AM session and token management customization
-
+                                    Customized IDM API Endpoints.<br/>
+                                    Customization and development of User Self-Service Workflow.<br/>
+                                    Customized AM Session and token Management.
                                 </div>    
                             </Col>
                             

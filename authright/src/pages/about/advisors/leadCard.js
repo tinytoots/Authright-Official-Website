@@ -26,6 +26,7 @@ export default function LeadCard(props) {
         <div className="leadCard-description">{description[0]}</div>
         <div className="leadCard-description">{description[1]}</div>
         <div className="leadCard-description">{description[2]}</div>
+        <div className="leadCard-description">{description[3]}</div>
       </div>
     </div>
   );
