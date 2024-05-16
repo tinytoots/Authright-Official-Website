@@ -321,6 +321,12 @@
   }
 }
 
+@media (max-width: 440px) {
+  .about-intro-block {
+    height: 650px;
+    background-color: white;
+  }
+}
 
 @media (max-width: 400px) {
   .about-color-block {

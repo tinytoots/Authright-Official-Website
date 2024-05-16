@@ -11,10 +11,10 @@ export default class home extends Component {
         return (
             <div className='home-bg'>
                 <Intro />
-                <Client />
-                <Advantage />
-                <CustomerComments />
-                <BrandTrust />
+                <div className='Client-bg'><Client /></div>
+                <div className='Advantage-bg'><Advantage /></div>
+                <div className='CustomerComments-bg'><CustomerComments /></div>
+                <div className='BrandTrust-bg'><BrandTrust /></div>
             </div>
         )
     }

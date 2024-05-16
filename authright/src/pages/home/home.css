@@ -3,3 +3,34 @@
     /* min-width: 1250px; */
     padding-top: 80px;
 }
+
+  @media screen and (min-width: 373px) and (max-width: 590px) {
+    .CustomerComments-bg {
+        height: 800px;
+        padding-top: 120px;
+    }
+    .BrandTrust-bg {
+        padding-top: 140px;
+    }
+  }
+  
+
+  
+  @media screen and (min-width: 760px) and (max-width: 770px) {
+    .CustomerComments-bg {
+        height: 800px;
+        padding-top: 80px;
+    }
+    .BrandTrust-bg {
+        padding-top: 10px;
+    }
+  }
+  
+  @media screen and (min-width: 771px) and (max-width: 830px) {
+    
+    
+  }
+  
+  @media screen and (min-width: 831px) and (max-width: 1200px) {
+    
+  }
