@@ -196,10 +196,7 @@ nav a:hover {
     margin-left: 40px;
   }
 
-  nav li {
-    margin-left: 1.5em;
-    margin-bottom: 10px;
-  }
+  
 
   .wide-nav-link { 
     flex-grow: 1;  /*Change the width of nav bar font*/
