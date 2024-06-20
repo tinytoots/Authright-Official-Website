@@ -6,13 +6,13 @@ export const certificationInfo = [
     content: [
       {
         certName: "Access Management Specialist",
-        number: 17,
+        number: 24,
         pic: "/certification/forgerock-cert-AM.png",
         link: "https://www.credly.com/org/forgerock/badge/forgerock-certified-access-management-specialist",
       },
       {
         certName: "Identity Management Specialist",
-        number: 12,
+        number: 15,
         pic: "/certification/forgerock-cert-IDM.png",
         link: "https://www.credly.com/org/forgerock/badge/forgerock-certified-identity-management-specialist",
       },
@@ -87,7 +87,7 @@ export const certificationInfo = [
     content: [
       {
         certName: "AWS",
-        number: 6,
+        number: 12,
         pic: "/certification/AWS.png",
         link:'https://aws.amazon.com/certification/'
       },
